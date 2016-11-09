@@ -1,6 +1,6 @@
 // eFeFeR (20910015), December 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void random_col(double complex *A, int nelem, long a);
 // Implemented in LOBPCG
@@ -57,7 +57,6 @@ void davidson_cpu(int ik, double *evals, double complex *X, int nbasis, int nsta
   
   // Calculate Rayleigh quotient
   for(ist=1; ist<=nstates; ist++) {
-    printf("State: %5d\n", ist);
     zdotc_(&tz, &nbasis, &X[IDX2F(1,ist,nbasis)],&I_ONE, &HX[IDX2F(1,ist,nbasis)],&I_ONE);
     evals[ist-1] = creal(tz);
   }

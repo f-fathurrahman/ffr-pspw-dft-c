@@ -1,6 +1,6 @@
 // eFeFeR (20910015), January 2012
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 // X(1:NGW(ik),1:NX+2)
 void chebyfilt(int ik, double complex *X, int degree, double lb, double ub, double *rhoe, int nnr)

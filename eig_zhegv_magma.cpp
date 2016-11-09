@@ -2,7 +2,7 @@
 //
 // CUBLAS should have been initialized before elsewhere
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void eig_zhegv_magma(double complex *dA, int lddA, double complex *dB, int lddB, 
     double complex *devec, int lddE, int N)

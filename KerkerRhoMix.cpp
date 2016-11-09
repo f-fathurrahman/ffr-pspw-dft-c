@@ -1,6 +1,6 @@
 // eFeFeR (20910015), January 2012
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void KerkerRhoMix(double beta, double q0, double *rhoe, double *rho_old, int nnr, double &d)
 {

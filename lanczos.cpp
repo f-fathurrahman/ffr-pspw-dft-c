@@ -1,6 +1,6 @@
 // eFeFeR (20910015), January 2012
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 // T(1:k,1:k)
 // f(1:NGW_ik)

@@ -1,6 +1,6 @@
 // eFeFeR (209100150), October 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void GVectorsGen0()
 {

@@ -1,4 +1,4 @@
-include platform/make.inc.x86_64
+include platform/make.inc.x86_64_intel
 
 SRC = \
   PrintArray.cpp  global_variables.cpp timing.cpp \
@@ -39,14 +39,7 @@ lib: $(OBJ)
 	ar rcs libmain.a *.o
 
 main:
-	$(CXX) $(CXX_OPTS) $(CXX_INC) main.cpp libmain.a $(LIBS) -o pspw_dft_cuda.x
-
-main_info:
-	$(CXX) $(CXX_OPTS) $(CXX_INC) main_info.cpp libmain.a $(LIBS) -o main_info.x
-
-test_ApplyHam:
-	$(CXX) $(CXX_OPTS) $(CXX_INC) main.cpp test_ApplyHam.cpp libmain.a $(LIBS) -o pspw_dft.x
-
+	$(CXX) $(CXX_OPTS) $(CXX_INC) main.cpp libmain.a $(LIBS) -o ffr_pspw_dft.x
 
 clean:
 	rm -rf *.o libmain.a

@@ -1,6 +1,6 @@
 // eFeFeR (20910015), November 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 double simpson(int N, double *F, double h)
 {

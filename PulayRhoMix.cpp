@@ -1,6 +1,6 @@
 // eFeFeR (20910015), January 2012
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void PulayRhoMix(int iter, double *rhoe, double *rho_old, double *f, int mixdim, int nnr,
     double &d)

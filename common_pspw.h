@@ -1,7 +1,7 @@
 // eFeFeR (20910015), October 2011
 
-#ifndef _COMMON_PSPW_CUDA_H_
-#define _COMMON_PSPW_CUDA_H_
+#ifndef _COMMON_PSPW_H_
+#define _COMMON_PSPW_H_
 
 // Standard headers
 #include <cstdlib>
@@ -141,15 +141,11 @@ extern double GPUMEM;
 //
 // Global arrays allocated on GPU
 //
-extern bool USE_CUDA;
 extern unsigned int *d_N123;
 extern double *d_XKG;
 extern double complex *d_EIGR;
 extern double *d_PKG_A;
 extern double *d_rho;
-#ifdef _USE_CUBLAS2
-extern cublasHandle_t CUBLAS_HANDLE;
-#endif
 
 //
 // PSPW_DFT functions
@@ -206,7 +202,6 @@ void Diagon_lobpcg_cpu(int ik, double *eigval, double complex *eigvec, int NGW_i
 
 void davidson_cpu(int ik, double *evals, double complex *X, int nbasis, int nstates,
     double *rhoe, int nnr, double *prec);
-void davidson_cuda(int ik, double *evals, double complex *X, int nbasis, int nstates, double *prec);
 void Diagon_davidson_cpu(int ik, double *eigval, double complex *eigvec, int NGW_ik,
     double *rhoe, int nnr, double tau);
 
@@ -352,5 +347,5 @@ double simpson(int N, double *F, double h);
 double dsum(int N, double *x, int incx);
 void fft_fftw3(double complex *data, int NR1, int NR2, int NR3, bool inverse);
 
-#endif
+#endif 
 

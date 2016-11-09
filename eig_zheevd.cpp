@@ -1,6 +1,6 @@
 // eFeFeR (20910015)
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void eig_zheevd(double complex *A, int ldA, double *lambda, int N)
 {

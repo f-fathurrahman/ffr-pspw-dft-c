@@ -1,6 +1,6 @@
 // eFeFeR (20910015), November 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void eig_zhegv(double complex *A, int ldA, double complex *B, int ldB,
     double complex *evec, int ldE, int N)

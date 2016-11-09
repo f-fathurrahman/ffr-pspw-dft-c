@@ -1,23 +1,12 @@
 // eFeFeR (20910015), October 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 int main(int argc, char **argv)
 {
   // Local variables
   double t1,t2, t3,t4;
   double time_total, time_scf;
-
-  // TODO: use strcmp?
-  if(argc==2) {
-    string st(&argv[1][0]);
-    if(st == "--use-cuda") {
-      USE_CUDA = true;
-    } else {
-      printf("ERROR: Unrecognized option: %s\n", argv[1]);
-      return 0;
-    }
-  }
 
   if(argc > 2) {
     printf("!!!!! WARNING: Arguments ignored, only one argument needed.\n");

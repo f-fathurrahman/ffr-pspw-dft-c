@@ -1,6 +1,6 @@
 // eFeFeR (20910015), October 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void ReadPseudopotentials()
 {
@@ -50,7 +50,7 @@ void ReadPseudopotentials()
       //printf("%d %f\n", MMAX[is-1], CLOG[is-1]);
       if(MMAX[is-1] > MAXR) {
         printf("ERROR: MMAX(%d)=%d > MAXR=%d\n", is, MMAX[is-1], MAXR);
-        printf("Please increase value of MAXR in common_pspw_cuda.h\n");
+        printf("Please increase value of MAXR in common_pspw.h\n");
         abort();
       }
       CLOG[is-1] = log(CLOG[is-1]);

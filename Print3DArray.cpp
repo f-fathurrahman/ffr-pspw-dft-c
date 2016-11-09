@@ -1,6 +1,6 @@
 // eFeFeR, January 2012
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void Print3DArray(double *A, int dim1, int dim2, int dim3, string filename)
 {

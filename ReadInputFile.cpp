@@ -1,6 +1,6 @@
 // eFeFeR (20910015), October 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void ReadInputFile()
 {
@@ -142,13 +142,6 @@ void ReadInputFile()
     else if(line == "scf_conv_crit") {
       getline(inFile,line);
       sscanf(&line[0], "%lf", &SCF_CONV_CRIT);
-    }
-    //
-    else if(line == "use_cuda") {
-      getline(inFile,line);
-      if(line == " .true.") { // TODO: trim the string
-        USE_CUDA = true;
-      }
     }
     //
     else if(line == "fft_grid") {

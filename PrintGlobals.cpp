@@ -1,4 +1,4 @@
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void PrintGlobals()
 {

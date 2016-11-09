@@ -1,6 +1,6 @@
 // eFeFeR (20910015), December 2011
 
-#include "common_pspw_cuda.h"
+#include "common_pspw.h"
 
 void PrintSystemInfo()
 {
