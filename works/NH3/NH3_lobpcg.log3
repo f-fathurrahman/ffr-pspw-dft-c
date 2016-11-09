@@ -1,0 +1,855 @@
+Program started at: 26 December 2011 10:39:13 PM
+File to be read: NH3.inp
+EXIT: GkVectorsGen.cpp
+EXIT Setup.cpp
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: N.fhi
+ZV(1)      =      5.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.fhi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     3
+NAX:                       3
+
+Total number of atoms:     4
+Atomic coordinates (in bohr):
+N.fhi      -0.1097360000       0.0437320000       0.0575100000
+H.fhi       1.0091200000      -1.4209000000      -0.4706700000
+H.fhi      -0.6139400000       0.9989000000      -1.5262800000
+H.fhi      -1.7022300000      -0.6834000000       0.8403800000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000       5.0000000000       0.0000000000
+      0.0000000000       0.0000000000       7.0000000000
+
+Unit cell volume:     350.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       2.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.4285714286
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      12,      16)
+NGWX     =      206
+NGX      =     1648
+NG       =     1477
+GCUT     =     101.3211836423
+GCUTW    =      25.3302959106
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      197
+
+EXIT: PhaseFactor.cpp
+sum(EI1) = (17.846186,-0.000000)
+sum(EI2) = (11.749710,-0.000000)
+sum(EI3) = (13.478673,-0.000000)
+sum(EIGR) = (144.050118,0.000000)
+
+sum(SFAC)= (1318.100557,-0.000000)
+
+is = 1
+is = 2
+EXIT FormFactor.cpp
+ESELF = 11.170384
+SUM(RHOPS) = -1.060182
+SUM(VPS) = -11.385332
+
+WNL = 
+is = 1, 1 0.046180
+WNL = 
+EXIT: NLFormFactor.cpp
+sum(WNL) = 0.046180
+sum(PKG) = 112.073260
+sum(PKG_A) = 112.073260
+EXIT: PrepareSCF
+Calculating starting density from atomic charges ...ENTER: FormFactorAtomic.cpp
+is = 1
+FormFactorAtomic: rho of atom 1 is 5.000000
+is = 2
+FormFactorAtomic: rho of atom 2 is 1.000000
+EXIT FormFactorAtomic.cpp
+...Done
+sum(c_fft) = (0.455355,-0.000000)
+Inverse FFT of charge density to real space ......Done
+sum(rhoe2) = 96.548566
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.634391
+...Done
+NG = 1477
+ngi = 1477
+After Ewald: ESR = 0.434337
+Before EvalRhoPsi: sum(rhoe2) =      96.5485714286
+
+ETOT   =     -12.9807616674
+EKIN   =       0.0000000000
+EHT    =      -7.0482579236
+EPSEU  =      -3.2916584734
+ENL    =       0.0000000000
+EXC    =      -2.6408452704
+After EvalRhoPsi: sum(rhoe2) =   -1397.1268862352
+
+=====SCF iteration: 1=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     2
+iter =    12, nconv =     5
+iter =    13, nconv =     5
+Convergence achieved for 8 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.7963572141       0.0000009217
+2      -0.4341867121       0.0000014464
+3      -0.3436781068       0.0000012017
+4      -0.2801241147       0.0000021267
+5      -0.0978390284       0.0000010705
+6       0.1309914943       0.0000187156
+7       0.1715484713       0.0000283271
+8       0.1987374241       0.0000466006
+9       0.2500270614       0.0002547814
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -6.8855354918
+EKIN   =       4.5822926440
+EHT    =      -6.8457498883
+EPSEU  =      -2.5108426208
+ENL    =       0.4475736052
+EXC    =      -2.5588092319
+!     1      -6.8855354918       6.0952261757
+
+=====SCF iteration: 2=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+iter =    12, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7772236978       0.0000043235
+2      -0.4035604678       0.0000047562
+3      -0.3377747758       0.0000026698
+4      -0.2707576714       0.0000021141
+5      -0.1086130727       0.0000025245
+6       0.1189160264       0.0000326121
+7       0.1642122831       0.0000588192
+8       0.2018879184       0.0004611926
+9       0.2438968278       0.0014472895
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -6.4523501049
+EKIN   =       4.3930307554
+EHT    =      -6.6295846765
+EPSEU  =      -2.0981569315
+ENL    =       0.4317103977
+EXC    =      -2.5493496500
+!     2      -6.4523501049       0.4331853869
+
+=====SCF iteration: 3=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7681781955       0.0000086947
+2      -0.3887189912       0.0000135929
+3      -0.3322135048       0.0000074695
+4      -0.2625879796       0.0000054599
+5      -0.1000957088       0.0000087514
+6       0.1210477925       0.0000434773
+7       0.1678621680       0.0001375601
+8       0.2086579528       0.0002281190
+9       0.2472432033       0.0012639537
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -6.1621171377
+EKIN   =       4.3400197976
+EHT    =      -6.4956528082
+EPSEU  =      -1.8864290117
+ENL    =       0.4282726635
+EXC    =      -2.5483277788
+!     3      -6.1621171377       0.2902329672
+
+=====SCF iteration: 4=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7668183459       0.0000033359
+2      -0.3852934707       0.0000031212
+3      -0.3311548452       0.0000033984
+4      -0.2608064043       0.0000016305
+5      -0.0970167021       0.0000017522
+6       0.1214851458       0.0000169396
+7       0.1689074800       0.0000644787
+8       0.2108157394       0.0001588876
+9       0.2483947131       0.0014729380
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.9924423884
+EKIN   =       4.3337778248
+EHT    =      -6.4252140372
+EPSEU  =      -1.7803325375
+ENL    =       0.4284554055
+EXC    =      -2.5491290440
+!     4      -5.9924423884       0.1696747493
+
+=====SCF iteration: 5=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667529571       0.0000019110
+2      -0.3844652359       0.0000022185
+3      -0.3309499013       0.0000022116
+4      -0.2603744560       0.0000006594
+5      -0.0957658119       0.0000011155
+6       0.1216442211       0.0000192460
+7       0.1693364873       0.0000433339
+8       0.2116596699       0.0004958590
+9       0.2489240664       0.0012458984
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.9038836665
+EKIN   =       4.3353609474
+EHT    =      -6.3902609446
+EPSEU  =      -1.7276827438
+ENL    =       0.4287783109
+EXC    =      -2.5500792364
+!     5      -5.9038836665       0.0885587219
+
+=====SCF iteration: 6=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+iter =    13, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.7667914328       0.0000006468
+2      -0.3842141531       0.0000007490
+3      -0.3308769037       0.0000007721
+4      -0.2602218422       0.0000004963
+5      -0.0951855970       0.0000002478
+6       0.1217560981       0.0000160217
+7       0.1695683026       0.0000303007
+8       0.2120563440       0.0000893860
+9       0.2492215033       0.0008088944
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8597403597
+EKIN   =       4.3370359159
+EHT    =      -6.3732918233
+EPSEU  =      -1.7016342202
+ENL    =       0.4289225433
+EXC    =      -2.5507727755
+!     6      -5.8597403597       0.0441433068
+
+=====SCF iteration: 7=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     3
+iter =    12, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7668010988       0.0000027955
+2      -0.3841122468       0.0000084715
+3      -0.3308300532       0.0000036492
+4      -0.2601455093       0.0000014030
+5      -0.0949003015       0.0000009514
+6       0.1218364616       0.0000186838
+7       0.1697005916       0.0000178658
+8       0.2122587657       0.0005533912
+9       0.2493949224       0.0011740731
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8381060048
+EKIN   =       4.3379981815
+EHT    =      -6.3651165170
+EPSEU  =      -1.6887512674
+ENL    =       0.4289690473
+EXC    =      -2.5512054494
+!     7      -5.8381060048       0.0216343549
+
+=====SCF iteration: 8=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667938297       0.0000041419
+2      -0.3840619522       0.0000167544
+3      -0.3307976121       0.0000046123
+4      -0.2601021128       0.0000067852
+5      -0.0947578788       0.0000056186
+6       0.1218887025       0.0000352293
+7       0.1697745072       0.0000640312
+8       0.2123634560       0.0001800764
+9       0.2494913170       0.0008795712
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8275615224
+EKIN   =       4.3384743740
+EHT    =      -6.3611837926
+EPSEU  =      -1.6823751304
+ENL    =       0.4289790733
+EXC    =      -2.5514560467
+!     8      -5.8275615224       0.0105444824
+
+=====SCF iteration: 9=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+iter =    12, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667835106       0.0000017315
+2      -0.3840352964       0.0000045598
+3      -0.3307766565       0.0000034683
+4      -0.2600772699       0.0000022887
+5      -0.0946868028       0.0000008350
+6       0.1219201635       0.0000326193
+7       0.1698146234       0.0000678048
+8       0.2124177576       0.0001570301
+9       0.2495474505       0.0015250436
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8224271841
+EKIN   =       4.3386946452
+EHT    =      -6.3592884608
+EPSEU  =      -1.6792159175
+ENL    =       0.4289777167
+EXC    =      -2.5515951678
+!     9      -5.8224271841       0.0051343383
+
+=====SCF iteration: 10=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667753200       0.0000125124
+2      -0.3840211402       0.0000156499
+3      -0.3307641049       0.0000068752
+4      -0.2600634739       0.0000076988
+5      -0.0946515187       0.0000066291
+6       0.1219381176       0.0000361933
+7       0.1698358676       0.0001954050
+8       0.2124457178       0.0004232110
+9       0.2495765375       0.0017294561
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8199207725
+EKIN   =       4.3387984299
+EHT    =      -6.3583739676
+EPSEU  =      -1.6776493176
+ENL    =       0.4289747802
+EXC    =      -2.5516706974
+!    10      -5.8199207725       0.0025064116
+
+=====SCF iteration: 11=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667697959       0.0000124112
+2      -0.3840135784       0.0000153919
+3      -0.3307568512       0.0000083114
+4      -0.2600559100       0.0000060659
+5      -0.0946340187       0.0000057043
+6       0.1219480994       0.0000441262
+7       0.1698469544       0.0001531194
+8       0.2124601973       0.0006925547
+9       0.2495903338       0.0011043383
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8186961876
+EKIN   =       4.3388478414
+EHT    =      -6.3579317851
+EPSEU  =      -1.6768715168
+ENL    =       0.4289703931
+EXC    =      -2.5517111201
+!    11      -5.8186961876       0.0012245850
+
+=====SCF iteration: 12=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667663734       0.0000093858
+2      -0.3840095840       0.0000093043
+3      -0.3307527822       0.0000066595
+4      -0.2600518359       0.0000078128
+5      -0.0946253614       0.0000070481
+6       0.1219535219       0.0000301734
+7       0.1698526965       0.0001394530
+8       0.2124671161       0.0003826474
+9       0.2495987734       0.0014157527
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8180966715
+EKIN   =       4.3388686121
+EHT    =      -6.3577172139
+EPSEU  =      -1.6764852509
+ENL    =       0.4289697105
+EXC    =      -2.5517325294
+!    12      -5.8180966715       0.0005995161
+
+=====SCF iteration: 13=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667644171       0.0000019228
+2      -0.3840075249       0.0000023050
+3      -0.3307505689       0.0000012442
+4      -0.2600497045       0.0000023333
+5      -0.0946210817       0.0000008583
+6       0.1219564101       0.0000145092
+7       0.1698556346       0.0000462875
+8       0.2124707355       0.0003374372
+9       0.2496021400       0.0008937838
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8178022424
+EKIN   =       4.3388790732
+EHT    =      -6.3576131448
+EPSEU  =      -1.6762932534
+ENL    =       0.4289689667
+EXC    =      -2.5517438841
+!    13      -5.8178022424       0.0002944291
+
+=====SCF iteration: 14=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667632555       0.0000036128
+2      -0.3840063878       0.0000267362
+3      -0.3307493464       0.0000068502
+4      -0.2600485404       0.0000107698
+5      -0.0946189313       0.0000060141
+6       0.1219579692       0.0000404971
+7       0.1698571734       0.0001006852
+8       0.2124727233       0.0005248405
+9       0.2496107658       0.0025159974
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8176598099
+EKIN   =       4.3388803906
+EHT    =      -6.3575615550
+EPSEU  =      -1.6761969237
+ENL    =       0.4289678375
+EXC    =      -2.5517495594
+!    14      -5.8176598099       0.0001424325
+
+=====SCF iteration: 15=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667627387       0.0000082605
+2      -0.3840059455       0.0000170052
+3      -0.3307487497       0.0000065179
+4      -0.2600480268       0.0000071687
+5      -0.0946179358       0.0000040085
+6       0.1219587349       0.0000328390
+7       0.1698579072       0.0000792667
+8       0.2124735481       0.0003896953
+9       0.2496091738       0.0021596281
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175863542
+EKIN   =       4.3388847755
+EHT    =      -6.3575371133
+EPSEU  =      -1.6761495649
+ENL    =       0.4289682940
+EXC    =      -2.5517527454
+!    15      -5.8175863542       0.0000734557
+
+=====SCF iteration: 16=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667623375       0.0000129884
+2      -0.3840055667       0.0000091791
+3      -0.3307483919       0.0000104971
+4      -0.2600476635       0.0000061465
+5      -0.0946173715       0.0000039375
+6       0.1219592036       0.0000478212
+7       0.1698583256       0.0000938050
+8       0.2124740314       0.0003802082
+9       0.2496098526       0.0017331964
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175525387
+EKIN   =       4.3388851155
+EHT    =      -6.3575247316
+EPSEU  =      -1.6761256517
+ENL    =       0.4289669235
+EXC    =      -2.5517541944
+!    16      -5.8175525387       0.0000338155
+
+=====SCF iteration: 17=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667622140       0.0000057119
+2      -0.3840054947       0.0000041529
+3      -0.3307482418       0.0000066518
+4      -0.2600475467       0.0000066731
+5      -0.0946171543       0.0000059702
+6       0.1219593865       0.0000462861
+7       0.1698585144       0.0000785347
+8       0.2124743830       0.0005800551
+9       0.2496356614       0.0051469566
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175339569
+EKIN   =       4.3388865335
+EHT    =      -6.3575190632
+EPSEU  =      -1.6761142453
+ENL    =       0.4289678830
+EXC    =      -2.5517550649
+!    17      -5.8175339569       0.0000185818
+
+=====SCF iteration: 18=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667621010       0.0000122317
+2      -0.3840053931       0.0000064015
+3      -0.3307481563       0.0000076790
+4      -0.2600474649       0.0000145613
+5      -0.0946170178       0.0000079620
+6       0.1219594950       0.0000429676
+7       0.1698586249       0.0001407844
+8       0.2124745646       0.0006127940
+9       0.2496158081       0.0028796828
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175258699
+EKIN   =       4.3388869031
+EHT    =      -6.3575162627
+EPSEU  =      -1.6761085211
+ENL    =       0.4289674989
+EXC    =      -2.5517554881
+!    18      -5.8175258699       0.0000080870
+
+=====SCF iteration: 19=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667620559       0.0000021903
+2      -0.3840053694       0.0000021892
+3      -0.3307481119       0.0000026290
+4      -0.2600474393       0.0000020218
+5      -0.0946169637       0.0000014165
+6       0.1219595441       0.0000365714
+7       0.1698586540       0.0000818570
+8       0.2124743507       0.0003332749
+9       0.2496087084       0.0015341149
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175215327
+EKIN   =       4.3388876066
+EHT    =      -6.3575150311
+EPSEU  =      -1.6761056794
+ENL    =       0.4289673543
+EXC    =      -2.5517557831
+!    19      -5.8175215327       0.0000043371
+
+=====SCF iteration: 20=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 11
+Final LOBPCG result
+1      -0.7667619980       0.0000094748
+2      -0.3840053099       0.0000156641
+3      -0.3307480631       0.0000086651
+4      -0.2600473857       0.0000116446
+5      -0.0946169092       0.0000073210
+6       0.1219595977       0.0000296453
+7       0.1698586966       0.0000677647
+8       0.2124743254       0.0001950994
+9       0.2496119567       0.0025626288
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175199460
+EKIN   =       4.3388867449
+EHT    =      -6.3575142516
+EPSEU  =      -1.6761042762
+ENL    =       0.4289675893
+EXC    =      -2.5517557524
+!    20      -5.8175199460       0.0000015867
+
+=====SCF iteration: 21=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667620313       0.0000023226
+2      -0.3840053735       0.0000018573
+3      -0.3307480808       0.0000020847
+4      -0.2600474162       0.0000030522
+5      -0.0946169338       0.0000016592
+6       0.1219595918       0.0000216458
+7       0.1698586969       0.0000372183
+8       0.2124743482       0.0002771910
+9       0.2496072066       0.0010209648
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175183531
+EKIN   =       4.3388879417
+EHT    =      -6.3575141220
+EPSEU  =      -1.6761036003
+ENL    =       0.4289674146
+EXC    =      -2.5517559871
+!    21      -5.8175183531       0.0000015929
+
+=====SCF iteration: 22=====
+Allocated dynamic memory in lobpcg_cpu:    0.6028060913 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     5
+iter =    12, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.7667619554       0.0000020628
+2      -0.3840052752       0.0000034106
+3      -0.3307480313       0.0000028616
+4      -0.2600473565       0.0000010468
+5      -0.0946168774       0.0000021474
+6       0.1219596307       0.0000290330
+7       0.1698587289       0.0000431577
+8       0.2124743424       0.0001533623
+9       0.2496087130       0.0016081071
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -5.8175180628
+EKIN   =       4.3388877715
+EHT    =      -6.3575140191
+EPSEU  =      -1.6761033416
+ENL    =       0.4289675783
+EXC    =      -2.5517560519
+!    22      -5.8175180628       0.0000002903
+***Convergence achieved in 22 iterations.
+Program ended normally at: 26 December 2011 10:39:17 PM
+Total time for SCF loop:                   4.4600000000 s
+Total elapsed time for main program:       4.5000000000 s

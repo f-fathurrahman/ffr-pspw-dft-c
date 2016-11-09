@@ -1,0 +1,47 @@
+iscf
+ 0 
+
+chebypol_degree
+ 10
+
+idiag
+ -1
+
+imix
+ 3
+
+mixdim
+ 4
+
+rho_mix_fac
+ 0.3
+
+max_scf_iter
+ 100
+
+ecut
+ 10.0
+
+atoms
+ 2
+ 1 2
+ C.fhi
+ 2  2
+ bohr
+ 5.0  5.0  5.0
+ O.fhi
+ 2  2
+ bohr
+ 2.7597  5.0  5.0
+ 7.2403  5.0  5.0
+
+latvec
+ 10.0   0.0   0.0
+  0.0  10.0   0.0
+  0.0   0.0  10.0
+
+k_points
+ 1                                 
+ 0.0 0.0 0.0 1.0
+
+

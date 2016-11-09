@@ -1,0 +1,161 @@
+Program started at: 29 December 2011 11:46:59 AM
+EXIT: GkVectorsGen.cpp
+EXIT Setup.cpp
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      20.0000000000 Ry
+Fourier grid: (      32,      32,      32)
+NGWX     =     1656
+NGX      =    13248
+NG       =    13133
+GCUT     =     213.5663228576
+GCUTW    =      53.3915807144
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =     1647
+
+EXIT: PhaseFactor.cpp
+sum(EI1) = (72.000000,0.000000)
+sum(EI2) = (72.000000,0.000000)
+sum(EI3) = (72.000000,0.000000)
+sum(EIGR) = (1528.000000,0.000000)
+
+sum(SFAC)= (12888.000000,0.000000)
+
+is = 1
+EXIT FormFactor.cpp
+ESELF = 51.064612
+SUM(RHOPS) = -0.714651
+SUM(VPS) = 1.686041
+
+WNL = 
+is = 1, 1 0.161238
+EXIT: NLFormFactor.cpp
+sum(WNL) = 0.161238
+sum(PKG) = 113.335273
+sum(PKG_A) = 113.335273
+EXIT: PrepareSCF
+Calculating starting density from atomic charges ...ENTER: FormFactorAtomic.cpp
+is = 1
+FormFactorAtomic: rho of atom 1 is 4.000000
+EXIT FormFactorAtomic.cpp
+...Done
+sum(c_fft) = (0.013313,0.000000)
+Inverse FFT of charge density to real space ......Done
+sum(rhoe2) = 969.161456
+Normalize charge density ......Done
+NG = 13133
+ngi = 13133
+After Ewald: ESR = 0.000505
+Before EvalRhoPsi: sum(rhoe2) =     969.1614555295
+
+ETOT   =     -44.1526814068
+EKIN   =       0.0000000000
+EHT    =     -37.3105501101
+EPSEU  =       2.5110439727
+ENL    =       0.0000000000
+EXC    =      -9.3531752695
+After EvalRhoPsi: sum(rhoe2) =   -9462.4624405990
+
+=====SCF iteration: 1=====
+
+*---------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    2.1924133301 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.0990773375
+davidson_cpu:     3     0       0.0407580202
+davidson_cpu:     4     0       0.0119989937
+davidson_cpu:     5     0       0.0057955797
+davidson_cpu:     6     0       0.0019369906
+davidson_cpu:     7     0       0.0009862621
+davidson_cpu:     8     0       0.0005172237
+davidson_cpu:     9     0       0.0002396930
+davidson_cpu:    10     0       0.0002869514
+davidson_cpu:    11     6       0.0001100321
+davidson_cpu:    12     6       0.0002429104
+davidson_cpu:    13     6       0.0000852692
+davidson_cpu:    14     6       0.0002323503
+davidson_cpu:    15    12       0.0000797077
+In iter =    15: nconv =    19
+
+Final Davidson result:
+    1      -0.3256014175       0.0000006077
+    2      -0.1746869871       0.0000001856
+    3      -0.1746869871       0.0000001856
+    4      -0.1746869871       0.0000001856
+    5      -0.1746869871       0.0000001856
+    6      -0.1746869871       0.0000001856
+    7      -0.1746869871       0.0000001856
+    8       0.0088599585       0.0000000025
+    9       0.0088599585       0.0000000025
+   10       0.0088599585       0.0000000025
+   11       0.0088599585       0.0000000025
+   12       0.0088599585       0.0000000025
+   13       0.0088599585       0.0000000025
+   14       0.1184906165       0.0000019051
+   15       0.1629714344       0.0000006314
+   16       0.1629714344       0.0000006314
+   17       0.1629714344       0.0000006314
+   18       0.1629714344       0.0000006314
+   19       0.1629714344       0.0000006314
+   20       0.1629714344       0.0000006314
+   21       0.2241369401       0.0047815244
+End of Davidson iteration: rnorm =       0.0002280454
+Simple charge density mixing with mixing parameter    0.3000000000
+
+ETOT   =     -31.0371088080
+EKIN   =      12.2905168848
+EHT    =     -37.2319895404
+EPSEU  =       2.4200309270
+ENL    =       0.8695078399
+EXC    =      -9.3851749193
+!     1     -31.0371088080      13.1155725989
+Program ended normally at: 29 December 2011 11:47:00 AM
+Total time for SCF loop:                        1.38000 s
+Total elapsed time for main program:            1.42000 s

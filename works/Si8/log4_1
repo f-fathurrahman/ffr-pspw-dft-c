@@ -1,0 +1,1803 @@
+
+Program started at: 15 January 2012 01:22:42 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      596
+NGX      =     4768
+NG       =     4625
+GCUT     =     106.7831614288
+GCUTW    =      26.6957903572
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =      587
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 4.000000
+Normalize charge density ......Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -44.1528237322
+EKIN   =       0.0000000000
+EHT    =     -37.3105518149
+EPSEU  =       2.5109102429
+ENL    =       0.0000000000
+EXC    =      -9.3531821602
+Calling Lanczos ....
+End of Lanczos ....
+norm_rT = 22.224709
+norm(f) = 1.100290
+lb = 2.612903
+ub = 4.828704
+
+=====SCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.612903,4.828704)
+Eigenvalue of T
+    1 -0.291547
+    2 -0.155615
+    3 -0.146350
+    4 -0.138324
+    5 -0.129596
+    6 -0.095234
+    7 -0.072492
+    8 0.036243
+    9 0.062490
+   10 0.071771
+   11 0.089303
+   12 0.121603
+   13 0.170182
+   14 0.176202
+   15 0.201709
+   16 0.240086
+   17 0.277571
+   18 0.298040
+   19 0.367403
+   20 0.422768
+   21 0.432411
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -29.0589056747
+EKIN   =      14.0731189277
+EHT    =     -37.2557508081
+EPSEU  =       2.4584362254
+ENL    =       1.0399470566
+EXC    =      -9.3746570763
+!     1     -29.0589056747      15.0939180575
+Residual: 1 0.124365
+Residual: 2 0.090148
+Residual: 3 0.108461
+Residual: 4 0.127328
+Residual: 5 0.135953
+Residual: 6 0.164311
+Residual: 7 0.185236
+Residual: 8 0.110521
+Residual: 9 0.140285
+Residual: 10 0.157186
+Residual: 11 0.162591
+Residual: 12 0.161524
+Residual: 13 0.156304
+Residual: 14 0.158758
+Residual: 15 0.142312
+Residual: 16 0.162676
+Residual: 17 0.193255
+Residual: 18 0.202819
+Residual: 19 0.232117
+Residual: 20 0.203041
+Residual: 21 0.233840
+
+=====SCF iteration: 2=====
+
+Calling chebyfilt with bounds: (2.307593,23.353456)
+Eigenvalue of T
+    1 -0.311986
+    2 -0.168091
+    3 -0.163514
+    4 -0.160236
+    5 -0.150448
+    6 -0.140300
+    7 -0.132015
+    8 0.018387
+    9 0.028113
+   10 0.036558
+   11 0.041811
+   12 0.074254
+   13 0.115837
+   14 0.140719
+   15 0.164861
+   16 0.184281
+   17 0.206237
+   18 0.222073
+   19 0.250923
+   20 0.294983
+   21 0.324771
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.1132640080
+EKIN   =      13.1790293201
+EHT    =     -37.2431154473
+EPSEU  =       2.4079200396
+ENL    =       0.9572530879
+EXC    =      -9.4143510083
+!     2     -30.1132640080       1.0543583333
+Residual: 1 0.055221
+Residual: 2 0.048646
+Residual: 3 0.061539
+Residual: 4 0.062378
+Residual: 5 0.060846
+Residual: 6 0.095070
+Residual: 7 0.111612
+Residual: 8 0.059689
+Residual: 9 0.086584
+Residual: 10 0.079300
+Residual: 11 0.102038
+Residual: 12 0.115374
+Residual: 13 0.128033
+Residual: 14 0.078243
+Residual: 15 0.094091
+Residual: 16 0.113488
+Residual: 17 0.117409
+Residual: 18 0.126620
+Residual: 19 0.154739
+Residual: 20 0.181635
+Residual: 21 0.155917
+
+=====SCF iteration: 3=====
+
+Calling chebyfilt with bounds: (2.307593,23.362916)
+Eigenvalue of T
+    1 -0.313762
+    2 -0.169688
+    3 -0.167189
+    4 -0.162879
+    5 -0.155133
+    6 -0.152207
+    7 -0.147627
+    8 0.014052
+    9 0.019865
+   10 0.025404
+   11 0.028541
+   12 0.048696
+   13 0.077633
+   14 0.133416
+   15 0.147609
+   16 0.162007
+   17 0.180061
+   18 0.190817
+   19 0.207001
+   20 0.234865
+   21 0.276681
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.4673242243
+EKIN   =      13.0148631751
+EHT    =     -37.2819762789
+EPSEU  =       2.3728123490
+ENL    =       0.8937177213
+EXC    =      -9.4667411907
+!     3     -30.4673242243       0.3540602163
+Residual: 1 0.027916
+Residual: 2 0.029194
+Residual: 3 0.037991
+Residual: 4 0.041165
+Residual: 5 0.037526
+Residual: 6 0.047394
+Residual: 7 0.061134
+Residual: 8 0.038469
+Residual: 9 0.047587
+Residual: 10 0.058698
+Residual: 11 0.051078
+Residual: 12 0.082862
+Residual: 13 0.108417
+Residual: 14 0.047077
+Residual: 15 0.068030
+Residual: 16 0.078400
+Residual: 17 0.077315
+Residual: 18 0.075473
+Residual: 19 0.097214
+Residual: 20 0.103023
+Residual: 21 0.103518
+
+=====SCF iteration: 4=====
+
+Calling chebyfilt with bounds: (2.307593,23.380935)
+Eigenvalue of T
+    1 -0.311355
+    2 -0.166775
+    3 -0.164286
+    4 -0.159816
+    5 -0.157060
+    6 -0.151705
+    7 -0.149126
+    8 0.015545
+    9 0.020805
+   10 0.022288
+   11 0.026089
+   12 0.037569
+   13 0.055808
+   14 0.134342
+   15 0.142655
+   16 0.152342
+   17 0.171514
+   18 0.181365
+   19 0.191188
+   20 0.216255
+   21 0.257904
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.6930629397
+EKIN   =      12.9445344365
+EHT    =     -37.3208494717
+EPSEU  =       2.3461968074
+ENL    =       0.8537112253
+EXC    =      -9.5166559371
+!     4     -30.6930629397       0.2257387154
+Residual: 1 0.014598
+Residual: 2 0.022610
+Residual: 3 0.023785
+Residual: 4 0.026343
+Residual: 5 0.025615
+Residual: 6 0.025924
+Residual: 7 0.031776
+Residual: 8 0.022480
+Residual: 9 0.028540
+Residual: 10 0.035597
+Residual: 11 0.034567
+Residual: 12 0.059229
+Residual: 13 0.081903
+Residual: 14 0.029530
+Residual: 15 0.043172
+Residual: 16 0.057626
+Residual: 17 0.042402
+Residual: 18 0.050106
+Residual: 19 0.060807
+Residual: 20 0.065727
+Residual: 21 0.071230
+
+=====SCF iteration: 5=====
+
+Calling chebyfilt with bounds: (2.307593,23.399085)
+Eigenvalue of T
+    1 -0.308341
+    2 -0.162158
+    3 -0.159917
+    4 -0.157028
+    5 -0.154813
+    6 -0.150375
+    7 -0.148436
+    8 0.019329
+    9 0.021956
+   10 0.023879
+   11 0.025863
+   12 0.032833
+   13 0.044624
+   14 0.137351
+   15 0.142740
+   16 0.149627
+   17 0.169407
+   18 0.177538
+   19 0.186532
+   20 0.208422
+   21 0.249746
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.8619397136
+EKIN   =      12.8793974129
+EHT    =     -37.3409577530
+EPSEU  =       2.3239451580
+ENL    =       0.8319871181
+EXC    =      -9.5563116497
+!     5     -30.8619397136       0.1688767739
+Residual: 1 0.008010
+Residual: 2 0.012894
+Residual: 3 0.017873
+Residual: 4 0.016805
+Residual: 5 0.016024
+Residual: 6 0.016305
+Residual: 7 0.017831
+Residual: 8 0.013493
+Residual: 9 0.020202
+Residual: 10 0.022499
+Residual: 11 0.026317
+Residual: 12 0.043166
+Residual: 13 0.062585
+Residual: 14 0.018912
+Residual: 15 0.028690
+Residual: 16 0.040005
+Residual: 17 0.026395
+Residual: 18 0.035046
+Residual: 19 0.041228
+Residual: 20 0.049533
+Residual: 21 0.055099
+
+=====SCF iteration: 6=====
+
+Calling chebyfilt with bounds: (2.307593,23.412908)
+Eigenvalue of T
+    1 -0.305839
+    2 -0.157686
+    3 -0.156074
+    4 -0.155113
+    5 -0.152034
+    6 -0.149184
+    7 -0.147998
+    8 0.022561
+    9 0.023401
+   10 0.025166
+   11 0.026746
+   12 0.030603
+   13 0.038280
+   14 0.140117
+   15 0.143841
+   16 0.149196
+   17 0.169234
+   18 0.176077
+   19 0.184272
+   20 0.204169
+   21 0.244889
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.9676626498
+EKIN   =      12.8449926139
+EHT    =     -37.3494448638
+EPSEU  =       2.3058101357
+ENL    =       0.8175576697
+EXC    =      -9.5865782054
+!     6     -30.9676626498       0.1057229362
+Residual: 1 0.004689
+Residual: 2 0.006787
+Residual: 3 0.012468
+Residual: 4 0.010335
+Residual: 5 0.010954
+Residual: 6 0.010135
+Residual: 7 0.010878
+Residual: 8 0.008424
+Residual: 9 0.013761
+Residual: 10 0.019858
+Residual: 11 0.019826
+Residual: 12 0.031504
+Residual: 13 0.049143
+Residual: 14 0.012907
+Residual: 15 0.020992
+Residual: 16 0.030314
+Residual: 17 0.017545
+Residual: 18 0.024908
+Residual: 19 0.032184
+Residual: 20 0.041607
+Residual: 21 0.048023
+
+=====SCF iteration: 7=====
+
+Calling chebyfilt with bounds: (2.307593,23.424215)
+Eigenvalue of T
+    1 -0.303948
+    2 -0.154256
+    3 -0.153242
+    4 -0.153005
+    5 -0.150115
+    6 -0.148147
+    7 -0.147689
+    8 0.024531
+    9 0.024897
+   10 0.026192
+   11 0.027694
+   12 0.029781
+   13 0.034564
+   14 0.142246
+   15 0.144946
+   16 0.149216
+   17 0.169737
+   18 0.175502
+   19 0.182605
+   20 0.201165
+   21 0.240784
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0352751029
+EKIN   =      12.8272019175
+EHT    =     -37.3519577445
+EPSEU  =       2.2913977997
+ENL    =       0.8073995802
+EXC    =      -9.6093166557
+!     7     -31.0352751029       0.0676124530
+Residual: 1 0.002927
+Residual: 2 0.004304
+Residual: 3 0.005598
+Residual: 4 0.008674
+Residual: 5 0.007398
+Residual: 6 0.006813
+Residual: 7 0.006370
+Residual: 8 0.008204
+Residual: 9 0.010063
+Residual: 10 0.016582
+Residual: 11 0.016975
+Residual: 12 0.021715
+Residual: 13 0.038982
+Residual: 14 0.009834
+Residual: 15 0.016927
+Residual: 16 0.025152
+Residual: 17 0.012053
+Residual: 18 0.018977
+Residual: 19 0.027302
+Residual: 20 0.037706
+Residual: 21 0.045521
+
+=====SCF iteration: 8=====
+
+Calling chebyfilt with bounds: (2.307593,23.433851)
+Eigenvalue of T
+    1 -0.302566
+    2 -0.152031
+    3 -0.151364
+    4 -0.150827
+    5 -0.148733
+    6 -0.147601
+    7 -0.147062
+    8 0.025684
+    9 0.025991
+   10 0.027305
+   11 0.028309
+   12 0.029743
+   13 0.032443
+   14 0.143791
+   15 0.145827
+   16 0.149219
+   17 0.170390
+   18 0.175236
+   19 0.181239
+   20 0.198507
+   21 0.236506
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0796206926
+EKIN   =      12.8181512401
+EHT    =     -37.3517546124
+EPSEU  =       2.2801651072
+ENL    =       0.8001323657
+EXC    =      -9.6263147931
+!     8     -31.0796206926       0.0443455897
+Residual: 1 0.001948
+Residual: 2 0.003243
+Residual: 3 0.004081
+Residual: 4 0.005132
+Residual: 5 0.004818
+Residual: 6 0.004829
+Residual: 7 0.003534
+Residual: 8 0.007202
+Residual: 9 0.011222
+Residual: 10 0.011574
+Residual: 11 0.014705
+Residual: 12 0.014217
+Residual: 13 0.030855
+Residual: 14 0.008280
+Residual: 15 0.014576
+Residual: 16 0.021948
+Residual: 17 0.008714
+Residual: 18 0.015469
+Residual: 19 0.024155
+Residual: 20 0.035592
+Residual: 21 0.045050
+
+=====SCF iteration: 9=====
+
+Calling chebyfilt with bounds: (2.307593,23.441931)
+Eigenvalue of T
+    1 -0.301558
+    2 -0.150538
+    3 -0.149822
+    4 -0.149383
+    5 -0.147638
+    6 -0.147242
+    7 -0.146391
+    8 0.026523
+    9 0.026740
+   10 0.028224
+   11 0.028780
+   12 0.029948
+   13 0.031308
+   14 0.144885
+   15 0.146463
+   16 0.149149
+   17 0.170994
+   18 0.175079
+   19 0.180107
+   20 0.195911
+   21 0.231798
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1091233967
+EKIN   =      12.8141501074
+EHT    =     -37.3506176584
+EPSEU  =       2.2715524095
+ENL    =       0.7948496287
+EXC    =      -9.6390578840
+!     9     -31.1091233967       0.0295027041
+Residual: 1 0.001383
+Residual: 2 0.002322
+Residual: 3 0.003055
+Residual: 4 0.003186
+Residual: 5 0.002851
+Residual: 6 0.003298
+Residual: 7 0.002342
+Residual: 8 0.006709
+Residual: 9 0.010188
+Residual: 10 0.008283
+Residual: 11 0.011515
+Residual: 12 0.010732
+Residual: 13 0.023982
+Residual: 14 0.007418
+Residual: 15 0.012998
+Residual: 16 0.019572
+Residual: 17 0.006767
+Residual: 18 0.013205
+Residual: 19 0.021793
+Residual: 20 0.034111
+Residual: 21 0.045265
+
+=====SCF iteration: 10=====
+
+Calling chebyfilt with bounds: (2.307593,23.448508)
+Eigenvalue of T
+    1 -0.300815
+    2 -0.149411
+    3 -0.148725
+    4 -0.148415
+    5 -0.146925
+    6 -0.146710
+    7 -0.145894
+    8 0.027161
+    9 0.027353
+   10 0.028885
+   11 0.029192
+   12 0.030124
+   13 0.030796
+   14 0.145652
+   15 0.146897
+   16 0.149036
+   17 0.171497
+   18 0.174961
+   19 0.179166
+   20 0.193352
+   21 0.226691
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1290278531
+EKIN   =      12.8131286625
+EHT    =     -37.3494413506
+EPSEU  =       2.2650391571
+ENL    =       0.7909318513
+EXC    =      -9.6486861735
+!    10     -31.1290278531       0.0199044564
+Residual: 1 0.001041
+Residual: 2 0.001686
+Residual: 3 0.002304
+Residual: 4 0.002060
+Residual: 5 0.001443
+Residual: 6 0.002422
+Residual: 7 0.001578
+Residual: 8 0.006363
+Residual: 9 0.008087
+Residual: 10 0.006558
+Residual: 11 0.008601
+Residual: 12 0.011125
+Residual: 13 0.017198
+Residual: 14 0.006869
+Residual: 15 0.011767
+Residual: 16 0.017605
+Residual: 17 0.005647
+Residual: 18 0.011578
+Residual: 19 0.019832
+Residual: 20 0.032740
+Residual: 21 0.045482
+
+=====SCF iteration: 11=====
+
+Calling chebyfilt with bounds: (2.307593,23.453751)
+Eigenvalue of T
+    1 -0.300259
+    2 -0.148550
+    3 -0.147952
+    4 -0.147702
+    5 -0.146541
+    6 -0.146078
+    7 -0.145540
+    8 0.027682
+    9 0.027864
+   10 0.029344
+   11 0.029549
+   12 0.030187
+   13 0.030689
+   14 0.146188
+   15 0.147180
+   16 0.148913
+   17 0.171906
+   18 0.174860
+   19 0.178378
+   20 0.190881
+   21 0.221336
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1427388093
+EKIN   =      12.8137595885
+EHT    =     -37.3485930198
+EPSEU  =       2.2601669833
+ENL    =       0.7879616891
+EXC    =      -9.6560340504
+!    11     -31.1427388093       0.0137109562
+Residual: 1 0.000820
+Residual: 2 0.001270
+Residual: 3 0.001704
+Residual: 4 0.001408
+Residual: 5 0.001163
+Residual: 6 0.001498
+Residual: 7 0.001085
+Residual: 8 0.005290
+Residual: 9 0.006474
+Residual: 10 0.005781
+Residual: 11 0.006445
+Residual: 12 0.012206
+Residual: 13 0.010108
+Residual: 14 0.006474
+Residual: 15 0.010689
+Residual: 16 0.015894
+Residual: 17 0.004979
+Residual: 18 0.010301
+Residual: 19 0.018106
+Residual: 20 0.031283
+Residual: 21 0.045361
+
+=====SCF iteration: 12=====
+
+Calling chebyfilt with bounds: (2.307593,23.457885)
+Eigenvalue of T
+    1 -0.299837
+    2 -0.147887
+    3 -0.147385
+    4 -0.147147
+    5 -0.146208
+    6 -0.145628
+    7 -0.145273
+    8 0.028121
+    9 0.028290
+   10 0.029663
+   11 0.029847
+   12 0.030226
+   13 0.030751
+   14 0.146565
+   15 0.147359
+   16 0.148797
+   17 0.172235
+   18 0.174767
+   19 0.177716
+   20 0.188560
+   21 0.215918
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1524516036
+EKIN   =      12.8151865756
+EHT    =     -37.3481515552
+EPSEU  =       2.2565498819
+ENL    =       0.7856613013
+EXC    =      -9.6616978071
+!    12     -31.1524516036       0.0097127942
+Residual: 1 0.000664
+Residual: 2 0.000984
+Residual: 3 0.001243
+Residual: 4 0.001033
+Residual: 5 0.000871
+Residual: 6 0.001027
+Residual: 7 0.000780
+Residual: 8 0.004072
+Residual: 9 0.005274
+Residual: 10 0.005463
+Residual: 11 0.005213
+Residual: 12 0.010344
+Residual: 13 0.005957
+Residual: 14 0.006157
+Residual: 15 0.009676
+Residual: 16 0.014374
+Residual: 17 0.004548
+Residual: 18 0.009241
+Residual: 19 0.016544
+Residual: 20 0.029688
+Residual: 21 0.044752
+
+=====SCF iteration: 13=====
+
+Calling chebyfilt with bounds: (2.307593,23.461136)
+Eigenvalue of T
+    1 -0.299512
+    2 -0.147368
+    3 -0.146946
+    4 -0.146714
+    5 -0.145927
+    6 -0.145344
+    7 -0.145045
+    8 0.028487
+    9 0.028653
+   10 0.029896
+   11 0.030081
+   12 0.030309
+   13 0.030829
+   14 0.146831
+   15 0.147470
+   16 0.148696
+   17 0.172502
+   18 0.174681
+   19 0.177157
+   20 0.186433
+   21 0.210618
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1595506240
+EKIN   =      12.8168905727
+EHT    =     -37.3480616383
+EPSEU  =       2.2538755840
+ENL    =       0.7838464777
+EXC    =      -9.6661016201
+!    13     -31.1595506240       0.0070990204
+Residual: 1 0.000548
+Residual: 2 0.000777
+Residual: 3 0.000922
+Residual: 4 0.000790
+Residual: 5 0.000681
+Residual: 6 0.000730
+Residual: 7 0.000618
+Residual: 8 0.003128
+Residual: 9 0.004214
+Residual: 10 0.005307
+Residual: 11 0.004662
+Residual: 12 0.007548
+Residual: 13 0.003980
+Residual: 14 0.005877
+Residual: 15 0.008693
+Residual: 16 0.013014
+Residual: 17 0.004238
+Residual: 18 0.008334
+Residual: 19 0.015111
+Residual: 20 0.027968
+Residual: 21 0.043621
+
+=====SCF iteration: 14=====
+
+Calling chebyfilt with bounds: (2.307593,23.463695)
+Eigenvalue of T
+    1 -0.299259
+    2 -0.146954
+    3 -0.146595
+    4 -0.146374
+    5 -0.145698
+    6 -0.145174
+    7 -0.144846
+    8 0.028790
+    9 0.028966
+   10 0.030077
+   11 0.030257
+   12 0.030422
+   13 0.030890
+   14 0.147020
+   15 0.147540
+   16 0.148609
+   17 0.172718
+   18 0.174601
+   19 0.176686
+   20 0.184524
+   21 0.205590
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1648922790
+EKIN   =      12.8185881407
+EHT    =     -37.3482248519
+EPSEU  =       2.2519002751
+ENL    =       0.7823942966
+EXC    =      -9.6695501396
+!    14     -31.1648922790       0.0053416551
+Residual: 1 0.000459
+Residual: 2 0.000623
+Residual: 3 0.000707
+Residual: 4 0.000622
+Residual: 5 0.000553
+Residual: 6 0.000536
+Residual: 7 0.000525
+Residual: 8 0.002502
+Residual: 9 0.003248
+Residual: 10 0.005032
+Residual: 11 0.004116
+Residual: 12 0.005036
+Residual: 13 0.002873
+Residual: 14 0.005602
+Residual: 15 0.007740
+Residual: 16 0.011794
+Residual: 17 0.003990
+Residual: 18 0.007549
+Residual: 19 0.013790
+Residual: 20 0.026161
+Residual: 21 0.042008
+
+=====SCF iteration: 15=====
+
+Calling chebyfilt with bounds: (2.307593,23.465714)
+Eigenvalue of T
+    1 -0.299060
+    2 -0.146621
+    3 -0.146311
+    4 -0.146106
+    5 -0.145513
+    6 -0.145064
+    7 -0.144689
+    8 0.029042
+    9 0.029235
+   10 0.030222
+   11 0.030391
+   12 0.030537
+   13 0.030931
+   14 0.147155
+   15 0.147586
+   16 0.148534
+   17 0.172892
+   18 0.174529
+   19 0.176289
+   20 0.182844
+   21 0.200948
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1690031516
+EKIN   =      12.8201493750
+EHT    =     -37.3485465456
+EPSEU  =       2.2504392444
+ENL    =       0.7812210807
+EXC    =      -9.6722663062
+!    15     -31.1690031516       0.0041108726
+Residual: 1 0.000387
+Residual: 2 0.000507
+Residual: 3 0.000560
+Residual: 4 0.000502
+Residual: 5 0.000458
+Residual: 6 0.000415
+Residual: 7 0.000455
+Residual: 8 0.002040
+Residual: 9 0.002445
+Residual: 10 0.004514
+Residual: 11 0.003320
+Residual: 12 0.003326
+Residual: 13 0.002172
+Residual: 14 0.005303
+Residual: 15 0.006836
+Residual: 16 0.010699
+Residual: 17 0.003776
+Residual: 18 0.006867
+Residual: 19 0.012571
+Residual: 20 0.024309
+Residual: 21 0.039996
+
+=====SCF iteration: 16=====
+
+Calling chebyfilt with bounds: (2.307593,23.467314)
+Eigenvalue of T
+    1 -0.298903
+    2 -0.146352
+    3 -0.146079
+    4 -0.145895
+    5 -0.145365
+    6 -0.144983
+    7 -0.144575
+    8 0.029254
+    9 0.029462
+   10 0.030343
+   11 0.030497
+   12 0.030638
+   13 0.030955
+   14 0.147252
+   15 0.147619
+   16 0.148469
+   17 0.173033
+   18 0.174465
+   19 0.175954
+   20 0.181386
+   21 0.196764
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1722123141
+EKIN   =      12.8215354040
+EHT    =     -37.3489545301
+EPSEU  =       2.2493558891
+ENL    =       0.7802678341
+EXC    =      -9.6744169112
+!    16     -31.1722123141       0.0032091625
+Residual: 1 0.000330
+Residual: 2 0.000418
+Residual: 3 0.000455
+Residual: 4 0.000413
+Residual: 5 0.000383
+Residual: 6 0.000337
+Residual: 7 0.000398
+Residual: 8 0.001658
+Residual: 9 0.001825
+Residual: 10 0.003860
+Residual: 11 0.002537
+Residual: 12 0.002292
+Residual: 13 0.001708
+Residual: 14 0.004962
+Residual: 15 0.006008
+Residual: 16 0.009720
+Residual: 17 0.003580
+Residual: 18 0.006278
+Residual: 19 0.011447
+Residual: 20 0.022453
+Residual: 21 0.037689
+
+=====SCF iteration: 17=====
+
+Calling chebyfilt with bounds: (2.307593,23.468587)
+Eigenvalue of T
+    1 -0.298779
+    2 -0.146133
+    3 -0.145889
+    4 -0.145726
+    5 -0.145246
+    6 -0.144919
+    7 -0.144495
+    8 0.029436
+    9 0.029652
+   10 0.030442
+   11 0.030579
+   12 0.030721
+   13 0.030968
+   14 0.147324
+   15 0.147645
+   16 0.148411
+   17 0.173146
+   18 0.174408
+   19 0.175672
+   20 0.180139
+   21 0.193070
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1747349739
+EKIN   =      12.8227542773
+EHT    =     -37.3494018363
+EPSEU  =       2.2485508675
+ENL    =       0.7794909484
+EXC    =      -9.6761292307
+!    17     -31.1747349739       0.0025226598
+Residual: 1 0.000283
+Residual: 2 0.000350
+Residual: 3 0.000377
+Residual: 4 0.000344
+Residual: 5 0.000320
+Residual: 6 0.000284
+Residual: 7 0.000348
+Residual: 8 0.001338
+Residual: 9 0.001361
+Residual: 10 0.003197
+Residual: 11 0.001915
+Residual: 12 0.001644
+Residual: 13 0.001403
+Residual: 14 0.004575
+Residual: 15 0.005275
+Residual: 16 0.008847
+Residual: 17 0.003393
+Residual: 18 0.005773
+Residual: 19 0.010413
+Residual: 20 0.020627
+Residual: 21 0.035197
+
+=====SCF iteration: 18=====
+
+Calling chebyfilt with bounds: (2.307593,23.469606)
+Eigenvalue of T
+    1 -0.298679
+    2 -0.145956
+    3 -0.145732
+    4 -0.145591
+    5 -0.145151
+    6 -0.144867
+    7 -0.144441
+    8 0.029593
+    9 0.029811
+   10 0.030524
+   11 0.030641
+   12 0.030786
+   13 0.030977
+   14 0.147379
+   15 0.147665
+   16 0.148358
+   17 0.173237
+   18 0.174358
+   19 0.175434
+   20 0.179085
+   21 0.189866
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1767220648
+EKIN   =      12.8238326082
+EHT    =     -37.3498620261
+EPSEU  =       2.2479525143
+ENL    =       0.7788565411
+EXC    =      -9.6775017022
+!    18     -31.1767220648       0.0019870908
+Residual: 1 0.000245
+Residual: 2 0.000297
+Residual: 3 0.000316
+Residual: 4 0.000288
+Residual: 5 0.000267
+Residual: 6 0.000244
+Residual: 7 0.000303
+Residual: 8 0.001074
+Residual: 9 0.001018
+Residual: 10 0.002593
+Residual: 11 0.001449
+Residual: 12 0.001212
+Residual: 13 0.001202
+Residual: 14 0.004155
+Residual: 15 0.004639
+Residual: 16 0.008075
+Residual: 17 0.003213
+Residual: 18 0.005345
+Residual: 19 0.009468
+Residual: 20 0.018857
+Residual: 21 0.032619
+
+=====SCF iteration: 19=====
+
+Calling chebyfilt with bounds: (2.307593,23.470429)
+Eigenvalue of T
+    1 -0.298599
+    2 -0.145813
+    3 -0.145602
+    4 -0.145481
+    5 -0.145076
+    6 -0.144823
+    7 -0.144404
+    8 0.029728
+    9 0.029944
+   10 0.030589
+   11 0.030687
+   12 0.030836
+   13 0.030986
+   14 0.147423
+   15 0.147682
+   16 0.148311
+   17 0.173312
+   18 0.174314
+   19 0.175234
+   20 0.178203
+   21 0.187128
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1782874238
+EKIN   =      12.8247995802
+EHT    =     -37.3503223779
+EPSEU  =       2.2475090504
+ENL    =       0.7783372236
+EXC    =      -9.6786109001
+!    19     -31.1782874238       0.0015653591
+Residual: 1 0.000213
+Residual: 2 0.000256
+Residual: 3 0.000270
+Residual: 4 0.000241
+Residual: 5 0.000224
+Residual: 6 0.000213
+Residual: 7 0.000264
+Residual: 8 0.000860
+Residual: 9 0.000766
+Residual: 10 0.002076
+Residual: 11 0.001092
+Residual: 12 0.000917
+Residual: 13 0.001061
+Residual: 14 0.003725
+Residual: 15 0.004093
+Residual: 16 0.007396
+Residual: 17 0.003038
+Residual: 18 0.004983
+Residual: 19 0.008609
+Residual: 20 0.017162
+Residual: 21 0.030038
+
+=====SCF iteration: 20=====
+
+Calling chebyfilt with bounds: (2.307593,23.471102)
+Eigenvalue of T
+    1 -0.298534
+    2 -0.145697
+    3 -0.145494
+    4 -0.145387
+    5 -0.145016
+    6 -0.144787
+    7 -0.144380
+    8 0.029845
+    9 0.030056
+   10 0.030641
+   11 0.030720
+   12 0.030872
+   13 0.030997
+   14 0.147460
+   15 0.147697
+   16 0.148268
+   17 0.173374
+   18 0.174274
+   19 0.175065
+   20 0.177471
+   21 0.184816
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1795214166
+EKIN   =      12.8256796516
+EHT    =     -37.3507777891
+EPSEU  =       2.2471826759
+ENL    =       0.7779103831
+EXC    =      -9.6795163381
+!    20     -31.1795214166       0.0012339927
+Residual: 1 0.000186
+Residual: 2 0.000223
+Residual: 3 0.000233
+Residual: 4 0.000202
+Residual: 5 0.000189
+Residual: 6 0.000187
+Residual: 7 0.000229
+Residual: 8 0.000688
+Residual: 9 0.000582
+Residual: 10 0.001648
+Residual: 11 0.000813
+Residual: 12 0.000722
+Residual: 13 0.000940
+Residual: 14 0.003306
+Residual: 15 0.003620
+Residual: 16 0.006801
+Residual: 17 0.002868
+Residual: 18 0.004676
+Residual: 19 0.007838
+Residual: 20 0.015555
+Residual: 21 0.027518
+
+=====SCF iteration: 21=====
+
+Calling chebyfilt with bounds: (2.307593,23.471659)
+Eigenvalue of T
+    1 -0.298481
+    2 -0.145602
+    3 -0.145404
+    4 -0.145307
+    5 -0.144969
+    6 -0.144756
+    7 -0.144364
+    8 0.029947
+    9 0.030150
+   10 0.030682
+   11 0.030745
+   12 0.030897
+   13 0.031010
+   14 0.147492
+   15 0.147709
+   16 0.148230
+   17 0.173426
+   18 0.174239
+   19 0.174922
+   20 0.176868
+   21 0.182882
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1804972937
+EKIN   =      12.8264905587
+EHT    =     -37.3512264736
+EPSEU  =       2.2469453431
+ENL    =       0.7775572987
+EXC    =      -9.6802640207
+!    21     -31.1804972937       0.0009758772
+Residual: 1 0.000164
+Residual: 2 0.000197
+Residual: 3 0.000203
+Residual: 4 0.000171
+Residual: 5 0.000160
+Residual: 6 0.000165
+Residual: 7 0.000199
+Residual: 8 0.000551
+Residual: 9 0.000447
+Residual: 10 0.001304
+Residual: 11 0.000592
+Residual: 12 0.000598
+Residual: 13 0.000822
+Residual: 14 0.002912
+Residual: 15 0.003209
+Residual: 16 0.006281
+Residual: 17 0.002708
+Residual: 18 0.004409
+Residual: 19 0.007155
+Residual: 20 0.014043
+Residual: 21 0.025105
+
+=====SCF iteration: 22=====
+
+Calling chebyfilt with bounds: (2.307593,23.472126)
+Eigenvalue of T
+    1 -0.298437
+    2 -0.145523
+    3 -0.145328
+    4 -0.145237
+    5 -0.144931
+    6 -0.144731
+    7 -0.144354
+    8 0.030036
+    9 0.030231
+   10 0.030714
+   11 0.030763
+   12 0.030916
+   13 0.031023
+   14 0.147520
+   15 0.147720
+   16 0.148194
+   17 0.173471
+   18 0.174208
+   19 0.174800
+   20 0.176375
+   21 0.181279
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1812742560
+EKIN   =      12.8272439715
+EHT    =     -37.3516674826
+EPSEU  =       2.2467758637
+ENL    =       0.7772626330
+EXC    =      -9.6808892416
+!    22     -31.1812742560       0.0007769623
+Residual: 1 0.000145
+Residual: 2 0.000176
+Residual: 3 0.000179
+Residual: 4 0.000147
+Residual: 5 0.000137
+Residual: 6 0.000147
+Residual: 7 0.000174
+Residual: 8 0.000443
+Residual: 9 0.000348
+Residual: 10 0.001032
+Residual: 11 0.000420
+Residual: 12 0.000514
+Residual: 13 0.000705
+Residual: 14 0.002554
+Residual: 15 0.002849
+Residual: 16 0.005826
+Residual: 17 0.002560
+Residual: 18 0.004168
+Residual: 19 0.006563
+Residual: 20 0.012628
+Residual: 21 0.022828
+
+=====SCF iteration: 23=====
+
+Calling chebyfilt with bounds: (2.307593,23.472524)
+Eigenvalue of T
+    1 -0.298400
+    2 -0.145457
+    3 -0.145264
+    4 -0.145174
+    5 -0.144900
+    6 -0.144710
+    7 -0.144348
+    8 0.030113
+    9 0.030300
+   10 0.030739
+   11 0.030777
+   12 0.030929
+   13 0.031035
+   14 0.147546
+   15 0.147730
+   16 0.148163
+   17 0.173510
+   18 0.174180
+   19 0.174697
+   20 0.175975
+   21 0.179956
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1818993686
+EKIN   =      12.8279470867
+EHT    =     -37.3520996074
+EPSEU  =       2.2466579827
+ENL    =       0.7770140390
+EXC    =      -9.6814188696
+!    23     -31.1818993686       0.0006251125
+Residual: 1 0.000128
+Residual: 2 0.000159
+Residual: 3 0.000158
+Residual: 4 0.000128
+Residual: 5 0.000118
+Residual: 6 0.000132
+Residual: 7 0.000153
+Residual: 8 0.000357
+Residual: 9 0.000276
+Residual: 10 0.000816
+Residual: 11 0.000299
+Residual: 12 0.000446
+Residual: 13 0.000598
+Residual: 14 0.002232
+Residual: 15 0.002532
+Residual: 16 0.005428
+Residual: 17 0.002428
+Residual: 18 0.003942
+Residual: 19 0.006062
+Residual: 20 0.011311
+Residual: 21 0.020705
+
+=====SCF iteration: 24=====
+
+Calling chebyfilt with bounds: (2.307593,23.472867)
+Eigenvalue of T
+    1 -0.298369
+    2 -0.145400
+    3 -0.145210
+    4 -0.145118
+    5 -0.144874
+    6 -0.144692
+    7 -0.144344
+    8 0.030182
+    9 0.030360
+   10 0.030758
+   11 0.030789
+   12 0.030940
+   13 0.031046
+   14 0.147570
+   15 0.147739
+   16 0.148134
+   17 0.173546
+   18 0.174155
+   19 0.174608
+   20 0.175651
+   21 0.178871
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1824092456
+EKIN   =      12.8286042445
+EHT    =     -37.3525211301
+EPSEU  =       2.2465791021
+ENL    =       0.7768017694
+EXC    =      -9.6818732315
+!    24     -31.1824092456       0.0005098770
+Residual: 1 0.000114
+Residual: 2 0.000144
+Residual: 3 0.000140
+Residual: 4 0.000114
+Residual: 5 0.000104
+Residual: 6 0.000119
+Residual: 7 0.000136
+Residual: 8 0.000289
+Residual: 9 0.000224
+Residual: 10 0.000639
+Residual: 11 0.000238
+Residual: 12 0.000385
+Residual: 13 0.000504
+Residual: 14 0.001949
+Residual: 15 0.002253
+Residual: 16 0.005079
+Residual: 17 0.002314
+Residual: 18 0.003723
+Residual: 19 0.005648
+Residual: 20 0.010091
+Residual: 21 0.018739
+
+=====SCF iteration: 25=====
+
+Calling chebyfilt with bounds: (2.307593,23.473165)
+Eigenvalue of T
+    1 -0.298341
+    2 -0.145349
+    3 -0.145163
+    4 -0.145068
+    5 -0.144853
+    6 -0.144677
+    7 -0.144343
+    8 0.030242
+    9 0.030413
+   10 0.030773
+   11 0.030802
+   12 0.030949
+   13 0.031055
+   14 0.147592
+   15 0.147748
+   16 0.148109
+   17 0.173577
+   18 0.174134
+   19 0.174531
+   20 0.175392
+   21 0.177985
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1828317547
+EKIN   =      12.8292181968
+EHT    =     -37.3529299897
+EPSEU  =       2.2465294185
+ENL    =       0.7766182678
+EXC    =      -9.6822676482
+!    25     -31.1828317547       0.0004225092
+Residual: 1 0.000101
+Residual: 2 0.000132
+Residual: 3 0.000124
+Residual: 4 0.000103
+Residual: 5 0.000092
+Residual: 6 0.000108
+Residual: 7 0.000122
+Residual: 8 0.000235
+Residual: 9 0.000184
+Residual: 10 0.000491
+Residual: 11 0.000227
+Residual: 12 0.000329
+Residual: 13 0.000422
+Residual: 14 0.001700
+Residual: 15 0.002009
+Residual: 16 0.004769
+Residual: 17 0.002219
+Residual: 18 0.003506
+Residual: 19 0.005309
+Residual: 20 0.008968
+Residual: 21 0.016929
+
+=====SCF iteration: 26=====
+
+Calling chebyfilt with bounds: (2.307593,23.473428)
+Eigenvalue of T
+    1 -0.298318
+    2 -0.145305
+    3 -0.145122
+    4 -0.145024
+    5 -0.144834
+    6 -0.144665
+    7 -0.144344
+    8 0.030296
+    9 0.030459
+   10 0.030784
+   11 0.030814
+   12 0.030956
+   13 0.031062
+   14 0.147612
+   15 0.147756
+   16 0.148086
+   17 0.173606
+   18 0.174115
+   19 0.174464
+   20 0.175183
+   21 0.177264
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1831877051
+EKIN   =      12.8297909554
+EHT    =     -37.3533240723
+EPSEU  =       2.2465013136
+ENL    =       0.7764577606
+EXC    =      -9.6826136624
+!    26     -31.1831877051       0.0003559504
+Residual: 1 0.000090
+Residual: 2 0.000120
+Residual: 3 0.000111
+Residual: 4 0.000094
+Residual: 5 0.000083
+Residual: 6 0.000098
+Residual: 7 0.000110
+Residual: 8 0.000193
+Residual: 9 0.000155
+Residual: 10 0.000372
+Residual: 11 0.000223
+Residual: 12 0.000280
+Residual: 13 0.000353
+Residual: 14 0.001483
+Residual: 15 0.001797
+Residual: 16 0.004494
+Residual: 17 0.002145
+Residual: 18 0.003289
+Residual: 19 0.005025
+Residual: 20 0.007949
+Residual: 21 0.015267
+
+=====SCF iteration: 27=====
+
+Calling chebyfilt with bounds: (2.307593,23.473660)
+Eigenvalue of T
+    1 -0.298297
+    2 -0.145264
+    3 -0.145085
+    4 -0.144984
+    5 -0.144818
+    6 -0.144654
+    7 -0.144346
+    8 0.030343
+    9 0.030500
+   10 0.030793
+   11 0.030826
+   12 0.030963
+   13 0.031067
+   14 0.147632
+   15 0.147764
+   16 0.148066
+   17 0.173632
+   18 0.174100
+   19 0.174404
+   20 0.175017
+   21 0.176678
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1834924103
+EKIN   =      12.8303242858
+EHT    =     -37.3537014757
+EPSEU  =       2.2464889013
+ENL    =       0.7763158782
+EXC    =      -9.6829200000
+!    27     -31.1834924103       0.0003047052
+Residual: 1 0.000080
+Residual: 2 0.000110
+Residual: 3 0.000100
+Residual: 4 0.000086
+Residual: 5 0.000075
+Residual: 6 0.000090
+Residual: 7 0.000100
+Residual: 8 0.000159
+Residual: 9 0.000133
+Residual: 10 0.000284
+Residual: 11 0.000207
+Residual: 12 0.000238
+Residual: 13 0.000296
+Residual: 14 0.001295
+Residual: 15 0.001611
+Residual: 16 0.004246
+Residual: 17 0.002090
+Residual: 18 0.003073
+Residual: 19 0.004774
+Residual: 20 0.007042
+Residual: 21 0.013742
+
+=====SCF iteration: 28=====
+
+Calling chebyfilt with bounds: (2.307593,23.473867)
+Eigenvalue of T
+    1 -0.298278
+    2 -0.145227
+    3 -0.145053
+    4 -0.144948
+    5 -0.144803
+    6 -0.144644
+    7 -0.144349
+    8 0.030386
+    9 0.030537
+   10 0.030801
+   11 0.030838
+   12 0.030969
+   13 0.031071
+   14 0.147650
+   15 0.147771
+   16 0.148048
+   17 0.173656
+   18 0.174088
+   19 0.174352
+   20 0.174883
+   21 0.176205
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1837570399
+EKIN   =      12.8308199494
+EHT    =     -37.3540606836
+EPSEU  =       2.2464876731
+ENL    =       0.7761893249
+EXC    =      -9.6831933037
+!    28     -31.1837570399       0.0002646295
+Residual: 1 0.000071
+Residual: 2 0.000101
+Residual: 3 0.000090
+Residual: 4 0.000080
+Residual: 5 0.000069
+Residual: 6 0.000082
+Residual: 7 0.000092
+Residual: 8 0.000132
+Residual: 9 0.000116
+Residual: 10 0.000222
+Residual: 11 0.000186
+Residual: 12 0.000202
+Residual: 13 0.000248
+Residual: 14 0.001131
+Residual: 15 0.001451
+Residual: 16 0.004022
+Residual: 17 0.002052
+Residual: 18 0.002861
+Residual: 19 0.004532
+Residual: 20 0.006263
+Residual: 21 0.012340
+
+=====SCF iteration: 29=====
+
+Calling chebyfilt with bounds: (2.307593,23.474053)
+Eigenvalue of T
+    1 -0.298262
+    2 -0.145193
+    3 -0.145024
+    4 -0.144917
+    5 -0.144790
+    6 -0.144635
+    7 -0.144353
+    8 0.030425
+    9 0.030570
+   10 0.030808
+   11 0.030848
+   12 0.030974
+   13 0.031073
+   14 0.147667
+   15 0.147778
+   16 0.148032
+   17 0.173678
+   18 0.174078
+   19 0.174307
+   20 0.174774
+   21 0.175825
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1839897207
+EKIN   =      12.8312797910
+EHT    =     -37.3544006472
+EPSEU  =       2.2464942122
+ENL    =       0.7760756080
+EXC    =      -9.6834386847
+!    29     -31.1839897207       0.0002326809
+Residual: 1 0.000064
+Residual: 2 0.000092
+Residual: 3 0.000082
+Residual: 4 0.000074
+Residual: 5 0.000064
+Residual: 6 0.000076
+Residual: 7 0.000086
+Residual: 8 0.000111
+Residual: 9 0.000102
+Residual: 10 0.000177
+Residual: 11 0.000165
+Residual: 12 0.000172
+Residual: 13 0.000208
+Residual: 14 0.000989
+Residual: 15 0.001313
+Residual: 16 0.003818
+Residual: 17 0.002029
+Residual: 18 0.002655
+Residual: 19 0.004285
+Residual: 20 0.005628
+Residual: 21 0.011043
+
+=====SCF iteration: 30=====
+
+Calling chebyfilt with bounds: (2.307593,23.474221)
+Eigenvalue of T
+    1 -0.298247
+    2 -0.145161
+    3 -0.144997
+    4 -0.144888
+    5 -0.144778
+    6 -0.144627
+    7 -0.144357
+    8 0.030461
+    9 0.030599
+   10 0.030815
+   11 0.030858
+   12 0.030978
+   13 0.031075
+   14 0.147682
+   15 0.147784
+   16 0.148017
+   17 0.173698
+   18 0.174071
+   19 0.174268
+   20 0.174683
+   21 0.175520
+Simple charge density mixing with mixing parameter    0.3000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1841963918
+EKIN   =      12.8317057433
+EHT    =     -37.3547207910
+EPSEU  =       2.2465059599
+ENL    =       0.7759728248
+EXC    =      -9.6836601287
+!    30     -31.1841963918       0.0002066710
+Residual: 1 0.000057
+Residual: 2 0.000085
+Residual: 3 0.000075
+Residual: 4 0.000068
+Residual: 5 0.000060
+Residual: 6 0.000070
+Residual: 7 0.000080
+Residual: 8 0.000094
+Residual: 9 0.000091
+Residual: 10 0.000144
+Residual: 11 0.000146
+Residual: 12 0.000147
+Residual: 13 0.000176
+Residual: 14 0.000866
+Residual: 15 0.001194
+Residual: 16 0.003630
+Residual: 17 0.002017
+Residual: 18 0.002456
+Residual: 19 0.004026
+Residual: 20 0.005146
+Residual: 21 0.009832
+Pass here in ChebySCFLoop
+
+Program ended normally at: 15 January 2012 01:23:31 PM
+Total time for SCF loop:                       47.78000 s
+Total elapsed time for main program:           47.83000 s

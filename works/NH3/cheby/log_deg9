@@ -1,0 +1,669 @@
+
+Program started at: 18 January 2012 03:09:57 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: N.fhi
+ZV(1)      =      5.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.fhi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       3
+
+Total number of atoms:     4
+Atomic coordinates (in bohr):
+N.fhi      -0.1097360000       0.0437320000       0.0575100000
+H.fhi       1.0091200000      -1.4209000000      -0.4706700000
+H.fhi      -0.6139400000       0.9989000000      -1.5262800000
+H.fhi      -1.7022300000      -0.6834000000       0.8403800000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      551
+NGX      =     4408
+NG       =     4337
+GCUT     =     101.3211836423
+GCUTW    =      25.3302959106
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      515
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 5.000000
+FormFactorAtomic: rho of atom 2 is 1.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.108599
+...Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -20.3810275519
+EKIN   =       0.0000000000
+EHT    =     -10.3863888408
+EPSEU  =      -6.8009046018
+ENL    =       0.0000000000
+EXC    =      -3.1937341092
+Calling Lanczos ....
+End of Lanczos ....
+norm_rT = 22.341745
+norm(f) = 1.183931
+lb = 2.801709
+ub = 4.835035
+
+=====SCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.801709,4.835035) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.031285
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =       7.7667676660
+EKIN   =       5.7780220652
+EHT    =       0.0847569356
+EPSEU  =      -0.0001262780
+ENL    =       1.9041179548
+EXC    =      -0.0000030116
+
+!     1       7.7667676660      28.1477952179       0.0312850333
+
+
+=====SCF iteration: 2=====
+
+Calling chebyfilt with bounds: (1.897440,25.011205) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.047745
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      13.2067535056
+EKIN   =      10.2786545686
+EHT    =       0.0847573935
+EPSEU  =      -0.0001267725
+ENL    =       2.8434712861
+EXC    =      -0.0000029702
+
+!     2      13.2067535056       5.4399858396       0.0477453682
+
+
+=====SCF iteration: 3=====
+
+Calling chebyfilt with bounds: (1.897440,25.012334) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.049064
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      13.6783607536
+EKIN   =      10.7191621633
+EHT    =       0.0847654437
+EPSEU  =      -0.0001336328
+ENL    =       2.8745699391
+EXC    =      -0.0000031597
+
+!     3      13.6783607536       0.4716072481       0.0490639741
+
+
+=====SCF iteration: 4=====
+
+Calling chebyfilt with bounds: (1.897440,25.051220) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.049176
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      13.7189465365
+EKIN   =      10.7610827767
+EHT    =       0.0847710571
+EPSEU  =      -0.0001306400
+ENL    =       2.8732265215
+EXC    =      -0.0000031787
+
+!     4      13.7189465365       0.0405857829       0.0491758877
+
+
+=====SCF iteration: 5=====
+
+Calling chebyfilt with bounds: (1.897440,25.052511) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.049191
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      10.8436032430
+EKIN   =      10.7665618357
+EHT    =      -1.8486414559
+EPSEU  =      -0.5583084027
+ENL    =       2.8729923421
+EXC    =      -0.3890010762
+
+!     5      10.8436032430       2.8753432936       0.0491907396
+
+
+=====SCF iteration: 6=====
+
+Calling chebyfilt with bounds: (1.897440,23.857099) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.046556
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -0.1760108365
+EKIN   =      10.6003229822
+EHT    =      -7.3685418546
+EPSEU  =      -3.2957589938
+ENL    =       2.8469407328
+EXC    =      -2.9589737032
+
+!     6      -0.1760108365      11.0196140795       0.0465559727
+
+
+=====SCF iteration: 7=====
+
+Calling chebyfilt with bounds: (1.897440,22.526366) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.037003
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+***WARNING: Negative electron density:      -0.1036882412
+
+ETOT   =      -3.2102369447
+EKIN   =       9.5683075325
+EHT    =      -8.7140169379
+EPSEU  =      -4.0336138500
+ENL    =       2.5391021012
+EXC    =      -2.5700157906
+
+!     7      -3.2102369447       3.0342261082       0.0370027022
+
+
+=====SCF iteration: 8=====
+
+Calling chebyfilt with bounds: (1.897440,23.275389) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.024643
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -8.2293143994
+EKIN   =       8.5109156011
+EHT    =      -9.8855149271
+EPSEU  =      -5.5791038978
+ENL    =       2.3431855556
+EXC    =      -3.6187967312
+
+!     8      -8.2293143994       5.0190774546       0.0246427501
+
+
+=====SCF iteration: 9=====
+
+Calling chebyfilt with bounds: (1.897440,23.119567) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.014697
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -9.3051618963
+EKIN   =       6.8076583773
+EHT    =      -9.9033916453
+EPSEU  =      -5.0670088938
+ENL    =       2.0105208177
+EXC    =      -3.1529405523
+
+!     9      -9.3051618963       1.0758474969       0.0146970585
+
+
+=====SCF iteration: 10=====
+
+Calling chebyfilt with bounds: (1.897440,22.806827) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.009436
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -9.7786745947
+EKIN   =       7.1296603850
+EHT    =     -10.1768253294
+EPSEU  =      -5.4217345245
+ENL    =       1.9634033261
+EXC    =      -3.2731784521
+
+!    10      -9.7786745947       0.4735126984       0.0094363586
+
+
+=====SCF iteration: 11=====
+
+Calling chebyfilt with bounds: (1.897440,22.997939) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.003313
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.3194456297
+EKIN   =       6.6096022159
+EHT    =     -10.1880343057
+EPSEU  =      -5.3494544283
+ENL    =       1.8537206160
+EXC    =      -3.2452797276
+
+!    11     -10.3194456297       0.5407710349       0.0033130845
+
+
+=====SCF iteration: 12=====
+
+Calling chebyfilt with bounds: (1.897440,23.125167) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000914
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.5568429713
+EKIN   =       6.4706440413
+EHT    =     -10.2113021680
+EPSEU  =      -5.3782412619
+ENL    =       1.8415191570
+EXC    =      -3.2794627396
+
+!    12     -10.5568429713       0.2373973416       0.0009143521
+
+
+=====SCF iteration: 13=====
+
+Calling chebyfilt with bounds: (1.897440,23.135603) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000439
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6685246157
+EKIN   =       6.3590867450
+EHT    =     -10.2052021442
+EPSEU  =      -5.3660720585
+ENL    =       1.8248728105
+EXC    =      -3.2812099684
+
+!    13     -10.6685246157       0.1116816445       0.0004385814
+
+
+=====SCF iteration: 14=====
+
+Calling chebyfilt with bounds: (1.897440,23.119873) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000352
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6515772086
+EKIN   =       6.3329985795
+EHT    =     -10.1944817582
+EPSEU  =      -5.3412362995
+ENL    =       1.8256160745
+EXC    =      -3.2744738050
+
+!    14     -10.6515772086       0.0169474071       0.0003519616
+
+
+=====SCF iteration: 15=====
+
+Calling chebyfilt with bounds: (1.897440,23.118490) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000206
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6442933690
+EKIN   =       6.3388634868
+EHT    =     -10.1972095911
+EPSEU  =      -5.3404785799
+ENL    =       1.8311845970
+EXC    =      -3.2766532818
+
+!    15     -10.6442933690       0.0072838396       0.0002056466
+
+
+=====SCF iteration: 16=====
+
+Calling chebyfilt with bounds: (1.897440,23.139062) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000123
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6465846460
+EKIN   =       6.3261308574
+EHT    =     -10.1946667652
+EPSEU  =      -5.3355884634
+ENL    =       1.8297425254
+EXC    =      -3.2722028002
+
+!    16     -10.6465846460       0.0022912770       0.0001226097
+
+
+=====SCF iteration: 17=====
+
+Calling chebyfilt with bounds: (1.897440,23.150195) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000065
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6364970857
+EKIN   =       6.3276179787
+EHT    =     -10.1925190090
+EPSEU  =      -5.3321526654
+ENL    =       1.8309356472
+EXC    =      -3.2703790372
+
+!    17     -10.6364970857       0.0100875603       0.0000645493
+
+
+=====SCF iteration: 18=====
+
+Calling chebyfilt with bounds: (1.897440,23.150594) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000031
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6376622322
+EKIN   =       6.3315919269
+EHT    =     -10.1937942205
+EPSEU  =      -5.3359558071
+ENL    =       1.8322415820
+EXC    =      -3.2717457136
+
+!    18     -10.6376622322       0.0011651465       0.0000312068
+
+
+=====SCF iteration: 19=====
+
+Calling chebyfilt with bounds: (1.897440,23.148950) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000019
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6386793976
+EKIN   =       6.3293377935
+EHT    =     -10.1932382106
+EPSEU  =      -5.3350706878
+ENL    =       1.8315160873
+EXC    =      -3.2712243802
+
+!    19     -10.6386793976       0.0010171654       0.0000186784
+
+
+=====SCF iteration: 20=====
+
+Calling chebyfilt with bounds: (1.897440,23.149867) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000006
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6371549657
+EKIN   =       6.3299296618
+EHT    =     -10.1930941161
+EPSEU  =      -5.3346297549
+ENL    =       1.8317481497
+EXC    =      -3.2711089062
+
+!    20     -10.6371549657       0.0015244319       0.0000063260
+
+
+=====SCF iteration: 21=====
+
+Calling chebyfilt with bounds: (1.897440,23.150049) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000004
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6374603506
+EKIN   =       6.3300691514
+EHT    =     -10.1931802975
+EPSEU  =      -5.3349622058
+ENL    =       1.8318428113
+EXC    =      -3.2712298100
+
+!    21     -10.6374603506       0.0003053849       0.0000035496
+
+
+=====SCF iteration: 22=====
+
+Calling chebyfilt with bounds: (1.897440,23.149434) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000002
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6375619500
+EKIN   =       6.3298464248
+EHT    =     -10.1931402696
+EPSEU  =      -5.3348691064
+ENL    =       1.8317800562
+EXC    =      -3.2711790550
+
+!    22     -10.6375619500       0.0001015994       0.0000016360
+
+
+=====SCF iteration: 23=====
+
+Calling chebyfilt with bounds: (1.897440,23.149096) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6374956944
+EKIN   =       6.3298421722
+EHT    =     -10.1931247524
+EPSEU  =      -5.3348578057
+ENL    =       1.8317985679
+EXC    =      -3.2711538765
+
+!    23     -10.6374956944       0.0000662555       0.0000012820
+
+
+=====SCF iteration: 24=====
+
+Calling chebyfilt with bounds: (1.897440,23.148999) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6374397763
+EKIN   =       6.3298458180
+EHT    =     -10.1931157716
+EPSEU  =      -5.3348503911
+ENL    =       1.8318028241
+EXC    =      -3.2711222557
+
+!    24     -10.6374397763       0.0000559181       0.0000008043
+
+
+=====SCF iteration: 25=====
+
+Calling chebyfilt with bounds: (1.897440,23.148949) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6374100236
+EKIN   =       6.3298573621
+EHT    =     -10.1931163099
+EPSEU  =      -5.3348534861
+ENL    =       1.8318052382
+EXC    =      -3.2711028280
+
+!    25     -10.6374100236       0.0000297527       0.0000004727
+
+
+=====SCF iteration: 26=====
+
+Calling chebyfilt with bounds: (1.897440,23.148907) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6374012421
+EKIN   =       6.3298568934
+EHT    =     -10.1931155317
+EPSEU  =      -5.3348499599
+ENL    =       1.8318035621
+EXC    =      -3.2710962061
+
+!    26     -10.6374012421       0.0000087815       0.0000002542
+
+
+=====SCF iteration: 27=====
+
+Calling chebyfilt with bounds: (1.897440,23.148846) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6373953822
+EKIN   =       6.3298559335
+EHT    =     -10.1931158173
+EPSEU  =      -5.3348435964
+ENL    =       1.8318028302
+EXC    =      -3.2710947323
+
+!    27     -10.6373953822       0.0000058598       0.0000001316
+
+
+=====SCF iteration: 28=====
+
+Calling chebyfilt with bounds: (1.897440,23.148847) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6373908872
+EKIN   =       6.3298511809
+EHT    =     -10.1931135715
+EPSEU  =      -5.3348401174
+ENL    =       1.8318026556
+EXC    =      -3.2710910348
+
+!    28     -10.6373908872       0.0000044950       0.0000001051
+
+
+=====SCF iteration: 29=====
+
+Calling chebyfilt with bounds: (1.897440,23.148848) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6373835081
+EKIN   =       6.3298540685
+EHT    =     -10.1931129883
+EPSEU  =      -5.3348380577
+ENL    =       1.8318034045
+EXC    =      -3.2710899350
+
+!    29     -10.6373835081       0.0000073791       0.0000000505
+
+
+=====SCF iteration: 30=====
+
+Calling chebyfilt with bounds: (1.897440,23.148855) and degree 9
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.6373843492
+EKIN   =       6.3298544683
+EHT    =     -10.1931135409
+EPSEU  =      -5.3348383895
+ENL    =       1.8318035982
+EXC    =      -3.2710904853
+
+!    30     -10.6373843492       0.0000008411       0.0000000314
+
+***Convergence achieved in 30 iterations.
+
+Program ended normally at: 18 January 2012 03:10:12 PM
+Total time for SCF loop:                       14.86000 s
+Total elapsed time for main program:           14.91000 s

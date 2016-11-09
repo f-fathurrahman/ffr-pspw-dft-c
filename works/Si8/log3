@@ -1,0 +1,1738 @@
+
+Program started at: 15 January 2012 01:15:23 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      596
+NGX      =     4768
+NG       =     4625
+GCUT     =     106.7831614288
+GCUTW    =      26.6957903572
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =      587
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 4.000000
+Normalize charge density ......Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -44.1528237322
+EKIN   =       0.0000000000
+EHT    =     -37.3105518149
+EPSEU  =       2.5109102429
+ENL    =       0.0000000000
+EXC    =      -9.3531821602
+
+=====SCF iteration: 1=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7835114557
+davidson_cpu:     3     0       0.3241998444
+davidson_cpu:     4     0       0.1578734764
+davidson_cpu:     5     0       0.0669289220
+davidson_cpu:     6     0       0.0381877738
+davidson_cpu:     7     0       0.0239994334
+davidson_cpu:     8     0       0.0193110227
+davidson_cpu:     9     0       0.0138728762
+davidson_cpu:    10     0       0.0121359967
+davidson_cpu:    11     0       0.0088416316
+davidson_cpu:    12     0       0.0078546580
+davidson_cpu:    13     0       0.0057640520
+davidson_cpu:    14     0       0.0051303856
+davidson_cpu:    15     0       0.0038080059
+davidson_cpu:    16     1       0.0033856137
+davidson_cpu:    17     2       0.0025480117
+davidson_cpu:    18     3       0.0022589900
+davidson_cpu:    19     6       0.0017240491
+davidson_cpu:    20     8       0.0015232991
+davidson_cpu:    21     9       0.0011773186
+davidson_cpu:    22     9       0.0010367819
+davidson_cpu:    23     9       0.0008097852
+davidson_cpu:    24    10       0.0007110001
+davidson_cpu:    25    11       0.0005602218
+davidson_cpu:    26    11       0.0004908834
+davidson_cpu:    27    11       0.0003897576
+davidson_cpu:    28    12       0.0003409798
+davidson_cpu:    29    12       0.0002716441
+davidson_cpu:    30    13       0.0002370051
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.3190173122       0.0000000000
+    2      -0.1689727274       0.0000000001
+    3      -0.1689727274       0.0000000001
+    4      -0.1689727274       0.0000000001
+    5      -0.1689727130       0.0000000001
+    6      -0.1689727130       0.0000000001
+    7      -0.1689727130       0.0000000001
+    8       0.0092495989       0.0000000174
+    9       0.0092495989       0.0000000149
+   10       0.0092495989       0.0000000163
+   11       0.0092495989       0.0000000139
+   12       0.0092495989       0.0000001240
+   13       0.0092495989       0.0000004750
+   14       0.1189728015       0.0000041355
+   15       0.1189728036       0.0000332354
+   16       0.1189824153       0.0017206003
+   17       0.1655294058       0.0000781037
+   18       0.1655294722       0.0000765961
+   19       0.1655298337       0.0003135696
+   20       0.1655310144       0.0007016143
+   21       0.1655332209       0.0010819341
+End of Davidson iteration: rnorm =       0.0001909739
+
+Time for diagonalization: 3.590000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.037392
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -16.6708624315
+EKIN   =      13.1243830360
+EHT    =     -30.6091141531
+EPSEU  =       0.0000584013
+ENL    =       0.8138201819
+EXC    =      -0.0000098976
+!     1     -16.6708624315      27.4819613007
+
+=====SCF iteration: 2=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8082852666
+davidson_cpu:     3     0       0.3487936695
+davidson_cpu:     4     0       0.1728254913
+davidson_cpu:     5     0       0.0792927677
+davidson_cpu:     6     0       0.0422821471
+davidson_cpu:     7     0       0.0246468791
+davidson_cpu:     8     0       0.0155912732
+davidson_cpu:     9     0       0.0104838096
+davidson_cpu:    10     0       0.0075720555
+davidson_cpu:    11     0       0.0057663531
+davidson_cpu:    12     0       0.0046630546
+davidson_cpu:    13     0       0.0039233927
+davidson_cpu:    14     0       0.0034501651
+davidson_cpu:    15     0       0.0031007982
+davidson_cpu:    16     0       0.0028302034
+davidson_cpu:    17     0       0.0026504219
+davidson_cpu:    18     0       0.0024754781
+davidson_cpu:    19     0       0.0023787736
+davidson_cpu:    20     1       0.0022409646
+davidson_cpu:    21     3       0.0021853673
+davidson_cpu:    22     6       0.0020639684
+davidson_cpu:    23     7       0.0020256880
+davidson_cpu:    24     7       0.0019111121
+davidson_cpu:    25     7       0.0018830083
+davidson_cpu:    26     7       0.0017755375
+davidson_cpu:    27    10       0.0017526958
+davidson_cpu:    28    12       0.0016510027
+davidson_cpu:    29    13       0.0016309324
+davidson_cpu:    30    13       0.0015346683
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.0695758184       0.0000000004
+    2       0.0639185285       0.0000000024
+    3       0.0639195979       0.0000000043
+    4       0.0639206021       0.0000000031
+    5       0.0639208576       0.0000000022
+    6       0.0639215924       0.0000000011
+    7       0.0639224043       0.0000000020
+    8       0.2552231120       0.0000002743
+    9       0.2552237634       0.0000001624
+   10       0.2552246361       0.0000001164
+   11       0.2552250073       0.0000001309
+   12       0.2552255553       0.0000001263
+   13       0.2552268998       0.0000001721
+   14       0.3361968729       0.0000033474
+   15       0.3361969309       0.0000140532
+   16       0.3361972968       0.0000083634
+   17       0.4602429797       0.0064918086
+   18       0.4815403807       0.0000090254
+   19       0.4816716928       0.0026900784
+   20       0.4826302765       0.0078356920
+   21       0.4861630584       0.0147859538
+End of Davidson iteration: rnorm =       0.0015161581
+
+Time for diagonalization: 3.630000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.040473
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.9304129391
+EKIN   =      14.6055342830
+EHT    =     -30.6089689131
+EPSEU  =       0.0000316762
+ENL    =       1.0730022972
+EXC    =      -0.0000122824
+!     2     -14.9304129391       1.7404494924
+
+=====SCF iteration: 3=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8078344733
+davidson_cpu:     3     0       0.3483282200
+davidson_cpu:     4     0       0.1723953616
+davidson_cpu:     5     0       0.0789191903
+davidson_cpu:     6     0       0.0421166810
+davidson_cpu:     7     0       0.0245462015
+davidson_cpu:     8     0       0.0155757494
+davidson_cpu:     9     0       0.0104884416
+davidson_cpu:    10     0       0.0076109986
+davidson_cpu:    11     0       0.0057849612
+davidson_cpu:    12     0       0.0047208199
+davidson_cpu:    13     0       0.0039829288
+davidson_cpu:    14     0       0.0034898037
+davidson_cpu:    15     0       0.0031207718
+davidson_cpu:    16     0       0.0028633273
+davidson_cpu:    17     0       0.0026783041
+davidson_cpu:    18     0       0.0025130167
+davidson_cpu:    19     0       0.0024110186
+davidson_cpu:    20     1       0.0022799760
+davidson_cpu:    21     3       0.0022188175
+davidson_cpu:    22     6       0.0021015846
+davidson_cpu:    23     7       0.0020601600
+davidson_cpu:    24     7       0.0019491031
+davidson_cpu:    25     7       0.0019174423
+davidson_cpu:    26     7       0.0018114268
+davidson_cpu:    27    10       0.0017852021
+davidson_cpu:    28    12       0.0016837885
+davidson_cpu:    29    13       0.0016606497
+davidson_cpu:    30    13       0.0015639557
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.0698028956       0.0000000004
+    2       0.0639601058       0.0000000022
+    3       0.0639648716       0.0000000041
+    4       0.0639696251       0.0000000022
+    5       0.0639711415       0.0000000024
+    6       0.0639755430       0.0000000011
+    7       0.0639787535       0.0000000019
+    8       0.2550509438       0.0000002584
+    9       0.2550532296       0.0000001805
+   10       0.2550559439       0.0000001255
+   11       0.2550575638       0.0000001046
+   12       0.2550601639       0.0000001255
+   13       0.2550654821       0.0000001694
+   14       0.3365775753       0.0000041169
+   15       0.3365777898       0.0000099849
+   16       0.3365781673       0.0000139001
+   17       0.4607698960       0.0068335324
+   18       0.4802802251       0.0000357626
+   19       0.4804053997       0.0027083652
+   20       0.4813243149       0.0078120963
+   21       0.4847974620       0.0149748635
+End of Davidson iteration: rnorm =       0.0015425524
+
+Time for diagonalization: 3.630000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.040410
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.9670135295
+EKIN   =      14.5745823299
+EHT    =     -30.6090453913
+EPSEU  =       0.0000272307
+ENL    =       1.0674343381
+EXC    =      -0.0000120370
+!     3     -14.9670135295       0.0366005904
+
+=====SCF iteration: 4=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8087376392
+davidson_cpu:     3     0       0.3490036937
+davidson_cpu:     4     0       0.1731286007
+davidson_cpu:     5     0       0.0794641683
+davidson_cpu:     6     0       0.0424431463
+davidson_cpu:     7     0       0.0248349625
+davidson_cpu:     8     0       0.0157767709
+davidson_cpu:     9     0       0.0105988810
+davidson_cpu:    10     0       0.0076576386
+davidson_cpu:    11     0       0.0058466281
+davidson_cpu:    12     0       0.0046951756
+davidson_cpu:    13     0       0.0038996041
+davidson_cpu:    14     0       0.0033831779
+davidson_cpu:    15     0       0.0030223905
+davidson_cpu:    16     0       0.0027550845
+davidson_cpu:    17     0       0.0025752579
+davidson_cpu:    18     0       0.0024067842
+davidson_cpu:    19     0       0.0023102703
+davidson_cpu:    20     1       0.0021812501
+davidson_cpu:    21     2       0.0021246696
+davidson_cpu:    22     7       0.0020127218
+davidson_cpu:    23     7       0.0019759060
+davidson_cpu:    24     7       0.0018730125
+davidson_cpu:    25     7       0.0018461255
+davidson_cpu:    26     8       0.0017494047
+davidson_cpu:    27     8       0.0017276291
+davidson_cpu:    28    11       0.0016359160
+davidson_cpu:    29    13       0.0016169352
+davidson_cpu:    30    13       0.0015299059
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.0689949273       0.0000000005
+    2       0.0645806180       0.0000000024
+    3       0.0646217499       0.0000000037
+    4       0.0646488859       0.0000000042
+    5       0.0646760864       0.0000000018
+    6       0.0647047178       0.0000000018
+    7       0.0647767453       0.0000000023
+    8       0.2558854683       0.0000002632
+    9       0.2559125074       0.0000002289
+   10       0.2559231222       0.0000001534
+   11       0.2559329304       0.0000000867
+   12       0.2559584155       0.0000001429
+   13       0.2559924026       0.0000001892
+   14       0.3376149175       0.0000052396
+   15       0.3376246266       0.0000042544
+   16       0.3376280660       0.0000171862
+   17       0.4608909468       0.0065927933
+   18       0.4816703566       0.0001677738
+   19       0.4818063094       0.0027666704
+   20       0.4828336338       0.0078669297
+   21       0.4865545067       0.0143394359
+End of Davidson iteration: rnorm =       0.0015124459
+
+Time for diagonalization: 3.610000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.040393
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.9643630496
+EKIN   =      14.5773459957
+EHT    =     -30.6089074954
+EPSEU  =      -0.0000626331
+ENL    =       1.0672748866
+EXC    =      -0.0000138035
+!     4     -14.9643630496       0.0026504799
+
+=====SCF iteration: 5=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8087687311
+davidson_cpu:     3     0       0.3491825316
+davidson_cpu:     4     0       0.1731857515
+davidson_cpu:     5     0       0.0793185977
+davidson_cpu:     6     0       0.0424697767
+davidson_cpu:     7     0       0.0247670628
+davidson_cpu:     8     0       0.0157000520
+davidson_cpu:     9     0       0.0105426653
+davidson_cpu:    10     0       0.0075284731
+davidson_cpu:    11     0       0.0057011304
+davidson_cpu:    12     0       0.0045615157
+davidson_cpu:    13     0       0.0038706071
+davidson_cpu:    14     0       0.0034038753
+davidson_cpu:    15     0       0.0030585410
+davidson_cpu:    16     0       0.0027902377
+davidson_cpu:    17     0       0.0026083095
+davidson_cpu:    18     0       0.0024433879
+davidson_cpu:    19     0       0.0023494522
+davidson_cpu:    20     1       0.0022247896
+davidson_cpu:    21     2       0.0021726693
+davidson_cpu:    22     7       0.0020629160
+davidson_cpu:    23     7       0.0020318225
+davidson_cpu:    24     7       0.0019285844
+davidson_cpu:    25     7       0.0019083705
+davidson_cpu:    26     8       0.0018088970
+davidson_cpu:    27     9       0.0017947245
+davidson_cpu:    28    12       0.0016981869
+davidson_cpu:    29    13       0.0016878124
+davidson_cpu:    30    13       0.0015942394
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.0674817602       0.0000000004
+    2       0.0649207428       0.0000000021
+    3       0.0658623969       0.0000000025
+    4       0.0663055329       0.0000000015
+    5       0.0666745063       0.0000000041
+    6       0.0669683046       0.0000000024
+    7       0.0671779403       0.0000000022
+    8       0.2566218961       0.0000001644
+    9       0.2568085788       0.0000001389
+   10       0.2570771279       0.0000000857
+   11       0.2571308144       0.0000001383
+   12       0.2573001914       0.0000001794
+   13       0.2575280064       0.0000002564
+   14       0.3384321647       0.0000127945
+   15       0.3384820097       0.0000080170
+   16       0.3385911930       0.0000064591
+   17       0.4656307597       0.0071682438
+   18       0.4839398623       0.0009094038
+   19       0.4842301015       0.0029248651
+   20       0.4853778528       0.0078131958
+   21       0.4889147595       0.0144682822
+End of Davidson iteration: rnorm =       0.0015862971
+
+Time for diagonalization: 3.600000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.040416
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -16.2086101880
+EKIN   =      14.5647855225
+EHT    =     -30.7885819568
+EPSEU  =       0.3690266086
+ENL    =       1.0527799087
+EXC    =      -1.4066202710
+!     5     -16.2086101880       1.2442471384
+
+=====SCF iteration: 6=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8085752148
+davidson_cpu:     3     0       0.3476531229
+davidson_cpu:     4     0       0.1726280311
+davidson_cpu:     5     0       0.0795024093
+davidson_cpu:     6     0       0.0427683423
+davidson_cpu:     7     0       0.0251927529
+davidson_cpu:     8     0       0.0161673282
+davidson_cpu:     9     0       0.0110383556
+davidson_cpu:    10     0       0.0080002522
+davidson_cpu:    11     0       0.0060798891
+davidson_cpu:    12     0       0.0049075131
+davidson_cpu:    13     0       0.0040993832
+davidson_cpu:    14     0       0.0036084769
+davidson_cpu:    15     0       0.0032334031
+davidson_cpu:    16     0       0.0029890972
+davidson_cpu:    17     0       0.0027881629
+davidson_cpu:    18     0       0.0026363049
+davidson_cpu:    19     0       0.0025160925
+davidson_cpu:    20     1       0.0024002226
+davidson_cpu:    21     2       0.0023205887
+davidson_cpu:    22     7       0.0022187993
+davidson_cpu:    23     7       0.0021602569
+davidson_cpu:    24     7       0.0020646596
+davidson_cpu:    25     7       0.0020173681
+davidson_cpu:    26     7       0.0019251727
+davidson_cpu:    27    10       0.0018843622
+davidson_cpu:    28    12       0.0017944806
+davidson_cpu:    29    13       0.0017581729
+davidson_cpu:    30    13       0.0016703753
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2847512891       0.0000000004
+    2      -0.1512896750       0.0000000024
+    3      -0.1511070819       0.0000000033
+    4      -0.1508351800       0.0000000024
+    5      -0.1507993978       0.0000000025
+    6      -0.1506634414       0.0000000019
+    7      -0.1505466510       0.0000000023
+    8       0.0395187378       0.0000001573
+    9       0.0396937273       0.0000001201
+   10       0.0397784464       0.0000002850
+   11       0.0398311758       0.0000001744
+   12       0.0399500801       0.0000001359
+   13       0.0401888178       0.0000001253
+   14       0.1216350794       0.0000081438
+   15       0.1217181634       0.0000051845
+   16       0.1217684853       0.0000175955
+   17       0.2460688443       0.0069431281
+   18       0.2638239349       0.0012706802
+   19       0.2639724107       0.0026789720
+   20       0.2651581073       0.0079972663
+   21       0.2682029922       0.0154644905
+End of Davidson iteration: rnorm =       0.0016374511
+
+Time for diagonalization: 3.620000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.035000
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -23.2649482951
+EKIN   =      14.5604490051
+EHT    =     -31.2517675972
+EPSEU  =       1.3247330892
+ENL    =       1.0582017543
+EXC    =      -8.9565645465
+!     6     -23.2649482951       7.0563381071
+
+=====SCF iteration: 7=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.8028156647
+davidson_cpu:     3     0       0.3422501425
+davidson_cpu:     4     0       0.1687709999
+davidson_cpu:     5     0       0.0773000655
+davidson_cpu:     6     0       0.0420857583
+davidson_cpu:     7     0       0.0251827459
+davidson_cpu:     8     0       0.0166873651
+davidson_cpu:     9     0       0.0116671374
+davidson_cpu:    10     0       0.0088595156
+davidson_cpu:    11     0       0.0071772691
+davidson_cpu:    12     0       0.0061269462
+davidson_cpu:    13     0       0.0052645382
+davidson_cpu:    14     0       0.0047400967
+davidson_cpu:    15     0       0.0041899626
+davidson_cpu:    16     0       0.0038764314
+davidson_cpu:    17     0       0.0035380746
+davidson_cpu:    18     0       0.0033556989
+davidson_cpu:    19     1       0.0031216910
+davidson_cpu:    20     3       0.0029940850
+davidson_cpu:    21     6       0.0028184980
+davidson_cpu:    22     7       0.0027143541
+davidson_cpu:    23     7       0.0025678122
+davidson_cpu:    24     7       0.0024666667
+davidson_cpu:    25     7       0.0023306811
+davidson_cpu:    26     8       0.0022253913
+davidson_cpu:    27    11       0.0020984146
+davidson_cpu:    28    12       0.0019937583
+davidson_cpu:    29    13       0.0018794849
+davidson_cpu:    30    13       0.0017798736
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.3930436949       0.0000000002
+    2      -0.2691819476       0.0000000006
+    3      -0.2592376996       0.0000000006
+    4      -0.2580807512       0.0000000007
+    5      -0.2546952426       0.0000000017
+    6      -0.2505132936       0.0000000007
+    7      -0.2435737262       0.0000000007
+    8      -0.0759212779       0.0000000995
+    9      -0.0713211523       0.0000000886
+   10      -0.0685296023       0.0000000693
+   11      -0.0663988431       0.0000000764
+   12      -0.0632884460       0.0000002061
+   13      -0.0586725880       0.0000002986
+   14       0.0189542061       0.0000288575
+   15       0.0191832584       0.0000111504
+   16       0.0201970527       0.0000142664
+   17       0.1401637078       0.0073628678
+   18       0.1437625412       0.0028519213
+   19       0.1454732038       0.0093368661
+   20       0.1469864504       0.0077583944
+   21       0.1491147936       0.0079364819
+End of Davidson iteration: rnorm =       0.0016810309
+
+Time for diagonalization: 3.590000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.024066
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -26.0496170861
+EKIN   =      14.3315603509
+EHT    =     -33.4523720842
+EPSEU  =       1.3943571970
+ENL    =       1.0247401932
+EXC    =      -9.3479027430
+!     7     -26.0496170861       2.7846687910
+
+=====SCF iteration: 8=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7918148904
+davidson_cpu:     3     0       0.3331779707
+davidson_cpu:     4     0       0.1636110272
+davidson_cpu:     5     0       0.0722082592
+davidson_cpu:     6     0       0.0407664054
+davidson_cpu:     7     0       0.0256261267
+davidson_cpu:     8     0       0.0198683840
+davidson_cpu:     9     0       0.0148438647
+davidson_cpu:    10     0       0.0127903472
+davidson_cpu:    11     0       0.0103363879
+davidson_cpu:    12     0       0.0093261314
+davidson_cpu:    13     0       0.0076725843
+davidson_cpu:    14     0       0.0070281581
+davidson_cpu:    15     0       0.0056674892
+davidson_cpu:    16     0       0.0052799364
+davidson_cpu:    17     1       0.0043376155
+davidson_cpu:    18     2       0.0041120378
+davidson_cpu:    19     4       0.0033954245
+davidson_cpu:    20     7       0.0032522439
+davidson_cpu:    21     7       0.0026565377
+davidson_cpu:    22     7       0.0025317957
+davidson_cpu:    23     7       0.0020800101
+davidson_cpu:    24     7       0.0020060597
+davidson_cpu:    25     7       0.0016769413
+davidson_cpu:    26    10       0.0016228646
+davidson_cpu:    27    11       0.0013651416
+davidson_cpu:    28    11       0.0013252484
+davidson_cpu:    29    13       0.0011292687
+davidson_cpu:    30    13       0.0011048416
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.3588386048       0.0000000000
+    2      -0.2412280120       0.0000000001
+    3      -0.2203839658       0.0000000002
+    4      -0.2161121502       0.0000000001
+    5      -0.2080036424       0.0000000002
+    6      -0.2020896337       0.0000000002
+    7      -0.1916543394       0.0000000001
+    8      -0.0452457889       0.0000000872
+    9      -0.0384403152       0.0000000464
+   10      -0.0333418384       0.0000000529
+   11      -0.0293223522       0.0000000509
+   12      -0.0227012401       0.0000002770
+   13      -0.0142496695       0.0000003588
+   14       0.0677149146       0.0001466860
+   15       0.0685832705       0.0000265244
+   16       0.0717604938       0.0000870790
+   17       0.1509532593       0.0021906473
+   18       0.1540147253       0.0054686500
+   19       0.1544482076       0.0029757726
+   20       0.1560010488       0.0032242746
+   21       0.1582036796       0.0060749366
+End of Davidson iteration: rnorm =       0.0009616878
+
+Time for diagonalization: 3.600000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.016447
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.3990852526
+EKIN   =      13.7504164863
+EHT    =     -37.6275917355
+EPSEU  =       2.3377701640
+ENL    =       0.9307837538
+EXC    =      -9.7904639211
+!     8     -30.3990852526       4.3494681664
+
+=====SCF iteration: 9=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7793314398
+davidson_cpu:     3     0       0.3211797350
+davidson_cpu:     4     0       0.1582300765
+davidson_cpu:     5     0       0.0673955968
+davidson_cpu:     6     0       0.0386613719
+davidson_cpu:     7     0       0.0243388456
+davidson_cpu:     8     0       0.0191555871
+davidson_cpu:     9     0       0.0141775203
+davidson_cpu:    10     0       0.0127705617
+davidson_cpu:    11     0       0.0096916882
+davidson_cpu:    12     0       0.0089915218
+davidson_cpu:    13     0       0.0066944181
+davidson_cpu:    14     0       0.0061558936
+davidson_cpu:    15     0       0.0046650338
+davidson_cpu:    16     1       0.0043413610
+davidson_cpu:    17     1       0.0034511384
+davidson_cpu:    18     2       0.0032329891
+davidson_cpu:    19     6       0.0027346419
+davidson_cpu:    20     7       0.0025776292
+davidson_cpu:    21     7       0.0023210084
+davidson_cpu:    22     7       0.0021999736
+davidson_cpu:    23     7       0.0020984007
+davidson_cpu:    24     7       0.0019326457
+davidson_cpu:    25     7       0.0017560430
+davidson_cpu:    26     7       0.0015148161
+davidson_cpu:    27     9       0.0014213571
+davidson_cpu:    28    11       0.0012379284
+davidson_cpu:    29    11       0.0012002346
+davidson_cpu:    30    13       0.0010499388
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2934834945       0.0000000000
+    2      -0.1458602328       0.0000000000
+    3      -0.1417230815       0.0000000001
+    4      -0.1407624490       0.0000000001
+    5      -0.1390075503       0.0000000001
+    6      -0.1367498970       0.0000000001
+    7      -0.1358910145       0.0000000001
+    8       0.0309827361       0.0000005389
+    9       0.0330242622       0.0000001674
+   10       0.0349927877       0.0000001483
+   11       0.0351389209       0.0000001238
+   12       0.0367351923       0.0000004519
+   13       0.0393675221       0.0000002518
+   14       0.1516978053       0.0066735570
+   15       0.1523979138       0.0007379262
+   16       0.1530452759       0.0029678943
+   17       0.1759890503       0.0035004248
+   18       0.1785765622       0.0004278562
+   19       0.1804297970       0.0021482529
+   20       0.1812015448       0.0005327441
+   21       0.1842597763       0.0048745533
+End of Davidson iteration: rnorm =       0.0010411853
+
+Time for diagonalization: 3.590000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.004198
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.5161682324
+EKIN   =      12.7955481016
+EHT    =     -37.7938815541
+EPSEU  =       2.4426384938
+ENL    =       0.7694896458
+EXC    =      -9.7299629194
+!     9     -31.5161682324       1.1170829798
+
+=====SCF iteration: 10=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788243649
+davidson_cpu:     3     0       0.3202293291
+davidson_cpu:     4     0       0.1576148049
+davidson_cpu:     5     0       0.0666141941
+davidson_cpu:     6     0       0.0379375364
+davidson_cpu:     7     0       0.0240481819
+davidson_cpu:     8     0       0.0187374782
+davidson_cpu:     9     0       0.0136359033
+davidson_cpu:    10     0       0.0118415262
+davidson_cpu:    11     0       0.0088916002
+davidson_cpu:    12     0       0.0080396092
+davidson_cpu:    13     0       0.0060459296
+davidson_cpu:    14     0       0.0055568738
+davidson_cpu:    15     0       0.0042030571
+davidson_cpu:    16     1       0.0038955513
+davidson_cpu:    17     1       0.0030205998
+davidson_cpu:    18     1       0.0028128178
+davidson_cpu:    19     7       0.0022597001
+davidson_cpu:    20     7       0.0021047315
+davidson_cpu:    21     7       0.0017536318
+davidson_cpu:    22     7       0.0016387201
+davidson_cpu:    23     7       0.0014097262
+davidson_cpu:    24     7       0.0013260050
+davidson_cpu:    25     7       0.0011768107
+davidson_cpu:    26     7       0.0011161625
+davidson_cpu:    27     9       0.0010251533
+davidson_cpu:    28    10       0.0009863724
+davidson_cpu:    29    11       0.0009373305
+davidson_cpu:    30    13       0.0009111101
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2956215624       0.0000000000
+    2      -0.1433164494       0.0000000001
+    3      -0.1427764113       0.0000000001
+    4      -0.1424214482       0.0000000001
+    5      -0.1416261375       0.0000000001
+    6      -0.1406740337       0.0000000001
+    7      -0.1400211069       0.0000000001
+    8       0.0321934842       0.0000006273
+    9       0.0327400660       0.0000001926
+   10       0.0332617953       0.0000001282
+   11       0.0334501201       0.0000002829
+   12       0.0337327950       0.0000004365
+   13       0.0343367207       0.0000001054
+   14       0.1507859543       0.0008848909
+   15       0.1509743288       0.0055933641
+   16       0.1511797560       0.0065460707
+   17       0.1743768322       0.0019156998
+   18       0.1753114903       0.0003703077
+   19       0.1759531884       0.0009031513
+   20       0.1761797862       0.0005419690
+   21       0.1774722622       0.0014312576
+End of Davidson iteration: rnorm =       0.0008661183
+
+Time for diagonalization: 5.320000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.002842
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.3590627562
+EKIN   =      12.7973613546
+EHT    =     -37.5768836350
+EPSEU  =       2.3473993357
+ENL    =       0.7653027585
+EXC    =      -9.6922425699
+!    10     -31.3590627562       0.1571054762
+
+=====SCF iteration: 11=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788694956
+davidson_cpu:     3     0       0.3204683405
+davidson_cpu:     4     0       0.1573070676
+davidson_cpu:     5     0       0.0663295443
+davidson_cpu:     6     0       0.0377656530
+davidson_cpu:     7     0       0.0236001570
+davidson_cpu:     8     0       0.0184252092
+davidson_cpu:     9     0       0.0133658867
+davidson_cpu:    10     0       0.0113936651
+davidson_cpu:    11     0       0.0083990096
+davidson_cpu:    12     0       0.0074429357
+davidson_cpu:    13     0       0.0055102155
+davidson_cpu:    14     0       0.0050321719
+davidson_cpu:    15     0       0.0038435946
+davidson_cpu:    16     1       0.0035908066
+davidson_cpu:    17     1       0.0028510476
+davidson_cpu:    18     3       0.0026470496
+davidson_cpu:    19     6       0.0021368268
+davidson_cpu:    20     7       0.0019661471
+davidson_cpu:    21     7       0.0016130237
+davidson_cpu:    22     7       0.0014823711
+davidson_cpu:    23     7       0.0012318879
+davidson_cpu:    24     7       0.0011307200
+davidson_cpu:    25     7       0.0009526181
+davidson_cpu:    26     7       0.0008731920
+davidson_cpu:    27     9       0.0007456622
+davidson_cpu:    28    11       0.0006840476
+davidson_cpu:    29    12       0.0005923453
+davidson_cpu:    30    13       0.0005449000
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2972106022       0.0000000000
+    2      -0.1449345573       0.0000000001
+    3      -0.1442145368       0.0000000002
+    4      -0.1435381672       0.0000000001
+    5      -0.1435035728       0.0000000001
+    6      -0.1429189658       0.0000000001
+    7      -0.1426624572       0.0000000001
+    8       0.0313801799       0.0000006687
+    9       0.0314178157       0.0000002002
+   10       0.0317189085       0.0000001269
+   11       0.0318358466       0.0000002374
+   12       0.0319400262       0.0000003899
+   13       0.0321998857       0.0000001197
+   14       0.1488289469       0.0003495392
+   15       0.1489807256       0.0001880123
+   16       0.1491595265       0.0076835660
+   17       0.1746493195       0.0002599752
+   18       0.1747480387       0.0005069105
+   19       0.1748673748       0.0003465145
+   20       0.1749402209       0.0003051888
+   21       0.1751071361       0.0004397240
+End of Davidson iteration: rnorm =       0.0004800559
+
+Time for diagonalization: 4.830000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.001417
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1767710842
+EKIN   =      12.8217984118
+EHT    =     -37.3896061408
+EPSEU  =       2.2548306812
+ENL    =       0.7709326715
+EXC    =      -9.6347267078
+!    11     -31.1767710842       0.1822916720
+
+=====SCF iteration: 12=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7789527943
+davidson_cpu:     3     0       0.3206083195
+davidson_cpu:     4     0       0.1571541189
+davidson_cpu:     5     0       0.0661075611
+davidson_cpu:     6     0       0.0375808791
+davidson_cpu:     7     0       0.0235051585
+davidson_cpu:     8     0       0.0182736076
+davidson_cpu:     9     0       0.0132087090
+davidson_cpu:    10     0       0.0114386107
+davidson_cpu:    11     0       0.0084376925
+davidson_cpu:    12     0       0.0075122547
+davidson_cpu:    13     0       0.0055825698
+davidson_cpu:    14     0       0.0051125987
+davidson_cpu:    15     0       0.0039235470
+davidson_cpu:    16     1       0.0036579500
+davidson_cpu:    17     1       0.0028914551
+davidson_cpu:    18     3       0.0026810936
+davidson_cpu:    19     5       0.0021395148
+davidson_cpu:    20     7       0.0019736404
+davidson_cpu:    21     7       0.0016016809
+davidson_cpu:    22     7       0.0014744481
+davidson_cpu:    23     7       0.0012201544
+davidson_cpu:    24     7       0.0011255115
+davidson_cpu:    25     7       0.0009493563
+davidson_cpu:    26     7       0.0008803829
+davidson_cpu:    27     7       0.0007569014
+davidson_cpu:    28     9       0.0007078066
+davidson_cpu:    29    12       0.0006213092
+davidson_cpu:    30    13       0.0005932822
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2975586591       0.0000000000
+    2      -0.1448282752       0.0000000000
+    3      -0.1444836610       0.0000000001
+    4      -0.1441317714       0.0000000001
+    5      -0.1438815805       0.0000000001
+    6      -0.1438582208       0.0000000000
+    7      -0.1437510680       0.0000000001
+    8       0.0311682338       0.0000001939
+    9       0.0313648128       0.0000002797
+   10       0.0314068799       0.0000003476
+   11       0.0315461326       0.0000002486
+   12       0.0315719666       0.0000003589
+   13       0.0316040155       0.0000005439
+   14       0.1482620482       0.0008316822
+   15       0.1482760691       0.0012562652
+   16       0.1484942350       0.0070848397
+   17       0.1747231743       0.0004758157
+   18       0.1748587028       0.0003492096
+   19       0.1749612075       0.0001941070
+   20       0.1750208723       0.0003755020
+   21       0.1752994725       0.0005898620
+End of Davidson iteration: rnorm =       0.0005313932
+
+Time for diagonalization: 5.740000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000312
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1519278345
+EKIN   =      12.8375131220
+EHT    =     -37.3644930217
+EPSEU  =       2.2421475895
+ENL    =       0.7753588147
+EXC    =      -9.6424543389
+!    12     -31.1519278345       0.0248432497
+
+=====SCF iteration: 13=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7789320273
+davidson_cpu:     3     0       0.3205788175
+davidson_cpu:     4     0       0.1571435002
+davidson_cpu:     5     0       0.0659865329
+davidson_cpu:     6     0       0.0375341481
+davidson_cpu:     7     0       0.0234908446
+davidson_cpu:     8     0       0.0183175106
+davidson_cpu:     9     0       0.0134434091
+davidson_cpu:    10     0       0.0115776540
+davidson_cpu:    11     0       0.0085163471
+davidson_cpu:    12     0       0.0075893509
+davidson_cpu:    13     0       0.0056413221
+davidson_cpu:    14     0       0.0051882522
+davidson_cpu:    15     0       0.0039942658
+davidson_cpu:    16     1       0.0037234704
+davidson_cpu:    17     1       0.0029175626
+davidson_cpu:    18     1       0.0027045761
+davidson_cpu:    19     6       0.0021482777
+davidson_cpu:    20     7       0.0019844901
+davidson_cpu:    21     7       0.0016055570
+davidson_cpu:    22     7       0.0014836230
+davidson_cpu:    23     7       0.0012217577
+davidson_cpu:    24     7       0.0011357312
+davidson_cpu:    25     7       0.0009515518
+davidson_cpu:    26     8       0.0008899534
+davidson_cpu:    27     9       0.0007621607
+davidson_cpu:    28    10       0.0007191865
+davidson_cpu:    29    10       0.0006325002
+davidson_cpu:    30    13       0.0006018150
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2975613222       0.0000000000
+    2      -0.1444834416       0.0000000001
+    3      -0.1443614447       0.0000000001
+    4      -0.1441869391       0.0000000001
+    5      -0.1440846986       0.0000000001
+    6      -0.1439707515       0.0000000001
+    7      -0.1438589190       0.0000000001
+    8       0.0312220936       0.0000005723
+    9       0.0313174742       0.0000004185
+   10       0.0314259809       0.0000000847
+   11       0.0315197208       0.0000004113
+   12       0.0315515686       0.0000000811
+   13       0.0316391505       0.0000001602
+   14       0.1482823937       0.0010692151
+   15       0.1482975815       0.0010614176
+   16       0.1485173088       0.0071349621
+   17       0.1745815741       0.0005908523
+   18       0.1747584483       0.0003412529
+   19       0.1749325599       0.0002280618
+   20       0.1749897467       0.0004297502
+   21       0.1753851994       0.0005864671
+End of Davidson iteration: rnorm =       0.0005449385
+
+Time for diagonalization: 6.750000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000165
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1646771421
+EKIN   =      12.8373018163
+EHT    =     -37.3573743791
+EPSEU  =       2.2416675352
+ENL    =       0.7755609695
+EXC    =      -9.6618330839
+!    13     -31.1646771421       0.0127493076
+
+=====SCF iteration: 14=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788829580
+davidson_cpu:     3     0       0.3205302170
+davidson_cpu:     4     0       0.1571469937
+davidson_cpu:     5     0       0.0659999731
+davidson_cpu:     6     0       0.0376624908
+davidson_cpu:     7     0       0.0235445134
+davidson_cpu:     8     0       0.0184308635
+davidson_cpu:     9     0       0.0134500044
+davidson_cpu:    10     0       0.0115206094
+davidson_cpu:    11     0       0.0084771215
+davidson_cpu:    12     0       0.0075560087
+davidson_cpu:    13     0       0.0056191830
+davidson_cpu:    14     0       0.0051696476
+davidson_cpu:    15     0       0.0039803268
+davidson_cpu:    16     1       0.0037115601
+davidson_cpu:    17     1       0.0029065861
+davidson_cpu:    18     1       0.0026940828
+davidson_cpu:    19     7       0.0021432625
+davidson_cpu:    20     7       0.0019812643
+davidson_cpu:    21     7       0.0016059861
+davidson_cpu:    22     7       0.0014879174
+davidson_cpu:    23     7       0.0012246273
+davidson_cpu:    24     7       0.0011399492
+davidson_cpu:    25     8       0.0009541255
+davidson_cpu:    26     8       0.0008916937
+davidson_cpu:    27     9       0.0007633892
+davidson_cpu:    28    10       0.0007184765
+davidson_cpu:    29    12       0.0006304971
+davidson_cpu:    30    13       0.0006032970
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2977775500       0.0000000000
+    2      -0.1446491000       0.0000000001
+    3      -0.1446091671       0.0000000001
+    4      -0.1444192613       0.0000000001
+    5      -0.1444083118       0.0000000001
+    6      -0.1441139603       0.0000000001
+    7      -0.1438839988       0.0000000001
+    8       0.0308857363       0.0000006206
+    9       0.0310638626       0.0000003244
+   10       0.0312464412       0.0000000468
+   11       0.0313470266       0.0000002068
+   12       0.0313935384       0.0000003957
+   13       0.0315385478       0.0000001310
+   14       0.1481228641       0.0008270775
+   15       0.1481369132       0.0011809228
+   16       0.1483654254       0.0072384022
+   17       0.1742422981       0.0006132018
+   18       0.1743998702       0.0003438395
+   19       0.1746005266       0.0002431892
+   20       0.1746405030       0.0004433016
+   21       0.1750407937       0.0005410479
+End of Davidson iteration: rnorm =       0.0005444147
+
+Time for diagonalization: 5.580000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000082
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1823285765
+EKIN   =      12.8355320380
+EHT    =     -37.3595229446
+EPSEU  =       2.2468864859
+ENL    =       0.7754615743
+EXC    =      -9.6806857301
+!    14     -31.1823285765       0.0176514344
+
+=====SCF iteration: 15=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788368946
+davidson_cpu:     3     0       0.3204908407
+davidson_cpu:     4     0       0.1571503076
+davidson_cpu:     5     0       0.0659976368
+davidson_cpu:     6     0       0.0376459024
+davidson_cpu:     7     0       0.0235026722
+davidson_cpu:     8     0       0.0183307608
+davidson_cpu:     9     0       0.0134277902
+davidson_cpu:    10     0       0.0115101445
+davidson_cpu:    11     0       0.0084646765
+davidson_cpu:    12     0       0.0075381333
+davidson_cpu:    13     0       0.0056030295
+davidson_cpu:    14     0       0.0051523829
+davidson_cpu:    15     0       0.0039655207
+davidson_cpu:    16     1       0.0036985581
+davidson_cpu:    17     1       0.0028967628
+davidson_cpu:    18     2       0.0026851636
+davidson_cpu:    19     7       0.0021374899
+davidson_cpu:    20     7       0.0019768622
+davidson_cpu:    21     7       0.0016042622
+davidson_cpu:    22     7       0.0014866079
+davidson_cpu:    23     7       0.0012249626
+davidson_cpu:    24     7       0.0011400983
+davidson_cpu:    25     7       0.0009547610
+davidson_cpu:    26     8       0.0008916481
+davidson_cpu:    27     9       0.0007631344
+davidson_cpu:    28    10       0.0007167687
+davidson_cpu:    29    12       0.0006294859
+davidson_cpu:    30    13       0.0005977147
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2980658966       0.0000000000
+    2      -0.1449346835       0.0000000001
+    3      -0.1448558890       0.0000000001
+    4      -0.1446743306       0.0000000001
+    5      -0.1446283310       0.0000000001
+    6      -0.1443792355       0.0000000001
+    7      -0.1441758242       0.0000000001
+    8       0.0306817520       0.0000006127
+    9       0.0308270002       0.0000003489
+   10       0.0309752672       0.0000000671
+   11       0.0310735955       0.0000002549
+   12       0.0310910517       0.0000003626
+   13       0.0312028656       0.0000001390
+   14       0.1478808405       0.0005749684
+   15       0.1478962007       0.0012886896
+   16       0.1481329962       0.0073150984
+   17       0.1738415735       0.0005978916
+   18       0.1739939183       0.0003410929
+   19       0.1741880486       0.0002470982
+   20       0.1742252014       0.0004281538
+   21       0.1746145283       0.0005374335
+End of Davidson iteration: rnorm =       0.0005396291
+
+Time for diagonalization: 6.690000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000021
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1860047407
+EKIN   =      12.8338276046
+EHT    =     -37.3585859206
+EPSEU  =       2.2471627871
+ENL    =       0.7753148948
+EXC    =      -9.6837241065
+!    15     -31.1860047407       0.0036761642
+
+=====SCF iteration: 16=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788312558
+davidson_cpu:     3     0       0.3204873265
+davidson_cpu:     4     0       0.1571495845
+davidson_cpu:     5     0       0.0659932987
+davidson_cpu:     6     0       0.0376305764
+davidson_cpu:     7     0       0.0235003846
+davidson_cpu:     8     0       0.0183246594
+davidson_cpu:     9     0       0.0134292148
+davidson_cpu:    10     0       0.0115127147
+davidson_cpu:    11     0       0.0084671068
+davidson_cpu:    12     0       0.0075416365
+davidson_cpu:    13     0       0.0056079416
+davidson_cpu:    14     0       0.0051582693
+davidson_cpu:    15     0       0.0039717164
+davidson_cpu:    16     1       0.0037027782
+davidson_cpu:    17     1       0.0028987544
+davidson_cpu:    18     2       0.0026867550
+davidson_cpu:    19     7       0.0021378627
+davidson_cpu:    20     7       0.0019773640
+davidson_cpu:    21     7       0.0016041857
+davidson_cpu:    22     7       0.0014865849
+davidson_cpu:    23     7       0.0012250679
+davidson_cpu:    24     7       0.0011406581
+davidson_cpu:    25     7       0.0009553700
+davidson_cpu:    26     8       0.0008928229
+davidson_cpu:    27     9       0.0007643324
+davidson_cpu:    28    10       0.0007188767
+davidson_cpu:    29    12       0.0006298397
+davidson_cpu:    30    13       0.0006022764
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981200905       0.0000000000
+    2      -0.1449870626       0.0000000001
+    3      -0.1448975323       0.0000000001
+    4      -0.1447227166       0.0000000001
+    5      -0.1446714972       0.0000000001
+    6      -0.1444363331       0.0000000001
+    7      -0.1442456360       0.0000000001
+    8       0.0306390423       0.0000006148
+    9       0.0307767463       0.0000003521
+   10       0.0309221594       0.0000000725
+   11       0.0310199675       0.0000002679
+   12       0.0310349927       0.0000003520
+   13       0.0311469708       0.0000001423
+   14       0.1478301177       0.0005767034
+   15       0.1478457679       0.0013218649
+   16       0.1480829911       0.0073284674
+   17       0.1737675331       0.0006023574
+   18       0.1739247998       0.0003402278
+   19       0.1741206714       0.0002445239
+   20       0.1741617229       0.0004319584
+   21       0.1745592390       0.0005508338
+End of Davidson iteration: rnorm =       0.0005427971
+
+Time for diagonalization: 8.110000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000010
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1861595687
+EKIN   =      12.8337137329
+EHT    =     -37.3573500165
+EPSEU  =       2.2467840012
+ENL    =       0.7753280205
+EXC    =      -9.6846353067
+!    16     -31.1861595687       0.0001548280
+
+=====SCF iteration: 17=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788312664
+davidson_cpu:     3     0       0.3204888382
+davidson_cpu:     4     0       0.1571485851
+davidson_cpu:     5     0       0.0659917124
+davidson_cpu:     6     0       0.0376292645
+davidson_cpu:     7     0       0.0235057954
+davidson_cpu:     8     0       0.0183350152
+davidson_cpu:     9     0       0.0134331043
+davidson_cpu:    10     0       0.0115127969
+davidson_cpu:    11     0       0.0084679119
+davidson_cpu:    12     0       0.0075430097
+davidson_cpu:    13     0       0.0056094605
+davidson_cpu:    14     0       0.0051601737
+davidson_cpu:    15     0       0.0039736483
+davidson_cpu:    16     1       0.0037042617
+davidson_cpu:    17     1       0.0028998519
+davidson_cpu:    18     2       0.0026876667
+davidson_cpu:    19     7       0.0021386796
+davidson_cpu:    20     7       0.0019779972
+davidson_cpu:    21     7       0.0016047974
+davidson_cpu:    22     7       0.0014869798
+davidson_cpu:    23     7       0.0012256626
+davidson_cpu:    24     7       0.0011412744
+davidson_cpu:    25     7       0.0009561731
+davidson_cpu:    26     8       0.0008938678
+davidson_cpu:    27     9       0.0007658978
+davidson_cpu:    28    10       0.0007198019
+davidson_cpu:    29    12       0.0006316608
+davidson_cpu:    30    13       0.0006036311
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981392848       0.0000000000
+    2      -0.1450032630       0.0000000001
+    3      -0.1449157915       0.0000000001
+    4      -0.1447481547       0.0000000001
+    5      -0.1446932866       0.0000000001
+    6      -0.1444577542       0.0000000001
+    7      -0.1442652621       0.0000000001
+    8       0.0306143787       0.0000006145
+    9       0.0307528359       0.0000003497
+   10       0.0309025803       0.0000000692
+   11       0.0310007332       0.0000002656
+   12       0.0310185779       0.0000003530
+   13       0.0311347656       0.0000001408
+   14       0.1478089607       0.0006153148
+   15       0.1478245715       0.0013462766
+   16       0.1480603861       0.0073207871
+   17       0.1737497997       0.0006033394
+   18       0.1739076046       0.0003407678
+   19       0.1741051739       0.0002397207
+   20       0.1741469049       0.0004348834
+   21       0.1745457846       0.0005508630
+End of Davidson iteration: rnorm =       0.0005454165
+
+Time for diagonalization: 8.080000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000004
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1860216159
+EKIN   =      12.8338232726
+EHT    =     -37.3569865737
+EPSEU  =       2.2466790880
+ENL    =       0.7753535583
+EXC    =      -9.6848909611
+!    17     -31.1860216159       0.0001379528
+
+=====SCF iteration: 18=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788315749
+davidson_cpu:     3     0       0.3204892866
+davidson_cpu:     4     0       0.1571483671
+davidson_cpu:     5     0       0.0659918704
+davidson_cpu:     6     0       0.0376303308
+davidson_cpu:     7     0       0.0235048352
+davidson_cpu:     8     0       0.0183336406
+davidson_cpu:     9     0       0.0134319809
+davidson_cpu:    10     0       0.0115128130
+davidson_cpu:    11     0       0.0084676467
+davidson_cpu:    12     0       0.0075425486
+davidson_cpu:    13     0       0.0056086908
+davidson_cpu:    14     0       0.0051590860
+davidson_cpu:    15     0       0.0039724604
+davidson_cpu:    16     1       0.0037036027
+davidson_cpu:    17     1       0.0028995244
+davidson_cpu:    18     2       0.0026874846
+davidson_cpu:    19     7       0.0021384825
+davidson_cpu:    20     7       0.0019778514
+davidson_cpu:    21     7       0.0016046017
+davidson_cpu:    22     7       0.0014868844
+davidson_cpu:    23     7       0.0012255377
+davidson_cpu:    24     7       0.0011411991
+davidson_cpu:    25     7       0.0009562277
+davidson_cpu:    26     8       0.0008937831
+davidson_cpu:    27     9       0.0007657029
+davidson_cpu:    28    10       0.0007199898
+davidson_cpu:    29    12       0.0006329096
+davidson_cpu:    30    13       0.0006023532
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981454330       0.0000000000
+    2      -0.1450098804       0.0000000001
+    3      -0.1449226267       0.0000000001
+    4      -0.1447544561       0.0000000001
+    5      -0.1447017504       0.0000000001
+    6      -0.1444643330       0.0000000001
+    7      -0.1442703488       0.0000000001
+    8       0.0306097193       0.0000006127
+    9       0.0307464449       0.0000003519
+   10       0.0308963178       0.0000000709
+   11       0.0309950105       0.0000002681
+   12       0.0310119069       0.0000003505
+   13       0.0311269545       0.0000001419
+   14       0.1478019122       0.0006236944
+   15       0.1478175370       0.0013538305
+   16       0.1480527915       0.0073240460
+   17       0.1737479026       0.0005987688
+   18       0.1739039109       0.0003416594
+   19       0.1741009689       0.0002394445
+   20       0.1741424905       0.0004329743
+   21       0.1745383011       0.0005492689
+End of Davidson iteration: rnorm =       0.0005459754
+
+Time for diagonalization: 8.100000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000002
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1859366821
+EKIN   =      12.8338652116
+EHT    =     -37.3567591054
+EPSEU  =       2.2466081829
+ENL    =       0.7753609166
+EXC    =      -9.6850118879
+!    18     -31.1859366821       0.0000849338
+
+=====SCF iteration: 19=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788317111
+davidson_cpu:     3     0       0.3204894850
+davidson_cpu:     4     0       0.1571483791
+davidson_cpu:     5     0       0.0659918953
+davidson_cpu:     6     0       0.0376304111
+davidson_cpu:     7     0       0.0235044684
+davidson_cpu:     8     0       0.0183329245
+davidson_cpu:     9     0       0.0134317149
+davidson_cpu:    10     0       0.0115128805
+davidson_cpu:    11     0       0.0084674285
+davidson_cpu:    12     0       0.0075422802
+davidson_cpu:    13     0       0.0056082560
+davidson_cpu:    14     0       0.0051586777
+davidson_cpu:    15     0       0.0039721142
+davidson_cpu:    16     1       0.0037035559
+davidson_cpu:    17     1       0.0028997275
+davidson_cpu:    18     2       0.0026878048
+davidson_cpu:    19     7       0.0021387850
+davidson_cpu:    20     7       0.0019781806
+davidson_cpu:    21     7       0.0016048484
+davidson_cpu:    22     7       0.0014871667
+davidson_cpu:    23     7       0.0012257736
+davidson_cpu:    24     7       0.0011415478
+davidson_cpu:    25     7       0.0009566183
+davidson_cpu:    26     8       0.0008942638
+davidson_cpu:    27     9       0.0007662334
+davidson_cpu:    28    10       0.0007209346
+davidson_cpu:    29    12       0.0006332779
+davidson_cpu:    30    13       0.0006049200
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981488587       0.0000000000
+    2      -0.1450141906       0.0000000001
+    3      -0.1449260799       0.0000000001
+    4      -0.1447571824       0.0000000001
+    5      -0.1447058441       0.0000000001
+    6      -0.1444681094       0.0000000001
+    7      -0.1442743665       0.0000000001
+    8       0.0306069460       0.0000006120
+    9       0.0307432797       0.0000003522
+   10       0.0308927014       0.0000000711
+   11       0.0309916056       0.0000002693
+   12       0.0310079215       0.0000003494
+   13       0.0311231047       0.0000001414
+   14       0.1477980819       0.0006587735
+   15       0.1478134569       0.0013485678
+   16       0.1480485603       0.0073245215
+   17       0.1737459273       0.0006010764
+   18       0.1739022942       0.0003407078
+   19       0.1740982311       0.0002389494
+   20       0.1741396586       0.0004342227
+   21       0.1745350752       0.0005486953
+End of Davidson iteration: rnorm =       0.0005474910
+
+Time for diagonalization: 8.090000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858959450
+EKIN   =      12.8339042623
+EHT    =     -37.3567084023
+EPSEU  =       2.2465963955
+ENL    =       0.7753670524
+EXC    =      -9.6850552528
+!    19     -31.1858959450       0.0000407372
+
+=====SCF iteration: 20=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788316945
+davidson_cpu:     3     0       0.3204894340
+davidson_cpu:     4     0       0.1571484060
+davidson_cpu:     5     0       0.0659918997
+davidson_cpu:     6     0       0.0376301276
+davidson_cpu:     7     0       0.0235042813
+davidson_cpu:     8     0       0.0183324803
+davidson_cpu:     9     0       0.0134315927
+davidson_cpu:    10     0       0.0115126896
+davidson_cpu:    11     0       0.0084672726
+davidson_cpu:    12     0       0.0075421396
+davidson_cpu:    13     0       0.0056082103
+davidson_cpu:    14     0       0.0051586024
+davidson_cpu:    15     0       0.0039720680
+davidson_cpu:    16     1       0.0037033926
+davidson_cpu:    17     1       0.0028994957
+davidson_cpu:    18     2       0.0026875023
+davidson_cpu:    19     7       0.0021385123
+davidson_cpu:    20     7       0.0019779090
+davidson_cpu:    21     7       0.0016046257
+davidson_cpu:    22     7       0.0014869345
+davidson_cpu:    23     7       0.0012255295
+davidson_cpu:    24     7       0.0011412275
+davidson_cpu:    25     7       0.0009561731
+davidson_cpu:    26     8       0.0008938352
+davidson_cpu:    27     9       0.0007657988
+davidson_cpu:    28    10       0.0007199490
+davidson_cpu:    29    12       0.0006338861
+davidson_cpu:    30    13       0.0006035799
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981498659       0.0000000000
+    2      -0.1450154220       0.0000000001
+    3      -0.1449270730       0.0000000001
+    4      -0.1447581450       0.0000000001
+    5      -0.1447062449       0.0000000001
+    6      -0.1444689848       0.0000000001
+    7      -0.1442761187       0.0000000001
+    8       0.0306058516       0.0000006160
+    9       0.0307427203       0.0000003533
+   10       0.0308919437       0.0000000722
+   11       0.0309904884       0.0000002717
+   12       0.0310066789       0.0000003497
+   13       0.0311219377       0.0000001423
+   14       0.1477968814       0.0006306237
+   15       0.1478124277       0.0013532646
+   16       0.1480477602       0.0073499532
+   17       0.1737451895       0.0005999963
+   18       0.1739011028       0.0003413163
+   19       0.1740972290       0.0002413003
+   20       0.1741388348       0.0004336108
+   21       0.1745341477       0.0005501063
+End of Davidson iteration: rnorm =       0.0005477132
+
+Time for diagonalization: 8.100000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858428421
+EKIN   =      12.8339441292
+EHT    =     -37.3566912212
+EPSEU  =       2.2465860056
+ENL    =       0.7753674023
+EXC    =      -9.6850491580
+!    20     -31.1858428421       0.0000531029
+
+=====SCF iteration: 21=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788317182
+davidson_cpu:     3     0       0.3204895881
+davidson_cpu:     4     0       0.1571483051
+davidson_cpu:     5     0       0.0659919233
+davidson_cpu:     6     0       0.0376301430
+davidson_cpu:     7     0       0.0235041855
+davidson_cpu:     8     0       0.0183324019
+davidson_cpu:     9     0       0.0134315985
+davidson_cpu:    10     0       0.0115126443
+davidson_cpu:    11     0       0.0084672685
+davidson_cpu:    12     0       0.0075420571
+davidson_cpu:    13     0       0.0056081132
+davidson_cpu:    14     0       0.0051584932
+davidson_cpu:    15     0       0.0039719327
+davidson_cpu:    16     1       0.0037032598
+davidson_cpu:    17     1       0.0028993999
+davidson_cpu:    18     2       0.0026873885
+davidson_cpu:    19     7       0.0021384848
+davidson_cpu:    20     7       0.0019778524
+davidson_cpu:    21     7       0.0016046295
+davidson_cpu:    22     7       0.0014869115
+davidson_cpu:    23     7       0.0012255077
+davidson_cpu:    24     7       0.0011411260
+davidson_cpu:    25     7       0.0009560849
+davidson_cpu:    26     8       0.0008937009
+davidson_cpu:    27     9       0.0007655647
+davidson_cpu:    28    10       0.0007199729
+davidson_cpu:    29    12       0.0006331093
+davidson_cpu:    30    13       0.0006018276
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981497527       0.0000000000
+    2      -0.1450150993       0.0000000001
+    3      -0.1449271076       0.0000000001
+    4      -0.1447581891       0.0000000001
+    5      -0.1447061679       0.0000000001
+    6      -0.1444689548       0.0000000001
+    7      -0.1442759517       0.0000000001
+    8       0.0306060243       0.0000006129
+    9       0.0307427569       0.0000003524
+   10       0.0308920306       0.0000000715
+   11       0.0309906886       0.0000002692
+   12       0.0310067304       0.0000003500
+   13       0.0311219887       0.0000001418
+   14       0.1477969076       0.0006186180
+   15       0.1478125145       0.0013479663
+   16       0.1480479921       0.0073243589
+   17       0.1737454859       0.0006018026
+   18       0.1739010812       0.0003417158
+   19       0.1740976173       0.0002412169
+   20       0.1741390237       0.0004336219
+   21       0.1745342049       0.0005504433
+End of Davidson iteration: rnorm =       0.0005457877
+
+Time for diagonalization: 8.090000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858601722
+EKIN   =      12.8339182371
+EHT    =     -37.3566666221
+EPSEU  =       2.2465765859
+ENL    =       0.7753689103
+EXC    =      -9.6850572835
+!    21     -31.1858601722       0.0000173301
+
+=====SCF iteration: 22=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.8337707520 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.7788317162
+davidson_cpu:     3     0       0.3204896946
+davidson_cpu:     4     0       0.1571483019
+davidson_cpu:     5     0       0.0659919528
+davidson_cpu:     6     0       0.0376300667
+davidson_cpu:     7     0       0.0235040392
+davidson_cpu:     8     0       0.0183322161
+davidson_cpu:     9     0       0.0134315405
+davidson_cpu:    10     0       0.0115128790
+davidson_cpu:    11     0       0.0084675201
+davidson_cpu:    12     0       0.0075423539
+davidson_cpu:    13     0       0.0056083586
+davidson_cpu:    14     0       0.0051587594
+davidson_cpu:    15     0       0.0039720956
+davidson_cpu:    16     1       0.0037033292
+davidson_cpu:    17     1       0.0028993657
+davidson_cpu:    18     2       0.0026873270
+davidson_cpu:    19     7       0.0021384389
+davidson_cpu:    20     7       0.0019778049
+davidson_cpu:    21     7       0.0016046135
+davidson_cpu:    22     7       0.0014868692
+davidson_cpu:    23     7       0.0012254678
+davidson_cpu:    24     7       0.0011410567
+davidson_cpu:    25     7       0.0009559523
+davidson_cpu:    26     8       0.0008935713
+davidson_cpu:    27     9       0.0007650845
+davidson_cpu:    28     9       0.0007200947
+davidson_cpu:    29    12       0.0006331775
+davidson_cpu:    30    13       0.0006009983
+
+Final Davidson result nconv=13 from 21 states:
+    1      -0.2981499795       0.0000000000
+    2      -0.1450154949       0.0000000001
+    3      -0.1449274183       0.0000000001
+    4      -0.1447583507       0.0000000001
+    5      -0.1447059770       0.0000000001
+    6      -0.1444693085       0.0000000001
+    7      -0.1442764084       0.0000000001
+    8       0.0306058951       0.0000006122
+    9       0.0307427100       0.0000003525
+   10       0.0308918396       0.0000000712
+   11       0.0309904206       0.0000002723
+   12       0.0310065986       0.0000003476
+   13       0.0311214124       0.0000001416
+   14       0.1477966153       0.0006108425
+   15       0.1478122602       0.0013467844
+   16       0.1480478326       0.0073245849
+   17       0.1737450452       0.0005999974
+   18       0.1739009400       0.0003421554
+   19       0.1740974244       0.0002404493
+   20       0.1741387787       0.0004338997
+   21       0.1745343882       0.0005499857
+End of Davidson iteration: rnorm =       0.0005452618
+
+Time for diagonalization: 8.100000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000001
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858607693
+EKIN   =      12.8339089523
+EHT    =     -37.3566484687
+EPSEU  =       2.2465698500
+ENL    =       0.7753705955
+EXC    =      -9.6850616983
+!    22     -31.1858607693       0.0000005970
+***Convergence achieved in 22 iterations.
+Data written successfully
+
+Program ended normally at: 15 January 2012 01:17:33 PM
+Total time for SCF loop:                      126.71000 s
+Total elapsed time for main program:          126.76000 s

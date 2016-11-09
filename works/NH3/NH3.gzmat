@@ -1,0 +1,17 @@
+#Put Keywords Here, check Charge and Multiplicity.
+
+ scf done:   -56.582721
+
+0  1
+N
+H  1  r2
+H  1  r3  2  a3
+H  1  r4  2  a4  3  d4
+Variables:
+r2= 0.700
+r3= 0.700
+a3= 107.85
+r4= 0.700
+a4= 107.90
+d4= 116.35
+

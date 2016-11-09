@@ -1,0 +1,126 @@
+
+Program started at: 19 January 2012 01:22:51 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: N.fhi
+ZV(1)      =      5.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.fhi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       3
+
+Total number of atoms:     4
+Atomic coordinates (in bohr):
+N.fhi      -0.1097360000       0.0437320000       0.0575100000
+H.fhi       1.0091200000      -1.4209000000      -0.4706700000
+H.fhi      -0.6139400000       0.9989000000      -1.5262800000
+H.fhi      -1.7022300000      -0.6834000000       0.8403800000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      551
+NGX      =     4408
+NG       =     4337
+GCUT     =     101.3211836423
+GCUTW    =      25.3302959106
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      515
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 5.000000
+FormFactorAtomic: rho of atom 2 is 1.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.108599
+...Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -20.3810275519
+EKIN   =       0.0000000000
+EHT    =     -10.3863888408
+EPSEU  =      -6.8009046018
+ENL    =       0.0000000000
+EXC    =      -3.1937341092
+
+Time for 1st Lanczos iteration: 0.080000
+norm_rT = 22.341745
+norm(f) = 1.183931
+lb = 2.801709
+ub = 4.835035
+
+=====ChebySCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.801709,4.835035) and degree 10
+Time for chebyfilt: 0.350000
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.031696
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =       7.7775623120
+EKIN   =       5.8164280958
+EHT    =       0.0847500819
+EPSEU  =      -0.0001269706
+ENL    =       1.8765141583
+EXC    =      -0.0000030534
+
+!     1       7.7775623120      28.1585898639       0.0316958195
+
+End of ChebySCFLoop
+Residual: 1 0.481078
+Residual: 2 0.650518
+Residual: 3 0.788658
+Residual: 4 0.879542
+Residual: 5 0.637227
+Residual: 6 0.523611
+Residual: 7 0.638224
+Residual: 8 0.516851
+Residual: 9 0.609157
+
+Program ended normally at: 19 January 2012 01:22:53 PM
+Total time for SCF loop:                        1.12000 s
+Total elapsed time for main program:            1.17000 s

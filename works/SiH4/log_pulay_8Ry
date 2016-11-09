@@ -1,0 +1,746 @@
+
+Program started at: 11 January 2012 05:37:46 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (18,18,18)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: H.cpi
+ZV(1)      =      1.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     1
+L_LOC(1)   =     1
+Species name: Si.fhi
+ZV(2)      =      4.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     2
+L_LOC(2)   =     2
+
+NLMAX:                     4
+NAX:                       4
+
+Total number of atoms:     5
+Atomic coordinates (in bohr):
+H.cpi       1.6100000000       1.6100000000       1.6100000000
+H.cpi      -1.6100000000      -1.6100000000       1.6100000000
+H.cpi       1.6100000000      -1.6100000000      -1.6100000000
+H.cpi      -1.6100000000       1.6100000000      -1.6100000000
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):       8.0000000000 Ry
+Fourier grid: (      20,      20,      20)
+NGWX     =      398
+NGX      =     3184
+NG       =     3071
+GCUT     =      81.0569469139
+GCUTW    =      20.2642367285
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      389
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 1.000000
+FormFactorAtomic: rho of atom 2 is 4.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.001024
+...Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -9.0427247255
+EKIN   =       0.0000000000
+EHT    =      -6.0079113714
+EPSEU  =      -0.8166072677
+ENL    =       0.0000000000
+EXC    =      -2.2182060864
+
+=====SCF iteration: 1=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8141775264
+iter =     3     0       0.6091215204
+iter =     4     0       0.3306367439
+iter =     5     0       0.1337309145
+iter =     6     0       0.0608239808
+iter =     7     0       0.0219672914
+iter =     8     0       0.0081432226
+iter =     9     0       0.0031503615
+iter =    10     0       0.0012157903
+iter =    11     0       0.0006687431
+iter =    12     0       0.0005867313
+iter =    13     0       0.0006362716
+iter =    14     3       0.0003931619
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.5142715641       0.0000002318
+2      -0.3210586516       0.0000000925
+3      -0.3210586516       0.0000001395
+4      -0.3210586516       0.0000004272
+5      -0.0357510966       0.0000054761
+6       0.0477353092       0.0000080207
+7       0.0477377610       0.0015162906
+8       0.0537327854       0.0000044723
+9       0.0537327855       0.0000108397
+
+Time for diagonalization: 0.400000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.005469
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -0.1445329359
+EKIN   =       3.5846102588
+EHT    =      -3.1869809171
+EPSEU  =      -0.2467865547
+ENL    =       0.1168839131
+EXC    =      -0.4122596360
+!     1      -0.1445329359       8.8981917895
+
+=====SCF iteration: 2=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8747229713
+iter =     3     0       0.7640446932
+iter =     4     0       0.4101088626
+iter =     5     0       0.2539223588
+iter =     6     0       0.1547104328
+iter =     7     0       0.0809744270
+iter =     8     0       0.0465182594
+iter =     9     0       0.0253860536
+iter =    10     0       0.0115728432
+iter =    11     0       0.0051020244
+iter =    12     0       0.0021016188
+iter =    13     0       0.0009604495
+iter =    14     0       0.0004364712
+iter =    15     0       0.0002728209
+iter =    16     0       0.0002092692
+iter =    17     0       0.0001397545
+iter =    18     0       0.0000819953
+iter =    19     1       0.0000417212
+iter =    20     3       0.0000229838
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 20
+Final LOBPCG result
+1      -0.9854271352       0.0000000846
+2      -0.7409519563       0.0000003937
+3      -0.7409491243       0.0000005159
+4      -0.7409439595       0.0000001856
+5      -0.2568732131       0.0000010835
+6      -0.2568691798       0.0000009452
+7      -0.2568658918       0.0000009770
+8      -0.1476601795       0.0000869871
+9      -0.1014844521       0.0000451265
+
+Time for diagonalization: 0.580000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.005241
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -1.0270746636
+EKIN   =       4.6849888778
+EHT    =      -4.7031280738
+EPSEU  =      -0.3122174218
+ENL    =       0.2146157359
+EXC    =      -0.9113337816
+!     2      -1.0270746636       0.8825417277
+
+=====SCF iteration: 3=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8493520609
+iter =     3     0       0.7051286074
+iter =     4     0       0.3738171030
+iter =     5     0       0.2054703592
+iter =     6     0       0.1157022146
+iter =     7     0       0.0575048841
+iter =     8     0       0.0371867036
+iter =     9     0       0.0167355497
+iter =    10     0       0.0065806103
+iter =    11     0       0.0025023472
+iter =    12     0       0.0009947555
+iter =    13     0       0.0004652393
+iter =    14     0       0.0002048770
+iter =    15     0       0.0001016964
+iter =    16     0       0.0000503658
+iter =    17     1       0.0000237444
+iter =    18     3       0.0000139395
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 18
+Final LOBPCG result
+1      -0.7915236955       0.0000001011
+2      -0.5678686976       0.0000002860
+3      -0.5678615005       0.0000005428
+4      -0.5678543721       0.0000001847
+5      -0.1188096817       0.0000047676
+6      -0.1188033736       0.0000031415
+7      -0.1188012917       0.0000041848
+8      -0.0532184782       0.0000157479
+9      -0.0013353739       0.0001009106
+
+Time for diagonalization: 0.520000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.003562
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -2.7157985195
+EKIN   =       4.3273409146
+EHT    =      -5.4614362408
+EPSEU  =      -0.4283955719
+ENL    =       0.1703236595
+EXC    =      -1.3236312810
+!     3      -2.7157985195       1.6887238559
+
+=====SCF iteration: 4=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8342854213
+iter =     3     0       0.6665147115
+iter =     4     0       0.3513216100
+iter =     5     0       0.1737005996
+iter =     6     0       0.0893503236
+iter =     7     0       0.0374409645
+iter =     8     0       0.0265964898
+iter =     9     0       0.0176846866
+iter =    10     0       0.0067258300
+iter =    11     0       0.0025490428
+iter =    12     0       0.0010541554
+iter =    13     0       0.0004844174
+iter =    14     0       0.0002451399
+iter =    15     0       0.0001723042
+iter =    16     2       0.0000946053
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 16
+Final LOBPCG result
+1      -0.6576298209       0.0000002374
+2      -0.4502970226       0.0000004405
+3      -0.4502855595       0.0000008156
+4      -0.4502756678       0.0000002226
+5      -0.0275331756       0.0001053833
+6      -0.0275270585       0.0000847648
+7      -0.0275219792       0.0000997537
+8      -0.0044141871       0.0000771594
+9       0.0503433767       0.0000486386
+
+Time for diagonalization: 0.450000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.023706
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -3.0736658169
+EKIN   =       4.0494925436
+EHT    =      -5.4548923933
+EPSEU  =      -0.4611097191
+ENL    =       0.1413653074
+EXC    =      -1.3485215555
+!     4      -3.0736658169       0.3578672973
+
+=====SCF iteration: 5=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8336518261
+iter =     3     0       0.6646635568
+iter =     4     0       0.3503608837
+iter =     5     0       0.1724645810
+iter =     6     0       0.0882320437
+iter =     7     0       0.0367787786
+iter =     8     0       0.0253829692
+iter =     9     0       0.0180173488
+iter =    10     0       0.0067781081
+iter =    11     0       0.0025719727
+iter =    12     0       0.0010560801
+iter =    13     0       0.0004856490
+iter =    14     0       0.0002469177
+iter =    15     0       0.0001752354
+iter =    16     2       0.0000967795
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 16
+Final LOBPCG result
+1      -0.6567921907       0.0000002242
+2      -0.4488145206       0.0000004099
+3      -0.4488028210       0.0000007424
+4      -0.4487927446       0.0000002040
+5      -0.0276766334       0.0001080764
+6      -0.0276703232       0.0000880267
+7      -0.0276651754       0.0001024539
+8      -0.0070680948       0.0000729061
+9       0.0484348339       0.0000504530
+
+Time for diagonalization: 0.460000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.009607
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -4.2755927780
+EKIN   =       4.0378968966
+EHT    =      -6.0794535254
+EPSEU  =      -0.5613808470
+ENL    =       0.1423155454
+EXC    =      -1.8149708477
+!     5      -4.2755927780       1.2019269612
+
+=====SCF iteration: 6=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8206451594
+iter =     3     0       0.6279724271
+iter =     4     0       0.3346125747
+iter =     5     0       0.1443657918
+iter =     6     0       0.0681436674
+iter =     7     0       0.0242076558
+iter =     8     0       0.0093450870
+iter =     9     0       0.0098625945
+iter =    10     0       0.0079900317
+iter =    11     0       0.0025624068
+iter =    12     0       0.0011045512
+iter =    13     0       0.0004948653
+iter =    14     0       0.0001498120
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.5149346332       0.0000005674
+2      -0.3271077552       0.0000007351
+3      -0.3270925235       0.0000008982
+4      -0.3270797692       0.0000002711
+5       0.0240985318       0.0000101421
+6       0.0648176381       0.0001357807
+7       0.0648230119       0.0001304774
+8       0.0648309734       0.0001426389
+9       0.0882617786       0.0000256618
+
+Time for diagonalization: 0.390000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.006233
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -4.0816437111
+EKIN   =       3.7132287261
+EHT    =      -5.8340451790
+EPSEU  =      -0.4880761972
+ENL    =       0.1106499863
+EXC    =      -1.5834010472
+!     6      -4.0816437111       0.1939490669
+
+=====SCF iteration: 7=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8263460951
+iter =     3     0       0.6446718084
+iter =     4     0       0.3408279944
+iter =     5     0       0.1561263088
+iter =     6     0       0.0752341240
+iter =     7     0       0.0286791262
+iter =     8     0       0.0128539393
+iter =     9     0       0.0181257860
+iter =    10     0       0.0084390647
+iter =    11     0       0.0028915712
+iter =    12     0       0.0010214666
+iter =    13     0       0.0004074163
+iter =    14     0       0.0001260140
+iter =    15     1       0.0000497659
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.5786059827       0.0000003187
+2      -0.3821426630       0.0000004353
+3      -0.3821287431       0.0000008025
+4      -0.3821169699       0.0000002455
+5       0.0141247718       0.0000178210
+6       0.0242990108       0.0000604674
+7       0.0243047705       0.0000562441
+8       0.0243114997       0.0000670043
+9       0.0732415165       0.0000352684
+
+Time for diagonalization: 0.430000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.007639
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0317850472
+EKIN   =       3.8710042296
+EHT    =      -6.5274651682
+EPSEU  =      -0.8526005136
+ENL    =       0.1239438201
+EXC    =      -2.6466674151
+!     7      -6.0317850472       1.9501413360
+
+=====SCF iteration: 8=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8064838339
+iter =     3     0       0.5814793709
+iter =     4     0       0.3210877894
+iter =     5     0       0.1219675211
+iter =     6     0       0.0529820539
+iter =     7     0       0.0201568675
+iter =     8     0       0.0079635256
+iter =     9     0       0.0041445057
+iter =    10     0       0.0015206856
+iter =    11     0       0.0005763408
+iter =    12     0       0.0002970060
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 12
+Final LOBPCG result
+1      -0.3309939735       0.0000004226
+2      -0.1677549670       0.0000008531
+3      -0.1677393227       0.0000008260
+4      -0.1677252976       0.0000003708
+5       0.0133018393       0.0000046785
+6       0.1015176852       0.0000741360
+7       0.1015209944       0.0004472900
+8       0.1675500054       0.0004399056
+9       0.1675583884       0.0003852236
+
+Time for diagonalization: 0.340000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.008097
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -5.9713735041
+EKIN   =       3.0796891214
+EHT    =      -6.0678358714
+EPSEU  =      -0.7624304711
+ENL    =       0.0709362954
+EXC    =      -2.2917325783
+!     8      -5.9713735041       0.0604115431
+
+=====SCF iteration: 9=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8129046879
+iter =     3     0       0.6044205346
+iter =     4     0       0.3296454844
+iter =     5     0       0.1308147356
+iter =     6     0       0.0596916298
+iter =     7     0       0.0217309803
+iter =     8     0       0.0080514664
+iter =     9     0       0.0034143463
+iter =    10     0       0.0014833100
+iter =    11     0       0.0009165695
+iter =    12     0       0.0007508176
+iter =    13     0       0.0005071166
+iter =    14     3       0.0002772474
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.4967594001       0.0000001795
+2      -0.3026278684       0.0000002736
+3      -0.3026181387       0.0000002105
+4      -0.3026101436       0.0000001185
+5      -0.0342490587       0.0000033411
+6       0.0522073153       0.0006140041
+7       0.0522101096       0.0005753703
+8       0.0640070943       0.0000316743
+9       0.0640152756       0.0000396441
+
+Time for diagonalization: 0.410000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.002964
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -5.6019062780
+EKIN   =       3.5094573794
+EHT    =      -6.0807377792
+EPSEU  =      -0.8164810826
+ENL    =       0.1151476190
+EXC    =      -2.3292924147
+!     9      -5.6019062780       0.3694672261
+
+=====SCF iteration: 10=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8120635729
+iter =     3     0       0.6015825497
+iter =     4     0       0.3288238381
+iter =     5     0       0.1293266239
+iter =     6     0       0.0590352394
+iter =     7     0       0.0215563009
+iter =     8     0       0.0079884539
+iter =     9     0       0.0035455742
+iter =    10     0       0.0015575216
+iter =    11     0       0.0009371264
+iter =    12     0       0.0006714986
+iter =    13     0       0.0003942959
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4798390912       0.0000005709
+2      -0.2873129938       0.0000009452
+3      -0.2873022536       0.0000007434
+4      -0.2872935390       0.0000004525
+5      -0.0295427763       0.0000096253
+6       0.0587678137       0.0005800652
+7       0.0587705187       0.0012834977
+8       0.0753469126       0.0000317677
+9       0.0753550415       0.0000433690
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.002122
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -5.9201985136
+EKIN   =       3.4674964863
+EHT    =      -6.0970868358
+EPSEU  =      -0.9687035206
+ENL    =       0.1128642964
+EXC    =      -2.4347689399
+!    10      -5.9201985136       0.3182922356
+
+=====SCF iteration: 11=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8106683048
+iter =     3     0       0.5963810783
+iter =     4     0       0.3270268368
+iter =     5     0       0.1270113582
+iter =     6     0       0.0577360562
+iter =     7     0       0.0211615612
+iter =     8     0       0.0077786614
+iter =     9     0       0.0036495719
+iter =    10     0       0.0015491528
+iter =    11     0       0.0008386628
+iter =    12     0       0.0005134851
+iter =    13     0       0.0002826657
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4422109959       0.0000004223
+2      -0.2518379473       0.0000007118
+3      -0.2518284060       0.0000005473
+4      -0.2518208356       0.0000003757
+5      -0.0136387911       0.0000067222
+6       0.0761974810       0.0003709938
+7       0.0762003311       0.0009597915
+8       0.1014559978       0.0000293777
+9       0.1014651485       0.0000443760
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.000219
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0276625652
+EKIN   =       3.3733722682
+EHT    =      -6.1101248074
+EPSEU  =      -0.9622994292
+ENL    =       0.1090318418
+EXC    =      -2.4376424387
+!    11      -6.0276625652       0.1074640516
+
+=====SCF iteration: 12=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8105295927
+iter =     3     0       0.5959491678
+iter =     4     0       0.3268665392
+iter =     5     0       0.1268241968
+iter =     6     0       0.0576448505
+iter =     7     0       0.0211486361
+iter =     8     0       0.0078032904
+iter =     9     0       0.0036616103
+iter =    10     0       0.0015417489
+iter =    11     0       0.0008229940
+iter =    12     0       0.0004963716
+iter =    13     0       0.0002725266
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4395062209       0.0000004084
+2      -0.2499177186       0.0000006722
+3      -0.2499060249       0.0000005290
+4      -0.2498965028       0.0000003823
+5      -0.0133158188       0.0000064774
+6       0.0766196294       0.0003498307
+7       0.0766223359       0.0009388570
+8       0.1029665386       0.0000295931
+9       0.1029749597       0.0000441475
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.000011
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0360752185
+EKIN   =       3.3663229372
+EHT    =      -6.1093851099
+EPSEU  =      -0.9630985950
+ENL    =       0.1079555440
+EXC    =      -2.4378699948
+!    12      -6.0360752185       0.0084126533
+
+=====SCF iteration: 13=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8105337884
+iter =     3     0       0.5959574532
+iter =     4     0       0.3268660245
+iter =     5     0       0.1268288558
+iter =     6     0       0.0576472726
+iter =     7     0       0.0211457049
+iter =     8     0       0.0077836542
+iter =     9     0       0.0036601877
+iter =    10     0       0.0015413756
+iter =    11     0       0.0008230185
+iter =    12     0       0.0004969526
+iter =    13     0       0.0002732950
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4394918543       0.0000004088
+2      -0.2498780359       0.0000006798
+3      -0.2498677187       0.0000005292
+4      -0.2498595249       0.0000003715
+5      -0.0132411381       0.0000064867
+6       0.0766747041       0.0003550629
+7       0.0766774346       0.0009378410
+8       0.1029923788       0.0000298620
+9       0.1030012768       0.0000448594
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.000001
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0360924367
+EKIN   =       3.3663289547
+EHT    =      -6.1094475199
+EPSEU  =      -0.9630752287
+ENL    =       0.1079891060
+EXC    =      -2.4378877487
+!    13      -6.0360924367       0.0000172182
+
+=====SCF iteration: 14=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8105332179
+iter =     3     0       0.5959555452
+iter =     4     0       0.3268651470
+iter =     5     0       0.1268280274
+iter =     6     0       0.0576470050
+iter =     7     0       0.0211472228
+iter =     8     0       0.0077993536
+iter =     9     0       0.0036606050
+iter =    10     0       0.0015414072
+iter =    11     0       0.0008229700
+iter =    12     0       0.0004969123
+iter =    13     0       0.0002732542
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4394782585       0.0000004087
+2      -0.2498689943       0.0000006747
+3      -0.2498576360       0.0000005295
+4      -0.2498484159       0.0000003799
+5      -0.0132378143       0.0000064854
+6       0.0766774293       0.0003545418
+7       0.0766801704       0.0009376764
+8       0.1030002646       0.0000296445
+9       0.1030088185       0.0000443316
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0361329127
+EKIN   =       3.3662932070
+EHT    =      -6.1094479471
+EPSEU  =      -0.9630746601
+ENL    =       0.1079841742
+EXC    =      -2.4378876867
+!    14      -6.0361329127       0.0000404760
+
+=====SCF iteration: 15=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8105332175
+iter =     3     0       0.5959555599
+iter =     4     0       0.3268651362
+iter =     5     0       0.1268280452
+iter =     6     0       0.0576469854
+iter =     7     0       0.0211462153
+iter =     8     0       0.0077903843
+iter =     9     0       0.0036603812
+iter =    10     0       0.0015413580
+iter =    11     0       0.0008229493
+iter =    12     0       0.0004969037
+iter =    13     0       0.0002732688
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4394781775       0.0000004087
+2      -0.2498683122       0.0000006776
+3      -0.2498575921       0.0000005293
+4      -0.2498490059       0.0000003750
+5      -0.0132377619       0.0000064856
+6       0.0766774445       0.0003547286
+7       0.0766801827       0.0009377453
+8       0.1030001984       0.0000297721
+9       0.1030089577       0.0000446478
+
+Time for diagonalization: 0.370000
+Pulay mixing with MIXDIM = 4
+In PulayRhoMix: d = 0.000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -6.0361325296
+EKIN   =       3.3662930643
+EHT    =      -6.1094477046
+EPSEU  =      -0.9630745163
+ENL    =       0.1079841325
+EXC    =      -2.4378875054
+!    15      -6.0361325296       0.0000003831
+***Convergence achieved in 15 iterations.
+Data written successfully
+
+Program ended normally at: 11 January 2012 05:37:53 PM
+Total time for SCF loop:                        6.95000 s
+Total elapsed time for main program:            6.99000 s

@@ -1,0 +1,1833 @@
+
+Program started at: 15 January 2012 01:24:27 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      596
+NGX      =     4768
+NG       =     4625
+GCUT     =     106.7831614288
+GCUTW    =      26.6957903572
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =      587
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 4.000000
+Normalize charge density ......Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -44.1528237322
+EKIN   =       0.0000000000
+EHT    =     -37.3105518149
+EPSEU  =       2.5109102429
+ENL    =       0.0000000000
+EXC    =      -9.3531821602
+Calling Lanczos ....
+End of Lanczos ....
+norm_rT = 22.224709
+norm(f) = 1.100290
+lb = 2.612903
+ub = 4.828704
+
+=====SCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.612903,4.828704)
+Eigenvalue of T
+    1 -0.291547
+    2 -0.155615
+    3 -0.146350
+    4 -0.138324
+    5 -0.129596
+    6 -0.095234
+    7 -0.072492
+    8 0.036243
+    9 0.062490
+   10 0.071771
+   11 0.089303
+   12 0.121603
+   13 0.170182
+   14 0.176202
+   15 0.201709
+   16 0.240086
+   17 0.277571
+   18 0.298040
+   19 0.367403
+   20 0.422768
+   21 0.432411
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.005618
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -29.0057215599
+EKIN   =      14.0731189277
+EHT    =     -37.2629189488
+EPSEU  =       2.5068548796
+ENL    =       1.0399470566
+EXC    =      -9.3627234751
+!     1     -29.0057215599      15.1471021723
+Residual: 1 0.124637
+Residual: 2 0.089454
+Residual: 3 0.107760
+Residual: 4 0.127312
+Residual: 5 0.134382
+Residual: 6 0.163622
+Residual: 7 0.185041
+Residual: 8 0.109748
+Residual: 9 0.141762
+Residual: 10 0.156598
+Residual: 11 0.163056
+Residual: 12 0.159831
+Residual: 13 0.157261
+Residual: 14 0.157787
+Residual: 15 0.141877
+Residual: 16 0.160870
+Residual: 17 0.192022
+Residual: 18 0.202553
+Residual: 19 0.230466
+Residual: 20 0.203616
+Residual: 21 0.232965
+
+=====SCF iteration: 2=====
+
+Calling chebyfilt with bounds: (2.307593,23.325104)
+Eigenvalue of T
+    1 -0.311453
+    2 -0.165377
+    3 -0.162023
+    4 -0.160910
+    5 -0.155094
+    6 -0.142955
+    7 -0.132875
+    8 0.018170
+    9 0.029353
+   10 0.034013
+   11 0.039810
+   12 0.071202
+   13 0.114851
+   14 0.139493
+   15 0.164978
+   16 0.184808
+   17 0.205284
+   18 0.222086
+   19 0.252359
+   20 0.293825
+   21 0.323565
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.004951
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.0251227488
+EKIN   =      13.1898875885
+EHT    =     -37.2124917237
+EPSEU  =       2.4300492951
+ENL    =       0.9588821304
+EXC    =      -9.3914500391
+!     2     -30.0251227488       1.0194011889
+Residual: 1 0.056513
+Residual: 2 0.045957
+Residual: 3 0.058772
+Residual: 4 0.050229
+Residual: 5 0.067488
+Residual: 6 0.099122
+Residual: 7 0.112163
+Residual: 8 0.057325
+Residual: 9 0.081626
+Residual: 10 0.083501
+Residual: 11 0.099571
+Residual: 12 0.114212
+Residual: 13 0.126546
+Residual: 14 0.078099
+Residual: 15 0.094941
+Residual: 16 0.113792
+Residual: 17 0.115973
+Residual: 18 0.128571
+Residual: 19 0.153328
+Residual: 20 0.182119
+Residual: 21 0.156102
+
+=====SCF iteration: 3=====
+
+Calling chebyfilt with bounds: (2.307593,23.336598)
+Eigenvalue of T
+    1 -0.314470
+    2 -0.167995
+    3 -0.165566
+    4 -0.161795
+    5 -0.160102
+    6 -0.156779
+    7 -0.151743
+    8 0.014134
+    9 0.018966
+   10 0.023019
+   11 0.025511
+   12 0.046116
+   13 0.076720
+   14 0.130969
+   15 0.146529
+   16 0.160172
+   17 0.180241
+   18 0.189460
+   19 0.208465
+   20 0.233307
+   21 0.274785
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.004842
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.3148907103
+EKIN   =      13.0470747585
+EHT    =     -37.2093971928
+EPSEU  =       2.3829087736
+ENL    =       0.8955512413
+EXC    =      -9.4310282908
+!     3     -30.3148907103       0.2897679616
+Residual: 1 0.028965
+Residual: 2 0.027188
+Residual: 3 0.031026
+Residual: 4 0.034035
+Residual: 5 0.035736
+Residual: 6 0.053033
+Residual: 7 0.065950
+Residual: 8 0.032966
+Residual: 9 0.049734
+Residual: 10 0.055169
+Residual: 11 0.053313
+Residual: 12 0.082806
+Residual: 13 0.107356
+Residual: 14 0.046720
+Residual: 15 0.069322
+Residual: 16 0.081501
+Residual: 17 0.075171
+Residual: 18 0.075288
+Residual: 19 0.099162
+Residual: 20 0.102624
+Residual: 21 0.102814
+
+=====SCF iteration: 4=====
+
+Calling chebyfilt with bounds: (2.307593,23.352493)
+Eigenvalue of T
+    1 -0.313228
+    2 -0.166611
+    3 -0.164894
+    4 -0.160978
+    5 -0.159676
+    6 -0.157265
+    7 -0.155082
+    8 0.014701
+    9 0.017785
+   10 0.019885
+   11 0.023092
+   12 0.034526
+   13 0.053986
+   14 0.130648
+   15 0.140202
+   16 0.148650
+   17 0.171347
+   18 0.180134
+   19 0.190305
+   20 0.215211
+   21 0.255685
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.004303
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.5112764540
+EKIN   =      12.9785371116
+EHT    =     -37.2201302373
+EPSEU  =       2.3437224879
+ENL    =       0.8582723103
+EXC    =      -9.4716781265
+!     4     -30.5112764540       0.1963857436
+Residual: 1 0.014996
+Residual: 2 0.016258
+Residual: 3 0.024810
+Residual: 4 0.026820
+Residual: 5 0.024549
+Residual: 6 0.024999
+Residual: 7 0.034464
+Residual: 8 0.020522
+Residual: 9 0.027552
+Residual: 10 0.035257
+Residual: 11 0.034052
+Residual: 12 0.060261
+Residual: 13 0.081879
+Residual: 14 0.028891
+Residual: 15 0.044866
+Residual: 16 0.058621
+Residual: 17 0.041559
+Residual: 18 0.048183
+Residual: 19 0.062761
+Residual: 20 0.064669
+Residual: 21 0.069735
+
+=====SCF iteration: 5=====
+
+Calling chebyfilt with bounds: (2.307593,23.368724)
+Eigenvalue of T
+    1 -0.310977
+    2 -0.163930
+    3 -0.162502
+    4 -0.159078
+    5 -0.158182
+    6 -0.155150
+    7 -0.154038
+    8 0.016960
+    9 0.018839
+   10 0.020550
+   11 0.023110
+   12 0.029307
+   13 0.042047
+   14 0.132895
+   15 0.139300
+   16 0.144999
+   17 0.169077
+   18 0.176171
+   19 0.184156
+   20 0.207663
+   21 0.247472
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.003521
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.6669488085
+EKIN   =      12.9200258183
+EHT    =     -37.2331458867
+EPSEU  =       2.3158847434
+ENL    =       0.8381498624
+EXC    =      -9.5078633459
+!     5     -30.6669488085       0.1556723545
+Residual: 1 0.007932
+Residual: 2 0.010660
+Residual: 3 0.017739
+Residual: 4 0.018172
+Residual: 5 0.016578
+Residual: 6 0.014475
+Residual: 7 0.017637
+Residual: 8 0.012947
+Residual: 9 0.018551
+Residual: 10 0.022312
+Residual: 11 0.025392
+Residual: 12 0.044732
+Residual: 13 0.063027
+Residual: 14 0.018512
+Residual: 15 0.030139
+Residual: 16 0.040235
+Residual: 17 0.024705
+Residual: 18 0.034928
+Residual: 19 0.041186
+Residual: 20 0.048501
+Residual: 21 0.053467
+
+=====SCF iteration: 6=====
+
+Calling chebyfilt with bounds: (2.307593,23.383328)
+Eigenvalue of T
+    1 -0.308798
+    2 -0.161120
+    3 -0.159526
+    4 -0.157085
+    5 -0.156273
+    6 -0.153033
+    7 -0.152538
+    8 0.019351
+    9 0.020225
+   10 0.022059
+   11 0.023734
+   12 0.027167
+   13 0.035525
+   14 0.135547
+   15 0.140067
+   16 0.144455
+   17 0.168662
+   18 0.174502
+   19 0.181732
+   20 0.203327
+   21 0.242745
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.002807
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.7774480868
+EKIN   =      12.8883222791
+EHT    =     -37.2461814390
+EPSEU  =       2.2951176126
+ENL    =       0.8243110369
+EXC    =      -9.5390175764
+!     6     -30.7774480868       0.1104992783
+Residual: 1 0.004546
+Residual: 2 0.007278
+Residual: 3 0.011252
+Residual: 4 0.012239
+Residual: 5 0.010857
+Residual: 6 0.009170
+Residual: 7 0.010037
+Residual: 8 0.009122
+Residual: 9 0.013541
+Residual: 10 0.018313
+Residual: 11 0.020035
+Residual: 12 0.032809
+Residual: 13 0.049694
+Residual: 14 0.012933
+Residual: 15 0.021937
+Residual: 16 0.030237
+Residual: 17 0.015924
+Residual: 18 0.025390
+Residual: 19 0.031560
+Residual: 20 0.040774
+Residual: 21 0.046422
+
+=====SCF iteration: 7=====
+
+Calling chebyfilt with bounds: (2.307593,23.396644)
+Eigenvalue of T
+    1 -0.306908
+    2 -0.158507
+    3 -0.156736
+    4 -0.155212
+    5 -0.154418
+    6 -0.151226
+    7 -0.151184
+    8 0.021352
+    9 0.021684
+   10 0.023242
+   11 0.024732
+   12 0.026661
+   13 0.031919
+   14 0.137953
+   15 0.141232
+   16 0.144797
+   17 0.168852
+   18 0.173912
+   19 0.180389
+   20 0.200122
+   21 0.238942
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.002221
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.8600552969
+EKIN   =      12.8699232515
+EHT    =     -37.2589298302
+EPSEU  =       2.2802276797
+ENL    =       0.8139676857
+EXC    =      -9.5652440838
+!     7     -30.8600552969       0.0826072101
+Residual: 1 0.002982
+Residual: 2 0.004973
+Residual: 3 0.006789
+Residual: 4 0.008159
+Residual: 5 0.007335
+Residual: 6 0.006613
+Residual: 7 0.005526
+Residual: 8 0.008629
+Residual: 9 0.009798
+Residual: 10 0.018471
+Residual: 11 0.014327
+Residual: 12 0.023235
+Residual: 13 0.039432
+Residual: 14 0.010117
+Residual: 15 0.017518
+Residual: 16 0.025033
+Residual: 17 0.010959
+Residual: 18 0.019369
+Residual: 19 0.026816
+Residual: 20 0.037126
+Residual: 21 0.044050
+
+=====SCF iteration: 8=====
+
+Calling chebyfilt with bounds: (2.307593,23.408531)
+Eigenvalue of T
+    1 -0.305329
+    2 -0.156213
+    3 -0.154428
+    4 -0.153512
+    5 -0.152773
+    6 -0.150051
+    7 -0.149721
+    8 0.022798
+    9 0.023115
+   10 0.024208
+   11 0.025842
+   12 0.026944
+   13 0.030026
+   14 0.139954
+   15 0.142379
+   16 0.145301
+   17 0.169255
+   18 0.173754
+   19 0.179423
+   20 0.197321
+   21 0.235105
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.001762
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.9243873021
+EKIN   =      12.8579403054
+EHT    =     -37.2709567715
+EPSEU  =       2.2695345298
+ENL    =       0.8061068133
+EXC    =      -9.5870121790
+!     8     -30.9243873021       0.0643320052
+Residual: 1 0.002200
+Residual: 2 0.003478
+Residual: 3 0.004050
+Residual: 4 0.005391
+Residual: 5 0.005062
+Residual: 6 0.004055
+Residual: 7 0.003958
+Residual: 8 0.009630
+Residual: 9 0.007551
+Residual: 10 0.015814
+Residual: 11 0.010463
+Residual: 12 0.016574
+Residual: 13 0.031090
+Residual: 14 0.008646
+Residual: 15 0.014992
+Residual: 16 0.021912
+Residual: 17 0.008094
+Residual: 18 0.015665
+Residual: 19 0.023924
+Residual: 20 0.035229
+Residual: 21 0.043809
+
+=====SCF iteration: 9=====
+
+Calling chebyfilt with bounds: (2.307593,23.418990)
+Eigenvalue of T
+    1 -0.304028
+    2 -0.154267
+    3 -0.152616
+    4 -0.152056
+    5 -0.151325
+    6 -0.149088
+    7 -0.148514
+    8 0.023929
+    9 0.024287
+   10 0.025215
+   11 0.026804
+   12 0.027498
+   13 0.029170
+   14 0.141562
+   15 0.143385
+   16 0.145769
+   17 0.169722
+   18 0.173755
+   19 0.178632
+   20 0.194687
+   21 0.230903
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.001411
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.9752802114
+EKIN   =      12.8496464568
+EHT    =     -37.2820424642
+EPSEU  =       2.2619515750
+ENL    =       0.8000679444
+EXC    =      -9.6049037233
+!     9     -30.9752802114       0.0508929093
+Residual: 1 0.001719
+Residual: 2 0.002518
+Residual: 3 0.002597
+Residual: 4 0.003493
+Residual: 5 0.003523
+Residual: 6 0.002692
+Residual: 7 0.002734
+Residual: 8 0.009162
+Residual: 9 0.007726
+Residual: 10 0.011473
+Residual: 11 0.008405
+Residual: 12 0.012904
+Residual: 13 0.023972
+Residual: 14 0.007782
+Residual: 15 0.013305
+Residual: 16 0.019636
+Residual: 17 0.006463
+Residual: 18 0.013277
+Residual: 19 0.021764
+Residual: 20 0.033908
+Residual: 21 0.044323
+
+=====SCF iteration: 10=====
+
+Calling chebyfilt with bounds: (2.307593,23.428051)
+Eigenvalue of T
+    1 -0.302963
+    2 -0.152653
+    3 -0.151190
+    4 -0.150880
+    5 -0.150056
+    6 -0.148277
+    7 -0.147550
+    8 0.024893
+    9 0.025250
+   10 0.026164
+   11 0.027592
+   12 0.028044
+   13 0.028953
+   14 0.142830
+   15 0.144226
+   16 0.146162
+   17 0.170191
+   18 0.173806
+   19 0.177956
+   20 0.192171
+   21 0.226287
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.001144
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0157818809
+EKIN   =      12.8438262259
+EHT    =     -37.2920680788
+EPSEU  =       2.2566102699
+ENL    =       0.7953752294
+EXC    =      -9.6195255273
+!    10     -31.0157818809       0.0405016695
+Residual: 1 0.001372
+Residual: 2 0.001895
+Residual: 3 0.001844
+Residual: 4 0.002300
+Residual: 5 0.002431
+Residual: 6 0.001866
+Residual: 7 0.001922
+Residual: 8 0.008036
+Residual: 9 0.006759
+Residual: 10 0.008354
+Residual: 11 0.007259
+Residual: 12 0.011916
+Residual: 13 0.017240
+Residual: 14 0.007218
+Residual: 15 0.011960
+Residual: 16 0.017748
+Residual: 17 0.005530
+Residual: 18 0.011631
+Residual: 19 0.019921
+Residual: 20 0.032649
+Residual: 21 0.044871
+
+=====SCF iteration: 11=====
+
+Calling chebyfilt with bounds: (2.307593,23.435808)
+Eigenvalue of T
+    1 -0.302095
+    2 -0.151339
+    3 -0.150038
+    4 -0.149930
+    5 -0.148989
+    6 -0.147595
+    7 -0.146791
+    8 0.025741
+    9 0.026080
+   10 0.026965
+   11 0.028222
+   12 0.028481
+   13 0.029122
+   14 0.143823
+   15 0.144912
+   16 0.146488
+   17 0.170634
+   18 0.173864
+   19 0.177374
+   20 0.189791
+   21 0.221344
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000940
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0481136112
+EKIN   =      12.8397634837
+EHT    =     -37.3010089785
+EPSEU  =       2.2528878076
+ENL    =       0.7916824888
+EXC    =      -9.6314384129
+!    11     -31.0481136112       0.0323317303
+Residual: 1 0.001108
+Residual: 2 0.001480
+Residual: 3 0.001368
+Residual: 4 0.001600
+Residual: 5 0.001698
+Residual: 6 0.001352
+Residual: 7 0.001384
+Residual: 8 0.006507
+Residual: 9 0.005611
+Residual: 10 0.006541
+Residual: 11 0.007891
+Residual: 12 0.010732
+Residual: 13 0.010939
+Residual: 14 0.006822
+Residual: 15 0.010753
+Residual: 16 0.016088
+Residual: 17 0.004961
+Residual: 18 0.010423
+Residual: 19 0.018246
+Residual: 20 0.031265
+Residual: 21 0.045085
+
+=====SCF iteration: 12=====
+
+Calling chebyfilt with bounds: (2.307593,23.442387)
+Eigenvalue of T
+    1 -0.301387
+    2 -0.150283
+    3 -0.149148
+    4 -0.149084
+    5 -0.148124
+    6 -0.147021
+    7 -0.146200
+    8 0.026488
+    9 0.026797
+   10 0.027617
+   11 0.028667
+   12 0.028918
+   13 0.029429
+   14 0.144596
+   15 0.145466
+   16 0.146758
+   17 0.171041
+   18 0.173914
+   19 0.176877
+   20 0.187582
+   21 0.216231
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000783
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0740139371
+EKIN   =      12.8369432005
+EHT    =     -37.3088916803
+EPSEU  =       2.2503229447
+ENL    =       0.7887424538
+EXC    =      -9.6411308558
+!    12     -31.0740139371       0.0259003260
+Residual: 1 0.000905
+Residual: 2 0.001194
+Residual: 3 0.001050
+Residual: 4 0.001176
+Residual: 5 0.001232
+Residual: 6 0.001023
+Residual: 7 0.001026
+Residual: 8 0.005018
+Residual: 9 0.004634
+Residual: 10 0.005420
+Residual: 11 0.009338
+Residual: 12 0.006521
+Residual: 13 0.006949
+Residual: 14 0.006516
+Residual: 15 0.009616
+Residual: 16 0.014595
+Residual: 17 0.004569
+Residual: 18 0.009491
+Residual: 19 0.016688
+Residual: 20 0.029712
+Residual: 21 0.044792
+
+=====SCF iteration: 13=====
+
+Calling chebyfilt with bounds: (2.307593,23.447924)
+Eigenvalue of T
+    1 -0.300811
+    2 -0.149446
+    3 -0.148467
+    4 -0.148308
+    5 -0.147436
+    6 -0.146541
+    7 -0.145749
+    8 0.027137
+    9 0.027416
+   10 0.028147
+   11 0.029007
+   12 0.029347
+   13 0.029723
+   14 0.145200
+   15 0.145910
+   16 0.146984
+   17 0.171406
+   18 0.173951
+   19 0.176457
+   20 0.185572
+   21 0.211124
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000661
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0948489245
+EKIN   =      12.8349783032
+EHT    =     -37.3157734961
+EPSEU  =       2.2485806793
+ENL    =       0.7863783797
+EXC    =      -9.6490127907
+!    13     -31.0948489245       0.0208349874
+Residual: 1 0.000749
+Residual: 2 0.000983
+Residual: 3 0.000818
+Residual: 4 0.000926
+Residual: 5 0.000936
+Residual: 6 0.000807
+Residual: 7 0.000788
+Residual: 8 0.003782
+Residual: 9 0.003792
+Residual: 10 0.004592
+Residual: 11 0.008085
+Residual: 12 0.004199
+Residual: 13 0.004800
+Residual: 14 0.006233
+Residual: 15 0.008549
+Residual: 16 0.013235
+Residual: 17 0.004257
+Residual: 18 0.008746
+Residual: 19 0.015232
+Residual: 20 0.028014
+Residual: 21 0.043938
+
+=====SCF iteration: 14=====
+
+Calling chebyfilt with bounds: (2.307593,23.452552)
+Eigenvalue of T
+    1 -0.300340
+    2 -0.148782
+    3 -0.147877
+    4 -0.147666
+    5 -0.146892
+    6 -0.146138
+    7 -0.145408
+    8 0.027692
+    9 0.027949
+   10 0.028583
+   11 0.029312
+   12 0.029710
+   13 0.029967
+   14 0.145671
+   15 0.146267
+   16 0.147175
+   17 0.171730
+   18 0.173976
+   19 0.176106
+   20 0.183779
+   21 0.206189
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000564
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1116802638
+EKIN   =      12.8335899915
+EHT    =     -37.3217287761
+EPSEU  =       2.2474173887
+ENL    =       0.7844629874
+EXC    =      -9.6554218553
+!    14     -31.1116802638       0.0168313393
+Residual: 1 0.000627
+Residual: 2 0.000820
+Residual: 3 0.000657
+Residual: 4 0.000768
+Residual: 5 0.000741
+Residual: 6 0.000659
+Residual: 7 0.000627
+Residual: 8 0.002844
+Residual: 9 0.003047
+Residual: 10 0.003868
+Residual: 11 0.006430
+Residual: 12 0.003112
+Residual: 13 0.003494
+Residual: 14 0.005922
+Residual: 15 0.007580
+Residual: 16 0.011988
+Residual: 17 0.003984
+Residual: 18 0.008131
+Residual: 19 0.013878
+Residual: 20 0.026212
+Residual: 21 0.042548
+
+=====SCF iteration: 15=====
+
+Calling chebyfilt with bounds: (2.307593,23.456401)
+Eigenvalue of T
+    1 -0.299956
+    2 -0.148250
+    3 -0.147368
+    4 -0.147138
+    5 -0.146463
+    6 -0.145804
+    7 -0.145155
+    8 0.028162
+    9 0.028406
+   10 0.028946
+   11 0.029583
+   12 0.029999
+   13 0.030161
+   14 0.146042
+   15 0.146552
+   16 0.147335
+   17 0.172014
+   18 0.173991
+   19 0.175813
+   20 0.182206
+   21 0.201564
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000485
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1253235434
+EKIN   =      12.8325916602
+EHT    =     -37.3268420891
+EPSEU  =       2.2466576192
+ENL    =       0.7829030950
+EXC    =      -9.6606338287
+!    15     -31.1253235434       0.0136432796
+Residual: 1 0.000530
+Residual: 2 0.000690
+Residual: 3 0.000552
+Residual: 4 0.000649
+Residual: 5 0.000608
+Residual: 6 0.000553
+Residual: 7 0.000516
+Residual: 8 0.002167
+Residual: 9 0.002399
+Residual: 10 0.003206
+Residual: 11 0.005027
+Residual: 12 0.002449
+Residual: 13 0.002597
+Residual: 14 0.005556
+Residual: 15 0.006727
+Residual: 16 0.010846
+Residual: 17 0.003732
+Residual: 18 0.007605
+Residual: 19 0.012627
+Residual: 20 0.024355
+Residual: 21 0.040698
+
+=====SCF iteration: 16=====
+
+Calling chebyfilt with bounds: (2.307593,23.459585)
+Eigenvalue of T
+    1 -0.299643
+    2 -0.147814
+    3 -0.146933
+    4 -0.146705
+    5 -0.146125
+    6 -0.145528
+    7 -0.144968
+    8 0.028557
+    9 0.028795
+   10 0.029249
+   11 0.029819
+   12 0.030218
+   13 0.030323
+   14 0.146337
+   15 0.146781
+   16 0.147469
+   17 0.172261
+   18 0.173997
+   19 0.175569
+   20 0.180847
+   21 0.197346
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000421
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1364043421
+EKIN   =      12.8318678413
+EHT    =     -37.3312036458
+EPSEU  =       2.2461761097
+ENL    =       0.7816289165
+EXC    =      -9.6648735639
+!    16     -31.1364043421       0.0110807987
+Residual: 1 0.000452
+Residual: 2 0.000588
+Residual: 3 0.000476
+Residual: 4 0.000554
+Residual: 5 0.000513
+Residual: 6 0.000471
+Residual: 7 0.000436
+Residual: 8 0.001679
+Residual: 9 0.001863
+Residual: 10 0.002616
+Residual: 11 0.003922
+Residual: 12 0.001984
+Residual: 13 0.001946
+Residual: 14 0.005134
+Residual: 15 0.005991
+Residual: 16 0.009808
+Residual: 17 0.003495
+Residual: 18 0.007141
+Residual: 19 0.011487
+Residual: 20 0.022486
+Residual: 21 0.038494
+
+=====SCF iteration: 17=====
+
+Calling chebyfilt with bounds: (2.307593,23.462211)
+Eigenvalue of T
+    1 -0.299388
+    2 -0.147450
+    3 -0.146569
+    4 -0.146349
+    5 -0.145858
+    6 -0.145303
+    7 -0.144832
+    8 0.028890
+    9 0.029124
+   10 0.029502
+   11 0.030018
+   12 0.030368
+   13 0.030469
+   14 0.146573
+   15 0.146965
+   16 0.147579
+   17 0.172474
+   18 0.173998
+   19 0.175365
+   20 0.179690
+   21 0.193589
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000367
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1454076057
+EKIN   =      12.8313512092
+EHT    =     -37.3349054537
+EPSEU  =       2.2458845107
+ENL    =       0.7805866770
+EXC    =      -9.6683245488
+!    17     -31.1454076057       0.0090032635
+Residual: 1 0.000387
+Residual: 2 0.000506
+Residual: 3 0.000417
+Residual: 4 0.000475
+Residual: 5 0.000443
+Residual: 6 0.000404
+Residual: 7 0.000373
+Residual: 8 0.001318
+Residual: 9 0.001440
+Residual: 10 0.002112
+Residual: 11 0.003065
+Residual: 12 0.001578
+Residual: 13 0.001521
+Residual: 14 0.004675
+Residual: 15 0.005355
+Residual: 16 0.008876
+Residual: 17 0.003272
+Residual: 18 0.006716
+Residual: 19 0.010462
+Residual: 20 0.020641
+Residual: 21 0.036051
+
+=====SCF iteration: 18=====
+
+Calling chebyfilt with bounds: (2.307593,23.464372)
+Eigenvalue of T
+    1 -0.299179
+    2 -0.147143
+    3 -0.146266
+    4 -0.146057
+    5 -0.145646
+    6 -0.145122
+    7 -0.144733
+    8 0.029171
+    9 0.029399
+   10 0.029714
+   11 0.030186
+   12 0.030470
+   13 0.030597
+   14 0.146765
+   15 0.147113
+   16 0.147669
+   17 0.172657
+   18 0.173996
+   19 0.175193
+   20 0.178715
+   21 0.190308
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000322
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1527169160
+EKIN   =      12.8310023949
+EHT    =     -37.3380375658
+EPSEU  =       2.2457212510
+ENL    =       0.7797336586
+EXC    =      -9.6711366546
+!    18     -31.1527169160       0.0073093103
+Residual: 1 0.000334
+Residual: 2 0.000439
+Residual: 3 0.000367
+Residual: 4 0.000406
+Residual: 5 0.000389
+Residual: 6 0.000345
+Residual: 7 0.000322
+Residual: 8 0.001042
+Residual: 9 0.001120
+Residual: 10 0.001694
+Residual: 11 0.002402
+Residual: 12 0.001221
+Residual: 13 0.001252
+Residual: 14 0.004201
+Residual: 15 0.004797
+Residual: 16 0.008053
+Residual: 17 0.003065
+Residual: 18 0.006318
+Residual: 19 0.009556
+Residual: 20 0.018844
+Residual: 21 0.033478
+
+=====SCF iteration: 19=====
+
+Calling chebyfilt with bounds: (2.307593,23.466149)
+Eigenvalue of T
+    1 -0.299008
+    2 -0.146882
+    3 -0.146016
+    4 -0.145817
+    5 -0.145474
+    6 -0.144980
+    7 -0.144662
+    8 0.029407
+    9 0.029628
+   10 0.029890
+   11 0.030324
+   12 0.030545
+   13 0.030699
+   14 0.146923
+   15 0.147234
+   16 0.147741
+   17 0.172814
+   18 0.173992
+   19 0.175046
+   20 0.177904
+   21 0.187492
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000283
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1586425469
+EKIN   =      12.8307954973
+EHT    =     -37.3406847130
+EPSEU  =       2.2456438866
+ENL    =       0.7790350178
+EXC    =      -9.6734322355
+!    19     -31.1586425469       0.0059256309
+Residual: 1 0.000288
+Residual: 2 0.000383
+Residual: 3 0.000325
+Residual: 4 0.000345
+Residual: 5 0.000347
+Residual: 6 0.000295
+Residual: 7 0.000277
+Residual: 8 0.000828
+Residual: 9 0.000883
+Residual: 10 0.001355
+Residual: 11 0.001886
+Residual: 12 0.000948
+Residual: 13 0.001047
+Residual: 14 0.003734
+Residual: 15 0.004300
+Residual: 16 0.007333
+Residual: 17 0.002876
+Residual: 18 0.005937
+Residual: 19 0.008771
+Residual: 20 0.017115
+Residual: 21 0.030869
+
+=====SCF iteration: 20=====
+
+Calling chebyfilt with bounds: (2.307593,23.467611)
+Eigenvalue of T
+    1 -0.298868
+    2 -0.146657
+    3 -0.145811
+    4 -0.145619
+    5 -0.145333
+    6 -0.144872
+    7 -0.144609
+    8 0.029606
+    9 0.029819
+   10 0.030035
+   11 0.030436
+   12 0.030606
+   13 0.030778
+   14 0.147052
+   15 0.147332
+   16 0.147797
+   17 0.172946
+   18 0.173987
+   19 0.174919
+   20 0.177235
+   21 0.185108
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000250
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1634398018
+EKIN   =      12.8307096837
+EHT    =     -37.3429237622
+EPSEU  =       2.2456233849
+ENL    =       0.7784618554
+EXC    =      -9.6753109635
+!    20     -31.1634398018       0.0047972550
+Residual: 1 0.000250
+Residual: 2 0.000336
+Residual: 3 0.000288
+Residual: 4 0.000292
+Residual: 5 0.000312
+Residual: 6 0.000251
+Residual: 7 0.000239
+Residual: 8 0.000661
+Residual: 9 0.000709
+Residual: 10 0.001083
+Residual: 11 0.001481
+Residual: 12 0.000750
+Residual: 13 0.000881
+Residual: 14 0.003290
+Residual: 15 0.003852
+Residual: 16 0.006708
+Residual: 17 0.002706
+Residual: 18 0.005569
+Residual: 19 0.008107
+Residual: 20 0.015466
+Residual: 21 0.028298
+
+=====SCF iteration: 21=====
+
+Calling chebyfilt with bounds: (2.307593,23.468817)
+Eigenvalue of T
+    1 -0.298753
+    2 -0.146463
+    3 -0.145644
+    4 -0.145458
+    5 -0.145214
+    6 -0.144791
+    7 -0.144571
+    8 0.029774
+    9 0.029978
+   10 0.030156
+   11 0.030528
+   12 0.030657
+   13 0.030836
+   14 0.147161
+   15 0.147412
+   16 0.147840
+   17 0.173059
+   18 0.173983
+   19 0.174808
+   20 0.176688
+   21 0.183112
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000222
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1673204333
+EKIN   =      12.8307255273
+EHT    =     -37.3448222632
+EPSEU  =       2.2456399634
+ENL    =       0.7779900895
+EXC    =      -9.6768537503
+!    21     -31.1673204333       0.0038806314
+Residual: 1 0.000217
+Residual: 2 0.000295
+Residual: 3 0.000256
+Residual: 4 0.000247
+Residual: 5 0.000281
+Residual: 6 0.000214
+Residual: 7 0.000206
+Residual: 8 0.000530
+Residual: 9 0.000579
+Residual: 10 0.000867
+Residual: 11 0.001162
+Residual: 12 0.000611
+Residual: 13 0.000745
+Residual: 14 0.002882
+Residual: 15 0.003448
+Residual: 16 0.006167
+Residual: 17 0.002555
+Residual: 18 0.005213
+Residual: 19 0.007557
+Residual: 20 0.013904
+Residual: 21 0.025819
+
+=====SCF iteration: 22=====
+
+Calling chebyfilt with bounds: (2.307593,23.469817)
+Eigenvalue of T
+    1 -0.298659
+    2 -0.146294
+    3 -0.145507
+    4 -0.145327
+    5 -0.145113
+    6 -0.144732
+    7 -0.144542
+    8 0.029916
+    9 0.030110
+   10 0.030256
+   11 0.030601
+   12 0.030701
+   13 0.030879
+   14 0.147251
+   15 0.147479
+   16 0.147872
+   17 0.173156
+   18 0.173979
+   19 0.174709
+   20 0.176245
+   21 0.181456
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000198
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1704599781
+EKIN   =      12.8308241674
+EHT    =     -37.3464380498
+EPSEU  =       2.2456801453
+ENL    =       0.7775997660
+EXC    =      -9.6781260070
+!    22     -31.1704599781       0.0031395448
+Residual: 1 0.000189
+Residual: 2 0.000261
+Residual: 3 0.000228
+Residual: 4 0.000210
+Residual: 5 0.000252
+Residual: 6 0.000182
+Residual: 7 0.000178
+Residual: 8 0.000427
+Residual: 9 0.000482
+Residual: 10 0.000696
+Residual: 11 0.000910
+Residual: 12 0.000514
+Residual: 13 0.000632
+Residual: 14 0.002514
+Residual: 15 0.003085
+Residual: 16 0.005698
+Residual: 17 0.002425
+Residual: 18 0.004869
+Residual: 19 0.007109
+Residual: 20 0.012435
+Residual: 21 0.023468
+
+=====SCF iteration: 23=====
+
+Calling chebyfilt with bounds: (2.307593,23.470648)
+Eigenvalue of T
+    1 -0.298581
+    2 -0.146148
+    3 -0.145394
+    4 -0.145220
+    5 -0.145024
+    6 -0.144691
+    7 -0.144521
+    8 0.030037
+    9 0.030221
+   10 0.030340
+   11 0.030660
+   12 0.030739
+   13 0.030911
+   14 0.147327
+   15 0.147534
+   16 0.147895
+   17 0.173238
+   18 0.173976
+   19 0.174620
+   20 0.175888
+   21 0.180091
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000177
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1730030747
+EKIN   =      12.8309876887
+EHT    =     -37.3478196536
+EPSEU  =       2.2457347309
+ENL    =       0.7772745527
+EXC    =      -9.6791803934
+!    23     -31.1730030747       0.0025430966
+Residual: 1 0.000165
+Residual: 2 0.000231
+Residual: 3 0.000202
+Residual: 4 0.000182
+Residual: 5 0.000225
+Residual: 6 0.000156
+Residual: 7 0.000155
+Residual: 8 0.000347
+Residual: 9 0.000406
+Residual: 10 0.000561
+Residual: 11 0.000712
+Residual: 12 0.000444
+Residual: 13 0.000538
+Residual: 14 0.002187
+Residual: 15 0.002760
+Residual: 16 0.005290
+Residual: 17 0.002316
+Residual: 18 0.004538
+Residual: 19 0.006741
+Residual: 20 0.011066
+Residual: 21 0.021265
+
+=====SCF iteration: 24=====
+
+Calling chebyfilt with bounds: (2.307593,23.471344)
+Eigenvalue of T
+    1 -0.298516
+    2 -0.146019
+    3 -0.145301
+    4 -0.145133
+    5 -0.144947
+    6 -0.144663
+    7 -0.144505
+    8 0.030140
+    9 0.030313
+   10 0.030411
+   11 0.030706
+   12 0.030771
+   13 0.030935
+   14 0.147392
+   15 0.147579
+   16 0.147912
+   17 0.173309
+   18 0.173974
+   19 0.174538
+   20 0.175603
+   21 0.178974
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000159
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1750679017
+EKIN   =      12.8311997510
+EHT    =     -37.3490072160
+EPSEU  =       2.2457974282
+ENL    =       0.7770012795
+EXC    =      -9.6800591444
+!    24     -31.1750679017       0.0020648270
+Residual: 1 0.000144
+Residual: 2 0.000206
+Residual: 3 0.000180
+Residual: 4 0.000161
+Residual: 5 0.000200
+Residual: 6 0.000135
+Residual: 7 0.000136
+Residual: 8 0.000284
+Residual: 9 0.000347
+Residual: 10 0.000455
+Residual: 11 0.000560
+Residual: 12 0.000388
+Residual: 13 0.000458
+Residual: 14 0.001900
+Residual: 15 0.002470
+Residual: 16 0.004934
+Residual: 17 0.002227
+Residual: 18 0.004221
+Residual: 19 0.006426
+Residual: 20 0.009809
+Residual: 21 0.019218
+
+=====SCF iteration: 25=====
+
+Calling chebyfilt with bounds: (2.307593,23.471930)
+Eigenvalue of T
+    1 -0.298461
+    2 -0.145906
+    3 -0.145224
+    4 -0.145062
+    5 -0.144879
+    6 -0.144644
+    7 -0.144495
+    8 0.030227
+    9 0.030391
+   10 0.030471
+   11 0.030744
+   12 0.030799
+   13 0.030953
+   14 0.147447
+   15 0.147618
+   16 0.147923
+   17 0.173370
+   18 0.173973
+   19 0.174464
+   20 0.175375
+   21 0.178063
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000144
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1767501878
+EKIN   =      12.8314460489
+EHT    =     -37.3500336245
+EPSEU  =       2.2458639384
+ENL    =       0.7767694785
+EXC    =      -9.6807960291
+!    25     -31.1767501878       0.0016822861
+Residual: 1 0.000127
+Residual: 2 0.000184
+Residual: 3 0.000160
+Residual: 4 0.000145
+Residual: 5 0.000177
+Residual: 6 0.000118
+Residual: 7 0.000121
+Residual: 8 0.000235
+Residual: 9 0.000298
+Residual: 10 0.000371
+Residual: 11 0.000445
+Residual: 12 0.000341
+Residual: 13 0.000391
+Residual: 14 0.001651
+Residual: 15 0.002215
+Residual: 16 0.004621
+Residual: 17 0.002158
+Residual: 18 0.003918
+Residual: 19 0.006132
+Residual: 20 0.008682
+Residual: 21 0.017325
+
+=====SCF iteration: 26=====
+
+Calling chebyfilt with bounds: (2.307593,23.472425)
+Eigenvalue of T
+    1 -0.298416
+    2 -0.145806
+    3 -0.145159
+    4 -0.145004
+    5 -0.144821
+    6 -0.144631
+    7 -0.144488
+    8 0.030302
+    9 0.030457
+   10 0.030523
+   11 0.030774
+   12 0.030823
+   13 0.030966
+   14 0.147494
+   15 0.147650
+   16 0.147930
+   17 0.173424
+   18 0.173973
+   19 0.174397
+   20 0.175191
+   21 0.177324
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000131
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1781268832
+EKIN   =      12.8317145104
+EHT    =     -37.3509256762
+EPSEU  =       2.2459313428
+ENL    =       0.7765709282
+EXC    =      -9.6814179884
+!    26     -31.1781268832       0.0013766954
+Residual: 1 0.000111
+Residual: 2 0.000166
+Residual: 3 0.000144
+Residual: 4 0.000133
+Residual: 5 0.000157
+Residual: 6 0.000105
+Residual: 7 0.000109
+Residual: 8 0.000196
+Residual: 9 0.000258
+Residual: 10 0.000306
+Residual: 11 0.000361
+Residual: 12 0.000301
+Residual: 13 0.000334
+Residual: 14 0.001434
+Residual: 15 0.001990
+Residual: 16 0.004343
+Residual: 17 0.002107
+Residual: 18 0.003631
+Residual: 19 0.005833
+Residual: 20 0.007706
+Residual: 21 0.015578
+
+=====SCF iteration: 27=====
+
+Calling chebyfilt with bounds: (2.307593,23.472847)
+Eigenvalue of T
+    1 -0.298377
+    2 -0.145716
+    3 -0.145104
+    4 -0.144955
+    5 -0.144771
+    6 -0.144623
+    7 -0.144484
+    8 0.030367
+    9 0.030513
+   10 0.030567
+   11 0.030798
+   12 0.030843
+   13 0.030977
+   14 0.147534
+   15 0.147677
+   16 0.147935
+   17 0.173471
+   18 0.173974
+   19 0.174338
+   20 0.175042
+   21 0.176727
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000120
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1792594561
+EKIN   =      12.8319952752
+EHT    =     -37.3517051570
+EPSEU  =       2.2459976895
+ENL    =       0.7763992251
+EXC    =      -9.6819464888
+!    27     -31.1792594561       0.0011325730
+Residual: 1 0.000098
+Residual: 2 0.000149
+Residual: 3 0.000129
+Residual: 4 0.000122
+Residual: 5 0.000140
+Residual: 6 0.000094
+Residual: 7 0.000099
+Residual: 8 0.000165
+Residual: 9 0.000224
+Residual: 10 0.000255
+Residual: 11 0.000298
+Residual: 12 0.000267
+Residual: 13 0.000285
+Residual: 14 0.001248
+Residual: 15 0.001793
+Residual: 16 0.004095
+Residual: 17 0.002074
+Residual: 18 0.003359
+Residual: 19 0.005514
+Residual: 20 0.006902
+Residual: 21 0.013961
+
+=====SCF iteration: 28=====
+
+Calling chebyfilt with bounds: (2.307593,23.473208)
+Eigenvalue of T
+    1 -0.298344
+    2 -0.145636
+    3 -0.145057
+    4 -0.144913
+    5 -0.144729
+    6 -0.144618
+    7 -0.144482
+    8 0.030423
+    9 0.030561
+   10 0.030606
+   11 0.030817
+   12 0.030860
+   13 0.030985
+   14 0.147569
+   15 0.147700
+   16 0.147936
+   17 0.173512
+   18 0.173975
+   19 0.174287
+   20 0.174919
+   21 0.176249
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000110
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1801967742
+EKIN   =      12.8322805294
+EHT    =     -37.3523897840
+EPSEU  =       2.2460617086
+ENL    =       0.7762494026
+EXC    =      -9.6823986308
+!    28     -31.1801967742       0.0009373181
+Residual: 1 0.000086
+Residual: 2 0.000135
+Residual: 3 0.000116
+Residual: 4 0.000113
+Residual: 5 0.000125
+Residual: 6 0.000085
+Residual: 7 0.000090
+Residual: 8 0.000141
+Residual: 9 0.000195
+Residual: 10 0.000216
+Residual: 11 0.000250
+Residual: 12 0.000240
+Residual: 13 0.000245
+Residual: 14 0.001087
+Residual: 15 0.001622
+Residual: 16 0.003871
+Residual: 17 0.002056
+Residual: 18 0.003102
+Residual: 19 0.005174
+Residual: 20 0.006286
+Residual: 21 0.012455
+
+=====SCF iteration: 29=====
+
+Calling chebyfilt with bounds: (2.307593,23.473518)
+Eigenvalue of T
+    1 -0.298316
+    2 -0.145565
+    3 -0.145017
+    4 -0.144878
+    5 -0.144694
+    6 -0.144614
+    7 -0.144481
+    8 0.030471
+    9 0.030602
+   10 0.030640
+   11 0.030832
+   12 0.030875
+   13 0.030992
+   14 0.147600
+   15 0.147719
+   16 0.147937
+   17 0.173548
+   18 0.173978
+   19 0.174243
+   20 0.174813
+   21 0.175868
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000101
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1809775581
+EKIN   =      12.8325642636
+EHT    =     -37.3529939978
+EPSEU  =       2.2461226134
+ENL    =       0.7761176095
+EXC    =      -9.6827880469
+!    29     -31.1809775581       0.0007807840
+Residual: 1 0.000076
+Residual: 2 0.000122
+Residual: 3 0.000105
+Residual: 4 0.000105
+Residual: 5 0.000112
+Residual: 6 0.000079
+Residual: 7 0.000083
+Residual: 8 0.000122
+Residual: 9 0.000170
+Residual: 10 0.000186
+Residual: 11 0.000213
+Residual: 12 0.000217
+Residual: 13 0.000212
+Residual: 14 0.000948
+Residual: 15 0.001473
+Residual: 16 0.003668
+Residual: 17 0.002050
+Residual: 18 0.002861
+Residual: 19 0.004819
+Residual: 20 0.005859
+Residual: 21 0.011040
+
+=====SCF iteration: 30=====
+
+Calling chebyfilt with bounds: (2.307593,23.473786)
+Eigenvalue of T
+    1 -0.298292
+    2 -0.145500
+    3 -0.144982
+    4 -0.144847
+    5 -0.144665
+    6 -0.144611
+    7 -0.144482
+    8 0.030514
+    9 0.030638
+   10 0.030671
+   11 0.030844
+   12 0.030888
+   13 0.030997
+   14 0.147627
+   15 0.147736
+   16 0.147935
+   17 0.173580
+   18 0.173981
+   19 0.174206
+   20 0.174719
+   21 0.175567
+Kerker rho mixing with beta = 0.300000
+In KerkerRhoMix: d = 0.000093
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1816324283
+EKIN   =      12.8328420015
+EHT    =     -37.3535296123
+EPSEU  =       2.2461799585
+ENL    =       0.7760008486
+EXC    =      -9.6831256245
+!    30     -31.1816324283       0.0006548702
+Residual: 1 0.000068
+Residual: 2 0.000111
+Residual: 3 0.000096
+Residual: 4 0.000098
+Residual: 5 0.000100
+Residual: 6 0.000075
+Residual: 7 0.000077
+Residual: 8 0.000106
+Residual: 9 0.000149
+Residual: 10 0.000163
+Residual: 11 0.000184
+Residual: 12 0.000199
+Residual: 13 0.000186
+Residual: 14 0.000828
+Residual: 15 0.001345
+Residual: 16 0.003481
+Residual: 17 0.002053
+Residual: 18 0.002635
+Residual: 19 0.004461
+Residual: 20 0.005601
+Residual: 21 0.009696
+Pass here in ChebySCFLoop
+
+Program ended normally at: 15 January 2012 01:25:19 PM
+Total time for SCF loop:                       51.09000 s
+Total elapsed time for main program:           51.15000 s

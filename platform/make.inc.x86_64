@@ -1,0 +1,11 @@
+MAKE = make
+AR = ar
+CXX = clang++
+
+CXX_INC = $(MKL_INC) $(FFT_INC)
+CXX_OPTS = -Wall  $(CXX_INC)
+
+LIB_LINALG = ~/mysoftwares/lib/libopenblas_nehalemp-r0.2.19.a -llapack
+LIB_FFT =  -lfftw3
+LIBS = $(LIB_LINALG) $(LIB_FFT) -lgfortran -lm -pthread 
+

@@ -1,0 +1,163 @@
+Program started at: 29 December 2011 05:57:56 PM
+EXIT: GkVectorsGen.cpp
+EXIT Setup.cpp
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: N.fhi
+ZV(1)      =      5.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.fhi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       3
+
+Total number of atoms:     4
+Atomic coordinates (in bohr):
+N.fhi      -0.1097360000       0.0437320000       0.0575100000
+H.fhi       1.0091200000      -1.4209000000      -0.4706700000
+H.fhi      -0.6139400000       0.9989000000      -1.5262800000
+H.fhi      -1.7022300000      -0.6834000000       0.8403800000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000       5.0000000000       0.0000000000
+      0.0000000000       0.0000000000       7.0000000000
+
+Unit cell volume:     350.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       2.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.4285714286
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      12,      16)
+NGWX     =      206
+NGX      =     1648
+NG       =     1477
+GCUT     =     101.3211836423
+GCUTW    =      25.3302959106
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      197
+
+EXIT: PhaseFactor.cpp
+sum(EI1) = (17.846186,-0.000000)
+sum(EI2) = (11.749710,-0.000000)
+sum(EI3) = (13.478673,-0.000000)
+sum(EIGR) = (144.050118,0.000000)
+
+sum(SFAC)= (1318.100557,0.000000)
+
+is = 1
+is = 2
+EXIT FormFactor.cpp
+ESELF = 11.170384
+SUM(RHOPS) = -1.060182
+SUM(VPS) = -11.385332
+
+WNL = 
+is = 1, 1 0.046180
+WNL = 
+EXIT: NLFormFactor.cpp
+sum(WNL) = 0.046180
+sum(PKG) = 112.073260
+sum(PKG_A) = 112.073260
+EXIT: PrepareSCF
+
+Calling SetupGPUArrays_ApplyHam:
+SetupArrays_ApplyHam_cuda: GPUMEM = 0.033791 MB
+SetupRho_ApplyHam_cuda: GPUMEM = 0.066017 MB
+Calculating starting density from atomic charges ...ENTER: FormFactorAtomic.cpp
+is = 1
+FormFactorAtomic: rho of atom 1 is 5.000000
+is = 2
+FormFactorAtomic: rho of atom 2 is 1.000000
+EXIT FormFactorAtomic.cpp
+...Done
+sum(c_fft) = (0.455355,-0.000000)
+Inverse FFT of charge density to real space ......Done
+sum(rhoe2) = 96.548566
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.634391
+...Done
+NG = 1477
+ngi = 1477
+After Ewald: ESR = 0.434337
+Before EvalRhoPsi: sum(rhoe2) =      96.5485714286
+
+ETOT   =     -12.9807616674
+EKIN   =       0.0000000000
+EHT    =      -7.0482579236
+EPSEU  =      -3.2916584734
+ENL    =       0.0000000000
+EXC    =      -2.6408452704
+After EvalRhoPsi: sum(rhoe2) =   -1397.1268862352
+
+=====SCF iteration: 1=====
+
+*---------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cuda (on GPU):    0.1230468750 MB
+Allocated dynamic memory in davidson_cuda (on CPU):    0.0002746582 MB
+davidson_cuda:     1     0       1.0000000000
+davidson_cuda:     2     0       0.0236751684
+davidson_cuda:     3     0       0.0088979322
+davidson_cuda:     4     0       0.0029445380
+davidson_cuda:     5     0       0.0018389620
+davidson_cuda:     6     0       0.0006992612
+davidson_cuda:     7     0       0.0004692682
+davidson_cuda:     8     0       0.0001898257
+davidson_cuda:     9     1       0.0001323807
+davidson_cuda:    10     2       0.0000555140
+davidson_cuda:    11     3       0.0000395240
+davidson_cuda:    12     4       0.0000169371
+In iter =    12: nconv =     6
+
+Final Davidson GPU result:
+    1      -0.3243381111       0.0000001503
+    2      -0.1371989399       0.0000000214
+    3      -0.1173796852       0.0000001392
+    4       0.0677543166       0.0000000172
+    5       0.0854119764       0.0000005338
+    6       0.2603342809       0.0000050780
+    7       0.2643919070       0.0000036057
+    8       0.2662715767       0.0000009691
+    9       0.3043001830       0.0000990708
+End of Davidson iteration: rnorm =       0.0000121762
+Simple charge density mixing with mixing parameter    0.5000000000
+
+ETOT   =      -6.8288630810
+EKIN   =       1.6544014297
+EHT    =      -4.4547956674
+EPSEU  =      -1.8628660964
+ENL    =       0.0183191754
+EXC    =      -2.1839219224
+!     1      -6.8288630810       6.1518985864
+Shutdown CUDA ....
+Freeing array on GPU
+Freeing array rho on GPU
+....done...
+Program ended normally at: 29 December 2011 05:57:57 PM
+Total time for SCF loop:                        0.19000 s
+Total elapsed time for main program:            0.56000 s

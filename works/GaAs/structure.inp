@@ -1,0 +1,45 @@
+&control
+  calculation = 'scf'
+  verbosity = 'high'
+  prefix = 'anatase001'
+  restart_mode='from_scratch'
+  outdir = './pwfiles'
+  pseudo_dir = '/opt/pseudo'
+/
+
+&system
+  ibrav = 0
+  ntyp = 2
+  nat = 8
+  ecutwfc = 30.
+  occupations = 'smearing'
+/
+
+&electrons
+  mixing_beta = 0.3
+  electron_maxstep=300
+  conv_thr=1.d-6
+  diagonalization='davidson'
+/
+
+ATOMIC_SPECIES
+  Ga  0.00  Si.vbc.UPF
+  As  0.00  As.vbc.UPF
+
+ATOMIC_POSITIONS bohr
+Ga  0.000000000     0.000000000     0.000000000
+Ga  5.235000000     5.235000000     0.000000000
+Ga  5.235000000     0.000000000     5.235000000
+Ga  0.000000000     5.235000000     5.235000000  
+As  2.617500000     2.617500000     2.617500000
+As  7.852500000     2.617500000     7.852500000
+As  7.852500000     7.852500000     2.617500000
+As  2.617500000     7.852500000     7.852500000
+
+K_POINTS Gamma
+
+CELL_PARAMETERS
+ 10.47  0.0   0.0
+  0.0  10.47  0.0
+  0.0   0.0  10.47
+

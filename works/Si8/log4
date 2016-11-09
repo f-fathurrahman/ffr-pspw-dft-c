@@ -1,0 +1,1893 @@
+
+Program started at: 15 January 2012 01:13:49 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      596
+NGX      =     4768
+NG       =     4625
+GCUT     =     106.7831614288
+GCUTW    =      26.6957903572
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =      587
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 4.000000
+Normalize charge density ......Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -44.1528237322
+EKIN   =       0.0000000000
+EHT    =     -37.3105518149
+EPSEU  =       2.5109102429
+ENL    =       0.0000000000
+EXC    =      -9.3531821602
+Calling Lanczos ....
+End of Lanczos ....
+norm_rT = 22.224709
+norm(f) = 1.100290
+lb = 2.612903
+ub = 4.828704
+
+=====SCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.612903,4.828704)
+Eigenvalue of T
+    1 -0.291547
+    2 -0.155615
+    3 -0.146350
+    4 -0.138324
+    5 -0.129596
+    6 -0.095234
+    7 -0.072492
+    8 0.036243
+    9 0.062490
+   10 0.071771
+   11 0.089303
+   12 0.121603
+   13 0.170182
+   14 0.176202
+   15 0.201709
+   16 0.240086
+   17 0.277571
+   18 0.298040
+   19 0.367403
+   20 0.422768
+   21 0.432411
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.035174
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -15.4959643838
+EKIN   =      14.0731189277
+EHT    =     -30.6090791946
+EPSEU  =       0.0000583941
+ENL    =       1.0399470566
+EXC    =      -0.0000095677
+!     1     -15.4959643838      28.6568593484
+Residual: 1 0.173839
+Residual: 2 0.118811
+Residual: 3 0.142644
+Residual: 4 0.166458
+Residual: 5 0.158186
+Residual: 6 0.200531
+Residual: 7 0.216363
+Residual: 8 0.145798
+Residual: 9 0.184791
+Residual: 10 0.205301
+Residual: 11 0.204897
+Residual: 12 0.193213
+Residual: 13 0.198027
+Residual: 14 0.193792
+Residual: 15 0.187065
+Residual: 16 0.196769
+Residual: 17 0.225028
+Residual: 18 0.237573
+Residual: 19 0.262172
+Residual: 20 0.234580
+Residual: 21 0.261248
+
+=====SCF iteration: 2=====
+
+Calling chebyfilt with bounds: (2.307593,26.162529)
+Eigenvalue of T
+    1 -0.061347
+    2 0.065861
+    3 0.068639
+    4 0.070604
+    5 0.074984
+    6 0.089401
+    7 0.097915
+    8 0.263224
+    9 0.273799
+   10 0.280472
+   11 0.286103
+   12 0.316570
+   13 0.357499
+   14 0.367345
+   15 0.405966
+   16 0.437496
+   17 0.501877
+   18 0.514574
+   19 0.533505
+   20 0.581120
+   21 0.589964
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.038704
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7236766865
+EKIN   =      14.6507894974
+EHT    =     -30.6090162026
+EPSEU  =       0.0000505536
+ENL    =       1.2345098275
+EXC    =      -0.0000103624
+!     2     -14.7236766865       0.7722876973
+Residual: 1 0.065914
+Residual: 2 0.035015
+Residual: 3 0.050767
+Residual: 4 0.061578
+Residual: 5 0.065539
+Residual: 6 0.109534
+Residual: 7 0.113866
+Residual: 8 0.060374
+Residual: 9 0.085196
+Residual: 10 0.098332
+Residual: 11 0.103618
+Residual: 12 0.117042
+Residual: 13 0.123748
+Residual: 14 0.118615
+Residual: 15 0.134449
+Residual: 16 0.152074
+Residual: 17 0.087307
+Residual: 18 0.113976
+Residual: 19 0.144773
+Residual: 20 0.165419
+Residual: 21 0.181594
+
+=====SCF iteration: 3=====
+
+Calling chebyfilt with bounds: (2.307593,26.155789)
+Eigenvalue of T
+    1 -0.067517
+    2 0.064304
+    3 0.065070
+    4 0.065746
+    5 0.068066
+    6 0.070551
+    7 0.076388
+    8 0.257389
+    9 0.260597
+   10 0.264270
+   11 0.267662
+   12 0.286915
+   13 0.317620
+   14 0.346588
+   15 0.368155
+   16 0.388395
+   17 0.485814
+   18 0.490201
+   19 0.497656
+   20 0.520537
+   21 0.526646
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.039595
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.8482711720
+EKIN   =      14.6109167116
+EHT    =     -30.6090209927
+EPSEU  =       0.0000527546
+ENL    =       1.1497906949
+EXC    =      -0.0000103404
+!     3     -14.8482711720       0.1245944856
+Residual: 1 0.031002
+Residual: 2 0.013818
+Residual: 3 0.022053
+Residual: 4 0.025618
+Residual: 5 0.037285
+Residual: 6 0.054975
+Residual: 7 0.066130
+Residual: 8 0.029876
+Residual: 9 0.048542
+Residual: 10 0.053238
+Residual: 11 0.058832
+Residual: 12 0.085036
+Residual: 13 0.105531
+Residual: 14 0.057274
+Residual: 15 0.090850
+Residual: 16 0.104999
+Residual: 17 0.072035
+Residual: 18 0.056063
+Residual: 19 0.070370
+Residual: 20 0.111330
+Residual: 21 0.105658
+
+=====SCF iteration: 4=====
+
+Calling chebyfilt with bounds: (2.307593,26.155318)
+Eigenvalue of T
+    1 -0.068874
+    2 0.063999
+    3 0.064428
+    4 0.064838
+    5 0.065696
+    6 0.066104
+    7 0.068819
+    8 0.255992
+    9 0.256828
+   10 0.259188
+   11 0.261180
+   12 0.271885
+   13 0.291970
+   14 0.340919
+   15 0.352125
+   16 0.365752
+   17 0.472996
+   18 0.485150
+   19 0.489166
+   20 0.497040
+   21 0.504775
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.039971
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.9145105301
+EKIN   =      14.5829177672
+EHT    =     -30.6090207683
+EPSEU  =       0.0000526938
+ENL    =       1.1115501190
+EXC    =      -0.0000103418
+!     4     -14.9145105301       0.0662393581
+Residual: 1 0.014990
+Residual: 2 0.006540
+Residual: 3 0.009649
+Residual: 4 0.012476
+Residual: 5 0.022631
+Residual: 6 0.026033
+Residual: 7 0.039788
+Residual: 8 0.015397
+Residual: 9 0.023649
+Residual: 10 0.031988
+Residual: 11 0.037455
+Residual: 12 0.060532
+Residual: 13 0.083580
+Residual: 14 0.032372
+Residual: 15 0.058583
+Residual: 16 0.072569
+Residual: 17 0.053429
+Residual: 18 0.031427
+Residual: 19 0.038296
+Residual: 20 0.065048
+Residual: 21 0.064754
+
+=====SCF iteration: 5=====
+
+Calling chebyfilt with bounds: (2.307593,26.155328)
+Eigenvalue of T
+    1 -0.069197
+    2 0.063928
+    3 0.064272
+    4 0.064549
+    5 0.064819
+    6 0.065141
+    7 0.066113
+    8 0.255574
+    9 0.255992
+   10 0.257257
+   11 0.258402
+   12 0.264244
+   13 0.276325
+   14 0.338956
+   15 0.345246
+   16 0.354506
+   17 0.467119
+   18 0.482977
+   19 0.486026
+   20 0.489224
+   21 0.496509
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.040163
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -16.6375420478
+EKIN   =      14.5755185396
+EHT    =     -31.1408298673
+EPSEU  =       0.3240190160
+ENL    =       1.0941798605
+EXC    =      -1.4904295965
+!     5     -16.6375420478       1.7230315176
+Residual: 1 0.020030
+Residual: 2 0.019441
+Residual: 3 0.018785
+Residual: 4 0.023004
+Residual: 5 0.022117
+Residual: 6 0.025911
+Residual: 7 0.031254
+Residual: 8 0.017938
+Residual: 9 0.021402
+Residual: 10 0.025709
+Residual: 11 0.029119
+Residual: 12 0.048141
+Residual: 13 0.067500
+Residual: 14 0.025093
+Residual: 15 0.045336
+Residual: 16 0.054919
+Residual: 17 0.042800
+Residual: 18 0.026331
+Residual: 19 0.032262
+Residual: 20 0.039463
+Residual: 21 0.043079
+
+=====SCF iteration: 6=====
+
+Calling chebyfilt with bounds: (2.307593,24.212192)
+Eigenvalue of T
+    1 -0.282471
+    2 -0.155433
+    3 -0.152524
+    4 -0.149584
+    5 -0.146406
+    6 -0.141720
+    7 -0.135910
+    8 0.038118
+    9 0.040971
+   10 0.043496
+   11 0.048287
+   12 0.051717
+   13 0.055799
+   14 0.127650
+   15 0.134765
+   16 0.139090
+   17 0.252855
+   18 0.264021
+   19 0.268499
+   20 0.270791
+   21 0.279325
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.033918
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -25.4335932392
+EKIN   =      14.4955575494
+EHT    =     -33.3286896941
+EPSEU  =       1.5632939776
+ENL    =       1.0430101782
+EXC    =      -9.2067652502
+!     6     -25.4335932392       8.7960511914
+Residual: 1 0.049837
+Residual: 2 0.047523
+Residual: 3 0.046957
+Residual: 4 0.049441
+Residual: 5 0.048958
+Residual: 6 0.047222
+Residual: 7 0.062077
+Residual: 8 0.056876
+Residual: 9 0.056924
+Residual: 10 0.059520
+Residual: 11 0.061556
+Residual: 12 0.071713
+Residual: 13 0.080523
+Residual: 14 0.060589
+Residual: 15 0.062849
+Residual: 16 0.062261
+Residual: 17 0.066613
+Residual: 18 0.070588
+Residual: 19 0.068591
+Residual: 20 0.075999
+Residual: 21 0.077169
+
+=====SCF iteration: 7=====
+
+Calling chebyfilt with bounds: (2.307593,23.224996)
+Eigenvalue of T
+    1 -0.380869
+    2 -0.279535
+    3 -0.255697
+    4 -0.227815
+    5 -0.220139
+    6 -0.193848
+    7 -0.163816
+    8 -0.067195
+    9 -0.060888
+   10 -0.047786
+   11 -0.029518
+   12 -0.018118
+   13 -0.005306
+   14 0.063221
+   15 0.071030
+   16 0.085018
+   17 0.135758
+   18 0.158089
+   19 0.171084
+   20 0.191356
+   21 0.199510
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.021765
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -27.0052258594
+EKIN   =      14.0381880455
+EHT    =     -34.8686541913
+EPSEU  =       1.9075861512
+ENL    =       0.9792175624
+EXC    =      -9.0615634271
+!     7     -27.0052258594       1.5716326202
+Residual: 1 0.030695
+Residual: 2 0.028727
+Residual: 3 0.023837
+Residual: 4 0.024825
+Residual: 5 0.027374
+Residual: 6 0.021247
+Residual: 7 0.030006
+Residual: 8 0.036137
+Residual: 9 0.038190
+Residual: 10 0.031718
+Residual: 11 0.044027
+Residual: 12 0.036450
+Residual: 13 0.032321
+Residual: 14 0.033925
+Residual: 15 0.032299
+Residual: 16 0.031062
+Residual: 17 0.044079
+Residual: 18 0.047388
+Residual: 19 0.047157
+Residual: 20 0.046817
+Residual: 21 0.042555
+
+=====SCF iteration: 8=====
+
+Calling chebyfilt with bounds: (2.307593,23.252524)
+Eigenvalue of T
+    1 -0.355500
+    2 -0.235601
+    3 -0.229937
+    4 -0.219375
+    5 -0.190698
+    6 -0.184763
+    7 -0.166982
+    8 -0.039229
+    9 -0.029959
+   10 -0.025764
+   11 -0.017484
+   12 -0.006073
+   13 -0.000290
+   14 0.079941
+   15 0.087203
+   16 0.095695
+   17 0.150945
+   18 0.160040
+   19 0.175120
+   20 0.197478
+   21 0.203688
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.017765
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -29.2622288914
+EKIN   =      13.7463478021
+EHT    =     -36.7197500032
+EPSEU  =       2.3928984870
+ENL    =       0.9237446827
+EXC    =      -9.6054698602
+!     8     -29.2622288914       2.2570030321
+Residual: 1 0.040187
+Residual: 2 0.035504
+Residual: 3 0.043758
+Residual: 4 0.034150
+Residual: 5 0.036660
+Residual: 6 0.037654
+Residual: 7 0.035873
+Residual: 8 0.042939
+Residual: 9 0.053126
+Residual: 10 0.055344
+Residual: 11 0.050821
+Residual: 12 0.049228
+Residual: 13 0.052390
+Residual: 14 0.047647
+Residual: 15 0.044941
+Residual: 16 0.050177
+Residual: 17 0.063678
+Residual: 18 0.061908
+Residual: 19 0.063788
+Residual: 20 0.065335
+Residual: 21 0.057309
+
+=====SCF iteration: 9=====
+
+Calling chebyfilt with bounds: (2.307593,23.339187)
+Eigenvalue of T
+    1 -0.338685
+    2 -0.225033
+    3 -0.198998
+    4 -0.178135
+    5 -0.167149
+    6 -0.160675
+    7 -0.132971
+    8 -0.024838
+    9 -0.007192
+   10 -0.001545
+   11 0.006696
+   12 0.013527
+   13 0.036292
+   14 0.108710
+   15 0.125497
+   16 0.134011
+   17 0.157490
+   18 0.163444
+   19 0.181573
+   20 0.196500
+   21 0.229286
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.013543
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -29.9849402060
+EKIN   =      13.3310851171
+EHT    =     -37.4231552074
+EPSEU  =       2.4285318296
+ENL    =       0.8518396683
+EXC    =      -9.1732416135
+!     9     -29.9849402060       0.7227113145
+Residual: 1 0.027044
+Residual: 2 0.030712
+Residual: 3 0.031526
+Residual: 4 0.022975
+Residual: 5 0.026185
+Residual: 6 0.025759
+Residual: 7 0.029273
+Residual: 8 0.036340
+Residual: 9 0.037588
+Residual: 10 0.037508
+Residual: 11 0.034643
+Residual: 12 0.035568
+Residual: 13 0.032315
+Residual: 14 0.033649
+Residual: 15 0.034795
+Residual: 16 0.032462
+Residual: 17 0.044054
+Residual: 18 0.046636
+Residual: 19 0.050562
+Residual: 20 0.047187
+Residual: 21 0.048616
+
+=====SCF iteration: 10=====
+
+Calling chebyfilt with bounds: (2.307593,23.488392)
+Eigenvalue of T
+    1 -0.309717
+    2 -0.175439
+    3 -0.168758
+    4 -0.164655
+    5 -0.150004
+    6 -0.141276
+    7 -0.128479
+    8 0.009310
+    9 0.016359
+   10 0.020302
+   11 0.023620
+   12 0.031893
+   13 0.041120
+   14 0.130769
+   15 0.141940
+   16 0.146741
+   17 0.170352
+   18 0.182444
+   19 0.194125
+   20 0.201950
+   21 0.248023
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.009112
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.9164840030
+EKIN   =      13.1213982847
+EHT    =     -37.6287017236
+EPSEU  =       2.4246804349
+ENL    =       0.8152608974
+EXC    =      -9.6491218965
+!    10     -30.9164840030       0.9315437971
+Residual: 1 0.021150
+Residual: 2 0.030943
+Residual: 3 0.022793
+Residual: 4 0.023521
+Residual: 5 0.025882
+Residual: 6 0.022421
+Residual: 7 0.021632
+Residual: 8 0.040019
+Residual: 9 0.031660
+Residual: 10 0.031538
+Residual: 11 0.030041
+Residual: 12 0.031231
+Residual: 13 0.024947
+Residual: 14 0.034720
+Residual: 15 0.032241
+Residual: 16 0.032724
+Residual: 17 0.040054
+Residual: 18 0.042317
+Residual: 19 0.047100
+Residual: 20 0.045711
+Residual: 21 0.047264
+
+=====SCF iteration: 11=====
+
+Calling chebyfilt with bounds: (2.307593,23.471155)
+Eigenvalue of T
+    1 -0.302250
+    2 -0.159256
+    3 -0.153820
+    4 -0.152464
+    5 -0.149430
+    6 -0.140896
+    7 -0.127731
+    8 0.021908
+    9 0.025914
+   10 0.026946
+   11 0.029937
+   12 0.031011
+   13 0.038897
+   14 0.144031
+   15 0.148023
+   16 0.150417
+   17 0.170275
+   18 0.180919
+   19 0.190789
+   20 0.203626
+   21 0.257115
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.004883
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.5260314402
+EKIN   =      12.9388725899
+EHT    =     -37.5716408630
+EPSEU  =       2.3950843701
+ENL    =       0.7905521259
+EXC    =     -10.0788996630
+!    11     -31.5260314402       0.6095474372
+Residual: 1 0.012904
+Residual: 2 0.014198
+Residual: 3 0.013888
+Residual: 4 0.015114
+Residual: 5 0.013440
+Residual: 6 0.014429
+Residual: 7 0.018339
+Residual: 8 0.018113
+Residual: 9 0.018729
+Residual: 10 0.017439
+Residual: 11 0.016810
+Residual: 12 0.021872
+Residual: 13 0.018923
+Residual: 14 0.018881
+Residual: 15 0.019794
+Residual: 16 0.019695
+Residual: 17 0.023705
+Residual: 18 0.028837
+Residual: 19 0.034819
+Residual: 20 0.041506
+Residual: 21 0.041095
+
+=====SCF iteration: 12=====
+
+Calling chebyfilt with bounds: (2.307593,23.428255)
+Eigenvalue of T
+    1 -0.301917
+    2 -0.157267
+    3 -0.150590
+    4 -0.148959
+    5 -0.147174
+    6 -0.143213
+    7 -0.135546
+    8 0.021499
+    9 0.026011
+   10 0.027480
+   11 0.028718
+   12 0.029444
+   13 0.035629
+   14 0.145816
+   15 0.146731
+   16 0.148368
+   17 0.168163
+   18 0.172478
+   19 0.180064
+   20 0.200269
+   21 0.253003
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.002725
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.3211970472
+EKIN   =      12.8430105584
+EHT    =     -37.4267809680
+EPSEU  =       2.2908322441
+ENL    =       0.7773877366
+EXC    =      -9.8056466184
+!    12     -31.3211970472       0.2048343930
+Residual: 1 0.004947
+Residual: 2 0.007185
+Residual: 3 0.007185
+Residual: 4 0.007123
+Residual: 5 0.008314
+Residual: 6 0.008497
+Residual: 7 0.008759
+Residual: 8 0.008288
+Residual: 9 0.009410
+Residual: 10 0.010103
+Residual: 11 0.010519
+Residual: 12 0.008963
+Residual: 13 0.008999
+Residual: 14 0.011174
+Residual: 15 0.011272
+Residual: 16 0.010241
+Residual: 17 0.011501
+Residual: 18 0.018851
+Residual: 19 0.025976
+Residual: 20 0.034985
+Residual: 21 0.040023
+
+=====SCF iteration: 13=====
+
+Calling chebyfilt with bounds: (2.307593,23.463206)
+Eigenvalue of T
+    1 -0.299104
+    2 -0.149033
+    3 -0.147163
+    4 -0.145253
+    5 -0.144846
+    6 -0.143702
+    7 -0.141933
+    8 0.028166
+    9 0.029022
+   10 0.030096
+   11 0.030551
+   12 0.031542
+   13 0.031795
+   14 0.146958
+   15 0.147933
+   16 0.148540
+   17 0.172456
+   18 0.175273
+   19 0.181399
+   20 0.197750
+   21 0.248327
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000860
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.2061004610
+EKIN   =      12.8307398827
+EHT    =     -37.3699066266
+EPSEU  =       2.2546891669
+ENL    =       0.7776917939
+EXC    =      -9.6993146780
+!    13     -31.2061004610       0.1150965862
+Residual: 1 0.001918
+Residual: 2 0.002946
+Residual: 3 0.003039
+Residual: 4 0.003951
+Residual: 5 0.002953
+Residual: 6 0.004589
+Residual: 7 0.003980
+Residual: 8 0.004449
+Residual: 9 0.005226
+Residual: 10 0.004718
+Residual: 11 0.004678
+Residual: 12 0.004232
+Residual: 13 0.004365
+Residual: 14 0.005708
+Residual: 15 0.006152
+Residual: 16 0.006192
+Residual: 17 0.004687
+Residual: 18 0.014444
+Residual: 19 0.022870
+Residual: 20 0.033277
+Residual: 21 0.040739
+
+=====SCF iteration: 14=====
+
+Calling chebyfilt with bounds: (2.307593,23.472676)
+Eigenvalue of T
+    1 -0.298428
+    2 -0.148061
+    3 -0.146051
+    4 -0.144709
+    5 -0.144385
+    6 -0.143401
+    7 -0.142854
+    8 0.029140
+    9 0.029919
+   10 0.030411
+   11 0.031046
+   12 0.031630
+   13 0.032126
+   14 0.147191
+   15 0.147993
+   16 0.148646
+   17 0.173932
+   18 0.176253
+   19 0.181180
+   20 0.195922
+   21 0.243816
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000454
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1671619977
+EKIN   =      12.8336493788
+EHT    =     -37.3514228928
+EPSEU  =       2.2451240348
+ENL    =       0.7780525014
+EXC    =      -9.6725650199
+!    14     -31.1671619977       0.0389384633
+Residual: 1 0.000946
+Residual: 2 0.002294
+Residual: 3 0.001547
+Residual: 4 0.002065
+Residual: 5 0.001969
+Residual: 6 0.001491
+Residual: 7 0.002040
+Residual: 8 0.002656
+Residual: 9 0.003725
+Residual: 10 0.002234
+Residual: 11 0.002918
+Residual: 12 0.002981
+Residual: 13 0.002853
+Residual: 14 0.004165
+Residual: 15 0.004453
+Residual: 16 0.005430
+Residual: 17 0.002672
+Residual: 18 0.012562
+Residual: 19 0.021041
+Residual: 20 0.032140
+Residual: 21 0.042585
+
+=====SCF iteration: 15=====
+
+Calling chebyfilt with bounds: (2.307593,23.472797)
+Eigenvalue of T
+    1 -0.298345
+    2 -0.145733
+    3 -0.145338
+    4 -0.145136
+    5 -0.144841
+    6 -0.144445
+    7 -0.144104
+    8 0.030175
+    9 0.030404
+   10 0.030673
+   11 0.030898
+   12 0.031038
+   13 0.031150
+   14 0.147384
+   15 0.147797
+   16 0.148172
+   17 0.174130
+   18 0.176201
+   19 0.180317
+   20 0.193813
+   21 0.238594
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000225
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1700981783
+EKIN   =      12.8361555951
+EHT    =     -37.3510421270
+EPSEU  =       2.2445387259
+ENL    =       0.7778075493
+EXC    =      -9.6775579217
+!    15     -31.1700981783       0.0029361807
+Residual: 1 0.000430
+Residual: 2 0.000915
+Residual: 3 0.000953
+Residual: 4 0.001133
+Residual: 5 0.001170
+Residual: 6 0.001263
+Residual: 7 0.001315
+Residual: 8 0.002099
+Residual: 9 0.002442
+Residual: 10 0.001759
+Residual: 11 0.002299
+Residual: 12 0.001958
+Residual: 13 0.001713
+Residual: 14 0.003475
+Residual: 15 0.003503
+Residual: 16 0.005015
+Residual: 17 0.002669
+Residual: 18 0.011165
+Residual: 19 0.019350
+Residual: 20 0.030912
+Residual: 21 0.044630
+
+=====SCF iteration: 16=====
+
+Calling chebyfilt with bounds: (2.307593,23.473807)
+Eigenvalue of T
+    1 -0.298269
+    2 -0.145420
+    3 -0.145113
+    4 -0.144963
+    5 -0.144809
+    6 -0.144445
+    7 -0.144298
+    8 0.030255
+    9 0.030495
+   10 0.030776
+   11 0.030906
+   12 0.031070
+   13 0.031215
+   14 0.147665
+   15 0.147769
+   16 0.148112
+   17 0.174113
+   18 0.175759
+   19 0.179462
+   20 0.190934
+   21 0.232485
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000113
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1778217634
+EKIN   =      12.8354357455
+EHT    =     -37.3543107429
+EPSEU  =       2.2462321306
+ENL    =       0.7770512240
+EXC    =      -9.6822301206
+!    16     -31.1778217634       0.0077235850
+Residual: 1 0.000224
+Residual: 2 0.000923
+Residual: 3 0.000577
+Residual: 4 0.000643
+Residual: 5 0.000808
+Residual: 6 0.000590
+Residual: 7 0.000563
+Residual: 8 0.001605
+Residual: 9 0.001711
+Residual: 10 0.001068
+Residual: 11 0.001919
+Residual: 12 0.001261
+Residual: 13 0.001687
+Residual: 14 0.002602
+Residual: 15 0.003248
+Residual: 16 0.004795
+Residual: 17 0.001983
+Residual: 18 0.010124
+Residual: 19 0.017959
+Residual: 20 0.029704
+Residual: 21 0.045943
+
+=====SCF iteration: 17=====
+
+Calling chebyfilt with bounds: (2.307593,23.473735)
+Eigenvalue of T
+    1 -0.298256
+    2 -0.145211
+    3 -0.145075
+    4 -0.144977
+    5 -0.144679
+    6 -0.144538
+    7 -0.144407
+    8 0.030366
+    9 0.030585
+   10 0.030773
+   11 0.030881
+   12 0.030998
+   13 0.031181
+   14 0.147722
+   15 0.147815
+   16 0.148033
+   17 0.174026
+   18 0.175464
+   19 0.178613
+   20 0.188566
+   21 0.226361
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000078
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1814166843
+EKIN   =      12.8346729273
+EHT    =     -37.3564545792
+EPSEU  =       2.2465347611
+ENL    =       0.7764767874
+EXC    =      -9.6826465809
+!    17     -31.1814166843       0.0035949210
+Residual: 1 0.000175
+Residual: 2 0.000450
+Residual: 3 0.000369
+Residual: 4 0.000479
+Residual: 5 0.000381
+Residual: 6 0.000417
+Residual: 7 0.000534
+Residual: 8 0.001246
+Residual: 9 0.001332
+Residual: 10 0.001191
+Residual: 11 0.001248
+Residual: 12 0.000852
+Residual: 13 0.001266
+Residual: 14 0.002077
+Residual: 15 0.003066
+Residual: 16 0.004428
+Residual: 17 0.002359
+Residual: 18 0.009129
+Residual: 19 0.016557
+Residual: 20 0.028229
+Residual: 21 0.046621
+
+=====SCF iteration: 18=====
+
+Calling chebyfilt with bounds: (2.307593,23.474869)
+Eigenvalue of T
+    1 -0.298169
+    2 -0.144960
+    3 -0.144949
+    4 -0.144866
+    5 -0.144676
+    6 -0.144586
+    7 -0.144266
+    8 0.030522
+    9 0.030681
+   10 0.030882
+   11 0.030951
+   12 0.031051
+   13 0.031196
+   14 0.147826
+   15 0.147906
+   16 0.148080
+   17 0.174061
+   18 0.175298
+   19 0.177944
+   20 0.186445
+   21 0.220201
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000041
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1834309841
+EKIN   =      12.8340486685
+EHT    =     -37.3569756699
+EPSEU  =       2.2465198079
+ENL    =       0.7760654203
+EXC    =      -9.6830892109
+!    18     -31.1834309841       0.0020142997
+Residual: 1 0.000119
+Residual: 2 0.000227
+Residual: 3 0.000372
+Residual: 4 0.000271
+Residual: 5 0.000213
+Residual: 6 0.000204
+Residual: 7 0.000375
+Residual: 8 0.000921
+Residual: 9 0.001113
+Residual: 10 0.000851
+Residual: 11 0.001012
+Residual: 12 0.000753
+Residual: 13 0.000900
+Residual: 14 0.001940
+Residual: 15 0.002766
+Residual: 16 0.004046
+Residual: 17 0.002514
+Residual: 18 0.008245
+Residual: 19 0.015213
+Residual: 20 0.026654
+Residual: 21 0.046523
+
+=====SCF iteration: 19=====
+
+Calling chebyfilt with bounds: (2.307593,23.475343)
+Eigenvalue of T
+    1 -0.298137
+    2 -0.144913
+    3 -0.144902
+    4 -0.144773
+    5 -0.144683
+    6 -0.144557
+    7 -0.144256
+    8 0.030541
+    9 0.030712
+   10 0.030964
+   11 0.030998
+   12 0.031061
+   13 0.031187
+   14 0.147862
+   15 0.147918
+   16 0.148079
+   17 0.174074
+   18 0.175125
+   19 0.177346
+   20 0.184533
+   21 0.214098
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000036
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1832246093
+EKIN   =      12.8338736813
+EHT    =     -37.3567633599
+EPSEU  =       2.2464116551
+ENL    =       0.7757996602
+EXC    =      -9.6825462460
+!    19     -31.1832246093       0.0002063748
+Residual: 1 0.000031
+Residual: 2 0.000162
+Residual: 3 0.000188
+Residual: 4 0.000126
+Residual: 5 0.000140
+Residual: 6 0.000112
+Residual: 7 0.000221
+Residual: 8 0.000735
+Residual: 9 0.000891
+Residual: 10 0.000631
+Residual: 11 0.000811
+Residual: 12 0.000471
+Residual: 13 0.000764
+Residual: 14 0.001812
+Residual: 15 0.002488
+Residual: 16 0.003767
+Residual: 17 0.002485
+Residual: 18 0.007470
+Residual: 19 0.013970
+Residual: 20 0.025009
+Residual: 21 0.045679
+
+=====SCF iteration: 20=====
+
+Calling chebyfilt with bounds: (2.307593,23.475320)
+Eigenvalue of T
+    1 -0.298138
+    2 -0.144920
+    3 -0.144910
+    4 -0.144784
+    5 -0.144679
+    6 -0.144561
+    7 -0.144247
+    8 0.030532
+    9 0.030707
+   10 0.030956
+   11 0.030996
+   12 0.031063
+   13 0.031191
+   14 0.147849
+   15 0.147899
+   16 0.148038
+   17 0.174055
+   18 0.174990
+   19 0.176840
+   20 0.182863
+   21 0.208290
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000066
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1846506518
+EKIN   =      12.8341626645
+EHT    =     -37.3570347275
+EPSEU  =       2.2467310109
+ENL    =       0.7756566871
+EXC    =      -9.6841662867
+!    20     -31.1846506518       0.0014260425
+Residual: 1 0.000042
+Residual: 2 0.000094
+Residual: 3 0.000133
+Residual: 4 0.000086
+Residual: 5 0.000096
+Residual: 6 0.000079
+Residual: 7 0.000148
+Residual: 8 0.000590
+Residual: 9 0.000689
+Residual: 10 0.000493
+Residual: 11 0.000642
+Residual: 12 0.000380
+Residual: 13 0.000600
+Residual: 14 0.001714
+Residual: 15 0.002221
+Residual: 16 0.003484
+Residual: 17 0.002627
+Residual: 18 0.006725
+Residual: 19 0.012790
+Residual: 20 0.023332
+Residual: 21 0.044168
+
+=====SCF iteration: 21=====
+
+Calling chebyfilt with bounds: (2.307593,23.475130)
+Eigenvalue of T
+    1 -0.298152
+    2 -0.144915
+    3 -0.144903
+    4 -0.144805
+    5 -0.144692
+    6 -0.144572
+    7 -0.144284
+    8 0.030539
+    9 0.030689
+   10 0.030937
+   11 0.030969
+   12 0.031053
+   13 0.031175
+   14 0.147832
+   15 0.147876
+   16 0.147993
+   17 0.174016
+   18 0.174846
+   19 0.176383
+   20 0.181404
+   21 0.202921
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000073
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858030182
+EKIN   =      12.8343534107
+EHT    =     -37.3573227804
+EPSEU  =       2.2469525027
+ENL    =       0.7755245614
+EXC    =      -9.6853107126
+!    21     -31.1858030182       0.0011523665
+Residual: 1 0.000052
+Residual: 2 0.000086
+Residual: 3 0.000092
+Residual: 4 0.000078
+Residual: 5 0.000074
+Residual: 6 0.000071
+Residual: 7 0.000114
+Residual: 8 0.000477
+Residual: 9 0.000523
+Residual: 10 0.000369
+Residual: 11 0.000517
+Residual: 12 0.000304
+Residual: 13 0.000488
+Residual: 14 0.001630
+Residual: 15 0.001942
+Residual: 16 0.003227
+Residual: 17 0.002633
+Residual: 18 0.006077
+Residual: 19 0.011692
+Residual: 20 0.021651
+Residual: 21 0.042093
+
+=====SCF iteration: 22=====
+
+Calling chebyfilt with bounds: (2.307593,23.475077)
+Eigenvalue of T
+    1 -0.298156
+    2 -0.144905
+    3 -0.144892
+    4 -0.144799
+    5 -0.144703
+    6 -0.144578
+    7 -0.144307
+    8 0.030551
+    9 0.030688
+   10 0.030935
+   11 0.030958
+   12 0.031044
+   13 0.031159
+   14 0.147823
+   15 0.147865
+   16 0.147965
+   17 0.173992
+   18 0.174728
+   19 0.176008
+   20 0.180154
+   21 0.198117
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000075
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857937645
+EKIN   =      12.8345104433
+EHT    =     -37.3573520073
+EPSEU  =       2.2469635015
+ENL    =       0.7754190760
+EXC    =      -9.6853347780
+!    22     -31.1857937645       0.0000092537
+Residual: 1 0.000028
+Residual: 2 0.000056
+Residual: 3 0.000051
+Residual: 4 0.000047
+Residual: 5 0.000041
+Residual: 6 0.000039
+Residual: 7 0.000072
+Residual: 8 0.000384
+Residual: 9 0.000402
+Residual: 10 0.000267
+Residual: 11 0.000409
+Residual: 12 0.000225
+Residual: 13 0.000399
+Residual: 14 0.001539
+Residual: 15 0.001703
+Residual: 16 0.003000
+Residual: 17 0.002603
+Residual: 18 0.005505
+Residual: 19 0.010674
+Residual: 20 0.019989
+Residual: 21 0.039600
+
+=====SCF iteration: 23=====
+
+Calling chebyfilt with bounds: (2.307593,23.475076)
+Eigenvalue of T
+    1 -0.298156
+    2 -0.144902
+    3 -0.144892
+    4 -0.144796
+    5 -0.144703
+    6 -0.144582
+    7 -0.144309
+    8 0.030555
+    9 0.030693
+   10 0.030933
+   11 0.030957
+   12 0.031042
+   13 0.031154
+   14 0.147817
+   15 0.147857
+   16 0.147942
+   17 0.173975
+   18 0.174646
+   19 0.175709
+   20 0.179099
+   21 0.193919
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000088
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857793017
+EKIN   =      12.8347504384
+EHT    =     -37.3573288168
+EPSEU  =       2.2469495993
+ENL    =       0.7753523582
+EXC    =      -9.6855028808
+!    23     -31.1857793017       0.0000144628
+Residual: 1 0.000016
+Residual: 2 0.000035
+Residual: 3 0.000028
+Residual: 4 0.000031
+Residual: 5 0.000027
+Residual: 6 0.000024
+Residual: 7 0.000043
+Residual: 8 0.000305
+Residual: 9 0.000305
+Residual: 10 0.000207
+Residual: 11 0.000319
+Residual: 12 0.000173
+Residual: 13 0.000320
+Residual: 14 0.001416
+Residual: 15 0.001544
+Residual: 16 0.002789
+Residual: 17 0.002602
+Residual: 18 0.005010
+Residual: 19 0.009716
+Residual: 20 0.018372
+Residual: 21 0.036840
+
+=====SCF iteration: 24=====
+
+Calling chebyfilt with bounds: (2.307593,23.475121)
+Eigenvalue of T
+    1 -0.298154
+    2 -0.144905
+    3 -0.144885
+    4 -0.144789
+    5 -0.144706
+    6 -0.144570
+    7 -0.144312
+    8 0.030553
+    9 0.030687
+   10 0.030944
+   11 0.030961
+   12 0.031041
+   13 0.031159
+   14 0.147815
+   15 0.147855
+   16 0.147924
+   17 0.173954
+   18 0.174583
+   19 0.175464
+   20 0.178212
+   21 0.190320
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000101
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857177592
+EKIN   =      12.8349520860
+EHT    =     -37.3572262009
+EPSEU  =       2.2469253739
+ENL    =       0.7752955233
+EXC    =      -9.6856645415
+!    24     -31.1857177592       0.0000615425
+Residual: 1 0.000016
+Residual: 2 0.000029
+Residual: 3 0.000022
+Residual: 4 0.000025
+Residual: 5 0.000024
+Residual: 6 0.000020
+Residual: 7 0.000029
+Residual: 8 0.000245
+Residual: 9 0.000229
+Residual: 10 0.000163
+Residual: 11 0.000251
+Residual: 12 0.000128
+Residual: 13 0.000261
+Residual: 14 0.001307
+Residual: 15 0.001434
+Residual: 16 0.002579
+Residual: 17 0.002579
+Residual: 18 0.004614
+Residual: 19 0.008819
+Residual: 20 0.016818
+Residual: 21 0.033949
+
+=====SCF iteration: 25=====
+
+Calling chebyfilt with bounds: (2.307593,23.475143)
+Eigenvalue of T
+    1 -0.298154
+    2 -0.144912
+    3 -0.144884
+    4 -0.144782
+    5 -0.144711
+    6 -0.144562
+    7 -0.144318
+    8 0.030550
+    9 0.030681
+   10 0.030951
+   11 0.030960
+   12 0.031039
+   13 0.031161
+   14 0.147809
+   15 0.147850
+   16 0.147907
+   17 0.173929
+   18 0.174528
+   19 0.175262
+   20 0.177471
+   21 0.187286
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000114
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1847533136
+EKIN   =      12.8351486095
+EHT    =     -37.3567846441
+EPSEU  =       2.2468343991
+ENL    =       0.7752521035
+EXC    =      -9.6852037815
+!    25     -31.1847533136       0.0009644455
+Residual: 1 0.000046
+Residual: 2 0.000065
+Residual: 3 0.000067
+Residual: 4 0.000059
+Residual: 5 0.000054
+Residual: 6 0.000057
+Residual: 7 0.000055
+Residual: 8 0.000213
+Residual: 9 0.000194
+Residual: 10 0.000143
+Residual: 11 0.000209
+Residual: 12 0.000111
+Residual: 13 0.000226
+Residual: 14 0.001214
+Residual: 15 0.001412
+Residual: 16 0.002382
+Residual: 17 0.002543
+Residual: 18 0.004324
+Residual: 19 0.007988
+Residual: 20 0.015331
+Residual: 21 0.031052
+
+=====SCF iteration: 26=====
+
+Calling chebyfilt with bounds: (2.307593,23.474979)
+Eigenvalue of T
+    1 -0.298168
+    2 -0.144936
+    3 -0.144915
+    4 -0.144817
+    5 -0.144716
+    6 -0.144571
+    7 -0.144312
+    8 0.030523
+    9 0.030655
+   10 0.030926
+   11 0.030945
+   12 0.031044
+   13 0.031167
+   14 0.147787
+   15 0.147827
+   16 0.147875
+   17 0.173886
+   18 0.174485
+   19 0.175103
+   20 0.176863
+   21 0.184753
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000148
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1842286227
+EKIN   =      12.8354934028
+EHT    =     -37.3567282544
+EPSEU  =       2.2468018786
+ENL    =       0.7752473758
+EXC    =      -9.6850430256
+!    26     -31.1842286227       0.0005246909
+Residual: 1 0.000024
+Residual: 2 0.000033
+Residual: 3 0.000034
+Residual: 4 0.000032
+Residual: 5 0.000026
+Residual: 6 0.000028
+Residual: 7 0.000028
+Residual: 8 0.000168
+Residual: 9 0.000144
+Residual: 10 0.000099
+Residual: 11 0.000159
+Residual: 12 0.000083
+Residual: 13 0.000176
+Residual: 14 0.001120
+Residual: 15 0.001532
+Residual: 16 0.002075
+Residual: 17 0.002543
+Residual: 18 0.004206
+Residual: 19 0.007175
+Residual: 20 0.013899
+Residual: 21 0.028220
+
+=====SCF iteration: 27=====
+
+Calling chebyfilt with bounds: (2.307593,23.474981)
+Eigenvalue of T
+    1 -0.298168
+    2 -0.144939
+    3 -0.144918
+    4 -0.144820
+    5 -0.144715
+    6 -0.144570
+    7 -0.144307
+    8 0.030519
+    9 0.030653
+   10 0.030926
+   11 0.030946
+   12 0.031046
+   13 0.031170
+   14 0.147783
+   15 0.147819
+   16 0.147864
+   17 0.173866
+   18 0.174438
+   19 0.174974
+   20 0.176364
+   21 0.182681
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000163
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1853631479
+EKIN   =      12.8357342663
+EHT    =     -37.3572835221
+EPSEU  =       2.2469639872
+ENL    =       0.7752267700
+EXC    =      -9.6860046494
+!    27     -31.1853631479       0.0011345252
+Residual: 1 0.000117
+Residual: 2 0.000155
+Residual: 3 0.000151
+Residual: 4 0.000153
+Residual: 5 0.000130
+Residual: 6 0.000132
+Residual: 7 0.000153
+Residual: 8 0.000193
+Residual: 9 0.000165
+Residual: 10 0.000169
+Residual: 11 0.000205
+Residual: 12 0.000180
+Residual: 13 0.000195
+Residual: 14 0.001030
+Residual: 15 0.001548
+Residual: 16 0.001748
+Residual: 17 0.002474
+Residual: 18 0.004077
+Residual: 19 0.006470
+Residual: 20 0.012557
+Residual: 21 0.025502
+
+=====SCF iteration: 28=====
+
+Calling chebyfilt with bounds: (2.307593,23.475137)
+Eigenvalue of T
+    1 -0.298156
+    2 -0.144903
+    3 -0.144864
+    4 -0.144752
+    5 -0.144706
+    6 -0.144588
+    7 -0.144363
+    8 0.030598
+    9 0.030714
+   10 0.030928
+   11 0.030943
+   12 0.031020
+   13 0.031128
+   14 0.147797
+   15 0.147832
+   16 0.147872
+   17 0.173894
+   18 0.174380
+   19 0.174838
+   20 0.175937
+   21 0.181018
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000118
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1863084499
+EKIN   =      12.8357390767
+EHT    =     -37.3576539599
+EPSEU  =       2.2470573000
+ENL    =       0.7751621959
+EXC    =      -9.6866130626
+!    28     -31.1863084499       0.0009453020
+Residual: 1 0.000121
+Residual: 2 0.000152
+Residual: 3 0.000149
+Residual: 4 0.000159
+Residual: 5 0.000125
+Residual: 6 0.000138
+Residual: 7 0.000162
+Residual: 8 0.000163
+Residual: 9 0.000154
+Residual: 10 0.000174
+Residual: 11 0.000178
+Residual: 12 0.000177
+Residual: 13 0.000181
+Residual: 14 0.000837
+Residual: 15 0.001272
+Residual: 16 0.001749
+Residual: 17 0.002295
+Residual: 18 0.003635
+Residual: 19 0.005943
+Residual: 20 0.011358
+Residual: 21 0.022974
+
+=====SCF iteration: 29=====
+
+Calling chebyfilt with bounds: (2.307593,23.475239)
+Eigenvalue of T
+    1 -0.298147
+    2 -0.144878
+    3 -0.144824
+    4 -0.144715
+    5 -0.144693
+    6 -0.144588
+    7 -0.144408
+    8 0.030652
+    9 0.030750
+   10 0.030919
+   11 0.030947
+   12 0.031002
+   13 0.031114
+   14 0.147809
+   15 0.147839
+   16 0.147876
+   17 0.173917
+   18 0.174333
+   19 0.174725
+   20 0.175590
+   21 0.179671
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000088
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1866170665
+EKIN   =      12.8357170057
+EHT    =     -37.3576647035
+EPSEU  =       2.2470497966
+ENL    =       0.7751085999
+EXC    =      -9.6868277654
+!    29     -31.1866170665       0.0003086166
+Residual: 1 0.000073
+Residual: 2 0.000083
+Residual: 3 0.000084
+Residual: 4 0.000098
+Residual: 5 0.000072
+Residual: 6 0.000084
+Residual: 7 0.000106
+Residual: 8 0.000103
+Residual: 9 0.000098
+Residual: 10 0.000118
+Residual: 11 0.000109
+Residual: 12 0.000119
+Residual: 13 0.000128
+Residual: 14 0.000716
+Residual: 15 0.001040
+Residual: 16 0.001727
+Residual: 17 0.002129
+Residual: 18 0.003318
+Residual: 19 0.005433
+Residual: 20 0.010243
+Residual: 21 0.020653
+
+=====SCF iteration: 30=====
+
+Calling chebyfilt with bounds: (2.307593,23.475248)
+Eigenvalue of T
+    1 -0.298145
+    2 -0.144872
+    3 -0.144811
+    4 -0.144712
+    5 -0.144691
+    6 -0.144583
+    7 -0.144427
+    8 0.030670
+    9 0.030753
+   10 0.030915
+   11 0.030943
+   12 0.030995
+   13 0.031115
+   14 0.147811
+   15 0.147837
+   16 0.147870
+   17 0.173918
+   18 0.174298
+   19 0.174638
+   20 0.175316
+   21 0.178576
+Broyden mixing with MIXDIM=    4
+alpha =  0.25000 w0 =  0.01000
+In BroydenMix: d = 0.000082
+After free memory in BroydenRhoMix ...
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1865015232
+EKIN   =      12.8357678205
+EHT    =     -37.3575083879
+EPSEU  =       2.2470254021
+ENL    =       0.7750794683
+EXC    =      -9.6868658262
+!    30     -31.1865015232       0.0001155433
+Residual: 1 0.000025
+Residual: 2 0.000027
+Residual: 3 0.000025
+Residual: 4 0.000042
+Residual: 5 0.000022
+Residual: 6 0.000028
+Residual: 7 0.000049
+Residual: 8 0.000066
+Residual: 9 0.000044
+Residual: 10 0.000067
+Residual: 11 0.000054
+Residual: 12 0.000065
+Residual: 13 0.000086
+Residual: 14 0.000645
+Residual: 15 0.000992
+Residual: 16 0.001626
+Residual: 17 0.002025
+Residual: 18 0.003179
+Residual: 19 0.004966
+Residual: 20 0.009165
+Residual: 21 0.018539
+Pass here in ChebySCFLoop
+
+Program ended normally at: 15 January 2012 01:14:30 PM
+Total time for SCF loop:                       39.95000 s
+Total elapsed time for main program:           40.00000 s

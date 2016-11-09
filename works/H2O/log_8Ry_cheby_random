@@ -1,0 +1,611 @@
+
+Program started at: 05 February 2012 02:14:13 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (18,18,18)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: O.fhi
+ZV(1)      =      6.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.cpi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       2
+
+Total number of atoms:     3
+Atomic coordinates (in bohr):
+O.fhi       0.0000000000      -0.1239000000       0.0000000000
+H.cpi       1.4300000000       0.9833000000       0.0000000000
+H.cpi      -1.4300000000       0.9833000000       0.0000000000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):       8.0000000000 Ry
+Fourier grid: (      20,      20,      20)
+NGWX     =      398
+NGX      =     3184
+NG       =     3071
+GCUT     =      81.0569469139
+GCUTW    =      20.2642367285
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      389
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 6.000000
+FormFactorAtomic: rho of atom 2 is 1.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.251206
+...Done
+Data written successfully
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.0035725882
+EKIN   =       0.0000000000
+EHT    =     -14.5376931552
+EPSEU  =     -11.7059324773
+ENL    =       0.0000000000
+EXC    =      -3.7599469557
+
+Time for 1st Lanczos iteration: 0.040000
+norm_rT = 14.164242
+norm(f) = 0.927892
+lb = 2.206856
+ub = 3.844168
+
+=====ChebySCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.206856,3.844168) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.3176754962
+EKIN   =       6.0716423540
+EHT    =     -13.3658702395
+EPSEU  =      -6.0676888517
+ENL    =       2.1503095169
+EXC    =      -3.1060682759
+
+!     1     -14.3176754962      15.6858970920       1.0000000000
+
+
+=====ChebySCF iteration: 2=====
+
+Calling chebyfilt with bounds: (0.344434,14.577448) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -12.6859045796
+EKIN   =       8.2523584655
+EHT    =     -13.7057961222
+EPSEU  =      -6.4920375541
+ENL    =       2.5225405014
+EXC    =      -3.2629698702
+
+!     2     -12.6859045796       1.6317709166       0.9130297880
+
+
+=====ChebySCF iteration: 3=====
+
+Calling chebyfilt with bounds: (0.187464,14.596951) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.2506113084
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.1270516598
+EKIN   =       7.8252460093
+EHT    =     -13.9935845631
+EPSEU  =      -6.9704296598
+ENL    =       2.4752315568
+EXC    =      -3.4635150030
+
+!     3     -14.1270516598       1.4411470802       0.2506113084
+
+
+=====ChebySCF iteration: 4=====
+
+Calling chebyfilt with bounds: (0.152191,14.670046) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0047896538
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.4526352835
+EKIN   =       7.2379720829
+EHT    =     -13.8998892070
+EPSEU  =      -6.8128664265
+ENL    =       2.4191655201
+EXC    =      -3.3970172530
+
+!     4     -14.4526352835       0.3255836237       0.0047896538
+
+
+=====ChebySCF iteration: 5=====
+
+Calling chebyfilt with bounds: (0.165653,14.671647) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0321698093
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.6261711845
+EKIN   =       7.4623320518
+EHT    =     -14.0131418836
+EPSEU  =      -7.0224394336
+ENL    =       2.4353056035
+EXC    =      -3.4882275225
+
+!     5     -14.6261711845       0.1735359010       0.0321698093
+
+
+=====ChebySCF iteration: 6=====
+
+Calling chebyfilt with bounds: (0.159644,14.730675) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0068486050
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7991184972
+EKIN   =       7.1820391219
+EHT    =     -13.9778503471
+EPSEU  =      -6.9562352120
+ENL    =       2.4113170742
+EXC    =      -3.4583891341
+
+!     6     -14.7991184972       0.1729473127       0.0068486050
+
+
+=====ChebySCF iteration: 7=====
+
+Calling chebyfilt with bounds: (0.171059,14.721345) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0001771188
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.8282357973
+EKIN   =       7.2788018262
+EHT    =     -14.0121211931
+EPSEU  =      -7.0247949224
+ENL    =       2.4191400308
+EXC    =      -3.4892615388
+
+!     7     -14.8282357973       0.0291173001       0.0001771188
+
+
+=====ChebySCF iteration: 8=====
+
+Calling chebyfilt with bounds: (0.167309,14.783098) and degree 10
+Time for chebyfilt: 0.240000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0061762928
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7658383278
+EKIN   =       7.1846128933
+EHT    =     -13.9679718005
+EPSEU  =      -6.9427392812
+ENL    =       2.4119606821
+EXC    =      -3.4517008215
+
+!     8     -14.7658383278       0.0623974695       0.0061762928
+
+
+=====ChebySCF iteration: 9=====
+
+Calling chebyfilt with bounds: (0.175182,14.749885) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0010327718
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.6854895080
+EKIN   =       7.3010819627
+EHT    =     -13.9805888204
+EPSEU  =      -6.9654831743
+ENL    =       2.4213560529
+EXC    =      -3.4618555289
+
+!     9     -14.6854895080       0.0803488198       0.0010327718
+
+
+=====ChebySCF iteration: 10=====
+
+Calling chebyfilt with bounds: (0.169184,14.755294) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000020013
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.6955047765
+EKIN   =       7.2677976514
+EHT    =     -13.9734122093
+EPSEU  =      -6.9529433243
+ENL    =       2.4187801697
+EXC    =      -3.4557270641
+
+!    10     -14.6955047765       0.0100152685       0.0000020013
+
+
+=====ChebySCF iteration: 11=====
+
+Calling chebyfilt with bounds: (0.170006,14.751112) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0003589831
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7107017593
+EKIN   =       7.2869130466
+EHT    =     -13.9833469735
+EPSEU  =      -6.9705900489
+ENL    =       2.4201994228
+EXC    =      -3.4638772063
+
+!    11     -14.7107017593       0.0151969828       0.0003589831
+
+
+=====ChebySCF iteration: 12=====
+
+Calling chebyfilt with bounds: (0.168948,14.755686) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000362472
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7253842078
+EKIN   =       7.2613006425
+EHT    =     -13.9797690976
+EPSEU  =      -6.9643366292
+ENL    =       2.4182547314
+EXC    =      -3.4608338550
+
+!    12     -14.7253842078       0.0146824485       0.0000362472
+
+
+=====ChebySCF iteration: 13=====
+
+Calling chebyfilt with bounds: (0.169718,14.753993) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000101949
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7201087723
+EKIN   =       7.2709842084
+EHT    =     -13.9811956418
+EPSEU  =      -6.9668146099
+ENL    =       2.4189550997
+EXC    =      -3.4620378287
+
+!    13     -14.7201087723       0.0052754354       0.0000101949
+
+
+=====ChebySCF iteration: 14=====
+
+Calling chebyfilt with bounds: (0.169202,14.754762) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000003114
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7215304267
+EKIN   =       7.2671100897
+EHT    =     -13.9804303491
+EPSEU  =      -6.9654968084
+ENL    =       2.4186902303
+EXC    =      -3.4614035891
+
+!    14     -14.7215304267       0.0014216543       0.0000003114
+
+
+=====ChebySCF iteration: 15=====
+
+Calling chebyfilt with bounds: (0.169212,14.754616) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000020257
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7227877978
+EKIN   =       7.2691432093
+EHT    =     -13.9813962587
+EPSEU  =      -6.9671531731
+ENL    =       2.4188391818
+EXC    =      -3.4622207571
+
+!    15     -14.7227877978       0.0012573711       0.0000020257
+
+
+=====ChebySCF iteration: 16=====
+
+Calling chebyfilt with bounds: (0.169053,14.755154) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000012696
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7241668893
+EKIN   =       7.2665825046
+EHT    =     -13.9810159678
+EPSEU  =      -6.9664991919
+ENL    =       2.4186679269
+EXC    =      -3.4619021612
+
+!    16     -14.7241668893       0.0013790915       0.0000012696
+
+
+=====ChebySCF iteration: 17=====
+
+Calling chebyfilt with bounds: (0.169069,14.754928) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000114
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7231430865
+EKIN   =       7.2676171605
+EHT    =     -13.9810374984
+EPSEU  =      -6.9665311945
+ENL    =       2.4187332015
+EXC    =      -3.4619247556
+
+!    17     -14.7231430865       0.0010238028       0.0000000114
+
+
+=====ChebySCF iteration: 18=====
+
+Calling chebyfilt with bounds: (0.168956,14.754950) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000284
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228248595
+EKIN   =       7.2675371405
+EHT    =     -13.9809227460
+EPSEU  =      -6.9663334000
+ENL    =       2.4187298922
+EXC    =      -3.4618357462
+
+!    18     -14.7228248595       0.0003182269       0.0000000284
+
+
+=====ChebySCF iteration: 19=====
+
+Calling chebyfilt with bounds: (0.168899,14.754924) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000202
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7227155329
+EKIN   =       7.2678316054
+EHT    =     -13.9809805762
+EPSEU  =      -6.9664306600
+ENL    =       2.4187490854
+EXC    =      -3.4618849875
+
+!    19     -14.7227155329       0.0001093267       0.0000000202
+
+
+=====ChebySCF iteration: 20=====
+
+Calling chebyfilt with bounds: (0.168840,14.754962) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000003
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228488340
+EKIN   =       7.2676741568
+EHT    =     -13.9809705309
+EPSEU  =      -6.9664147995
+ENL    =       2.4187397186
+EXC    =      -3.4618773790
+
+!    20     -14.7228488340       0.0001333011       0.0000000003
+
+
+=====ChebySCF iteration: 21=====
+
+Calling chebyfilt with bounds: (0.168802,14.754969) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000002
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228699235
+EKIN   =       7.2677020684
+EHT    =     -13.9809843272
+EPSEU  =      -6.9664392463
+ENL    =       2.4187413363
+EXC    =      -3.4618897546
+
+!    21     -14.7228699235       0.0000210895       0.0000000002
+
+
+=====ChebySCF iteration: 22=====
+
+Calling chebyfilt with bounds: (0.168763,14.754994) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000007
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228675729
+EKIN   =       7.2676637626
+EHT    =     -13.9809718958
+EPSEU  =      -6.9664192598
+ENL    =       2.4187392517
+EXC    =      -3.4618794316
+
+!    22     -14.7228675729       0.0000023506       0.0000000007
+
+
+=====ChebySCF iteration: 23=====
+
+Calling chebyfilt with bounds: (0.168731,14.754991) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000001
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228427502
+EKIN   =       7.2676970684
+EHT    =     -13.9809748737
+EPSEU  =      -6.9664243927
+ENL    =       2.4187411528
+EXC    =      -3.4618817050
+
+!    23     -14.7228427502       0.0000248227       0.0000000001
+
+
+=====ChebySCF iteration: 24=====
+
+Calling chebyfilt with bounds: (0.168699,14.754992) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228383159
+EKIN   =       7.2676889350
+EHT    =     -13.9809709638
+EPSEU  =      -6.9664189224
+ENL    =       2.4187406922
+EXC    =      -3.4618780569
+
+!    24     -14.7228383159       0.0000044344       0.0000000000
+
+
+=====ChebySCF iteration: 25=====
+
+Calling chebyfilt with bounds: (0.168671,14.754992) and degree 10
+Time for chebyfilt: 0.240000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000001
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228444182
+EKIN   =       7.2676999134
+EHT    =     -13.9809761202
+EPSEU  =      -6.9664272064
+ENL    =       2.4187412153
+EXC    =      -3.4618822202
+
+!    25     -14.7228444182       0.0000061023       0.0000000001
+
+
+=====ChebySCF iteration: 26=====
+
+Calling chebyfilt with bounds: (0.168645,14.754993) and degree 10
+Time for chebyfilt: 0.260000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228549653
+EKIN   =       7.2676862496
+EHT    =     -13.9809750166
+EPSEU  =      -6.9664252911
+ENL    =       2.4187404719
+EXC    =      -3.4618813791
+
+!    26     -14.7228549653       0.0000105471       0.0000000000
+
+
+=====ChebySCF iteration: 27=====
+
+Calling chebyfilt with bounds: (0.168621,14.754993) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228507701
+EKIN   =       7.2676892918
+EHT    =     -13.9809747341
+EPSEU  =      -6.9664248265
+ENL    =       2.4187406383
+EXC    =      -3.4618811397
+
+!    27     -14.7228507701       0.0000041952       0.0000000000
+
+
+=====ChebySCF iteration: 28=====
+
+Calling chebyfilt with bounds: (0.168599,14.754992) and degree 10
+Time for chebyfilt: 0.250000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228509450
+EKIN   =       7.2676899958
+EHT    =     -13.9809750058
+EPSEU  =      -6.9664252948
+ENL    =       2.4187406775
+EXC    =      -3.4618813178
+
+!    28     -14.7228509450       0.0000001749       0.0000000000
+
+***Convergence achieved in 28 iterations.
+End of ChebySCFLoop
+Residual:     1       0.0000000435
+Residual:     2       0.0000000710
+Residual:     3       0.0000000758
+Residual:     4       0.0000000697
+Residual:     5       0.0000000379
+Residual:     6       0.0000000506
+Residual:     7       0.0000003377
+Residual:     8       0.0000117309
+Residual:     9       0.0002192538
+Data written successfully
+
+Program ended normally at: 05 February 2012 02:14:22 PM
+Total time for SCF loop:                        9.46000 s
+Total elapsed time for main program:            9.50000 s

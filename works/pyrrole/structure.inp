@@ -1,0 +1,48 @@
+&control
+  calculation = 'scf'
+  verbosity = 'high'
+  prefix = 'anatase001'
+  restart_mode='from_scratch'
+  outdir = './pwfiles'
+  pseudo_dir = '/opt/pseudo'
+/
+
+&system
+  ibrav = 0
+  ntyp = 3
+  nat = 11
+  ecutwfc = 30.
+/
+
+&electrons
+  mixing_beta = 0.3
+  electron_maxstep=300
+  conv_thr=1.d-6
+  diagonalization='davidson'
+/
+
+ATOMIC_SPECIES
+  C   0.00   C.vbc.UPF
+	N   0.00   N.vbc.UPF
+  H   0.00   H.vbc.UPF
+
+ATOMIC_POSITIONS angstrom
+N         -0.00080        1.21080        0.00000
+C          1.12990        0.33320        0.00010
+C         -1.13040        0.33170        0.00000
+C          0.71550       -0.93750       -0.00010
+C         -0.71420       -0.93830        0.00010
+H         -0.00130        1.82040        0.82910
+H         -0.00120        1.82030       -0.82940
+H          2.15330        0.67690        0.00010
+H         -2.15430        0.67400        0.00010
+H          1.33720       -1.81730       -0.00020
+H         -1.33470       -1.81890        0.00010
+
+K_POINTS Gamma
+
+CELL_PARAMETERS
+ 15.0    0.0    0.0
+  0.0   15.0    0.0
+  0.0    0.0   15.0
+

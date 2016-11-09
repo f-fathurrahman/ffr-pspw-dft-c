@@ -1,0 +1,40 @@
+&control
+  calculation = 'scf'
+  verbosity = 'high'
+  prefix = 'anatase001'
+  restart_mode='from_scratch'
+  outdir = './pwfiles'
+  pseudo_dir = '/opt/pseudo'
+/
+
+&system
+  ibrav = 0
+  ntyp = 2
+  nat = 4
+  ecutwfc = 30.
+/
+
+&electrons
+  mixing_beta = 0.3
+  electron_maxstep=300
+  conv_thr=1.d-6
+  diagonalization='davidson'
+/
+
+ATOMIC_SPECIES
+  N   0.00  N.vbc.UPF
+  H   0.00  H.vbc.UPF
+
+ATOMIC_POSITIONS bohr
+N  -0.109736  0.043732  0.05751
+H   1.00912  -1.4209  -0.47067
+H  -0.61394   0.9989  -1.52628
+H  -1.70223  -0.6834   0.84038
+
+K_POINTS Gamma
+
+CELL_PARAMETERS
+ 10.0    0.0    0.0
+  0.0   10.0    0.0
+  0.0    0.0   10.0
+

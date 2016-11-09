@@ -1,0 +1,4 @@
+void allocate_globals( )
+{
+}
+

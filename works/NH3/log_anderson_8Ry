@@ -1,0 +1,990 @@
+
+Program started at: 11 January 2012 02:49:24 PM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (18,18,18)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: N.fhi
+ZV(1)      =      5.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.fhi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       3
+
+Total number of atoms:     4
+Atomic coordinates (in bohr):
+N.fhi      -0.1097360000       0.0437320000       0.0575100000
+H.fhi       1.0091200000      -1.4209000000      -0.4706700000
+H.fhi      -0.6139400000       0.9989000000      -1.5262800000
+H.fhi      -1.7022300000      -0.6834000000       0.8403800000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):       8.0000000000 Ry
+Fourier grid: (      20,      20,      20)
+NGWX     =      398
+NGX      =     3184
+NG       =     3071
+GCUT     =      81.0569469139
+GCUTW    =      20.2642367285
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      389
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 5.000000
+FormFactorAtomic: rho of atom 2 is 1.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.131315
+...Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -20.3448767967
+EKIN   =       0.0000000000
+EHT    =     -10.3783966726
+EPSEU  =      -6.7813702623
+ENL    =       0.0000000000
+EXC    =      -3.1851098618
+
+=====SCF iteration: 1=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8545727509
+iter =     3     0       0.6413622192
+iter =     4     0       0.3178427150
+iter =     5     0       0.1709142814
+iter =     6     0       0.0799789805
+iter =     7     0       0.0315160376
+iter =     8     0       0.0134987179
+iter =     9     0       0.0059284533
+iter =    10     0       0.0033740064
+iter =    11     0       0.0023173319
+iter =    12     0       0.0014255208
+iter =    13     0       0.0012810333
+iter =    14     1       0.0016276445
+iter =    15     3       0.0023296313
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9659864040       0.0000007622
+2      -0.4201929128       0.0000001945
+3      -0.4200837263       0.0000004602
+4      -0.2134074783       0.0000000899
+5      -0.0778474118       0.0000000461
+6       0.0825111816       0.0000206257
+7       0.0915561051       0.0000620575
+8       0.1435718999       0.0023479004
+9       0.1497993308       0.0183006057
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4392618851
+EKIN   =       5.8569220848
+EHT    =      -9.9555210779
+EPSEU  =      -4.8282150261
+ENL    =       1.6569185393
+EXC    =      -3.1693664052
+!     1     -10.4392618851       9.9056149117
+
+=====SCF iteration: 2=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8615707200
+iter =     3     0       0.6464051313
+iter =     4     0       0.3231573475
+iter =     5     0       0.1787279866
+iter =     6     0       0.0808689666
+iter =     7     0       0.0304881728
+iter =     8     0       0.0126560775
+iter =     9     0       0.0054121522
+iter =    10     0       0.0029150540
+iter =    11     0       0.0018553859
+iter =    12     0       0.0011463489
+iter =    13     0       0.0008152675
+iter =    14     1       0.0007774821
+iter =    15     3       0.0007751334
+Convergence achieved for 4 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -1.0494870337       0.0000010056
+2      -0.4091108259       0.0000001329
+3      -0.4087450457       0.0000004180
+4      -0.2273880980       0.0000001080
+5      -0.0750375070       0.0000000456
+6       0.0980428090       0.0000221923
+7       0.1059015665       0.0000280572
+8       0.1430629599       0.0008013477
+9       0.1562263515       0.0088620317
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =      -9.9566615904
+EKIN   =       6.3207917700
+EHT    =     -10.0257639410
+EPSEU  =      -4.9453082077
+ENL    =       1.8944449060
+EXC    =      -3.2008261177
+!     2      -9.9566615904       0.4826002946
+
+=====SCF iteration: 3=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8590433478
+iter =     3     0       0.6421903606
+iter =     4     0       0.3202963687
+iter =     5     0       0.1759873403
+iter =     6     0       0.0795869753
+iter =     7     0       0.0297086248
+iter =     8     0       0.0122859912
+iter =     9     0       0.0053731363
+iter =    10     0       0.0028580667
+iter =    11     0       0.0017751056
+iter =    12     0       0.0011451854
+iter =    13     0       0.0008430932
+iter =    14     1       0.0008403625
+iter =    15     3       0.0008475149
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -1.0157528342       0.0000008526
+2      -0.3916134771       0.0000001139
+3      -0.3913313825       0.0000003438
+4      -0.2061183278       0.0000000918
+5      -0.0721837900       0.0000000517
+6       0.0996333577       0.0000199498
+7       0.1071917390       0.0000238735
+8       0.1455113266       0.0007929224
+9       0.1573088484       0.0086941295
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0191430821
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.3087107589
+EKIN   =       6.1802193717
+EHT    =     -10.0808095961
+EPSEU  =      -5.0536309530
+ENL    =       1.8687101393
+EXC    =      -3.2231997208
+!     3     -10.3087107589       0.3520491685
+
+=====SCF iteration: 4=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8571090045
+iter =     3     0       0.6390462850
+iter =     4     0       0.3182426857
+iter =     5     0       0.1739765234
+iter =     6     0       0.0786474074
+iter =     7     0       0.0292080604
+iter =     8     0       0.0120878993
+iter =     9     0       0.0053864546
+iter =    10     0       0.0028214006
+iter =    11     0       0.0017056285
+iter =    12     0       0.0011514185
+iter =    13     0       0.0008816365
+iter =    14     1       0.0009484509
+iter =    15     3       0.0009960620
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9906708500       0.0000007702
+2      -0.3796312186       0.0000001050
+3      -0.3793886392       0.0000003007
+4      -0.1913051647       0.0000000855
+5      -0.0707465238       0.0000000574
+6       0.0999333803       0.0000179275
+7       0.1072867808       0.0000209346
+8       0.1467177256       0.0007355036
+9       0.1572938628       0.0087822580
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0007971567
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.2511567257
+EKIN   =       6.0685683155
+EHT    =     -10.0187805481
+EPSEU  =      -4.9735542067
+ENL    =       1.8471975586
+EXC    =      -3.1745878450
+!     4     -10.2511567257       0.0575540332
+
+=====SCF iteration: 5=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8600717693
+iter =     3     0       0.6443057332
+iter =     4     0       0.3214644055
+iter =     5     0       0.1771488793
+iter =     6     0       0.0802252351
+iter =     7     0       0.0302009642
+iter =     8     0       0.0126586591
+iter =     9     0       0.0055043233
+iter =    10     0       0.0029266774
+iter =    11     0       0.0018324221
+iter =    12     0       0.0011793613
+iter =    13     0       0.0008786367
+iter =    14     1       0.0008736869
+iter =    15     3       0.0008910939
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -1.0331840102       0.0000009126
+2      -0.4046398655       0.0000001281
+3      -0.4042445576       0.0000003845
+4      -0.2207971211       0.0000001027
+5      -0.0769077223       0.0000000477
+6       0.0952401297       0.0000211438
+7       0.1029494153       0.0000262409
+8       0.1414335396       0.0009325234
+9       0.1533110916       0.0101299932
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0312778911
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.3283284299
+EKIN   =       6.2408989036
+EHT    =     -10.1029386867
+EPSEU  =      -5.1120143834
+ENL    =       1.8701250303
+EXC    =      -3.2243992938
+!     5     -10.3283284299       0.0771717042
+
+=====SCF iteration: 6=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8565785263
+iter =     3     0       0.6383331350
+iter =     4     0       0.3176797643
+iter =     5     0       0.1734827511
+iter =     6     0       0.0784442537
+iter =     7     0       0.0291472896
+iter =     8     0       0.0121283066
+iter =     9     0       0.0054362575
+iter =    10     0       0.0028237366
+iter =    11     0       0.0016921634
+iter =    12     0       0.0011651363
+iter =    13     0       0.0009086126
+iter =    14     1       0.0010012470
+iter =    15     3       0.0010562560
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9853635942       0.0000007521
+2      -0.3787190551       0.0000001006
+3      -0.3784654204       0.0000002920
+4      -0.1896216994       0.0000000849
+5      -0.0718136796       0.0000000587
+6       0.0984467859       0.0000175615
+7       0.1057563912       0.0000203505
+8       0.1457641330       0.0007626041
+9       0.1558033625       0.0089659982
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0017963038
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.5172536528
+EKIN   =       6.0389645116
+EHT    =     -10.0899368827
+EPSEU  =      -5.0864959713
+ENL    =       1.8378198856
+EXC    =      -3.2176051959
+!     6     -10.5172536528       0.1889252229
+
+=====SCF iteration: 7=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8570852178
+iter =     3     0       0.6391783351
+iter =     4     0       0.3182000113
+iter =     5     0       0.1740081447
+iter =     6     0       0.0786954170
+iter =     7     0       0.0292782118
+iter =     8     0       0.0121893683
+iter =     9     0       0.0054409334
+iter =    10     0       0.0028376435
+iter =    11     0       0.0017120924
+iter =    12     0       0.0011658638
+iter =    13     0       0.0009015256
+iter =    14     1       0.0009736118
+iter =    15     3       0.0010224233
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9922009053       0.0000007713
+2      -0.3821810736       0.0000001041
+3      -0.3819186390       0.0000003051
+4      -0.1938123876       0.0000000858
+5      -0.0724199569       0.0000000573
+6       0.0981480799       0.0000181697
+7       0.1055105493       0.0000211039
+8       0.1452257043       0.0007861931
+9       0.1555749174       0.0091069346
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000793829
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4601291652
+EKIN   =       6.0692689167
+EHT    =     -10.0834247729
+EPSEU  =      -5.0762467367
+ENL    =       1.8431090209
+EXC    =      -3.2128355933
+!     7     -10.4601291652       0.0571244876
+
+=====SCF iteration: 8=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8573857449
+iter =     3     0       0.6397028487
+iter =     4     0       0.3185116772
+iter =     5     0       0.1743248305
+iter =     6     0       0.0788517013
+iter =     7     0       0.0293688997
+iter =     8     0       0.0122398282
+iter =     9     0       0.0054496782
+iter =    10     0       0.0028477274
+iter =    11     0       0.0017251597
+iter =    12     0       0.0011680381
+iter =    13     0       0.0008996471
+iter =    14     1       0.0009605327
+iter =    15     3       0.0010050074
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9964636446       0.0000007832
+2      -0.3845893739       0.0000001061
+3      -0.3843142442       0.0000003132
+4      -0.1966643487       0.0000000866
+5      -0.0729866498       0.0000000564
+6       0.0977478989       0.0000185366
+7       0.1051439306       0.0000216022
+8       0.1447347212       0.0008085198
+9       0.1552350120       0.0092300679
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0001001844
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4516415982
+EKIN   =       6.0872681018
+EHT    =     -10.0870729247
+EPSEU  =      -5.0821209183
+ENL    =       1.8456307595
+EXC    =      -3.2153466165
+!     8     -10.4516415982       0.0084875670
+
+=====SCF iteration: 9=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572214114
+iter =     3     0       0.6394189720
+iter =     4     0       0.3183395394
+iter =     5     0       0.1741544890
+iter =     6     0       0.0787677621
+iter =     7     0       0.0293202703
+iter =     8     0       0.0122147349
+iter =     9     0       0.0054468382
+iter =    10     0       0.0028428730
+iter =    11     0       0.0017180094
+iter =    12     0       0.0011672365
+iter =    13     0       0.0009012816
+iter =    14     1       0.0009684235
+iter =    15     3       0.0010151228
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9941750976       0.0000007768
+2      -0.3833233033       0.0000001050
+3      -0.3830566895       0.0000003090
+4      -0.1951468723       0.0000000861
+5      -0.0727107277       0.0000000569
+6       0.0979298200       0.0000183438
+7       0.1053080038       0.0000213264
+8       0.1449661746       0.0007965097
+9       0.1553819153       0.0091661013
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000003296
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4577726857
+EKIN   =       6.0774815316
+EHT    =     -10.0855499670
+EPSEU  =      -5.0798313314
+ENL    =       1.8442322130
+EXC    =      -3.2141051320
+!     9     -10.4577726857       0.0061310875
+
+=====SCF iteration: 10=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572942821
+iter =     3     0       0.6395485758
+iter =     4     0       0.3184141700
+iter =     5     0       0.1742345084
+iter =     6     0       0.0788074174
+iter =     7     0       0.0293433171
+iter =     8     0       0.0122295490
+iter =     9     0       0.0054509857
+iter =    10     0       0.0028459033
+iter =    11     0       0.0017210100
+iter =    12     0       0.0011680762
+iter =    13     0       0.0009014316
+iter =    14     1       0.0009661464
+iter =    15     3       0.0010117291
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9952506815       0.0000007797
+2      -0.3839549300       0.0000001056
+3      -0.3836862005       0.0000003111
+4      -0.1958802256       0.0000000864
+5      -0.0728807826       0.0000000567
+6       0.0977968250       0.0000184378
+7       0.1051834071       0.0000214432
+8       0.1448092248       0.0008019298
+9       0.1552609248       0.0092012427
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000163822
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4586741570
+EKIN   =       6.0818972256
+EHT    =     -10.0873497335
+EPSEU  =      -5.0826009426
+ENL    =       1.8448325508
+EXC    =      -3.2154532572
+!    10     -10.4586741570       0.0009014713
+
+=====SCF iteration: 11=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572099937
+iter =     3     0       0.6394012335
+iter =     4     0       0.3183262786
+iter =     5     0       0.1741460575
+iter =     6     0       0.0787635709
+iter =     7     0       0.0293177351
+iter =     8     0       0.0122155887
+iter =     9     0       0.0054488439
+iter =    10     0       0.0028432010
+iter =    11     0       0.0017173180
+iter =    12     0       0.0011675145
+iter =    13     0       0.0009020284
+iter =    14     1       0.0009698681
+iter =    15     3       0.0010164869
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9940553724       0.0000007764
+2      -0.3832773700       0.0000001050
+3      -0.3830128879       0.0000003089
+4      -0.1950752446       0.0000000861
+5      -0.0727211052       0.0000000570
+6       0.0979094106       0.0000183347
+7       0.1052868175       0.0000213021
+8       0.1449462094       0.0007955061
+9       0.1553557639       0.0091642948
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000016529
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4619623246
+EKIN   =       6.0768441915
+EHT    =     -10.0866149799
+EPSEU  =      -5.0814664887
+ENL    =       1.8441440050
+EXC    =      -3.2148690526
+!    11     -10.4619623246       0.0032881676
+
+=====SCF iteration: 12=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572445227
+iter =     3     0       0.6394623485
+iter =     4     0       0.3183615729
+iter =     5     0       0.1741842037
+iter =     6     0       0.0787824570
+iter =     7     0       0.0293285993
+iter =     8     0       0.0122227048
+iter =     9     0       0.0054509409
+iter =    10     0       0.0028446426
+iter =    11     0       0.0017186683
+iter =    12     0       0.0011678987
+iter =    13     0       0.0009021087
+iter =    14     1       0.0009688049
+iter =    15     3       0.0010149067
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9945660216       0.0000007778
+2      -0.3835754529       0.0000001053
+3      -0.3833098856       0.0000003099
+4      -0.1954224703       0.0000000862
+5      -0.0728020729       0.0000000569
+6       0.0978459662       0.0000183794
+7       0.1052272705       0.0000213564
+8       0.1448704506       0.0007979791
+9       0.1552975362       0.0091810070
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000007739
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4614128207
+EKIN   =       6.0789453536
+EHT    =     -10.0871793146
+EPSEU  =      -5.0823042236
+ENL    =       1.8444340212
+EXC    =      -3.2153086573
+!    12     -10.4614128207       0.0005495039
+
+=====SCF iteration: 13=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572173263
+iter =     3     0       0.6394145249
+iter =     4     0       0.3183330951
+iter =     5     0       0.1741560264
+iter =     6     0       0.0787684451
+iter =     7     0       0.0293203328
+iter =     8     0       0.0122184414
+iter =     9     0       0.0054505145
+iter =    10     0       0.0028438213
+iter =    11     0       0.0017173959
+iter =    12     0       0.0011677236
+iter =    13     0       0.0009023445
+iter =    14     1       0.0009700682
+iter =    15     3       0.0010164629
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9941821223       0.0000007767
+2      -0.3833563886       0.0000001051
+3      -0.3830922729       0.0000003092
+4      -0.1951628047       0.0000000862
+5      -0.0727515144       0.0000000570
+6       0.0978810628       0.0000183459
+7       0.1052594022       0.0000213098
+8       0.1449123659       0.0007958090
+9       0.1553262942       0.0091688746
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000007109
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4617715988
+EKIN   =       6.0773205341
+EHT    =     -10.0867341274
+EPSEU  =      -5.0816087114
+ENL    =       1.8442198528
+EXC    =      -3.2149691470
+!    13     -10.4617715988       0.0003587781
+
+=====SCF iteration: 14=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572379777
+iter =     3     0       0.6394507234
+iter =     4     0       0.3183543928
+iter =     5     0       0.1741784562
+iter =     6     0       0.0787795694
+iter =     7     0       0.0293267254
+iter =     8     0       0.0122223983
+iter =     9     0       0.0054515177
+iter =    10     0       0.0028445918
+iter =    11     0       0.0017182041
+iter =    12     0       0.0011679026
+iter =    13     0       0.0009023096
+iter =    14     1       0.0009693201
+iter =    15     3       0.0010154493
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9944827007       0.0000007775
+2      -0.3835288274       0.0000001053
+3      -0.3832637538       0.0000003098
+4      -0.1953664718       0.0000000862
+5      -0.0727962553       0.0000000569
+6       0.0978472690       0.0000183721
+7       0.1052278288       0.0000213426
+8       0.1448713528       0.0007972952
+9       0.1552959631       0.0091787244
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000002170
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4611303563
+EKIN   =       6.0785749180
+EHT    =     -10.0869737603
+EPSEU  =      -5.0819571902
+ENL    =       1.8443924299
+EXC    =      -3.2151667536
+!    14     -10.4611303563       0.0006412426
+
+=====SCF iteration: 15=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572262180
+iter =     3     0       0.6394298172
+iter =     4     0       0.3183421824
+iter =     5     0       0.1741659888
+iter =     6     0       0.0787733697
+iter =     7     0       0.0293230684
+iter =     8     0       0.0122203364
+iter =     9     0       0.0054511564
+iter =    10     0       0.0028441807
+iter =    11     0       0.0017176646
+iter =    12     0       0.0011677968
+iter =    13     0       0.0009023563
+iter =    14     1       0.0009697875
+iter =    15     3       0.0010160601
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9943130073       0.0000007770
+2      -0.3834297841       0.0000001052
+3      -0.3831652039       0.0000003094
+4      -0.1952508266       0.0000000862
+5      -0.0727715355       0.0000000570
+6       0.0978656226       0.0000183572
+7       0.1052448514       0.0000213228
+8       0.1448928083       0.0007963624
+9       0.1553118239       0.0091731797
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000726
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4614310152
+EKIN   =       6.0778689620
+EHT    =     -10.0868229852
+EPSEU  =      -5.0817194219
+ENL    =       1.8442999341
+EXC    =      -3.2150575042
+!    15     -10.4614310152       0.0003006590
+
+=====SCF iteration: 16=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572331288
+iter =     3     0       0.6394418039
+iter =     4     0       0.3183493913
+iter =     5     0       0.1741733067
+iter =     6     0       0.0787770066
+iter =     7     0       0.0293251595
+iter =     8     0       0.0122215100
+iter =     9     0       0.0054513650
+iter =    10     0       0.0028443979
+iter =    11     0       0.0017179440
+iter =    12     0       0.0011678358
+iter =    13     0       0.0009023065
+iter =    14     1       0.0009694853
+iter =    15     3       0.0010156876
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9944112441       0.0000007773
+2      -0.3834848054       0.0000001052
+3      -0.3832197838       0.0000003096
+4      -0.1953170024       0.0000000862
+5      -0.0727846861       0.0000000569
+6       0.0978563612       0.0000183657
+7       0.1052362873       0.0000213340
+8       0.1448812486       0.0007968652
+9       0.1553039072       0.0091763668
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000324
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4613037962
+EKIN   =       6.0782869303
+EHT    =     -10.0869285560
+EPSEU  =      -5.0818709196
+ENL    =       1.8443571060
+EXC    =      -3.2151483569
+!    16     -10.4613037962       0.0001272191
+
+=====SCF iteration: 17=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572278951
+iter =     3     0       0.6394324429
+iter =     4     0       0.3183439955
+iter =     5     0       0.1741676293
+iter =     6     0       0.0787741802
+iter =     7     0       0.0293234957
+iter =     8     0       0.0122204851
+iter =     9     0       0.0054511169
+iter =    10     0       0.0028441932
+iter =    11     0       0.0017177174
+iter =    12     0       0.0011677787
+iter =    13     0       0.0009023048
+iter =    14     1       0.0009696619
+iter =    15     3       0.0010159349
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9943340568       0.0000007771
+2      -0.3834389595       0.0000001052
+3      -0.3831741299       0.0000003095
+4      -0.1952639521       0.0000000862
+5      -0.0727723659       0.0000000570
+6       0.0978659876       0.0000183589
+7       0.1052453090       0.0000213254
+8       0.1448923658       0.0007964524
+9       0.1553125481       0.0091737491
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000212
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4614324788
+EKIN   =       6.0779703982
+EHT    =     -10.0868586396
+EPSEU  =      -5.0817637504
+ENL    =       1.8443159290
+EXC    =      -3.2150964160
+!    17     -10.4614324788       0.0001286826
+
+=====SCF iteration: 18=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572311808
+iter =     3     0       0.6394381789
+iter =     4     0       0.3183474419
+iter =     5     0       0.1741710378
+iter =     6     0       0.0787758749
+iter =     7     0       0.0293244830
+iter =     8     0       0.0122209881
+iter =     9     0       0.0054511642
+iter =    10     0       0.0028442879
+iter =    11     0       0.0017178658
+iter =    12     0       0.0011677958
+iter =    13     0       0.0009022722
+iter =    14     1       0.0009695057
+iter =    15     3       0.0010157482
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9943801682       0.0000007772
+2      -0.3834648465       0.0000001052
+3      -0.3831998107       0.0000003096
+4      -0.1952949640       0.0000000862
+5      -0.0727781864       0.0000000569
+6       0.0978620680       0.0000183630
+7       0.1052417275       0.0000213309
+8       0.1448875172       0.0007967020
+9       0.1553093688       0.0091752139
+
+Time for diagonalization: 0.420000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000045
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4613508141
+EKIN   =       6.0781672990
+EHT    =     -10.0869013473
+EPSEU  =      -5.0818256924
+ENL    =       1.8443423459
+EXC    =      -3.2151334194
+!    18     -10.4613508141       0.0000816647
+
+=====SCF iteration: 19=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572290883
+iter =     3     0       0.6394344471
+iter =     4     0       0.3183452978
+iter =     5     0       0.1741687055
+iter =     6     0       0.0787747105
+iter =     7     0       0.0293238043
+iter =     8     0       0.0122205257
+iter =     9     0       0.0054510202
+iter =    10     0       0.0028441984
+iter =    11     0       0.0017177873
+iter =    12     0       0.0011677710
+iter =    13     0       0.0009022630
+iter =    14     1       0.0009695642
+iter =    15     3       0.0010158365
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9943486236       0.0000007771
+2      -0.3834459908       0.0000001052
+3      -0.3831810425       0.0000003095
+4      -0.1952730901       0.0000000862
+5      -0.0727727269       0.0000000569
+6       0.0978665015       0.0000183602
+7       0.1052459253       0.0000213276
+8       0.1448926514       0.0007965410
+9       0.1553134803       0.0091740866
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000042
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4613801817
+EKIN   =       6.0780390225
+EHT    =     -10.0868659218
+EPSEU  =      -5.0817729816
+ENL    =       1.8443256950
+EXC    =      -3.2151059958
+!    19     -10.4613801817       0.0000293676
+
+=====SCF iteration: 20=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in lobpcg_cpu:    1.1565170288 MB
+iter =     2     0       0.8572307990
+iter =     3     0       0.6394374614
+iter =     4     0       0.3183470955
+iter =     5     0       0.1741704602
+iter =     6     0       0.0787755821
+iter =     7     0       0.0293243184
+iter =     8     0       0.0122207724
+iter =     9     0       0.0054510295
+iter =    10     0       0.0028442466
+iter =    11     0       0.0017178712
+iter =    12     0       0.0011677806
+iter =    13     0       0.0009022447
+iter =    14     1       0.0009694807
+iter =    15     3       0.0010157368
+Convergence achieved for 5 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.9943725353       0.0000007772
+2      -0.3834595715       0.0000001052
+3      -0.3831945278       0.0000003095
+4      -0.1952891698       0.0000000862
+5      -0.0727757007       0.0000000569
+6       0.0978645217       0.0000183623
+7       0.1052441301       0.0000213306
+8       0.1448902596       0.0007966755
+9       0.1553119197       0.0091748303
+
+Time for diagonalization: 0.430000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000019
+IMIX = 2
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -10.4613353134
+EKIN   =       6.0781407307
+EHT    =     -10.0868871535
+EPSEU  =      -5.0818052677
+ENL    =       1.8443391539
+EXC    =      -3.2151227768
+!    20     -10.4613353134       0.0000448683
+Data written successfully
+
+Program ended normally at: 11 January 2012 02:49:33 PM
+Total time for SCF loop:                        9.38000 s
+Total elapsed time for main program:            9.42000 s

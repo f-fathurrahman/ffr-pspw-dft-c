@@ -1,0 +1,1157 @@
+Program started at: 26 December 2011 10:50:25 PM
+File to be read: CH4.inp
+EXIT: GkVectorsGen.cpp
+EXIT Setup.cpp
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: C.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.cpi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       4
+
+Total number of atoms:     5
+Atomic coordinates (in bohr):
+C.fhi       0.0000000000       0.0000000000       0.0000000000
+H.cpi       0.0000000000       0.0000000000       2.0664000000
+H.cpi      -0.9741000000      -1.6872000000      -0.6888000000
+H.cpi      -0.9741000000       1.6872000000      -0.6888000000
+H.cpi       1.9482000000       0.0000000000      -0.6888000000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      20.0000000000 Ry
+Fourier grid: (      30,      30,      30)
+NGWX     =     1515
+NGX      =    12120
+NG       =    12053
+GCUT     =     202.6423672847
+GCUTW    =      50.6605918212
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =     1503
+
+EXIT: PhaseFactor.cpp
+sum(EI1) = (61.804193,-0.000000)
+sum(EI2) = (90.380946,-0.000000)
+sum(EI3) = (38.343391,-0.000000)
+sum(EIGR) = (1707.086560,0.000000)
+
+sum(SFAC)= (11677.511580,0.000000)
+
+is = 1
+is = 2
+EXIT FormFactor.cpp
+ESELF = 7.978846
+SUM(RHOPS) = -0.892936
+SUM(VPS) = -6.734550
+
+WNL = 
+is = 1, 1 0.025208
+WNL = 
+EXIT: NLFormFactor.cpp
+sum(WNL) = 0.025208
+sum(PKG) = 479.913060
+sum(PKG_A) = 479.913060
+EXIT: PrepareSCF
+Calculating starting density from atomic charges ...ENTER: FormFactorAtomic.cpp
+is = 1
+FormFactorAtomic: rho of atom 1 is 4.000000
+is = 2
+FormFactorAtomic: rho of atom 2 is 1.000000
+EXIT FormFactorAtomic.cpp
+...Done
+sum(c_fft) = (0.118424,0.000000)
+Inverse FFT of charge density to real space ......Done
+sum(rhoe2) = 215.999983
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.000337
+...Done
+NG = 12053
+ngi = 12053
+After Ewald: ESR = 0.301679
+Before EvalRhoPsi: sum(rhoe2) =     216.0000000000
+
+ETOT   =     -13.6788469098
+EKIN   =       0.0000000000
+EHT    =      -7.0654146978
+EPSEU  =      -3.8677061056
+ENL    =       0.0000000000
+EXC    =      -2.7457261063
+After EvalRhoPsi: sum(rhoe2) =   -4719.9449179614
+
+=====SCF iteration: 1=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2554146767
+davidson_cpu:     3     0       0.1721519732
+davidson_cpu:     4     0       0.1119115933
+davidson_cpu:     5     0       0.0742258328
+davidson_cpu:     6     0       0.0501108745
+davidson_cpu:     7     0       0.0337505022
+davidson_cpu:     8     0       0.0234232589
+davidson_cpu:     9     0       0.0163067571
+davidson_cpu:    10     0       0.0120181300
+davidson_cpu:    11     0       0.0089879796
+davidson_cpu:    12     0       0.0074167216
+davidson_cpu:    13     0       0.0061999031
+davidson_cpu:    14     0       0.0057086185
+davidson_cpu:    15     0       0.0050202176
+davidson_cpu:    16     0       0.0050888699
+davidson_cpu:    17     0       0.0046146830
+davidson_cpu:    18     0       0.0048637355
+davidson_cpu:    19     0       0.0044236102
+davidson_cpu:    20     0       0.0046937233
+davidson_cpu:    21     0       0.0041946619
+davidson_cpu:    22     0       0.0043748122
+davidson_cpu:    23     0       0.0037890401
+davidson_cpu:    24     0       0.0038363416
+davidson_cpu:    25     0       0.0032111044
+davidson_cpu:    26     0       0.0031608580
+davidson_cpu:    27     0       0.0025757562
+davidson_cpu:    28     0       0.0024929731
+davidson_cpu:    29     0       0.0019999794
+davidson_cpu:    30     0       0.0019286013
+
+Final Davidson result:
+    1      -0.7948405800       0.0000003156
+    2      -0.4754255172       0.0000007016
+    3      -0.4746447070       0.0000032396
+    4      -0.4746005528       0.0000007141
+    5      -0.0809000133       0.0000001941
+    6       0.0207858526       0.0000017974
+    7       0.0297018568       0.0000174674
+    8       0.0894476504       0.0100768162
+    9       0.1212782584       0.0037349659
+End of Davidson iteration: rnorm =       0.0015373569
+Anderson mixing with beta = 0.500000
+
+ETOT   =      -7.7685094961
+EKIN   =       6.7557846454
+EHT    =      -7.4460983998
+EPSEU  =      -4.6449559030
+ENL    =       0.8324503780
+EXC    =      -3.2656902166
+!     1      -7.7685094961       5.9103374137
+
+=====SCF iteration: 2=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.1902792598
+davidson_cpu:     3     0       0.0987756217
+davidson_cpu:     4     0       0.0532999112
+davidson_cpu:     5     0       0.0292731288
+davidson_cpu:     6     0       0.0174292204
+davidson_cpu:     7     0       0.0102276937
+davidson_cpu:     8     0       0.0064136629
+davidson_cpu:     9     0       0.0039371692
+davidson_cpu:    10     0       0.0025811590
+davidson_cpu:    11     0       0.0016958777
+davidson_cpu:    12     0       0.0011863461
+davidson_cpu:    13     0       0.0008588555
+davidson_cpu:    14     0       0.0006574605
+davidson_cpu:    15     0       0.0005287045
+davidson_cpu:    16     0       0.0004443437
+davidson_cpu:    17     0       0.0003880761
+davidson_cpu:    18     0       0.0003500870
+davidson_cpu:    19     0       0.0003209677
+davidson_cpu:    20     0       0.0003021979
+davidson_cpu:    21     0       0.0002835347
+davidson_cpu:    22     0       0.0002731737
+davidson_cpu:    23     0       0.0002587159
+davidson_cpu:    24     0       0.0002522954
+davidson_cpu:    25     0       0.0002396809
+davidson_cpu:    26     1       0.0002352753
+davidson_cpu:    27     1       0.0002236067
+davidson_cpu:    28     1       0.0002203483
+davidson_cpu:    29     2       0.0002092801
+davidson_cpu:    30     3       0.0002067603
+
+Final Davidson result:
+    1      -0.4946817200       0.0000000391
+    2      -0.2217376849       0.0000000556
+    3      -0.2207305883       0.0000005010
+    4      -0.2199052186       0.0000000665
+    5      -0.0253347213       0.0000000093
+    6       0.0967322349       0.0000003032
+    7       0.1027747536       0.0000010367
+    8       0.1766500859       0.0009808362
+    9       0.1774376208       0.0007825093
+End of Davidson iteration: rnorm =       0.0001961508
+Anderson mixing with beta = 0.500000
+
+ETOT   =      -8.7854868779
+EKIN   =       5.0656746045
+EHT    =      -7.2324760961
+EPSEU  =      -4.1340907817
+ENL    =       0.5573591286
+EXC    =      -3.0419537332
+!     2      -8.7854868779       1.0169773818
+
+=====SCF iteration: 3=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2229675198
+davidson_cpu:     3     0       0.1375260558
+davidson_cpu:     4     0       0.0826911675
+davidson_cpu:     5     0       0.0508584251
+davidson_cpu:     6     0       0.0321997388
+davidson_cpu:     7     0       0.0203264755
+davidson_cpu:     8     0       0.0132848947
+davidson_cpu:     9     0       0.0086228780
+davidson_cpu:    10     0       0.0058636306
+davidson_cpu:    11     0       0.0039858786
+davidson_cpu:    12     0       0.0028395024
+davidson_cpu:    13     0       0.0020704098
+davidson_cpu:    14     0       0.0015941600
+davidson_cpu:    15     0       0.0012586356
+davidson_cpu:    16     0       0.0010552843
+davidson_cpu:    17     0       0.0008930242
+davidson_cpu:    18     0       0.0008057772
+davidson_cpu:    19     0       0.0007147530
+davidson_cpu:    20     0       0.0006788164
+davidson_cpu:    21     0       0.0006179499
+davidson_cpu:    22     0       0.0006058498
+davidson_cpu:    23     0       0.0005580414
+davidson_cpu:    24     0       0.0005576388
+davidson_cpu:    25     0       0.0005156822
+davidson_cpu:    26     0       0.0005212973
+davidson_cpu:    27     0       0.0004822155
+davidson_cpu:    28     0       0.0004910435
+davidson_cpu:    29     0       0.0004536485
+davidson_cpu:    30     0       0.0004642417
+
+Final Davidson result:
+    1      -0.6452323529       0.0000001812
+    2      -0.3387605363       0.0000001468
+    3      -0.3377380037       0.0000030319
+    4      -0.3376697651       0.0000003302
+    5      -0.0492670973       0.0000001567
+    6       0.0700743080       0.0000012238
+    7       0.0777415618       0.0000072378
+    8       0.1514352542       0.0012053203
+    9       0.1554246074       0.0026351088
+End of Davidson iteration: rnorm =       0.0004280819
+Anderson mixing with beta = 0.500000
+Pass here in Anderson mix
+In AndersonRhoMix: d =       0.0944635936
+
+ETOT   =      -7.6858836368
+EKIN   =       6.0950948119
+EHT    =      -7.2748955952
+EPSEU  =      -4.1917262806
+ENL    =       0.7533458469
+EXC    =      -3.0677024198
+!     3      -7.6858836368       1.0996032411
+
+=====SCF iteration: 4=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2182086924
+davidson_cpu:     3     0       0.1317042616
+davidson_cpu:     4     0       0.0780747640
+davidson_cpu:     5     0       0.0473007179
+davidson_cpu:     6     0       0.0297073093
+davidson_cpu:     7     0       0.0185669907
+davidson_cpu:     8     0       0.0120878604
+davidson_cpu:     9     0       0.0077644664
+davidson_cpu:    10     0       0.0052075783
+davidson_cpu:    11     0       0.0035073261
+davidson_cpu:    12     0       0.0024709821
+davidson_cpu:    13     0       0.0017805480
+davidson_cpu:    14     0       0.0013449081
+davidson_cpu:    15     0       0.0010484523
+davidson_cpu:    16     0       0.0008586057
+davidson_cpu:    17     0       0.0007189346
+davidson_cpu:    18     0       0.0006331270
+davidson_cpu:    19     0       0.0005577532
+davidson_cpu:    20     0       0.0005177348
+davidson_cpu:    21     0       0.0004696939
+davidson_cpu:    22     0       0.0004508554
+davidson_cpu:    23     0       0.0004149265
+davidson_cpu:    24     0       0.0004064258
+davidson_cpu:    25     0       0.0003762485
+davidson_cpu:    26     0       0.0003730398
+davidson_cpu:    27     0       0.0003459735
+davidson_cpu:    28     0       0.0003455828
+davidson_cpu:    29     0       0.0003205401
+davidson_cpu:    30     0       0.0003216978
+
+Final Davidson result:
+    1      -0.6225823280       0.0000001528
+    2      -0.3209340354       0.0000001421
+    3      -0.3199840643       0.0000025359
+    4      -0.3197411025       0.0000002443
+    5      -0.0458931845       0.0000001150
+    6       0.0740964567       0.0000010947
+    7       0.0815018159       0.0000055909
+    8       0.1549967671       0.0011435497
+    9       0.1588216205       0.0015306289
+End of Davidson iteration: rnorm =       0.0002982283
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0008590261
+
+ETOT   =      -7.7859688699
+EKIN   =       5.9322507600
+EHT    =      -7.2511623711
+EPSEU  =      -4.1396750976
+ENL    =       0.7227997989
+EXC    =      -3.0501819601
+!     4      -7.7859688699       0.1000852330
+
+=====SCF iteration: 5=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2211510871
+davidson_cpu:     3     0       0.1351447682
+davidson_cpu:     4     0       0.0807780859
+davidson_cpu:     5     0       0.0493690711
+davidson_cpu:     6     0       0.0311607614
+davidson_cpu:     7     0       0.0195932913
+davidson_cpu:     8     0       0.0127778431
+davidson_cpu:     9     0       0.0082800098
+davidson_cpu:    10     0       0.0055646811
+davidson_cpu:    11     0       0.0037668879
+davidson_cpu:    12     0       0.0026659094
+davidson_cpu:    13     0       0.0019313483
+davidson_cpu:    14     0       0.0014682760
+davidson_cpu:    15     0       0.0011508743
+davidson_cpu:    16     0       0.0009503792
+davidson_cpu:    17     0       0.0007997411
+davidson_cpu:    18     0       0.0007110404
+davidson_cpu:    19     0       0.0006288873
+davidson_cpu:    20     0       0.0005896566
+davidson_cpu:    21     0       0.0005364585
+davidson_cpu:    22     0       0.0005202495
+davidson_cpu:    23     0       0.0004796109
+davidson_cpu:    24     0       0.0004747219
+davidson_cpu:    25     0       0.0004397608
+davidson_cpu:    26     0       0.0004407152
+davidson_cpu:    27     0       0.0004085892
+davidson_cpu:    28     0       0.0004126842
+davidson_cpu:    29     0       0.0003822514
+davidson_cpu:    30     0       0.0003880922
+
+Final Davidson result:
+    1      -0.6346941987       0.0000001719
+    2      -0.3305985157       0.0000001511
+    3      -0.3296589461       0.0000029448
+    4      -0.3294541362       0.0000002796
+    5      -0.0467622166       0.0000001439
+    6       0.0726455892       0.0000011937
+    7       0.0801762273       0.0000066800
+    8       0.1539783520       0.0011807848
+    9       0.1579994480       0.0020378304
+End of Davidson iteration: rnorm =       0.0003589089
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0242070611
+
+ETOT   =      -7.8097178420
+EKIN   =       6.0201669215
+EHT    =      -7.2893952734
+EPSEU  =      -4.2025681460
+ENL    =       0.7388875546
+EXC    =      -3.0768088987
+!     5      -7.8097178420       0.0237489721
+
+=====SCF iteration: 6=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2166071412
+davidson_cpu:     3     0       0.1296633504
+davidson_cpu:     4     0       0.0764531520
+davidson_cpu:     5     0       0.0460558788
+davidson_cpu:     6     0       0.0288428297
+davidson_cpu:     7     0       0.0179728651
+davidson_cpu:     8     0       0.0116485925
+davidson_cpu:     9     0       0.0074596290
+davidson_cpu:    10     0       0.0049851485
+davidson_cpu:    11     0       0.0033429985
+davidson_cpu:    12     0       0.0023397632
+davidson_cpu:    13     0       0.0016767400
+davidson_cpu:    14     0       0.0012545745
+davidson_cpu:    15     0       0.0009724351
+davidson_cpu:    16     0       0.0007877283
+davidson_cpu:    17     0       0.0006567928
+davidson_cpu:    18     0       0.0005725160
+davidson_cpu:    19     0       0.0005034238
+davidson_cpu:    20     0       0.0004633279
+davidson_cpu:    21     0       0.0004204467
+davidson_cpu:    22     0       0.0004007554
+davidson_cpu:    23     0       0.0003694738
+davidson_cpu:    24     0       0.0003597066
+davidson_cpu:    25     0       0.0003339436
+davidson_cpu:    26     0       0.0003292291
+davidson_cpu:    27     0       0.0003064618
+davidson_cpu:    28     0       0.0003044185
+davidson_cpu:    29     0       0.0002836037
+davidson_cpu:    30     0       0.0002830136
+
+Final Davidson result:
+    1      -0.6134486218       0.0000001438
+    2      -0.3138405758       0.0000001424
+    3      -0.3129401707       0.0000024250
+    4      -0.3126035024       0.0000002251
+    5      -0.0436400717       0.0000001043
+    6       0.0763704468       0.0000010522
+    7       0.0836647319       0.0000051500
+    8       0.1572777781       0.0011255300
+    9       0.1610038691       0.0012386469
+End of Davidson iteration: rnorm =       0.0002637133
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0157155274
+
+ETOT   =      -7.9419828974
+EKIN   =       5.8693517848
+EHT    =      -7.2749328043
+EPSEU  =      -4.1798094978
+ENL    =       0.7106873954
+EXC    =      -3.0672797755
+!     6      -7.9419828974       0.1322650555
+
+=====SCF iteration: 7=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2183057957
+davidson_cpu:     3     0       0.1317276306
+davidson_cpu:     4     0       0.0780776146
+davidson_cpu:     5     0       0.0472965678
+davidson_cpu:     6     0       0.0297077341
+davidson_cpu:     7     0       0.0185705607
+davidson_cpu:     8     0       0.0120844870
+davidson_cpu:     9     0       0.0077595173
+davidson_cpu:    10     0       0.0051987394
+davidson_cpu:    11     0       0.0034992100
+davidson_cpu:    12     0       0.0024592046
+davidson_cpu:    13     0       0.0017697862
+davidson_cpu:    14     0       0.0013318134
+davidson_cpu:    15     0       0.0010366935
+davidson_cpu:    16     0       0.0008454459
+davidson_cpu:    17     0       0.0007072882
+davidson_cpu:    18     0       0.0006206644
+davidson_cpu:    19     0       0.0005468211
+davidson_cpu:    20     0       0.0005063403
+davidson_cpu:    21     0       0.0004597453
+davidson_cpu:    22     0       0.0004406533
+davidson_cpu:    23     0       0.0004060413
+davidson_cpu:    24     0       0.0003974104
+davidson_cpu:    25     0       0.0003684083
+davidson_cpu:    26     0       0.0003651436
+davidson_cpu:    27     0       0.0003391128
+davidson_cpu:    28     0       0.0003387129
+davidson_cpu:    29     0       0.0003145745
+davidson_cpu:    30     0       0.0003157544
+
+Final Davidson result:
+    1      -0.6213672093       0.0000001534
+    2      -0.3200046641       0.0000001456
+    3      -0.3190814108       0.0000026086
+    4      -0.3188097870       0.0000002443
+    5      -0.0447455100       0.0000001176
+    6       0.0750653170       0.0000011099
+    7       0.0824517417       0.0000056787
+    8       0.1561083218       0.0011451422
+    9       0.1599679926       0.0014824142
+End of Davidson iteration: rnorm =       0.0002930683
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0002514792
+
+ETOT   =      -7.8564176652
+EKIN   =       5.9266389296
+EHT    =      -7.2697820014
+EPSEU  =      -4.1707992740
+ENL    =       0.7216083138
+EXC    =      -3.0640836332
+!     7      -7.8564176652       0.0855652323
+
+=====SCF iteration: 8=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2189023418
+davidson_cpu:     3     0       0.1324459204
+davidson_cpu:     4     0       0.0786429499
+davidson_cpu:     5     0       0.0477293352
+davidson_cpu:     6     0       0.0300103760
+davidson_cpu:     7     0       0.0187827074
+davidson_cpu:     8     0       0.0122335804
+davidson_cpu:     9     0       0.0078654500
+davidson_cpu:    10     0       0.0052733865
+davidson_cpu:    11     0       0.0035537619
+davidson_cpu:    12     0       0.0025006011
+davidson_cpu:    13     0       0.0018020097
+davidson_cpu:    14     0       0.0013584120
+davidson_cpu:    15     0       0.0010588463
+davidson_cpu:    16     0       0.0008653337
+davidson_cpu:    17     0       0.0007247620
+davidson_cpu:    18     0       0.0006374082
+davidson_cpu:    19     0       0.0005620152
+davidson_cpu:    20     0       0.0005215266
+davidson_cpu:    21     0       0.0004737332
+davidson_cpu:    22     0       0.0004549949
+davidson_cpu:    23     0       0.0004193009
+davidson_cpu:    24     0       0.0004112181
+davidson_cpu:    25     0       0.0003811455
+davidson_cpu:    26     0       0.0003785398
+davidson_cpu:    27     0       0.0003514088
+davidson_cpu:    28     0       0.0003517344
+davidson_cpu:    29     0       0.0003264539
+davidson_cpu:    30     0       0.0003284012
+
+Final Davidson result:
+    1      -0.6239503824       0.0000001568
+    2      -0.3220142038       0.0000001471
+    3      -0.3210871016       0.0000026812
+    4      -0.3208321544       0.0000002513
+    5      -0.0449800620       0.0000001228
+    6       0.0747383001       0.0000011309
+    7       0.0821537219       0.0000058835
+    8       0.1558464591       0.0011524002
+    9       0.1597510631       0.0015780068
+End of Davidson iteration: rnorm =       0.0003045312
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0004564853
+
+ETOT   =      -7.8568511618
+EKIN   =       5.9459086877
+EHT    =      -7.2768912168
+EPSEU  =      -4.1821694507
+ENL    =       0.7252778549
+EXC    =      -3.0689770369
+!     8      -7.8568511618       0.0004334966
+
+=====SCF iteration: 9=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2180646969
+davidson_cpu:     3     0       0.1314317668
+davidson_cpu:     4     0       0.0778428050
+davidson_cpu:     5     0       0.0471165968
+davidson_cpu:     6     0       0.0295821771
+davidson_cpu:     7     0       0.0184835138
+davidson_cpu:     8     0       0.0120200306
+davidson_cpu:     9     0       0.0077150729
+davidson_cpu:    10     0       0.0051663512
+davidson_cpu:    11     0       0.0034753689
+davidson_cpu:    12     0       0.0024401957
+davidson_cpu:    13     0       0.0017548021
+davidson_cpu:    14     0       0.0013187762
+davidson_cpu:    15     0       0.0010257357
+davidson_cpu:    16     0       0.0008352038
+davidson_cpu:    17     0       0.0006982945
+davidson_cpu:    18     0       0.0006118511
+davidson_cpu:    19     0       0.0005388935
+davidson_cpu:    20     0       0.0004983546
+davidson_cpu:    21     0       0.0004524835
+davidson_cpu:    22     0       0.0004332198
+davidson_cpu:    23     0       0.0003992614
+davidson_cpu:    24     0       0.0003903993
+davidson_cpu:    25     0       0.0003620225
+davidson_cpu:    26     0       0.0003584932
+davidson_cpu:    27     0       0.0003330772
+davidson_cpu:    28     0       0.0003323929
+davidson_cpu:    29     0       0.0003088652
+davidson_cpu:    30     0       0.0003097482
+
+Final Davidson result:
+    1      -0.6199832573       0.0000001518
+    2      -0.3188946334       0.0000001457
+    3      -0.3179768724       0.0000025887
+    4      -0.3176935352       0.0000002413
+    5      -0.0443710539       0.0000001158
+    6       0.0754482271       0.0000011043
+    7       0.0828188178       0.0000056096
+    8       0.1564867444       0.0011423387
+    9       0.1603336601       0.0014367377
+End of Davidson iteration: rnorm =       0.0002876704
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0009965320
+
+ETOT   =      -7.8684546245
+EKIN   =       5.9177051750
+EHT    =      -7.2702782948
+EPSEU  =      -4.1711031431
+ENL    =       0.7199779231
+EXC    =      -3.0647562846
+!     9      -7.8684546245       0.0116034626
+
+=====SCF iteration: 10=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2188340369
+davidson_cpu:     3     0       0.1323615197
+davidson_cpu:     4     0       0.0785751550
+davidson_cpu:     5     0       0.0476771841
+davidson_cpu:     6     0       0.0299739480
+davidson_cpu:     7     0       0.0187574077
+davidson_cpu:     8     0       0.0122155058
+davidson_cpu:     9     0       0.0078521663
+davidson_cpu:    10     0       0.0052633204
+davidson_cpu:    11     0       0.0035462906
+davidson_cpu:    12     0       0.0024942772
+davidson_cpu:    13     0       0.0017969540
+davidson_cpu:    14     0       0.0013537496
+davidson_cpu:    15     0       0.0010548856
+davidson_cpu:    16     0       0.0008614675
+davidson_cpu:    17     0       0.0007213575
+davidson_cpu:    18     0       0.0006339804
+davidson_cpu:    19     0       0.0005589419
+davidson_cpu:    20     0       0.0005183843
+davidson_cpu:    21     0       0.0004708929
+davidson_cpu:    22     0       0.0004520673
+davidson_cpu:    23     0       0.0004166477
+davidson_cpu:    24     0       0.0004084696
+davidson_cpu:    25     0       0.0003786557
+davidson_cpu:    26     0       0.0003759512
+davidson_cpu:    27     0       0.0003490686
+davidson_cpu:    28     0       0.0003492937
+davidson_cpu:    29     0       0.0003242537
+davidson_cpu:    30     0       0.0003260998
+
+Final Davidson result:
+    1      -0.6234287411       0.0000001562
+    2      -0.3215811993       0.0000001473
+    3      -0.3206560332       0.0000026788
+    4      -0.3203978123       0.0000002504
+    5      -0.0447642029       0.0000001223
+    6       0.0749465393       0.0000011308
+    7       0.0823562887       0.0000058684
+    8       0.1560607372       0.0011516288
+    9       0.1599648887       0.0015601889
+End of Davidson iteration: rnorm =       0.0003024636
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0002797085
+
+ETOT   =      -7.8450371295
+EKIN   =       5.9430067736
+EHT    =      -7.2722464937
+EPSEU  =      -4.1745334138
+ENL    =       0.7247848863
+EXC    =      -3.0660488819
+!    10      -7.8450371295       0.0234174950
+
+=====SCF iteration: 11=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2186041685
+davidson_cpu:     3     0       0.1320846564
+davidson_cpu:     4     0       0.0783569797
+davidson_cpu:     5     0       0.0475101033
+davidson_cpu:     6     0       0.0298570570
+davidson_cpu:     7     0       0.0186754354
+davidson_cpu:     8     0       0.0121580860
+davidson_cpu:     9     0       0.0078111401
+davidson_cpu:    10     0       0.0052343021
+davidson_cpu:    11     0       0.0035250726
+davidson_cpu:    12     0       0.0024780760
+davidson_cpu:    13     0       0.0017843296
+davidson_cpu:    14     0       0.0013432529
+davidson_cpu:    15     0       0.0010461365
+davidson_cpu:    16     0       0.0008535620
+davidson_cpu:    17     0       0.0007144132
+davidson_cpu:    18     0       0.0006272955
+davidson_cpu:    19     0       0.0005528826
+davidson_cpu:    20     0       0.0005123109
+davidson_cpu:    21     0       0.0004653073
+davidson_cpu:    22     0       0.0004463316
+davidson_cpu:    23     0       0.0004113527
+davidson_cpu:    24     0       0.0004029516
+davidson_cpu:    25     0       0.0003735719
+davidson_cpu:    26     0       0.0003706029
+davidson_cpu:    27     0       0.0003441641
+davidson_cpu:    28     0       0.0003441001
+davidson_cpu:    29     0       0.0003195185
+davidson_cpu:    30     0       0.0003210600
+
+Final Davidson result:
+    1      -0.6223998919       0.0000001548
+    2      -0.3207751832       0.0000001468
+    3      -0.3198514708       0.0000026514
+    4      -0.3195869605       0.0000002477
+    5      -0.0446439245       0.0000001203
+    6       0.0750998271       0.0000011231
+    7       0.0824982106       0.0000057898
+    8       0.1561909195       0.0011488520
+    9       0.1600784663       0.0015219850
+End of Davidson iteration: rnorm =       0.0002978968
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000065229
+
+ETOT   =      -7.8518556697
+EKIN   =       5.9355007468
+EHT    =      -7.2715786616
+EPSEU  =      -4.1734873465
+ENL    =       0.7233679684
+EXC    =      -3.0656583768
+!    11      -7.8518556697       0.0068185402
+
+=====SCF iteration: 12=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2186804997
+davidson_cpu:     3     0       0.1321773252
+davidson_cpu:     4     0       0.0784299922
+davidson_cpu:     5     0       0.0475660456
+davidson_cpu:     6     0       0.0298961359
+davidson_cpu:     7     0       0.0187027900
+davidson_cpu:     8     0       0.0121773392
+davidson_cpu:     9     0       0.0078248511
+davidson_cpu:    10     0       0.0052439555
+davidson_cpu:    11     0       0.0035321406
+davidson_cpu:    12     0       0.0024834528
+davidson_cpu:    13     0       0.0017885271
+davidson_cpu:    14     0       0.0013467286
+davidson_cpu:    15     0       0.0010490383
+davidson_cpu:    16     0       0.0008561734
+davidson_cpu:    17     0       0.0007167106
+davidson_cpu:    18     0       0.0006294992
+davidson_cpu:    19     0       0.0005548829
+davidson_cpu:    20     0       0.0005143101
+davidson_cpu:    21     0       0.0004671484
+davidson_cpu:    22     0       0.0004482178
+davidson_cpu:    23     0       0.0004130959
+davidson_cpu:    24     0       0.0004047651
+davidson_cpu:    25     0       0.0003752442
+davidson_cpu:    26     0       0.0003723597
+davidson_cpu:    27     0       0.0003457762
+davidson_cpu:    28     0       0.0003458053
+davidson_cpu:    29     0       0.0003210740
+davidson_cpu:    30     0       0.0003227140
+
+Final Davidson result:
+    1      -0.6227352374       0.0000001552
+    2      -0.3210343549       0.0000001470
+    3      -0.3201097182       0.0000026604
+    4      -0.3198479161       0.0000002486
+    5      -0.0446755766       0.0000001209
+    6       0.0750568485       0.0000011258
+    7       0.0824591317       0.0000058160
+    8       0.1561558348       0.0011497955
+    9       0.1600491132       0.0015344951
+End of Davidson iteration: rnorm =       0.0002993961
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000553491
+
+ETOT   =      -7.8554318069
+EKIN   =       5.9380187616
+EHT    =      -7.2735278437
+EPSEU  =      -4.1768250066
+ENL    =       0.7238517684
+EXC    =      -3.0669494866
+!    12      -7.8554318069       0.0035761372
+
+=====SCF iteration: 13=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2184520917
+davidson_cpu:     3     0       0.1319018856
+davidson_cpu:     4     0       0.0782129505
+davidson_cpu:     5     0       0.0473998847
+davidson_cpu:     6     0       0.0297799457
+davidson_cpu:     7     0       0.0186214390
+davidson_cpu:     8     0       0.0121197217
+davidson_cpu:     9     0       0.0077841102
+davidson_cpu:    10     0       0.0052151135
+davidson_cpu:    11     0       0.0035110498
+davidson_cpu:    12     0       0.0024673359
+davidson_cpu:    13     0       0.0017759654
+davidson_cpu:    14     0       0.0013362784
+davidson_cpu:    15     0       0.0010403273
+davidson_cpu:    16     0       0.0008483035
+davidson_cpu:    17     0       0.0007097995
+davidson_cpu:    18     0       0.0006228523
+davidson_cpu:    19     0       0.0005488615
+davidson_cpu:    20     0       0.0005082831
+davidson_cpu:    21     0       0.0004616094
+davidson_cpu:    22     0       0.0004425389
+davidson_cpu:    23     0       0.0004078575
+davidson_cpu:    24     0       0.0003993147
+davidson_cpu:    25     0       0.0003702268
+davidson_cpu:    26     0       0.0003670893
+davidson_cpu:    27     0       0.0003409474
+davidson_cpu:    28     0       0.0003406989
+davidson_cpu:    29     0       0.0003164226
+davidson_cpu:    30     0       0.0003177696
+
+Final Davidson result:
+    1      -0.6217020631       0.0000001539
+    2      -0.3202248749       0.0000001465
+    3      -0.3193020562       0.0000026337
+    4      -0.3190332822       0.0000002459
+    5      -0.0445477807       0.0000001190
+    6       0.0752163674       0.0000011181
+    7       0.0826071180       0.0000057391
+    8       0.1562932075       0.0011470421
+    9       0.1601699332       0.0014970845
+End of Davidson iteration: rnorm =       0.0002949203
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000452497
+
+ETOT   =      -7.8615426969
+EKIN   =       5.9305152305
+EHT    =      -7.2727046887
+EPSEU  =      -4.1753860032
+ENL    =       0.7224355493
+EXC    =      -3.0664027848
+!    13      -7.8615426969       0.0061108900
+
+=====SCF iteration: 14=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185488626
+davidson_cpu:     3     0       0.1320183937
+davidson_cpu:     4     0       0.0783047045
+davidson_cpu:     5     0       0.0474700976
+davidson_cpu:     6     0       0.0298290488
+davidson_cpu:     7     0       0.0186558276
+davidson_cpu:     8     0       0.0121441500
+davidson_cpu:     9     0       0.0078013034
+davidson_cpu:    10     0       0.0052272809
+davidson_cpu:    11     0       0.0035199420
+davidson_cpu:    12     0       0.0024741154
+davidson_cpu:    13     0       0.0017812434
+davidson_cpu:    14     0       0.0013406568
+davidson_cpu:    15     0       0.0010439730
+davidson_cpu:    16     0       0.0008515887
+davidson_cpu:    17     0       0.0007126826
+davidson_cpu:    18     0       0.0006256202
+davidson_cpu:    19     0       0.0005513685
+davidson_cpu:    20     0       0.0005107898
+davidson_cpu:    21     0       0.0004639133
+davidson_cpu:    22     0       0.0004448999
+davidson_cpu:    23     0       0.0004100355
+davidson_cpu:    24     0       0.0004015806
+davidson_cpu:    25     0       0.0003723127
+davidson_cpu:    26     0       0.0003692807
+davidson_cpu:    27     0       0.0003429550
+davidson_cpu:    28     0       0.0003428225
+davidson_cpu:    29     0       0.0003183565
+davidson_cpu:    30     0       0.0003198261
+
+Final Davidson result:
+    1      -0.6221358315       0.0000001545
+    2      -0.3205647057       0.0000001467
+    3      -0.3196413093       0.0000026451
+    4      -0.3193752006       0.0000002472
+    5      -0.0445991349       0.0000001198
+    6       0.0751512180       0.0000011214
+    7       0.0825467497       0.0000057717
+    8       0.1562376994       0.0011482019
+    9       0.1601215533       0.0015126226
+End of Davidson iteration: rnorm =       0.0002967812
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000005907
+
+ETOT   =      -7.8576014498
+EKIN   =       5.9336726168
+EHT    =      -7.2726475146
+EPSEU  =      -4.1752862847
+ENL    =       0.7230313612
+EXC    =      -3.0663716284
+!    14      -7.8576014498       0.0039412471
+
+=====SCF iteration: 15=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185554455
+davidson_cpu:     3     0       0.1320263139
+davidson_cpu:     4     0       0.0783109201
+davidson_cpu:     5     0       0.0474748501
+davidson_cpu:     6     0       0.0298323713
+davidson_cpu:     7     0       0.0186581574
+davidson_cpu:     8     0       0.0121457875
+davidson_cpu:     9     0       0.0078024568
+davidson_cpu:    10     0       0.0052280852
+davidson_cpu:    11     0       0.0035205283
+davidson_cpu:    12     0       0.0024745521
+davidson_cpu:    13     0       0.0017815817
+davidson_cpu:    14     0       0.0013409298
+davidson_cpu:    15     0       0.0010441994
+davidson_cpu:    16     0       0.0008517881
+davidson_cpu:    17     0       0.0007128576
+davidson_cpu:    18     0       0.0006257859
+davidson_cpu:    19     0       0.0005515192
+davidson_cpu:    20     0       0.0005109395
+davidson_cpu:    21     0       0.0004640518
+davidson_cpu:    22     0       0.0004450417
+davidson_cpu:    23     0       0.0004101673
+davidson_cpu:    24     0       0.0004017179
+davidson_cpu:    25     0       0.0003724400
+davidson_cpu:    26     0       0.0003694149
+davidson_cpu:    27     0       0.0003430786
+davidson_cpu:    28     0       0.0003429538
+davidson_cpu:    29     0       0.0003184766
+davidson_cpu:    30     0       0.0003199544
+
+Final Davidson result:
+    1      -0.6221619876       0.0000001545
+    2      -0.3205847167       0.0000001467
+    3      -0.3196612871       0.0000026460
+    4      -0.3193953472       0.0000002473
+    5      -0.0445996854       0.0000001198
+    6       0.0751494256       0.0000011217
+    7       0.0825452482       0.0000057741
+    8       0.1562367845       0.0011482834
+    9       0.1601211830       0.0015135859
+End of Davidson iteration: rnorm =       0.0002968977
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000001310
+
+ETOT   =      -7.8571367591
+EKIN   =       5.9338781181
+EHT    =      -7.2725811466
+EPSEU  =      -4.1751724252
+ENL    =       0.7230712100
+EXC    =      -3.0663325154
+!    15      -7.8571367591       0.0004646907
+
+=====SCF iteration: 16=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185632117
+davidson_cpu:     3     0       0.1320356583
+davidson_cpu:     4     0       0.0783182628
+davidson_cpu:     5     0       0.0474804665
+davidson_cpu:     6     0       0.0298362986
+davidson_cpu:     7     0       0.0186609041
+davidson_cpu:     8     0       0.0121477316
+davidson_cpu:     9     0       0.0078038150
+davidson_cpu:    10     0       0.0052290383
+davidson_cpu:    11     0       0.0035212231
+davidson_cpu:    12     0       0.0024750743
+davidson_cpu:    13     0       0.0017819866
+davidson_cpu:    14     0       0.0013412601
+davidson_cpu:    15     0       0.0010444736
+davidson_cpu:    16     0       0.0008520318
+davidson_cpu:    17     0       0.0007130717
+davidson_cpu:    18     0       0.0006259896
+davidson_cpu:    19     0       0.0005517045
+davidson_cpu:    20     0       0.0005111241
+davidson_cpu:    21     0       0.0004642223
+davidson_cpu:    22     0       0.0004452164
+davidson_cpu:    23     0       0.0004103293
+davidson_cpu:    24     0       0.0004018867
+davidson_cpu:    25     0       0.0003725961
+davidson_cpu:    26     0       0.0003695793
+davidson_cpu:    27     0       0.0003432298
+davidson_cpu:    28     0       0.0003431142
+davidson_cpu:    29     0       0.0003186232
+davidson_cpu:    30     0       0.0003201108
+
+Final Davidson result:
+    1      -0.6221944420       0.0000001545
+    2      -0.3206097850       0.0000001468
+    3      -0.3196863087       0.0000026470
+    4      -0.3194206464       0.0000002472
+    5      -0.0446017229       0.0000001199
+    6       0.0751460483       0.0000011220
+    7       0.0825422345       0.0000057768
+    8       0.1562343578       0.0011483788
+    9       0.1601193662       0.0015147636
+End of Davidson iteration: rnorm =       0.0002970396
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000135
+
+ETOT   =      -7.8568402917
+EKIN   =       5.9341248297
+EHT    =      -7.2725799740
+EPSEU  =      -4.1751709548
+ENL    =       0.7231184763
+EXC    =      -3.0663326690
+!    16      -7.8568402917       0.0002964673
+
+=====SCF iteration: 17=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185633362
+davidson_cpu:     3     0       0.1320358092
+davidson_cpu:     4     0       0.0783183786
+davidson_cpu:     5     0       0.0474805545
+davidson_cpu:     6     0       0.0298363597
+davidson_cpu:     7     0       0.0186609469
+davidson_cpu:     8     0       0.0121477605
+davidson_cpu:     9     0       0.0078038357
+davidson_cpu:    10     0       0.0052290510
+davidson_cpu:    11     0       0.0035212322
+davidson_cpu:    12     0       0.0024750798
+davidson_cpu:    13     0       0.0017819907
+davidson_cpu:    14     0       0.0013412623
+davidson_cpu:    15     0       0.0010444754
+davidson_cpu:    16     0       0.0008520327
+davidson_cpu:    17     0       0.0007130725
+davidson_cpu:    18     0       0.0006259900
+davidson_cpu:    19     0       0.0005517049
+davidson_cpu:    20     0       0.0005111245
+davidson_cpu:    21     0       0.0004642228
+davidson_cpu:    22     0       0.0004452168
+davidson_cpu:    23     0       0.0004103298
+davidson_cpu:    24     0       0.0004018872
+davidson_cpu:    25     0       0.0003725967
+davidson_cpu:    26     0       0.0003695799
+davidson_cpu:    27     0       0.0003432305
+davidson_cpu:    28     0       0.0003431150
+davidson_cpu:    29     0       0.0003186240
+davidson_cpu:    30     0       0.0003201117
+
+Final Davidson result:
+    1      -0.6221945780       0.0000001545
+    2      -0.3206098249       0.0000001468
+    3      -0.3196863450       0.0000026470
+    4      -0.3194206882       0.0000002472
+    5      -0.0446014089       0.0000001199
+    6       0.0751463051       0.0000011220
+    7       0.0825424921       0.0000057768
+    8       0.1562346553       0.0011483807
+    9       0.1601196805       0.0015147696
+End of Davidson iteration: rnorm =       0.0002970405
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000154
+
+ETOT   =      -7.8569643428
+EKIN   =       5.9341277854
+EHT    =      -7.2726180126
+EPSEU  =      -4.1752369156
+ENL    =       0.7231191822
+EXC    =      -3.0663563822
+!    17      -7.8569643428       0.0001240511
+
+=====SCF iteration: 18=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185589005
+davidson_cpu:     3     0       0.1320304630
+davidson_cpu:     4     0       0.0783141693
+davidson_cpu:     5     0       0.0474773318
+davidson_cpu:     6     0       0.0298341054
+davidson_cpu:     7     0       0.0186593730
+davidson_cpu:     8     0       0.0121466389
+davidson_cpu:     9     0       0.0078030574
+davidson_cpu:    10     0       0.0052285000
+davidson_cpu:    11     0       0.0035208302
+davidson_cpu:    12     0       0.0024747740
+davidson_cpu:    13     0       0.0017817532
+davidson_cpu:    14     0       0.0013410660
+davidson_cpu:    15     0       0.0010443121
+davidson_cpu:    16     0       0.0008518859
+davidson_cpu:    17     0       0.0007129435
+davidson_cpu:    18     0       0.0006258663
+davidson_cpu:    19     0       0.0005515926
+davidson_cpu:    20     0       0.0005110121
+davidson_cpu:    21     0       0.0004641193
+davidson_cpu:    22     0       0.0004451106
+davidson_cpu:    23     0       0.0004102316
+davidson_cpu:    24     0       0.0004017850
+davidson_cpu:    25     0       0.0003725024
+davidson_cpu:    26     0       0.0003694808
+davidson_cpu:    27     0       0.0003431395
+davidson_cpu:    28     0       0.0003430186
+davidson_cpu:    29     0       0.0003185361
+davidson_cpu:    30     0       0.0003200181
+
+Final Davidson result:
+    1      -0.6221751748       0.0000001545
+    2      -0.3205947319       0.0000001467
+    3      -0.3196712773       0.0000026465
+    4      -0.3194054283       0.0000002473
+    5      -0.0445994856       0.0000001199
+    6       0.0751488978       0.0000011218
+    7       0.0825448652       0.0000057753
+    8       0.1562367739       0.0011483276
+    9       0.1601214659       0.0015140614
+End of Davidson iteration: rnorm =       0.0002969557
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000226
+
+ETOT   =      -7.8570664246
+EKIN   =       5.9339838213
+EHT    =      -7.2725973606
+EPSEU  =      -4.1752014660
+ENL    =       0.7230918271
+EXC    =      -3.0663432464
+!    18      -7.8570664246       0.0001020817
+
+=====SCF iteration: 19=====
+Allocated dynamic memory in davidson_cpu:    0.8407287598 MB
+davidson_cpu:     1     0       1.0000000000
+davidson_cpu:     2     0       0.2185613270
+davidson_cpu:     3     0       0.1320333842
+davidson_cpu:     4     0       0.0783164679
+davidson_cpu:     5     0       0.0474790904
+davidson_cpu:     6     0       0.0298353351
+davidson_cpu:     7     0       0.0186602344
+davidson_cpu:     8     0       0.0121472476
+davidson_cpu:     9     0       0.0078034866
+davidson_cpu:    10     0       0.0052288026
+davidson_cpu:    11     0       0.0035210512
+davidson_cpu:    12     0       0.0024749416
+davidson_cpu:    13     0       0.0017818835
+davidson_cpu:    14     0       0.0013411734
+davidson_cpu:    15     0       0.0010444015
+davidson_cpu:    16     0       0.0008519660
+davidson_cpu:    17     0       0.0007130139
+davidson_cpu:    18     0       0.0006259337
+davidson_cpu:    19     0       0.0005516538
+davidson_cpu:    20     0       0.0005110732
+davidson_cpu:    21     0       0.0004641755
+davidson_cpu:    22     0       0.0004451682
+davidson_cpu:    23     0       0.0004102849
+davidson_cpu:    24     0       0.0004018405
+davidson_cpu:    25     0       0.0003725535
+davidson_cpu:    26     0       0.0003695345
+davidson_cpu:    27     0       0.0003431888
+davidson_cpu:    28     0       0.0003430709
+davidson_cpu:    29     0       0.0003185838
+davidson_cpu:    30     0       0.0003200689
+
+Final Davidson result:
+    1      -0.6221857752       0.0000001545
+    2      -0.3206029950       0.0000001467
+    3      -0.3196795252       0.0000026468
+    4      -0.3194137437       0.0000002474
+    5      -0.0446005223       0.0000001199
+    6       0.0751474836       0.0000011219
+    7       0.0825435701       0.0000057762
+    8       0.1562356255       0.0011483574
+    9       0.1601205000       0.0015144444
+End of Davidson iteration: rnorm =       0.0002970017
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000000
+
+ETOT   =      -7.8570023898
+EKIN   =       5.9340621920
+EHT    =      -7.2726059206
+EPSEU  =      -4.1752165093
+ENL    =       0.7231067024
+EXC    =      -3.0663488541
+!    19      -7.857

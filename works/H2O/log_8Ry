@@ -1,0 +1,975 @@
+
+Program started at: 04 February 2012 11:07:11 AM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (18,18,18)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: O.fhi
+ZV(1)      =      6.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.cpi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       2
+
+Total number of atoms:     3
+Atomic coordinates (in bohr):
+O.fhi       0.0000000000      -0.1239000000       0.0000000000
+H.cpi       1.4300000000       0.9833000000       0.0000000000
+H.cpi      -1.4300000000       0.9833000000       0.0000000000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):       8.0000000000 Ry
+Fourier grid: (      20,      20,      20)
+NGWX     =      398
+NGX      =     3184
+NG       =     3071
+GCUT     =      81.0569469139
+GCUTW    =      20.2642367285
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =      389
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 6.000000
+FormFactorAtomic: rho of atom 2 is 1.000000
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.251206
+...Done
+Data written successfully
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.0035725882
+EKIN   =       0.0000000000
+EHT    =     -14.5376931552
+EPSEU  =     -11.7059324773
+ENL    =       0.0000000000
+EXC    =      -3.7599469557
+
+=====SCF iteration: 1=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    22: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.1531255970       0.0000027839
+    2      -0.4146020699       0.0000008472
+    3      -0.2793189248       0.0000000489
+    4      -0.1352449612       0.0000003012
+    5      -0.0726022683       0.0000001735
+    6       0.0891407446       0.0000602409
+    7       0.1175982498       0.0002916779
+    8       0.1576318666       0.0035986688
+    9       0.1638558225       0.0028276089
+End of Davidson iteration: rnorm =       0.0007535946
+
+Time for diagonalization: 0.550000
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.5314563699
+EKIN   =       6.1798310118
+EHT    =     -13.4881542355
+EPSEU  =      -6.1131384933
+ENL    =       2.1057367172
+EXC    =      -3.2157313700
+
+!     1     -14.5314563699      15.4721162183       1.0000000000
+
+
+=====SCF iteration: 2=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.7068412769       0.0000172276
+    2      -0.5973174967       0.0000007418
+    3      -0.4974556867       0.0000001258
+    4      -0.3553945316       0.0000001382
+    5      -0.1118906344       0.0000002238
+    6       0.0815268748       0.0004577705
+    7       0.1074505394       0.0007641725
+    8       0.1278980094       0.0052539593
+    9       0.1434822056       0.0043653692
+End of Davidson iteration: rnorm =       0.0012066365
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -13.0123555188
+EKIN   =       8.0723332661
+EHT    =     -13.7569078346
+EPSEU  =      -6.4916216774
+ENL    =       2.4961126479
+EXC    =      -3.3322719209
+
+!     2     -13.0123555188       1.5191008511       0.7106450625
+
+
+=====SCF iteration: 3=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.5786253713       0.0000108395
+    2      -0.5322166573       0.0000007194
+    3      -0.4246200953       0.0000000748
+    4      -0.2760609592       0.0000001769
+    5      -0.0983730822       0.0000001616
+    6       0.0873335925       0.0001730768
+    7       0.1128766318       0.0004868563
+    8       0.1347309554       0.0035837687
+    9       0.1476224784       0.0029885737
+End of Davidson iteration: rnorm =       0.0008049164
+
+Time for diagonalization: 0.550000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.1751383909
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.1885626468
+EKIN   =       7.6883977627
+EHT    =     -13.9731031109
+EPSEU  =      -6.9010238094
+ENL    =       2.4609205453
+EXC    =      -3.4637540344
+
+!     3     -14.1885626468       1.1762071280       0.1751383909
+
+
+=====SCF iteration: 4=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4500945837       0.0000069238
+    2      -0.4676662091       0.0000006019
+    3      -0.3540326646       0.0000000517
+    4      -0.2001806968       0.0000001525
+    5      -0.0846244532       0.0000000928
+    6       0.0941653335       0.0000592402
+    7       0.1194597370       0.0003768024
+    8       0.1429403883       0.0029194082
+    9       0.1541218195       0.0028654698
+End of Davidson iteration: rnorm =       0.0006920826
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0022729688
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.4489123456
+EKIN   =       7.2634010325
+EHT    =     -13.9077277440
+EPSEU  =      -6.8108967727
+ENL    =       2.4237705138
+EXC    =      -3.4174593751
+
+!     4     -14.4489123456       0.2603496988       0.0022729688
+
+
+=====SCF iteration: 5=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4949544911       0.0000081626
+    2      -0.4875745698       0.0000006711
+    3      -0.3783219696       0.0000000595
+    4      -0.2276439740       0.0000001792
+    5      -0.0895203602       0.0000001209
+    6       0.0925929487       0.0000988358
+    7       0.1174173880       0.0003856204
+    8       0.1400790180       0.0030535874
+    9       0.1527052980       0.0028114092
+End of Davidson iteration: rnorm =       0.0007065162
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0271678979
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.6467363867
+EKIN   =       7.4208905881
+EHT    =     -14.0069082752
+EPSEU  =      -7.0066059118
+ENL    =       2.4309869180
+EXC    =      -3.4850997058
+
+!     5     -14.6467363867       0.1978240411       0.0271678979
+
+
+=====SCF iteration: 6=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4302660811       0.0000064470
+    2      -0.4566341690       0.0000005888
+    3      -0.3436053221       0.0000000476
+    4      -0.1898800177       0.0000001508
+    5      -0.0824037352       0.0000000879
+    6       0.0959874707       0.0000548607
+    7       0.1210333405       0.0003527243
+    8       0.1444927522       0.0028904027
+    9       0.1561434135       0.0027848077
+End of Davidson iteration: rnorm =       0.0006766797
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0050500191
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7832558488
+EKIN   =       7.1970089597
+EHT    =     -13.9785486534
+EPSEU  =      -6.9528180978
+ENL    =       2.4138656857
+EXC    =      -3.4627637430
+
+!     6     -14.7832558488       0.1365194622       0.0050500191
+
+
+=====SCF iteration: 7=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507609594       0.0000069554
+    2      -0.4666802242       0.0000006163
+    3      -0.3548064283       0.0000000517
+    4      -0.2020191612       0.0000001612
+    5      -0.0848552390       0.0000000978
+    6       0.0947134410       0.0000663153
+    7       0.1197077740       0.0003618794
+    8       0.1429594439       0.0029219074
+    9       0.1548471293       0.0028027046
+End of Davidson iteration: rnorm =       0.0006845210
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000601757
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.8079587872
+EKIN   =       7.2685729823
+EHT    =     -14.0045998478
+EPSEU  =      -7.0107683600
+ENL    =       2.4190307217
+EXC    =      -3.4801942833
+
+!     7     -14.8079587872       0.0247029383       0.0000601757
+
+
+=====SCF iteration: 8=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4338273060       0.0000065274
+    2      -0.4592050957       0.0000005964
+    3      -0.3461055816       0.0000000489
+    4      -0.1924242175       0.0000001533
+    5      -0.0830266287       0.0000000903
+    6       0.0954861660       0.0000569622
+    7       0.1206743795       0.0003565058
+    8       0.1441353963       0.0028954988
+    9       0.1557028346       0.0028065260
+End of Davidson iteration: rnorm =       0.0006803232
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0040301337
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7511456434
+EKIN   =       7.2080057147
+EHT    =     -13.9714087842
+EPSEU  =      -6.9476101169
+ENL    =       2.4148807721
+EXC    =      -3.4550132290
+
+!     8     -14.7511456434       0.0568131438       0.0040301337
+
+
+=====SCF iteration: 9=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4572819653       0.0000071163
+    2      -0.4703915312       0.0000006276
+    3      -0.3588005872       0.0000000535
+    4      -0.2062941334       0.0000001653
+    5      -0.0858115846       0.0000001019
+    6       0.0941188817       0.0000710143
+    7       0.1191697462       0.0003665573
+    8       0.1423860652       0.0029412111
+    9       0.1542898055       0.0028163409
+End of Davidson iteration: rnorm =       0.0006892431
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0005496410
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.6974236172
+EKIN   =       7.2902343880
+EHT    =     -13.9807817663
+EPSEU  =      -6.9654550197
+ENL    =       2.4204272399
+EXC    =      -3.4618484591
+
+!     9     -14.6974236172       0.0537220262       0.0005496410
+
+
+=====SCF iteration: 10=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508523268       0.0000069513
+    2      -0.4673107142       0.0000006191
+    3      -0.3553161315       0.0000000522
+    4      -0.2024980290       0.0000001622
+    5      -0.0850676405       0.0000000986
+    6       0.0944815979       0.0000668888
+    7       0.1195662511       0.0003634830
+    8       0.1428528748       0.0029267380
+    9       0.1546627639       0.0028136250
+End of Davidson iteration: rnorm =       0.0006865131
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000004293
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7002019463
+EKIN   =       7.2678558816
+EHT    =     -13.9745868221
+EPSEU  =      -6.9552494040
+ENL    =       2.4188336436
+EXC    =      -3.4570552453
+
+!    10     -14.7002019463       0.0027783291       0.0000004293
+
+
+=====SCF iteration: 11=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4553272132       0.0000070655
+    2      -0.4694173294       0.0000006255
+    3      -0.3577637423       0.0000000531
+    4      -0.2052138629       0.0000001647
+    5      -0.0856227818       0.0000001011
+    6       0.0942210281       0.0000700286
+    7       0.1192714358       0.0003652001
+    8       0.1425075077       0.0029386141
+    9       0.1544000614       0.0028127244
+End of Davidson iteration: rnorm =       0.0006882864
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0002985103
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7102072836
+EKIN   =       7.2835358454
+EHT    =     -13.9821550623
+EPSEU  =      -6.9684799173
+ENL    =       2.4196847917
+EXC    =      -3.4627929410
+
+!    11     -14.7102072836       0.0100053373       0.0002985103
+
+
+=====SCF iteration: 12=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4499555408       0.0000069285
+    2      -0.4668790301       0.0000006180
+    3      -0.3548366654       0.0000000521
+    4      -0.2019873673       0.0000001618
+    5      -0.0849715160       0.0000000982
+    6       0.0945309299       0.0000664113
+    7       0.1196205664       0.0003629866
+    8       0.1429160807       0.0029254805
+    9       0.1547162925       0.0028125126
+End of Davidson iteration: rnorm =       0.0006861389
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000099974
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7265444381
+EKIN   =       7.2647392218
+EHT    =     -13.9811482767
+EPSEU  =      -6.9666621838
+ENL    =       2.4185532133
+EXC    =      -3.4620264127
+
+!    12     -14.7265444381       0.0163371545       0.0000099974
+
+
+=====SCF iteration: 13=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4506694463       0.0000069466
+    2      -0.4672214499       0.0000006190
+    3      -0.3552256494       0.0000000522
+    4      -0.2024137712       0.0000001622
+    5      -0.0850569836       0.0000000986
+    6       0.0944893979       0.0000668752
+    7       0.1195754994       0.0003632983
+    8       0.1428632685       0.0029271313
+    9       0.1546742179       0.0028126821
+End of Davidson iteration: rnorm =       0.0006864295
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000002609
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7223183075
+EKIN   =       7.2672315149
+EHT    =     -13.9806878760
+EPSEU  =      -6.9659093053
+ENL    =       2.4187146822
+EXC    =      -3.4616673233
+
+!    13     -14.7223183075       0.0042261306       0.0000002609
+
+
+=====SCF iteration: 14=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4510044932       0.0000069552
+    2      -0.4673781364       0.0000006195
+    3      -0.3554085082       0.0000000523
+    4      -0.2026172025       0.0000001624
+    5      -0.0850984731       0.0000000988
+    6       0.0944703426       0.0000671091
+    7       0.1195537952       0.0003634149
+    8       0.1428376894       0.0029279924
+    9       0.1546550741       0.0028125735
+End of Davidson iteration: rnorm =       0.0006865531
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000006574
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7221932579
+EKIN   =       7.2684094377
+EHT    =     -13.9810090620
+EPSEU  =      -6.9664563437
+ENL    =       2.4187762445
+EXC    =      -3.4619135344
+
+!    14     -14.7221932579       0.0001250496       0.0000006574
+
+
+=====SCF iteration: 15=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507735046       0.0000069493
+    2      -0.4672712941       0.0000006192
+    3      -0.3552828355       0.0000000522
+    4      -0.2024777939       0.0000001623
+    5      -0.0850698211       0.0000000987
+    6       0.0944837395       0.0000669551
+    7       0.1195696579       0.0003633312
+    8       0.1428560785       0.0029274469
+    9       0.1546689812       0.0028126014
+End of Davidson iteration: rnorm =       0.0006864685
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000100
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7223470126
+EKIN   =       7.2675958276
+EHT    =     -13.9807955424
+EPSEU  =      -6.9661372189
+ENL    =       2.4187321372
+EXC    =      -3.4617422160
+
+!    15     -14.7223470126       0.0001537547       0.0000000100
+
+
+=====SCF iteration: 16=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4509323073       0.0000069534
+    2      -0.4673462336       0.0000006195
+    3      -0.3553698475       0.0000000523
+    4      -0.2025753516       0.0000001624
+    5      -0.0850894486       0.0000000988
+    6       0.0944751867       0.0000670759
+    7       0.1195604281       0.0003633784
+    8       0.1428448109       0.0029279131
+    9       0.1546608956       0.0028124736
+End of Davidson iteration: rnorm =       0.0006865253
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000002930
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7224709216
+EKIN   =       7.2681536137
+EHT    =     -13.9810066496
+EPSEU  =      -6.9664681451
+ENL    =       2.4187581629
+EXC    =      -3.4619079035
+
+!    16     -14.7224709216       0.0001239090       0.0000002930
+
+
+=====SCF iteration: 17=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507772923       0.0000069494
+    2      -0.4672749133       0.0000006192
+    3      -0.3552853614       0.0000000522
+    4      -0.2024806744       0.0000001623
+    5      -0.0850700261       0.0000000987
+    6       0.0944838161       0.0000669647
+    7       0.1195705656       0.0003633319
+    8       0.1428568059       0.0029275018
+    9       0.1546695623       0.0028125677
+End of Davidson iteration: rnorm =       0.0006864720
+
+Time for diagonalization: 0.550000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000079
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7227035158
+EKIN   =       7.2676062089
+EHT    =     -13.9809020082
+EPSEU  =      -6.9663173737
+ENL    =       2.4187327483
+EXC    =      -3.4618230911
+
+!    17     -14.7227035158       0.0002325942       0.0000000079
+
+
+=====SCF iteration: 18=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508556554       0.0000069515
+    2      -0.4673122121       0.0000006194
+    3      -0.3553283510       0.0000000522
+    4      -0.2025289949       0.0000001624
+    5      -0.0850795777       0.0000000987
+    6       0.0944798072       0.0000670270
+    7       0.1195664532       0.0003633531
+    8       0.1428516233       0.0029277459
+    9       0.1546659494       0.0028124846
+End of Davidson iteration: rnorm =       0.0006864994
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000520
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7227257421
+EKIN   =       7.2678810223
+EHT    =     -13.9809963164
+EPSEU  =      -6.9664575566
+ENL    =       2.4187452383
+EXC    =      -3.4618981297
+
+!    18     -14.7227257421       0.0000222262       0.0000000520
+
+
+=====SCF iteration: 19=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507855965       0.0000069497
+    2      -0.4672800092       0.0000006193
+    3      -0.3552901485       0.0000000522
+    4      -0.2024859228       0.0000001623
+    5      -0.0850707761       0.0000000987
+    6       0.0944835884       0.0000669745
+    7       0.1195708350       0.0003633345
+    8       0.1428568988       0.0029275461
+    9       0.1546696450       0.0028125485
+End of Davidson iteration: rnorm =       0.0006864762
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000039
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228601710
+EKIN   =       7.2676333329
+EHT    =     -13.9809585871
+EPSEU  =      -6.9664017828
+ENL    =       2.4187348243
+EXC    =      -3.4618679584
+
+!    19     -14.7228601710       0.0001344290       0.0000000039
+
+
+=====SCF iteration: 20=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508136054       0.0000069504
+    2      -0.4672932294       0.0000006193
+    3      -0.3553054653       0.0000000522
+    4      -0.2025031295       0.0000001623
+    5      -0.0850741474       0.0000000987
+    6       0.0944822025       0.0000669966
+    7       0.1195693836       0.0003633415
+    8       0.1428550638       0.0029276304
+    9       0.1546683877       0.0028125179
+End of Davidson iteration: rnorm =       0.0006864855
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000026
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228519845
+EKIN   =       7.2677317094
+EHT    =     -13.9809877728
+EPSEU  =      -6.9664440038
+ENL    =       2.4187393803
+EXC    =      -3.4618912977
+
+!    20     -14.7228519845       0.0000081865       0.0000000026
+
+
+=====SCF iteration: 21=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507917832       0.0000069498
+    2      -0.4672833301       0.0000006193
+    3      -0.3552935820       0.0000000522
+    4      -0.2024896622       0.0000001623
+    5      -0.0850713435       0.0000000987
+    6       0.0944834120       0.0000669804
+    7       0.1195708311       0.0003633359
+    8       0.1428567894       0.0029275672
+    9       0.1546695892       0.0028125391
+End of Davidson iteration: rnorm =       0.0006864783
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000017
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228870233
+EKIN   =       7.2676542631
+EHT    =     -13.9809740032
+EPSEU  =      -6.9664232368
+ENL    =       2.4187364695
+EXC    =      -3.4618805157
+
+!    21     -14.7228870233       0.0000350388       0.0000000017
+
+
+=====SCF iteration: 22=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508019360       0.0000069501
+    2      -0.4672878834       0.0000006193
+    3      -0.3552990863       0.0000000522
+    4      -0.2024958897       0.0000001623
+    5      -0.0850726194       0.0000000987
+    6       0.0944828786       0.0000669879
+    7       0.1195701745       0.0003633382
+    8       0.1428560030       0.0029275948
+    9       0.1546690539       0.0028125287
+End of Davidson iteration: rnorm =       0.0006864814
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228952883
+EKIN   =       7.2676903547
+EHT    =     -13.9809885276
+EPSEU  =      -6.9664425923
+ENL    =       2.4187378998
+EXC    =      -3.4618924228
+
+!    22     -14.7228952883       0.0000082650       0.0000000000
+
+
+=====SCF iteration: 23=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4507908552       0.0000069498
+    2      -0.4672828683       0.0000006193
+    3      -0.3552930380       0.0000000522
+    4      -0.2024889826       0.0000001623
+    5      -0.0850711491       0.0000000987
+    6       0.0944835179       0.0000669795
+    7       0.1195709379       0.0003633353
+    8       0.1428569111       0.0029275600
+    9       0.1546696843       0.0028125410
+End of Davidson iteration: rnorm =       0.0006864776
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000022
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228791866
+EKIN   =       7.2676509449
+EHT    =     -13.9809709262
+EPSEU  =      -6.9664174562
+ENL    =       2.4187366814
+EXC    =      -3.4618784305
+
+!    23     -14.7228791866       0.0000161016       0.0000000022
+
+
+=====SCF iteration: 24=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508040087       0.0000069502
+    2      -0.4672887219       0.0000006193
+    3      -0.3553001712       0.0000000522
+    4      -0.2024971094       0.0000001623
+    5      -0.0850728457       0.0000000987
+    6       0.0944828074       0.0000669893
+    7       0.1195700536       0.0003633382
+    8       0.1428558551       0.0029275978
+    9       0.1546689714       0.0028125256
+End of Davidson iteration: rnorm =       0.0006864815
+
+Time for diagonalization: 0.570000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000001
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228453515
+EKIN   =       7.2676978446
+EHT    =     -13.9809755449
+EPSEU  =      -6.9664237292
+ENL    =       2.4187382682
+EXC    =      -3.4618821903
+
+!    24     -14.7228453515       0.0000338352       0.0000000001
+
+
+=====SCF iteration: 25=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508005039       0.0000069501
+    2      -0.4672871347       0.0000006193
+    3      -0.3552982591       0.0000000522
+    4      -0.2024949302       0.0000001623
+    5      -0.0850723871       0.0000000987
+    6       0.0944830041       0.0000669867
+    7       0.1195702879       0.0003633373
+    8       0.1428561354       0.0029275870
+    9       0.1546691646       0.0028125295
+End of Davidson iteration: rnorm =       0.0006864803
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228488506
+EKIN   =       7.2676853884
+EHT    =     -13.9809726382
+EPSEU  =      -6.9664195348
+ENL    =       2.4187378607
+EXC    =      -3.4618799267
+
+!    25     -14.7228488506       0.0000034991       0.0000000000
+
+
+=====SCF iteration: 26=====
+
+----------- k-point:     1 -----------
+
+Allocated dynamic memory in davidson_cpu:    0.2287902832 MB
+In iter =    23: nconv =     4
+
+Final Davidson result nconv=4 from 9 states:
+    1      -1.4508026560       0.0000069501
+    2      -0.4672880595       0.0000006193
+    3      -0.3552994155       0.0000000522
+    4      -0.2024962571       0.0000001623
+    5      -0.0850726646       0.0000000987
+    6       0.0944828934       0.0000669883
+    7       0.1195701392       0.0003633376
+    8       0.1428559577       0.0029275929
+    9       0.1546690504       0.0028125264
+End of Davidson iteration: rnorm =       0.0006864809
+
+Time for diagonalization: 0.560000
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000000000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -14.7228482562
+EKIN   =       7.2676931235
+EHT    =     -13.9809749471
+EPSEU  =      -6.9664227464
+ENL    =       2.4187380882
+EXC    =      -3.4618817743
+
+!    26     -14.7228482562       0.0000005944       0.0000000000
+
+***Convergence achieved in 26 iterations.
+Data written successfully
+
+Program ended normally at: 04 February 2012 11:07:27 AM
+Total time for SCF loop:                       15.61000 s
+Total elapsed time for main program:           15.65000 s

@@ -1,0 +1,3091 @@
+
+Program started at: 16 January 2012 12:14:40 AM
+
+Reading input file .......Done reading input file
+Minimum Fourier grid: (20,20,20)
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         1
+Species name: Si.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+
+NLMAX:                     4
+NAX:                       8
+
+Total number of atoms:     8
+Atomic coordinates (in bohr):
+Si.fhi       0.0000000000       0.0000000000       0.0000000000
+Si.fhi       0.0000000000       5.1330000000       5.1330000000
+Si.fhi       5.1330000000       0.0000000000       5.1330000000
+Si.fhi       5.1330000000       5.1330000000       0.0000000000
+Si.fhi       2.5665000000       2.5665000000       2.5665000000
+Si.fhi       7.6995000000       2.5665000000       7.6995000000
+Si.fhi       2.5665000000       7.6995000000       7.6995000000
+Si.fhi       7.6995000000       7.6995000000       2.5665000000
+
+Lattice vectors (in bohr)
+     10.2660000000       0.0000000000       0.0000000000
+      0.0000000000      10.2660000000       0.0000000000
+      0.0000000000       0.0000000000      10.2660000000
+
+Unit cell volume:    1081.9415010960
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6120383116)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):             32
+Number of occupied states:             16
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):     21
+Total number of states (NSTATX):       21
+
+Cut off energy (ECUT):      10.0000000000 Ry
+Fourier grid: (      22,      22,      22)
+NGWX     =      596
+NGX      =     4768
+NG       =     4625
+GCUT     =     106.7831614288
+GCUTW    =      26.6957903572
+TPIBA    =       0.6120383116
+TPIBA2   =       0.3745908949
+NGW(  1) =      587
+
+Calculating phases factor ........Done
+
+Calculating structure factor ........Done
+
+Calculating form factor of local pseudopotentials ........Done
+
+Calculating form factor of non-local pseudopotentials ........Done
+
+Starting density from superposition of atomic charges
+FormFactorAtomic: rho of atom 1 is 4.000000
+Normalize charge density ......Done
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -44.1528237322
+EKIN   =       0.0000000000
+EHT    =     -37.3105518149
+EPSEU  =       2.5109102429
+ENL    =       0.0000000000
+EXC    =      -9.3531821602
+Calling Lanczos ....
+End of Lanczos ....
+norm_rT = 22.224709
+norm(f) = 1.100290
+lb = 2.612903
+ub = 4.828704
+
+=====SCF iteration: 1=====
+
+Calling chebyfilt with bounds: (2.612903,4.828704)
+Eigenvalue of T
+    1 -0.291547
+    2 -0.155615
+    3 -0.146350
+    4 -0.138324
+    5 -0.129596
+    6 -0.095234
+    7 -0.072492
+    8 0.036243
+    9 0.062490
+   10 0.071771
+   11 0.089303
+   12 0.121603
+   13 0.170182
+   14 0.176202
+   15 0.201709
+   16 0.240086
+   17 0.277571
+   18 0.298040
+   19 0.367403
+   20 0.422768
+   21 0.432411
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -29.0604381033
+EKIN   =      14.0731189277
+EHT    =     -37.0499069363
+EPSEU  =       2.3359968512
+ENL    =       1.0399470566
+EXC    =      -9.4595940026
+
+!     1     -29.0604381033      15.0923856289       1.0000000000
+
+Residual: 1 0.126519
+Residual: 2 0.094998
+Residual: 3 0.114875
+Residual: 4 0.130521
+Residual: 5 0.142972
+Residual: 6 0.168822
+Residual: 7 0.188175
+Residual: 8 0.115403
+Residual: 9 0.139120
+Residual: 10 0.159609
+Residual: 11 0.164182
+Residual: 12 0.171040
+Residual: 13 0.156237
+Residual: 14 0.163932
+Residual: 15 0.146300
+Residual: 16 0.170642
+Residual: 17 0.199644
+Residual: 18 0.204940
+Residual: 19 0.239897
+Residual: 20 0.204636
+Residual: 21 0.239312
+
+=====SCF iteration: 2=====
+
+Calling chebyfilt with bounds: (2.307593,23.441773)
+Eigenvalue of T
+    1 -0.316470
+    2 -0.179984
+    3 -0.174171
+    4 -0.165989
+    5 -0.139103
+    6 -0.121888
+    7 -0.113011
+    8 0.017030
+    9 0.024777
+   10 0.045255
+   11 0.052257
+   12 0.086914
+   13 0.120259
+   14 0.150831
+   15 0.168849
+   16 0.185128
+   17 0.209762
+   18 0.225587
+   19 0.247049
+   20 0.297652
+   21 0.331681
+Anderson mixing with beta = 0.300000
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.1569177896
+EKIN   =      13.1378859948
+EHT    =     -37.0978081197
+EPSEU  =       2.3178227208
+ENL    =       0.9522328898
+EXC    =      -9.4670512753
+
+!     2     -30.1569177896       1.0964796863       0.2445821263
+
+Residual: 1 0.054069
+Residual: 2 0.056484
+Residual: 3 0.071862
+Residual: 4 0.071290
+Residual: 5 0.087814
+Residual: 6 0.085303
+Residual: 7 0.086007
+Residual: 8 0.078525
+Residual: 9 0.081155
+Residual: 10 0.086059
+Residual: 11 0.100438
+Residual: 12 0.115477
+Residual: 13 0.131271
+Residual: 14 0.081341
+Residual: 15 0.086424
+Residual: 16 0.117480
+Residual: 17 0.118508
+Residual: 18 0.120324
+Residual: 19 0.156666
+Residual: 20 0.174694
+Residual: 21 0.159227
+
+=====SCF iteration: 3=====
+
+Calling chebyfilt with bounds: (2.307593,23.386969)
+Eigenvalue of T
+    1 -0.312510
+    2 -0.173216
+    3 -0.170482
+    4 -0.162318
+    5 -0.150037
+    6 -0.144149
+    7 -0.140457
+    8 0.013897
+    9 0.022049
+   10 0.029031
+   11 0.033556
+   12 0.052107
+   13 0.078362
+   14 0.136636
+   15 0.151278
+   16 0.163074
+   17 0.180397
+   18 0.193066
+   19 0.204417
+   20 0.238552
+   21 0.277926
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.2247457007
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.4728683322
+EKIN   =      12.9567384826
+EHT    =     -37.1456676746
+EPSEU  =       2.3099995434
+ENL    =       0.8920725657
+EXC    =      -9.4860112493
+
+!     3     -30.4728683322       0.3159505426       0.2247457007
+
+Residual: 1 0.028206
+Residual: 2 0.032534
+Residual: 3 0.041218
+Residual: 4 0.042359
+Residual: 5 0.048280
+Residual: 6 0.034212
+Residual: 7 0.058687
+Residual: 8 0.042977
+Residual: 9 0.049154
+Residual: 10 0.060135
+Residual: 11 0.050806
+Residual: 12 0.081638
+Residual: 13 0.108884
+Residual: 14 0.047422
+Residual: 15 0.068416
+Residual: 16 0.074935
+Residual: 17 0.082349
+Residual: 18 0.073294
+Residual: 19 0.093976
+Residual: 20 0.102035
+Residual: 21 0.104599
+
+=====SCF iteration: 4=====
+
+Calling chebyfilt with bounds: (2.307593,23.384356)
+Eigenvalue of T
+    1 -0.311149
+    2 -0.169040
+    3 -0.167253
+    4 -0.160307
+    5 -0.155433
+    6 -0.149068
+    7 -0.145840
+    8 0.014906
+    9 0.021142
+   10 0.023263
+   11 0.028025
+   12 0.038319
+   13 0.054612
+   14 0.134656
+   15 0.143657
+   16 0.151636
+   17 0.171169
+   18 0.182431
+   19 0.189434
+   20 0.218462
+   21 0.257052
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.2081238046
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -30.7167116364
+EKIN   =      12.9326233897
+EHT    =     -37.2744517665
+EPSEU  =       2.3170292617
+ENL    =       0.8548330834
+EXC    =      -9.5467456047
+
+!     4     -30.7167116364       0.2438433042       0.2081238046
+
+Residual: 1 0.014773
+Residual: 2 0.028190
+Residual: 3 0.024904
+Residual: 4 0.026957
+Residual: 5 0.030302
+Residual: 6 0.028185
+Residual: 7 0.029191
+Residual: 8 0.026323
+Residual: 9 0.037533
+Residual: 10 0.032422
+Residual: 11 0.035981
+Residual: 12 0.062077
+Residual: 13 0.083316
+Residual: 14 0.030542
+Residual: 15 0.045386
+Residual: 16 0.058743
+Residual: 17 0.042744
+Residual: 18 0.052799
+Residual: 19 0.059224
+Residual: 20 0.068361
+Residual: 21 0.074891
+
+=====SCF iteration: 5=====
+
+Calling chebyfilt with bounds: (2.307593,23.441077)
+Eigenvalue of T
+    1 -0.310563
+    2 -0.169077
+    3 -0.167483
+    4 -0.164611
+    5 -0.154857
+    6 -0.141554
+    7 -0.130802
+    8 0.014429
+    9 0.018454
+   10 0.024676
+   11 0.030723
+   12 0.037184
+   13 0.046168
+   14 0.141518
+   15 0.145096
+   16 0.153264
+   17 0.165732
+   18 0.179084
+   19 0.188768
+   20 0.211407
+   21 0.249314
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.1709612503
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0353672995
+EKIN   =      12.8445931652
+EHT    =     -37.3662879468
+EPSEU  =       2.2878871140
+ENL    =       0.8336496571
+EXC    =      -9.6352092889
+
+!     5     -31.0353672995       0.3186556631       0.1709612503
+
+Residual: 1 0.012322
+Residual: 2 0.021915
+Residual: 3 0.027740
+Residual: 4 0.025697
+Residual: 5 0.022055
+Residual: 6 0.022279
+Residual: 7 0.016638
+Residual: 8 0.025925
+Residual: 9 0.032055
+Residual: 10 0.029893
+Residual: 11 0.034754
+Residual: 12 0.043899
+Residual: 13 0.058620
+Residual: 14 0.032523
+Residual: 15 0.031762
+Residual: 16 0.045292
+Residual: 17 0.036431
+Residual: 18 0.042627
+Residual: 19 0.041772
+Residual: 20 0.056022
+Residual: 21 0.059684
+
+=====SCF iteration: 6=====
+
+Calling chebyfilt with bounds: (2.307593,23.436791)
+Eigenvalue of T
+    1 -0.301686
+    2 -0.155452
+    3 -0.150896
+    4 -0.149480
+    5 -0.145630
+    6 -0.145030
+    7 -0.141056
+    8 0.025935
+    9 0.026707
+   10 0.029627
+   11 0.033119
+   12 0.035338
+   13 0.043189
+   14 0.146114
+   15 0.150015
+   16 0.155828
+   17 0.171872
+   18 0.178210
+   19 0.188548
+   20 0.206309
+   21 0.248876
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0244723076
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0537487747
+EKIN   =      12.7939428823
+EHT    =     -37.3229086681
+EPSEU  =       2.2778439120
+ENL    =       0.8119213582
+EXC    =      -9.6145482591
+
+!     6     -31.0537487747       0.0183814752       0.0244723076
+
+Residual: 1 0.004237
+Residual: 2 0.007882
+Residual: 3 0.008660
+Residual: 4 0.011722
+Residual: 5 0.011066
+Residual: 6 0.014422
+Residual: 7 0.013082
+Residual: 8 0.013296
+Residual: 9 0.016432
+Residual: 10 0.019353
+Residual: 11 0.024256
+Residual: 12 0.028978
+Residual: 13 0.048452
+Residual: 14 0.016906
+Residual: 15 0.021163
+Residual: 16 0.032060
+Residual: 17 0.020826
+Residual: 18 0.025662
+Residual: 19 0.033891
+Residual: 20 0.043102
+Residual: 21 0.048752
+
+=====SCF iteration: 7=====
+
+Calling chebyfilt with bounds: (2.307593,23.426200)
+Eigenvalue of T
+    1 -0.302711
+    2 -0.157452
+    3 -0.151397
+    4 -0.149429
+    5 -0.148073
+    6 -0.146639
+    7 -0.143493
+    8 0.024598
+    9 0.025278
+   10 0.028053
+   11 0.029828
+   12 0.032607
+   13 0.036013
+   14 0.144304
+   15 0.147112
+   16 0.151220
+   17 0.171277
+   18 0.175936
+   19 0.182862
+   20 0.202245
+   21 0.241628
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0157522961
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.0728206221
+EKIN   =      12.8022866415
+EHT    =     -37.3290879521
+EPSEU  =       2.2733962596
+ENL    =       0.8048059780
+EXC    =      -9.6242215490
+
+!     7     -31.0728206221       0.0190718474       0.0157522961
+
+Residual: 1 0.002460
+Residual: 2 0.004094
+Residual: 3 0.004386
+Residual: 4 0.007383
+Residual: 5 0.006127
+Residual: 6 0.006840
+Residual: 7 0.009004
+Residual: 8 0.009093
+Residual: 9 0.016023
+Residual: 10 0.013241
+Residual: 11 0.022626
+Residual: 12 0.014667
+Residual: 13 0.037976
+Residual: 14 0.009769
+Residual: 15 0.016772
+Residual: 16 0.025095
+Residual: 17 0.013197
+Residual: 18 0.018225
+Residual: 19 0.027355
+Residual: 20 0.037718
+Residual: 21 0.046186
+
+=====SCF iteration: 8=====
+
+Calling chebyfilt with bounds: (2.307593,23.435442)
+Eigenvalue of T
+    1 -0.301851
+    2 -0.152690
+    3 -0.150669
+    4 -0.149101
+    5 -0.147545
+    6 -0.146803
+    7 -0.145824
+    8 0.025913
+    9 0.026458
+   10 0.027944
+   11 0.029319
+   12 0.031146
+   13 0.033170
+   14 0.144859
+   15 0.146770
+   16 0.150324
+   17 0.170822
+   18 0.175609
+   19 0.181583
+   20 0.198650
+   21 0.235745
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0109898136
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1102117087
+EKIN   =      12.8056412683
+EHT    =     -37.3395583267
+EPSEU  =       2.2664645306
+ENL    =       0.7987719049
+EXC    =      -9.6415310858
+
+!     8     -31.1102117087       0.0373910866       0.0109898136
+
+Residual: 1 0.001935
+Residual: 2 0.004060
+Residual: 3 0.003257
+Residual: 4 0.005047
+Residual: 5 0.003547
+Residual: 6 0.004326
+Residual: 7 0.005471
+Residual: 8 0.008783
+Residual: 9 0.012668
+Residual: 10 0.010414
+Residual: 11 0.016117
+Residual: 12 0.012280
+Residual: 13 0.030150
+Residual: 14 0.008325
+Residual: 15 0.014382
+Residual: 16 0.022262
+Residual: 17 0.008867
+Residual: 18 0.015267
+Residual: 19 0.024219
+Residual: 20 0.035718
+Residual: 21 0.045645
+
+=====SCF iteration: 9=====
+
+Calling chebyfilt with bounds: (2.307593,23.447746)
+Eigenvalue of T
+    1 -0.300774
+    2 -0.149395
+    3 -0.148847
+    4 -0.148590
+    5 -0.146748
+    6 -0.146514
+    7 -0.145563
+    8 0.027162
+    9 0.027578
+   10 0.029135
+   11 0.029761
+   12 0.030601
+   13 0.032122
+   14 0.146014
+   15 0.147409
+   16 0.150332
+   17 0.171277
+   18 0.175568
+   19 0.180755
+   20 0.195960
+   21 0.230956
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0057961500
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1564799133
+EKIN   =      12.8033985450
+EHT    =     -37.3454860200
+EPSEU  =       2.2552727839
+ENL    =       0.7936162003
+EXC    =      -9.6632814226
+
+!     9     -31.1564799133       0.0462682046       0.0057961500
+
+Residual: 1 0.002257
+Residual: 2 0.003444
+Residual: 3 0.003515
+Residual: 4 0.004648
+Residual: 5 0.004371
+Residual: 6 0.003503
+Residual: 7 0.003012
+Residual: 8 0.006630
+Residual: 9 0.011073
+Residual: 10 0.008959
+Residual: 11 0.012306
+Residual: 12 0.008740
+Residual: 13 0.023848
+Residual: 14 0.007877
+Residual: 15 0.012877
+Residual: 16 0.019753
+Residual: 17 0.007311
+Residual: 18 0.013605
+Residual: 19 0.022129
+Residual: 20 0.034512
+Residual: 21 0.045356
+
+=====SCF iteration: 10=====
+
+Calling chebyfilt with bounds: (2.307593,23.457569)
+Eigenvalue of T
+    1 -0.299501
+    2 -0.148629
+    3 -0.147013
+    4 -0.146319
+    5 -0.146031
+    6 -0.145192
+    7 -0.143833
+    8 0.028337
+    9 0.028866
+   10 0.029936
+   11 0.030700
+   12 0.031541
+   13 0.032085
+   14 0.147259
+   15 0.148553
+   16 0.150814
+   17 0.172876
+   18 0.175549
+   19 0.179566
+   20 0.194446
+   21 0.226981
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0026864065
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1862302884
+EKIN   =      12.7961693707
+EHT    =     -37.3465122777
+EPSEU  =       2.2493585736
+ENL    =       0.7890038559
+EXC    =      -9.6742498108
+
+!    10     -31.1862302884       0.0297503751       0.0026864065
+
+Residual: 1 0.001562
+Residual: 2 0.003183
+Residual: 3 0.002458
+Residual: 4 0.002619
+Residual: 5 0.002262
+Residual: 6 0.002218
+Residual: 7 0.002180
+Residual: 8 0.005628
+Residual: 9 0.008186
+Residual: 10 0.008125
+Residual: 11 0.009481
+Residual: 12 0.007665
+Residual: 13 0.018456
+Residual: 14 0.006887
+Residual: 15 0.012128
+Residual: 16 0.017147
+Residual: 17 0.007517
+Residual: 18 0.010761
+Residual: 19 0.020116
+Residual: 20 0.032710
+Residual: 21 0.046072
+
+=====SCF iteration: 11=====
+
+Calling chebyfilt with bounds: (2.307593,23.469696)
+Eigenvalue of T
+    1 -0.298874
+    2 -0.147231
+    3 -0.146729
+    4 -0.146192
+    5 -0.144713
+    6 -0.144330
+    7 -0.143675
+    8 0.028798
+    9 0.029732
+   10 0.030682
+   11 0.030941
+   12 0.031321
+   13 0.032244
+   14 0.148014
+   15 0.148847
+   16 0.150883
+   17 0.172860
+   18 0.175696
+   19 0.179246
+   20 0.191550
+   21 0.221380
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0009247970
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1791618613
+EKIN   =      12.7966684582
+EHT    =     -37.3404839475
+EPSEU  =       2.2488463444
+ENL    =       0.7859301431
+EXC    =      -9.6701228594
+
+!    11     -31.1791618613       0.0070684271       0.0009247970
+
+Residual: 1 0.000529
+Residual: 2 0.001402
+Residual: 3 0.001228
+Residual: 4 0.001105
+Residual: 5 0.000805
+Residual: 6 0.000995
+Residual: 7 0.001193
+Residual: 8 0.004759
+Residual: 9 0.006109
+Residual: 10 0.005763
+Residual: 11 0.005937
+Residual: 12 0.009422
+Residual: 13 0.013261
+Residual: 14 0.006289
+Residual: 15 0.010580
+Residual: 16 0.015782
+Residual: 17 0.005204
+Residual: 18 0.010234
+Residual: 19 0.018002
+Residual: 20 0.031421
+Residual: 21 0.045146
+
+=====SCF iteration: 12=====
+
+Calling chebyfilt with bounds: (2.307593,23.465911)
+Eigenvalue of T
+    1 -0.299088
+    2 -0.146907
+    3 -0.146727
+    4 -0.146148
+    5 -0.145419
+    6 -0.144866
+    7 -0.144421
+    8 0.028797
+    9 0.029226
+   10 0.030416
+   11 0.030699
+   12 0.030998
+   13 0.031282
+   14 0.147551
+   15 0.148250
+   16 0.149878
+   17 0.172743
+   18 0.175265
+   19 0.178174
+   20 0.188728
+   21 0.215261
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0008592132
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1728582371
+EKIN   =      12.8038318484
+EHT    =     -37.3397316588
+EPSEU  =       2.2484950392
+ENL    =       0.7845254390
+EXC    =      -9.6699789049
+
+!    12     -31.1728582371       0.0063036242       0.0008592132
+
+Residual: 1 0.000305
+Residual: 2 0.000724
+Residual: 3 0.000964
+Residual: 4 0.000804
+Residual: 5 0.000587
+Residual: 6 0.000693
+Residual: 7 0.000559
+Residual: 8 0.003823
+Residual: 9 0.005375
+Residual: 10 0.005491
+Residual: 11 0.006382
+Residual: 12 0.005247
+Residual: 13 0.010187
+Residual: 14 0.006083
+Residual: 15 0.009728
+Residual: 16 0.014376
+Residual: 17 0.004646
+Residual: 18 0.009248
+Residual: 19 0.016442
+Residual: 20 0.029688
+Residual: 21 0.044326
+
+=====SCF iteration: 13=====
+
+Calling chebyfilt with bounds: (2.307593,23.465093)
+Eigenvalue of T
+    1 -0.299087
+    2 -0.146842
+    3 -0.146446
+    4 -0.146264
+    5 -0.145581
+    6 -0.144860
+    7 -0.144526
+    8 0.028865
+    9 0.029091
+   10 0.030377
+   11 0.030520
+   12 0.030784
+   13 0.031189
+   14 0.147411
+   15 0.147986
+   16 0.149325
+   17 0.172797
+   18 0.175011
+   19 0.177372
+   20 0.186459
+   21 0.209769
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0011334058
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1670374619
+EKIN   =      12.8095911804
+EHT    =     -37.3376366821
+EPSEU  =       2.2476547270
+ENL    =       0.7832521657
+EXC    =      -9.6698988528
+
+!    13     -31.1670374619       0.0058207753       0.0011334058
+
+Residual: 1 0.000203
+Residual: 2 0.000411
+Residual: 3 0.000610
+Residual: 4 0.000493
+Residual: 5 0.000343
+Residual: 6 0.000375
+Residual: 7 0.000411
+Residual: 8 0.002932
+Residual: 9 0.004365
+Residual: 10 0.005381
+Residual: 11 0.004576
+Residual: 12 0.007772
+Residual: 13 0.004012
+Residual: 14 0.005948
+Residual: 15 0.008837
+Residual: 16 0.013126
+Residual: 17 0.004543
+Residual: 18 0.008288
+Residual: 19 0.014979
+Residual: 20 0.027787
+Residual: 21 0.043106
+
+=====SCF iteration: 14=====
+
+Calling chebyfilt with bounds: (2.307593,23.465673)
+Eigenvalue of T
+    1 -0.299101
+    2 -0.146959
+    3 -0.146609
+    4 -0.146191
+    5 -0.145438
+    6 -0.144941
+    7 -0.144479
+    8 0.028813
+    9 0.029056
+   10 0.030208
+   11 0.030520
+   12 0.030694
+   13 0.031121
+   14 0.147302
+   15 0.147791
+   16 0.148840
+   17 0.172667
+   18 0.174844
+   19 0.176851
+   20 0.184292
+   21 0.204597
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0019207956
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1660406720
+EKIN   =      12.8147637167
+EHT    =     -37.3409682667
+EPSEU  =       2.2486034118
+ENL    =       0.7822916968
+EXC    =      -9.6707312306
+
+!    14     -31.1660406720       0.0009967898       0.0019207956
+
+Residual: 1 0.000151
+Residual: 2 0.000361
+Residual: 3 0.000424
+Residual: 4 0.000433
+Residual: 5 0.000277
+Residual: 6 0.000336
+Residual: 7 0.000350
+Residual: 8 0.002446
+Residual: 9 0.003326
+Residual: 10 0.005188
+Residual: 11 0.005055
+Residual: 12 0.004271
+Residual: 13 0.002855
+Residual: 14 0.006069
+Residual: 15 0.007705
+Residual: 16 0.012040
+Residual: 17 0.004073
+Residual: 18 0.007968
+Residual: 19 0.013586
+Residual: 20 0.025942
+Residual: 21 0.041355
+
+=====SCF iteration: 15=====
+
+Calling chebyfilt with bounds: (2.307593,23.466584)
+Eigenvalue of T
+    1 -0.299049
+    2 -0.146861
+    3 -0.146694
+    4 -0.146084
+    5 -0.145295
+    6 -0.144866
+    7 -0.144421
+    8 0.028817
+    9 0.029160
+   10 0.030214
+   11 0.030512
+   12 0.030806
+   13 0.031033
+   14 0.147271
+   15 0.147695
+   16 0.148571
+   17 0.172609
+   18 0.174674
+   19 0.176496
+   20 0.182446
+   21 0.200004
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0025906918
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1639543350
+EKIN   =      12.8182763488
+EHT    =     -37.3407965856
+EPSEU  =       2.2481878428
+ENL    =       0.7813542469
+EXC    =      -9.6709761880
+
+!    15     -31.1639543350       0.0020863370       0.0025906918
+
+Residual: 1 0.000428
+Residual: 2 0.000882
+Residual: 3 0.000927
+Residual: 4 0.000895
+Residual: 5 0.000896
+Residual: 6 0.000800
+Residual: 7 0.000708
+Residual: 8 0.002324
+Residual: 9 0.003058
+Residual: 10 0.004977
+Residual: 11 0.003429
+Residual: 12 0.003141
+Residual: 13 0.002519
+Residual: 14 0.006153
+Residual: 15 0.006792
+Residual: 16 0.010890
+Residual: 17 0.004006
+Residual: 18 0.007912
+Residual: 19 0.012340
+Residual: 20 0.024215
+Residual: 21 0.039168
+
+=====SCF iteration: 16=====
+
+Calling chebyfilt with bounds: (2.307593,23.464909)
+Eigenvalue of T
+    1 -0.299018
+    2 -0.146840
+    3 -0.146308
+    4 -0.146025
+    5 -0.145540
+    6 -0.145093
+    7 -0.144237
+    8 0.028939
+    9 0.029160
+   10 0.030252
+   11 0.030364
+   12 0.030574
+   13 0.031232
+   14 0.147172
+   15 0.147540
+   16 0.148317
+   17 0.172873
+   18 0.174539
+   19 0.175811
+   20 0.181301
+   21 0.195885
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0021393693
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1429710930
+EKIN   =      12.8214586578
+EHT    =     -37.3202793503
+EPSEU  =       2.2420080042
+ENL    =       0.7806098699
+EXC    =      -9.6667682746
+
+!    16     -31.1429710930       0.0209832421       0.0021393693
+
+Residual: 1 0.000692
+Residual: 2 0.001387
+Residual: 3 0.001116
+Residual: 4 0.001216
+Residual: 5 0.001281
+Residual: 6 0.001265
+Residual: 7 0.001225
+Residual: 8 0.002650
+Residual: 9 0.002832
+Residual: 10 0.004942
+Residual: 11 0.002637
+Residual: 12 0.002642
+Residual: 13 0.002296
+Residual: 14 0.005948
+Residual: 15 0.006316
+Residual: 16 0.010113
+Residual: 17 0.004979
+Residual: 18 0.006837
+Residual: 19 0.011232
+Residual: 20 0.022170
+Residual: 21 0.036887
+
+=====SCF iteration: 17=====
+
+Calling chebyfilt with bounds: (2.307593,23.461844)
+Eigenvalue of T
+    1 -0.299348
+    2 -0.148492
+    3 -0.146948
+    4 -0.146393
+    5 -0.145627
+    6 -0.145026
+    7 -0.143783
+    8 0.028289
+    9 0.028759
+   10 0.029649
+   11 0.029857
+   12 0.030355
+   13 0.031637
+   14 0.146679
+   15 0.147184
+   16 0.147490
+   17 0.172695
+   18 0.174428
+   19 0.174953
+   20 0.180220
+   21 0.191870
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0059452586
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1698507251
+EKIN   =      12.8274515472
+EHT    =     -37.3534599472
+EPSEU  =       2.2508560335
+ENL    =       0.7807827413
+EXC    =      -9.6754811000
+
+!    17     -31.1698507251       0.0268796321       0.0059452586
+
+Residual: 1 0.001105
+Residual: 2 0.001421
+Residual: 3 0.001478
+Residual: 4 0.001464
+Residual: 5 0.001411
+Residual: 6 0.001355
+Residual: 7 0.001451
+Residual: 8 0.002282
+Residual: 9 0.001878
+Residual: 10 0.003717
+Residual: 11 0.002375
+Residual: 12 0.002066
+Residual: 13 0.001855
+Residual: 14 0.005594
+Residual: 15 0.007034
+Residual: 16 0.007540
+Residual: 17 0.003892
+Residual: 18 0.006324
+Residual: 19 0.010541
+Residual: 20 0.020320
+Residual: 21 0.034666
+
+=====SCF iteration: 18=====
+
+Calling chebyfilt with bounds: (2.307593,23.467965)
+Eigenvalue of T
+    1 -0.298716
+    2 -0.146088
+    3 -0.145858
+    4 -0.145657
+    5 -0.145351
+    6 -0.145081
+    7 -0.143896
+    8 0.029296
+    9 0.029706
+   10 0.030372
+   11 0.030620
+   12 0.030960
+   13 0.031224
+   14 0.147368
+   15 0.147620
+   16 0.148404
+   17 0.173075
+   18 0.174378
+   19 0.175417
+   20 0.178972
+   21 0.189329
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0011004777
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1816351249
+EKIN   =      12.8244902221
+EHT    =     -37.3550384141
+EPSEU  =       2.2491731187
+ENL    =       0.7790483689
+EXC    =      -9.6793084205
+
+!    18     -31.1816351249       0.0117843998       0.0011004777
+
+Residual: 1 0.000860
+Residual: 2 0.000970
+Residual: 3 0.000893
+Residual: 4 0.000959
+Residual: 5 0.000865
+Residual: 6 0.000847
+Residual: 7 0.000963
+Residual: 8 0.001453
+Residual: 9 0.001434
+Residual: 10 0.001820
+Residual: 11 0.002648
+Residual: 12 0.001782
+Residual: 13 0.001283
+Residual: 14 0.004708
+Residual: 15 0.004291
+Residual: 16 0.007838
+Residual: 17 0.003923
+Residual: 18 0.005516
+Residual: 19 0.009318
+Residual: 20 0.018695
+Residual: 21 0.032047
+
+=====SCF iteration: 19=====
+
+Calling chebyfilt with bounds: (2.307593,23.470728)
+Eigenvalue of T
+    1 -0.298486
+    2 -0.145774
+    3 -0.145453
+    4 -0.145243
+    5 -0.144981
+    6 -0.144694
+    7 -0.144238
+    8 0.029819
+    9 0.030019
+   10 0.030782
+   11 0.030809
+   12 0.030861
+   13 0.031185
+   14 0.147570
+   15 0.147773
+   16 0.148545
+   17 0.173394
+   18 0.174415
+   19 0.175022
+   20 0.178270
+   21 0.186758
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0003003626
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1906851113
+EKIN   =      12.8230966096
+EHT    =     -37.3605932231
+EPSEU  =       2.2502961692
+ENL    =       0.7781662691
+EXC    =      -9.6816509362
+
+!    19     -31.1906851113       0.0090499865       0.0003003626
+
+Residual: 1 0.000620
+Residual: 2 0.000732
+Residual: 3 0.000816
+Residual: 4 0.000887
+Residual: 5 0.000888
+Residual: 6 0.000835
+Residual: 7 0.000733
+Residual: 8 0.001306
+Residual: 9 0.001097
+Residual: 10 0.001889
+Residual: 11 0.001454
+Residual: 12 0.001646
+Residual: 13 0.001479
+Residual: 14 0.003787
+Residual: 15 0.004098
+Residual: 16 0.007250
+Residual: 17 0.003121
+Residual: 18 0.004861
+Residual: 19 0.008695
+Residual: 20 0.017002
+Residual: 21 0.029596
+
+=====SCF iteration: 20=====
+
+Calling chebyfilt with bounds: (2.307593,23.473173)
+Eigenvalue of T
+    1 -0.298338
+    2 -0.145526
+    3 -0.145330
+    4 -0.145052
+    5 -0.144821
+    6 -0.144576
+    7 -0.144053
+    8 0.029993
+    9 0.030363
+   10 0.030655
+   11 0.030909
+   12 0.031192
+   13 0.031233
+   14 0.147721
+   15 0.147843
+   16 0.148693
+   17 0.173475
+   18 0.174340
+   19 0.175221
+   20 0.177307
+   21 0.184701
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0001031936
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1885785772
+EKIN   =      12.8226177500
+EHT    =     -37.3560792944
+EPSEU  =       2.2485449273
+ENL    =       0.7775426188
+EXC    =      -9.6812045788
+
+!    20     -31.1885785772       0.0021065341       0.0001031936
+
+Residual: 1 0.000220
+Residual: 2 0.000312
+Residual: 3 0.000272
+Residual: 4 0.000217
+Residual: 5 0.000233
+Residual: 6 0.000284
+Residual: 7 0.000297
+Residual: 8 0.000735
+Residual: 9 0.000515
+Residual: 10 0.001044
+Residual: 11 0.000877
+Residual: 12 0.001494
+Residual: 13 0.000924
+Residual: 14 0.003382
+Residual: 15 0.003309
+Residual: 16 0.006751
+Residual: 17 0.002925
+Residual: 18 0.004577
+Residual: 19 0.007744
+Residual: 20 0.015407
+Residual: 21 0.027054
+
+=====SCF iteration: 21=====
+
+Calling chebyfilt with bounds: (2.307593,23.472831)
+Eigenvalue of T
+    1 -0.298373
+    2 -0.145426
+    3 -0.145326
+    4 -0.145108
+    5 -0.144782
+    6 -0.144698
+    7 -0.144292
+    8 0.030031
+    9 0.030307
+   10 0.030755
+   11 0.030843
+   12 0.031047
+   13 0.031115
+   14 0.147638
+   15 0.147799
+   16 0.148471
+   17 0.173465
+   18 0.174289
+   19 0.174970
+   20 0.176742
+   21 0.182737
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000497968
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1863227075
+EKIN   =      12.8239317528
+EHT    =     -37.3536650530
+EPSEU  =       2.2474032458
+ENL    =       0.7773437484
+EXC    =      -9.6813364013
+
+!    21     -31.1863227075       0.0022558698       0.0000497968
+
+Residual: 1 0.000149
+Residual: 2 0.000203
+Residual: 3 0.000205
+Residual: 4 0.000145
+Residual: 5 0.000155
+Residual: 6 0.000179
+Residual: 7 0.000206
+Residual: 8 0.000552
+Residual: 9 0.000383
+Residual: 10 0.000989
+Residual: 11 0.000582
+Residual: 12 0.000795
+Residual: 13 0.001067
+Residual: 14 0.002946
+Residual: 15 0.003000
+Residual: 16 0.006268
+Residual: 17 0.002693
+Residual: 18 0.004480
+Residual: 19 0.007058
+Residual: 20 0.013827
+Residual: 21 0.024683
+
+=====SCF iteration: 22=====
+
+Calling chebyfilt with bounds: (2.307593,23.472913)
+Eigenvalue of T
+    1 -0.298371
+    2 -0.145436
+    3 -0.145268
+    4 -0.145105
+    5 -0.144807
+    6 -0.144689
+    7 -0.144333
+    8 0.030105
+    9 0.030328
+   10 0.030765
+   11 0.030814
+   12 0.030990
+   13 0.031086
+   14 0.147611
+   15 0.147783
+   16 0.148349
+   17 0.173486
+   18 0.174241
+   19 0.174852
+   20 0.176252
+   21 0.181168
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000325248
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1851271123
+EKIN   =      12.8252749145
+EHT    =     -37.3522692143
+EPSEU  =       2.2465162987
+ENL    =       0.7771662911
+EXC    =      -9.6818154023
+
+!    22     -31.1851271123       0.0011955951       0.0000325248
+
+Residual: 1 0.000157
+Residual: 2 0.000202
+Residual: 3 0.000235
+Residual: 4 0.000166
+Residual: 5 0.000155
+Residual: 6 0.000173
+Residual: 7 0.000194
+Residual: 8 0.000460
+Residual: 9 0.000345
+Residual: 10 0.000878
+Residual: 11 0.000385
+Residual: 12 0.000655
+Residual: 13 0.000818
+Residual: 14 0.002587
+Residual: 15 0.002675
+Residual: 16 0.005819
+Residual: 17 0.002565
+Residual: 18 0.004255
+Residual: 19 0.006511
+Residual: 20 0.012398
+Residual: 21 0.022451
+
+=====SCF iteration: 23=====
+
+Calling chebyfilt with bounds: (2.307593,23.473123)
+Eigenvalue of T
+    1 -0.298346
+    2 -0.145375
+    3 -0.145188
+    4 -0.145052
+    5 -0.144874
+    6 -0.144699
+    7 -0.144298
+    8 0.030205
+    9 0.030386
+   10 0.030758
+   11 0.030808
+   12 0.030968
+   13 0.031089
+   14 0.147617
+   15 0.147781
+   16 0.148286
+   17 0.173543
+   18 0.174219
+   19 0.174746
+   20 0.175878
+   21 0.179890
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000111859
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1847101514
+EKIN   =      12.8263699395
+EHT    =     -37.3519970330
+EPSEU  =       2.2461640874
+ENL    =       0.7769809730
+EXC    =      -9.6822281184
+
+!    23     -31.1847101514       0.0004169609       0.0000111859
+
+Residual: 1 0.000123
+Residual: 2 0.000160
+Residual: 3 0.000162
+Residual: 4 0.000136
+Residual: 5 0.000116
+Residual: 6 0.000131
+Residual: 7 0.000158
+Residual: 8 0.000376
+Residual: 9 0.000279
+Residual: 10 0.000638
+Residual: 11 0.000480
+Residual: 12 0.000490
+Residual: 13 0.000663
+Residual: 14 0.002258
+Residual: 15 0.002362
+Residual: 16 0.005452
+Residual: 17 0.002463
+Residual: 18 0.003942
+Residual: 19 0.006000
+Residual: 20 0.011107
+Residual: 21 0.020394
+
+=====SCF iteration: 24=====
+
+Calling chebyfilt with bounds: (2.307593,23.473356)
+Eigenvalue of T
+    1 -0.298323
+    2 -0.145317
+    3 -0.145133
+    4 -0.145020
+    5 -0.144877
+    6 -0.144687
+    7 -0.144300
+    8 0.030260
+    9 0.030427
+   10 0.030763
+   11 0.030826
+   12 0.030962
+   13 0.031105
+   14 0.147629
+   15 0.147781
+   16 0.148243
+   17 0.173573
+   18 0.174199
+   19 0.174640
+   20 0.175585
+   21 0.178825
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000043630
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1846100959
+EKIN   =      12.8272575516
+EHT    =     -37.3519163946
+EPSEU  =       2.2458943510
+ENL    =       0.7767953416
+EXC    =      -9.6826409455
+
+!    24     -31.1846100959       0.0001000555       0.0000043630
+
+Residual: 1 0.000112
+Residual: 2 0.000149
+Residual: 3 0.000137
+Residual: 4 0.000123
+Residual: 5 0.000105
+Residual: 6 0.000127
+Residual: 7 0.000147
+Residual: 8 0.000309
+Residual: 9 0.000226
+Residual: 10 0.000463
+Residual: 11 0.000456
+Residual: 12 0.000400
+Residual: 13 0.000551
+Residual: 14 0.001976
+Residual: 15 0.002077
+Residual: 16 0.005126
+Residual: 17 0.002360
+Residual: 18 0.003758
+Residual: 19 0.005579
+Residual: 20 0.009881
+Residual: 21 0.018474
+
+=====SCF iteration: 25=====
+
+Calling chebyfilt with bounds: (2.307593,23.473651)
+Eigenvalue of T
+    1 -0.298299
+    2 -0.145269
+    3 -0.145082
+    4 -0.144987
+    5 -0.144854
+    6 -0.144667
+    7 -0.144319
+    8 0.030317
+    9 0.030472
+   10 0.030776
+   11 0.030841
+   12 0.030958
+   13 0.031112
+   14 0.147645
+   15 0.147785
+   16 0.148209
+   17 0.173609
+   18 0.174178
+   19 0.174560
+   20 0.175339
+   21 0.177961
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000012385
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1845508990
+EKIN   =      12.8280356262
+EHT    =     -37.3524772022
+EPSEU  =       2.2460497343
+ENL    =       0.7766276911
+EXC    =      -9.6827867483
+
+!    25     -31.1845508990       0.0000591969       0.0000012385
+
+Residual: 1 0.000064
+Residual: 2 0.000096
+Residual: 3 0.000086
+Residual: 4 0.000073
+Residual: 5 0.000072
+Residual: 6 0.000080
+Residual: 7 0.000099
+Residual: 8 0.000236
+Residual: 9 0.000154
+Residual: 10 0.000356
+Residual: 11 0.000351
+Residual: 12 0.000342
+Residual: 13 0.000451
+Residual: 14 0.001730
+Residual: 15 0.001835
+Residual: 16 0.004856
+Residual: 17 0.002251
+Residual: 18 0.003547
+Residual: 19 0.005253
+Residual: 20 0.008734
+Residual: 21 0.016715
+
+=====SCF iteration: 26=====
+
+Calling chebyfilt with bounds: (2.307593,23.473839)
+Eigenvalue of T
+    1 -0.298290
+    2 -0.145266
+    3 -0.145073
+    4 -0.144963
+    5 -0.144812
+    6 -0.144654
+    7 -0.144340
+    8 0.030337
+    9 0.030494
+   10 0.030793
+   11 0.030839
+   12 0.030971
+   13 0.031100
+   14 0.147650
+   15 0.147783
+   16 0.148163
+   17 0.173612
+   18 0.174143
+   19 0.174500
+   20 0.175128
+   21 0.177250
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000037580
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1839114267
+EKIN   =      12.8287980808
+EHT    =     -37.3522037098
+EPSEU  =       2.2458843432
+ENL    =       0.7764842150
+EXC    =      -9.6828743558
+
+!    26     -31.1839114267       0.0006394724       0.0000037580
+
+Residual: 1 0.000043
+Residual: 2 0.000060
+Residual: 3 0.000049
+Residual: 4 0.000052
+Residual: 5 0.000045
+Residual: 6 0.000049
+Residual: 7 0.000068
+Residual: 8 0.000187
+Residual: 9 0.000133
+Residual: 10 0.000307
+Residual: 11 0.000233
+Residual: 12 0.000305
+Residual: 13 0.000359
+Residual: 14 0.001531
+Residual: 15 0.001638
+Residual: 16 0.004610
+Residual: 17 0.002238
+Residual: 18 0.003350
+Residual: 19 0.005099
+Residual: 20 0.007650
+Residual: 21 0.015081
+
+=====SCF iteration: 27=====
+
+Calling chebyfilt with bounds: (2.307593,23.473854)
+Eigenvalue of T
+    1 -0.298285
+    2 -0.145248
+    3 -0.145055
+    4 -0.144961
+    5 -0.144827
+    6 -0.144653
+    7 -0.144339
+    8 0.030348
+    9 0.030499
+   10 0.030791
+   11 0.030846
+   12 0.030963
+   13 0.031109
+   14 0.147648
+   15 0.147778
+   16 0.148112
+   17 0.173608
+   18 0.174121
+   19 0.174420
+   20 0.174991
+   21 0.176662
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000094295
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1828945549
+EKIN   =      12.8295644572
+EHT    =     -37.3521661031
+EPSEU  =       2.2459906482
+ENL    =       0.7763735009
+EXC    =      -9.6826570581
+
+!    27     -31.1828945549       0.0010168717       0.0000094295
+
+Residual: 1 0.000027
+Residual: 2 0.000044
+Residual: 3 0.000040
+Residual: 4 0.000047
+Residual: 5 0.000035
+Residual: 6 0.000038
+Residual: 7 0.000036
+Residual: 8 0.000160
+Residual: 9 0.000111
+Residual: 10 0.000233
+Residual: 11 0.000199
+Residual: 12 0.000244
+Residual: 13 0.000297
+Residual: 14 0.001362
+Residual: 15 0.001508
+Residual: 16 0.004406
+Residual: 17 0.002241
+Residual: 18 0.003180
+Residual: 19 0.004921
+Residual: 20 0.006728
+Residual: 21 0.013568
+
+=====SCF iteration: 28=====
+
+Calling chebyfilt with bounds: (2.307593,23.473646)
+Eigenvalue of T
+    1 -0.298298
+    2 -0.145264
+    3 -0.145079
+    4 -0.144984
+    5 -0.144854
+    6 -0.144666
+    7 -0.144319
+    8 0.030318
+    9 0.030474
+   10 0.030777
+   11 0.030843
+   12 0.030960
+   13 0.031111
+   14 0.147629
+   15 0.147763
+   16 0.148040
+   17 0.173565
+   18 0.174086
+   19 0.174337
+   20 0.174888
+   21 0.176176
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000427725
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1830338449
+EKIN   =      12.8304037963
+EHT    =     -37.3527422948
+EPSEU  =       2.2460308264
+ENL    =       0.7762948860
+EXC    =      -9.6830210587
+
+!    28     -31.1830338449       0.0001392900       0.0000427725
+
+Residual: 1 0.000054
+Residual: 2 0.000082
+Residual: 3 0.000073
+Residual: 4 0.000069
+Residual: 5 0.000064
+Residual: 6 0.000068
+Residual: 7 0.000072
+Residual: 8 0.000137
+Residual: 9 0.000099
+Residual: 10 0.000208
+Residual: 11 0.000202
+Residual: 12 0.000186
+Residual: 13 0.000253
+Residual: 14 0.001214
+Residual: 15 0.001476
+Residual: 16 0.004128
+Residual: 17 0.002305
+Residual: 18 0.003006
+Residual: 19 0.004737
+Residual: 20 0.005967
+Residual: 21 0.012117
+
+=====SCF iteration: 29=====
+
+Calling chebyfilt with bounds: (2.307593,23.473997)
+Eigenvalue of T
+    1 -0.298275
+    2 -0.145235
+    3 -0.145045
+    4 -0.144939
+    5 -0.144802
+    6 -0.144647
+    7 -0.144345
+    8 0.030369
+    9 0.030522
+   10 0.030799
+   11 0.030848
+   12 0.030975
+   13 0.031103
+   14 0.147652
+   15 0.147774
+   16 0.148031
+   17 0.173599
+   18 0.174075
+   19 0.174304
+   20 0.174774
+   21 0.175818
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000316137
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1828823750
+EKIN   =      12.8309626618
+EHT    =     -37.3527091302
+EPSEU  =       2.2459052619
+ENL    =       0.7761757881
+EXC    =      -9.6832169566
+
+!    29     -31.1828823750       0.0001514699       0.0000316137
+
+Residual: 1 0.000066
+Residual: 2 0.000101
+Residual: 3 0.000093
+Residual: 4 0.000087
+Residual: 5 0.000079
+Residual: 6 0.000099
+Residual: 7 0.000104
+Residual: 8 0.000127
+Residual: 9 0.000121
+Residual: 10 0.000195
+Residual: 11 0.000179
+Residual: 12 0.000192
+Residual: 13 0.000223
+Residual: 14 0.001062
+Residual: 15 0.001324
+Residual: 16 0.003923
+Residual: 17 0.002281
+Residual: 18 0.002773
+Residual: 19 0.004479
+Residual: 20 0.005359
+Residual: 21 0.010823
+
+=====SCF iteration: 30=====
+
+Calling chebyfilt with bounds: (2.307593,23.474168)
+Eigenvalue of T
+    1 -0.298264
+    2 -0.145205
+    3 -0.145018
+    4 -0.144929
+    5 -0.144780
+    6 -0.144640
+    7 -0.144365
+    8 0.030406
+    9 0.030549
+   10 0.030807
+   11 0.030847
+   12 0.030970
+   13 0.031099
+   14 0.147662
+   15 0.147777
+   16 0.148005
+   17 0.173639
+   18 0.174062
+   19 0.174266
+   20 0.174672
+   21 0.175527
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000279924
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1850968688
+EKIN   =      12.8315197922
+EHT    =     -37.3547915337
+EPSEU  =       2.2462641488
+ENL    =       0.7760834596
+EXC    =      -9.6841727356
+
+!    30     -31.1850968688       0.0022144938       0.0000279924
+
+Residual: 1 0.000168
+Residual: 2 0.000252
+Residual: 3 0.000231
+Residual: 4 0.000213
+Residual: 5 0.000221
+Residual: 6 0.000222
+Residual: 7 0.000234
+Residual: 8 0.000214
+Residual: 9 0.000262
+Residual: 10 0.000280
+Residual: 11 0.000323
+Residual: 12 0.000290
+Residual: 13 0.000304
+Residual: 14 0.000937
+Residual: 15 0.001238
+Residual: 16 0.003661
+Residual: 17 0.002173
+Residual: 18 0.002542
+Residual: 19 0.004164
+Residual: 20 0.004903
+Residual: 21 0.009663
+
+=====SCF iteration: 31=====
+
+Calling chebyfilt with bounds: (2.307593,23.475007)
+Eigenvalue of T
+    1 -0.298204
+    2 -0.145118
+    3 -0.144958
+    4 -0.144852
+    5 -0.144630
+    6 -0.144558
+    7 -0.144409
+    8 0.030532
+    9 0.030682
+   10 0.030842
+   11 0.030866
+   12 0.031027
+   13 0.031086
+   14 0.147734
+   15 0.147816
+   16 0.148072
+   17 0.173756
+   18 0.174085
+   19 0.174284
+   20 0.174570
+   21 0.175308
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000089550
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1847408629
+EKIN   =      12.8315712798
+EHT    =     -37.3549301754
+EPSEU  =       2.2465232249
+ENL    =       0.7759003356
+EXC    =      -9.6838055277
+
+!    31     -31.1847408629       0.0003560059       0.0000089550
+
+Residual: 1 0.000062
+Residual: 2 0.000111
+Residual: 3 0.000101
+Residual: 4 0.000114
+Residual: 5 0.000090
+Residual: 6 0.000107
+Residual: 7 0.000091
+Residual: 8 0.000145
+Residual: 9 0.000149
+Residual: 10 0.000163
+Residual: 11 0.000158
+Residual: 12 0.000195
+Residual: 13 0.000168
+Residual: 14 0.000799
+Residual: 15 0.000912
+Residual: 16 0.003653
+Residual: 17 0.002046
+Residual: 18 0.002311
+Residual: 19 0.003964
+Residual: 20 0.004227
+Residual: 21 0.008783
+
+=====SCF iteration: 32=====
+
+Calling chebyfilt with bounds: (2.307593,23.474514)
+Eigenvalue of T
+    1 -0.298225
+    2 -0.145143
+    3 -0.144971
+    4 -0.144829
+    5 -0.144754
+    6 -0.144617
+    7 -0.144347
+    8 0.030473
+    9 0.030625
+   10 0.030823
+   11 0.030882
+   12 0.031015
+   13 0.031099
+   14 0.147709
+   15 0.147801
+   16 0.148008
+   17 0.173630
+   18 0.174062
+   19 0.174195
+   20 0.174557
+   21 0.175115
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000252071
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857426307
+EKIN   =      12.8320430348
+EHT    =     -37.3558004754
+EPSEU  =       2.2465689471
+ENL    =       0.7758348844
+EXC    =      -9.6843890216
+
+!    32     -31.1857426307       0.0010017679       0.0000252071
+
+Residual: 1 0.000107
+Residual: 2 0.000162
+Residual: 3 0.000153
+Residual: 4 0.000143
+Residual: 5 0.000128
+Residual: 6 0.000145
+Residual: 7 0.000155
+Residual: 8 0.000141
+Residual: 9 0.000163
+Residual: 10 0.000176
+Residual: 11 0.000215
+Residual: 12 0.000184
+Residual: 13 0.000195
+Residual: 14 0.000734
+Residual: 15 0.000976
+Residual: 16 0.003370
+Residual: 17 0.002342
+Residual: 18 0.002221
+Residual: 19 0.003521
+Residual: 20 0.004827
+Residual: 21 0.007201
+
+=====SCF iteration: 33=====
+
+Calling chebyfilt with bounds: (2.307593,23.474983)
+Eigenvalue of T
+    1 -0.298189
+    2 -0.145058
+    3 -0.144905
+    4 -0.144793
+    5 -0.144688
+    6 -0.144593
+    7 -0.144380
+    8 0.030569
+    9 0.030706
+   10 0.030847
+   11 0.030891
+   12 0.031023
+   13 0.031092
+   14 0.147751
+   15 0.147822
+   16 0.148036
+   17 0.173752
+   18 0.174077
+   19 0.174204
+   20 0.174473
+   21 0.174953
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000024751
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1861402817
+EKIN   =      12.8322881909
+EHT    =     -37.3562492918
+EPSEU  =       2.2466598173
+ENL    =       0.7757219173
+EXC    =      -9.6845609153
+
+!    33     -31.1861402817       0.0003976510       0.0000024751
+
+Residual: 1 0.000062
+Residual: 2 0.000100
+Residual: 3 0.000083
+Residual: 4 0.000103
+Residual: 5 0.000100
+Residual: 6 0.000076
+Residual: 7 0.000098
+Residual: 8 0.000111
+Residual: 9 0.000138
+Residual: 10 0.000128
+Residual: 11 0.000146
+Residual: 12 0.000152
+Residual: 13 0.000128
+Residual: 14 0.000614
+Residual: 15 0.000742
+Residual: 16 0.003270
+Residual: 17 0.002111
+Residual: 18 0.001978
+Residual: 19 0.003249
+Residual: 20 0.004212
+Residual: 21 0.006617
+
+=====SCF iteration: 34=====
+
+Calling chebyfilt with bounds: (2.307593,23.474947)
+Eigenvalue of T
+    1 -0.298178
+    2 -0.145010
+    3 -0.144876
+    4 -0.144750
+    5 -0.144747
+    6 -0.144592
+    7 -0.144367
+    8 0.030597
+    9 0.030721
+   10 0.030844
+   11 0.030918
+   12 0.031012
+   13 0.031102
+   14 0.147764
+   15 0.147827
+   16 0.148029
+   17 0.173749
+   18 0.174077
+   19 0.174171
+   20 0.174424
+   21 0.174845
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000022883
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1860315498
+EKIN   =      12.8325403670
+EHT    =     -37.3561761257
+EPSEU  =       2.2465929839
+ENL    =       0.7756329389
+EXC    =      -9.6846217140
+
+!    34     -31.1860315498       0.0001087319       0.0000022883
+
+Residual: 1 0.000051
+Residual: 2 0.000079
+Residual: 3 0.000074
+Residual: 4 0.000077
+Residual: 5 0.000058
+Residual: 6 0.000080
+Residual: 7 0.000086
+Residual: 8 0.000079
+Residual: 9 0.000081
+Residual: 10 0.000092
+Residual: 11 0.000126
+Residual: 12 0.000117
+Residual: 13 0.000115
+Residual: 14 0.000540
+Residual: 15 0.000656
+Residual: 16 0.003122
+Residual: 17 0.002112
+Residual: 18 0.001824
+Residual: 19 0.002932
+Residual: 20 0.004309
+Residual: 21 0.005540
+
+=====SCF iteration: 35=====
+
+Calling chebyfilt with bounds: (2.307593,23.475040)
+Eigenvalue of T
+    1 -0.298175
+    2 -0.145000
+    3 -0.144863
+    4 -0.144758
+    5 -0.144723
+    6 -0.144595
+    7 -0.144380
+    8 0.030613
+    9 0.030731
+   10 0.030849
+   11 0.030913
+   12 0.031008
+   13 0.031098
+   14 0.147766
+   15 0.147827
+   16 0.148006
+   17 0.173779
+   18 0.174070
+   19 0.174161
+   20 0.174368
+   21 0.174751
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000013083
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1856997171
+EKIN   =      12.8329131191
+EHT    =     -37.3561520858
+EPSEU  =       2.2465796145
+ENL    =       0.7755818504
+EXC    =      -9.6846222153
+
+!    35     -31.1856997171       0.0003318327       0.0000013083
+
+Residual: 1 0.000024
+Residual: 2 0.000038
+Residual: 3 0.000031
+Residual: 4 0.000029
+Residual: 5 0.000041
+Residual: 6 0.000035
+Residual: 7 0.000046
+Residual: 8 0.000046
+Residual: 9 0.000045
+Residual: 10 0.000054
+Residual: 11 0.000078
+Residual: 12 0.000081
+Residual: 13 0.000077
+Residual: 14 0.000471
+Residual: 15 0.000627
+Residual: 16 0.002997
+Residual: 17 0.002031
+Residual: 18 0.001658
+Residual: 19 0.002711
+Residual: 20 0.004037
+Residual: 21 0.004824
+
+=====SCF iteration: 36=====
+
+Calling chebyfilt with bounds: (2.307593,23.475025)
+Eigenvalue of T
+    1 -0.298175
+    2 -0.144995
+    3 -0.144862
+    4 -0.144754
+    5 -0.144730
+    6 -0.144596
+    7 -0.144382
+    8 0.030616
+    9 0.030730
+   10 0.030851
+   11 0.030915
+   12 0.031005
+   13 0.031096
+   14 0.147766
+   15 0.147826
+   16 0.147981
+   17 0.173765
+   18 0.174064
+   19 0.174141
+   20 0.174323
+   21 0.174695
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000033681
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1853066590
+EKIN   =      12.8332732161
+EHT    =     -37.3561173969
+EPSEU  =       2.2465880194
+ENL    =       0.7755342053
+EXC    =      -9.6845847030
+
+!    36     -31.1853066590       0.0003930581       0.0000033681
+
+Residual: 1 0.000010
+Residual: 2 0.000019
+Residual: 3 0.000014
+Residual: 4 0.000018
+Residual: 5 0.000016
+Residual: 6 0.000016
+Residual: 7 0.000017
+Residual: 8 0.000035
+Residual: 9 0.000033
+Residual: 10 0.000042
+Residual: 11 0.000052
+Residual: 12 0.000056
+Residual: 13 0.000055
+Residual: 14 0.000422
+Residual: 15 0.000642
+Residual: 16 0.002883
+Residual: 17 0.002055
+Residual: 18 0.001537
+Residual: 19 0.002507
+Residual: 20 0.003918
+Residual: 21 0.003996
+
+=====SCF iteration: 37=====
+
+Calling chebyfilt with bounds: (2.307593,23.474995)
+Eigenvalue of T
+    1 -0.298177
+    2 -0.145005
+    3 -0.144868
+    4 -0.144756
+    5 -0.144734
+    6 -0.144595
+    7 -0.144377
+    8 0.030606
+    9 0.030724
+   10 0.030848
+   11 0.030914
+   12 0.031007
+   13 0.031099
+   14 0.147763
+   15 0.147823
+   16 0.147956
+   17 0.173735
+   18 0.174055
+   19 0.174119
+   20 0.174280
+   21 0.174670
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000124858
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1851085020
+EKIN   =      12.8336321847
+EHT    =     -37.3561158094
+EPSEU  =       2.2465389249
+ENL    =       0.7754947687
+EXC    =      -9.6846585708
+
+!    37     -31.1851085020       0.0001981570       0.0000124858
+
+Residual: 1 0.000026
+Residual: 2 0.000038
+Residual: 3 0.000031
+Residual: 4 0.000033
+Residual: 5 0.000035
+Residual: 6 0.000034
+Residual: 7 0.000039
+Residual: 8 0.000038
+Residual: 9 0.000041
+Residual: 10 0.000043
+Residual: 11 0.000061
+Residual: 12 0.000060
+Residual: 13 0.000058
+Residual: 14 0.000392
+Residual: 15 0.000699
+Residual: 16 0.002731
+Residual: 17 0.002084
+Residual: 18 0.001423
+Residual: 19 0.002352
+Residual: 20 0.003692
+Residual: 21 0.003267
+
+=====SCF iteration: 38=====
+
+Calling chebyfilt with bounds: (2.307593,23.475040)
+Eigenvalue of T
+    1 -0.298173
+    2 -0.144986
+    3 -0.144855
+    4 -0.144747
+    5 -0.144731
+    6 -0.144595
+    7 -0.144391
+    8 0.030626
+    9 0.030734
+   10 0.030856
+   11 0.030917
+   12 0.031000
+   13 0.031092
+   14 0.147767
+   15 0.147824
+   16 0.147942
+   17 0.173747
+   18 0.174056
+   19 0.174113
+   20 0.174247
+   21 0.174627
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000104116
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1852212499
+EKIN   =      12.8339438546
+EHT    =     -37.3563859766
+EPSEU  =       2.2465712697
+ENL    =       0.7754524075
+EXC    =      -9.6848028051
+
+!    38     -31.1852212499       0.0001127479       0.0000104116
+
+Residual: 1 0.000055
+Residual: 2 0.000087
+Residual: 3 0.000089
+Residual: 4 0.000080
+Residual: 5 0.000082
+Residual: 6 0.000088
+Residual: 7 0.000098
+Residual: 8 0.000082
+Residual: 9 0.000094
+Residual: 10 0.000090
+Residual: 11 0.000126
+Residual: 12 0.000114
+Residual: 13 0.000108
+Residual: 14 0.000363
+Residual: 15 0.000685
+Residual: 16 0.002582
+Residual: 17 0.002001
+Residual: 18 0.001304
+Residual: 19 0.002172
+Residual: 20 0.003353
+Residual: 21 0.002832
+
+=====SCF iteration: 39=====
+
+Calling chebyfilt with bounds: (2.307593,23.475159)
+Eigenvalue of T
+    1 -0.298163
+    2 -0.144952
+    3 -0.144834
+    4 -0.144743
+    5 -0.144711
+    6 -0.144597
+    7 -0.144406
+    8 0.030659
+    9 0.030759
+   10 0.030865
+   11 0.030917
+   12 0.030996
+   13 0.031080
+   14 0.147778
+   15 0.147828
+   16 0.147938
+   17 0.173807
+   18 0.174064
+   19 0.174120
+   20 0.174227
+   21 0.174551
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000052524
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1855310752
+EKIN   =      12.8341913779
+EHT    =     -37.3566547046
+EPSEU  =       2.2465548845
+ENL    =       0.7754046244
+EXC    =      -9.6850272574
+
+!    39     -31.1855310752       0.0003098253       0.0000052524
+
+Residual: 1 0.000070
+Residual: 2 0.000107
+Residual: 3 0.000098
+Residual: 4 0.000089
+Residual: 5 0.000104
+Residual: 6 0.000098
+Residual: 7 0.000119
+Residual: 8 0.000080
+Residual: 9 0.000103
+Residual: 10 0.000091
+Residual: 11 0.000141
+Residual: 12 0.000122
+Residual: 13 0.000112
+Residual: 14 0.000319
+Residual: 15 0.000605
+Residual: 16 0.002461
+Residual: 17 0.001834
+Residual: 18 0.001203
+Residual: 19 0.001949
+Residual: 20 0.003022
+Residual: 21 0.002570
+
+=====SCF iteration: 40=====
+
+Calling chebyfilt with bounds: (2.307593,23.475305)
+Eigenvalue of T
+    1 -0.298150
+    2 -0.144906
+    3 -0.144802
+    4 -0.144715
+    5 -0.144699
+    6 -0.144592
+    7 -0.144436
+    8 0.030707
+    9 0.030789
+   10 0.030883
+   11 0.030923
+   12 0.030990
+   13 0.031064
+   14 0.147794
+   15 0.147835
+   16 0.147946
+   17 0.173849
+   18 0.174077
+   19 0.174125
+   20 0.174211
+   21 0.174501
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000011441
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1854934093
+EKIN   =      12.8343376109
+EHT    =     -37.3566966909
+EPSEU  =       2.2465650757
+ENL    =       0.7753467157
+EXC    =      -9.6850461208
+
+!    40     -31.1854934093       0.0000376658       0.0000011441
+
+Residual: 1 0.000018
+Residual: 2 0.000038
+Residual: 3 0.000029
+Residual: 4 0.000032
+Residual: 5 0.000033
+Residual: 6 0.000030
+Residual: 7 0.000035
+Residual: 8 0.000048
+Residual: 9 0.000052
+Residual: 10 0.000047
+Residual: 11 0.000055
+Residual: 12 0.000048
+Residual: 13 0.000047
+Residual: 14 0.000257
+Residual: 15 0.000475
+Residual: 16 0.002416
+Residual: 17 0.001735
+Residual: 18 0.001099
+Residual: 19 0.001779
+Residual: 20 0.002730
+Residual: 21 0.002292
+
+=====SCF iteration: 41=====
+
+Calling chebyfilt with bounds: (2.307593,23.475303)
+Eigenvalue of T
+    1 -0.298149
+    2 -0.144919
+    3 -0.144805
+    4 -0.144707
+    5 -0.144699
+    6 -0.144584
+    7 -0.144431
+    8 0.030698
+    9 0.030785
+   10 0.030880
+   11 0.030928
+   12 0.030999
+   13 0.031072
+   14 0.147795
+   15 0.147836
+   16 0.147934
+   17 0.173792
+   18 0.174072
+   19 0.174103
+   20 0.174188
+   21 0.174534
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000030944
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857027000
+EKIN   =      12.8345170324
+EHT    =     -37.3569353468
+EPSEU  =       2.2465907465
+ENL    =       0.7753061379
+EXC    =      -9.6851812701
+
+!    41     -31.1857027000       0.0002092907       0.0000030944
+
+Residual: 1 0.000039
+Residual: 2 0.000062
+Residual: 3 0.000057
+Residual: 4 0.000053
+Residual: 5 0.000057
+Residual: 6 0.000055
+Residual: 7 0.000068
+Residual: 8 0.000049
+Residual: 9 0.000062
+Residual: 10 0.000056
+Residual: 11 0.000086
+Residual: 12 0.000074
+Residual: 13 0.000069
+Residual: 14 0.000249
+Residual: 15 0.000505
+Residual: 16 0.002282
+Residual: 17 0.001754
+Residual: 18 0.000969
+Residual: 19 0.001795
+Residual: 20 0.002379
+Residual: 21 0.001898
+
+=====SCF iteration: 42=====
+
+Calling chebyfilt with bounds: (2.307593,23.475407)
+Eigenvalue of T
+    1 -0.298141
+    2 -0.144888
+    3 -0.144786
+    4 -0.144700
+    5 -0.144686
+    6 -0.144585
+    7 -0.144443
+    8 0.030726
+    9 0.030806
+   10 0.030889
+   11 0.030930
+   12 0.030998
+   13 0.031063
+   14 0.147805
+   15 0.147840
+   16 0.147934
+   17 0.173839
+   18 0.174081
+   19 0.174112
+   20 0.174180
+   21 0.174481
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000006063
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1862266500
+EKIN   =      12.8346873133
+EHT    =     -37.3574179112
+EPSEU  =       2.2466640016
+ENL    =       0.7752673866
+EXC    =      -9.6854274404
+
+!    42     -31.1862266500       0.0005239500       0.0000006063
+
+Residual: 1 0.000045
+Residual: 2 0.000072
+Residual: 3 0.000060
+Residual: 4 0.000054
+Residual: 5 0.000067
+Residual: 6 0.000056
+Residual: 7 0.000073
+Residual: 8 0.000050
+Residual: 9 0.000070
+Residual: 10 0.000060
+Residual: 11 0.000091
+Residual: 12 0.000074
+Residual: 13 0.000066
+Residual: 14 0.000213
+Residual: 15 0.000426
+Residual: 16 0.002190
+Residual: 17 0.001624
+Residual: 18 0.000893
+Residual: 19 0.001617
+Residual: 20 0.002148
+Residual: 21 0.001718
+
+=====SCF iteration: 43=====
+
+Calling chebyfilt with bounds: (2.307593,23.475579)
+Eigenvalue of T
+    1 -0.298125
+    2 -0.144855
+    3 -0.144760
+    4 -0.144685
+    5 -0.144658
+    6 -0.144574
+    7 -0.144452
+    8 0.030757
+    9 0.030834
+   10 0.030900
+   11 0.030941
+   12 0.031009
+   13 0.031061
+   14 0.147824
+   15 0.147850
+   16 0.147950
+   17 0.173859
+   18 0.174092
+   19 0.174113
+   20 0.174176
+   21 0.174463
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000008408
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1859524398
+EKIN   =      12.8347402879
+EHT    =     -37.3572304433
+EPSEU  =       2.2466436688
+ENL    =       0.7752112955
+EXC    =      -9.6853172486
+
+!    43     -31.1859524398       0.0002742103       0.0000008408
+
+Residual: 1 0.000018
+Residual: 2 0.000027
+Residual: 3 0.000027
+Residual: 4 0.000023
+Residual: 5 0.000028
+Residual: 6 0.000027
+Residual: 7 0.000033
+Residual: 8 0.000029
+Residual: 9 0.000034
+Residual: 10 0.000029
+Residual: 11 0.000051
+Residual: 12 0.000042
+Residual: 13 0.000044
+Residual: 14 0.000174
+Residual: 15 0.000304
+Residual: 16 0.002129
+Residual: 17 0.001534
+Residual: 18 0.000791
+Residual: 19 0.001561
+Residual: 20 0.001853
+Residual: 21 0.001531
+
+=====SCF iteration: 44=====
+
+Calling chebyfilt with bounds: (2.307593,23.475512)
+Eigenvalue of T
+    1 -0.298132
+    2 -0.144868
+    3 -0.144772
+    4 -0.144694
+    5 -0.144670
+    6 -0.144580
+    7 -0.144444
+    8 0.030743
+    9 0.030822
+   10 0.030895
+   11 0.030936
+   12 0.031005
+   13 0.031062
+   14 0.147816
+   15 0.147845
+   16 0.147924
+   17 0.173855
+   18 0.174085
+   19 0.174108
+   20 0.174165
+   21 0.174448
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000007766
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1860548619
+EKIN   =      12.8349659764
+EHT    =     -37.3574725891
+EPSEU  =       2.2466851067
+ENL    =       0.7751993847
+EXC    =      -9.6854327406
+
+!    44     -31.1860548619       0.0001024222       0.0000007766
+
+Residual: 1 0.000020
+Residual: 2 0.000031
+Residual: 3 0.000029
+Residual: 4 0.000024
+Residual: 5 0.000031
+Residual: 6 0.000027
+Residual: 7 0.000035
+Residual: 8 0.000025
+Residual: 9 0.000033
+Residual: 10 0.000029
+Residual: 11 0.000051
+Residual: 12 0.000042
+Residual: 13 0.000041
+Residual: 14 0.000171
+Residual: 15 0.000397
+Residual: 16 0.002021
+Residual: 17 0.001435
+Residual: 18 0.000763
+Residual: 19 0.001414
+Residual: 20 0.001667
+Residual: 21 0.001349
+
+=====SCF iteration: 45=====
+
+Calling chebyfilt with bounds: (2.307593,23.475592)
+Eigenvalue of T
+    1 -0.298125
+    2 -0.144851
+    3 -0.144760
+    4 -0.144687
+    5 -0.144659
+    6 -0.144576
+    7 -0.144447
+    8 0.030757
+    9 0.030835
+   10 0.030900
+   11 0.030942
+   12 0.031010
+   13 0.031062
+   14 0.147824
+   15 0.147850
+   16 0.147926
+   17 0.173865
+   18 0.174090
+   19 0.174107
+   20 0.174162
+   21 0.174436
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000004291
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1858786627
+EKIN   =      12.8350828859
+EHT    =     -37.3573995324
+EPSEU  =       2.2466721961
+ENL    =       0.7751642303
+EXC    =      -9.6853984427
+
+!    45     -31.1858786627       0.0001761992       0.0000004291
+
+Residual: 1 0.000005
+Residual: 2 0.000010
+Residual: 3 0.000007
+Residual: 4 0.000007
+Residual: 5 0.000011
+Residual: 6 0.000007
+Residual: 7 0.000013
+Residual: 8 0.000011
+Residual: 9 0.000015
+Residual: 10 0.000012
+Residual: 11 0.000027
+Residual: 12 0.000022
+Residual: 13 0.000021
+Residual: 14 0.000150
+Residual: 15 0.000349
+Residual: 16 0.001957
+Residual: 17 0.001347
+Residual: 18 0.000677
+Residual: 19 0.001341
+Residual: 20 0.001452
+Residual: 21 0.001200
+
+=====SCF iteration: 46=====
+
+Calling chebyfilt with bounds: (2.307593,23.475563)
+Eigenvalue of T
+    1 -0.298127
+    2 -0.144855
+    3 -0.144763
+    4 -0.144688
+    5 -0.144663
+    6 -0.144577
+    7 -0.144449
+    8 0.030754
+    9 0.030831
+   10 0.030899
+   11 0.030940
+   12 0.031008
+   13 0.031061
+   14 0.147822
+   15 0.147848
+   16 0.147912
+   17 0.173852
+   18 0.174087
+   19 0.174099
+   20 0.174155
+   21 0.174438
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000026396
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1857800091
+EKIN   =      12.8352518482
+EHT    =     -37.3574444445
+EPSEU  =       2.2466820594
+ENL    =       0.7751464398
+EXC    =      -9.6854159120
+
+!    46     -31.1857800091       0.0000986536       0.0000026396
+
+Residual: 1 0.000007
+Residual: 2 0.000012
+Residual: 3 0.000012
+Residual: 4 0.000010
+Residual: 5 0.000012
+Residual: 6 0.000012
+Residual: 7 0.000014
+Residual: 8 0.000014
+Residual: 9 0.000018
+Residual: 10 0.000014
+Residual: 11 0.000028
+Residual: 12 0.000022
+Residual: 13 0.000025
+Residual: 14 0.000152
+Residual: 15 0.000410
+Residual: 16 0.001865
+Residual: 17 0.001259
+Residual: 18 0.000615
+Residual: 19 0.001251
+Residual: 20 0.001269
+Residual: 21 0.001069
+
+=====SCF iteration: 47=====
+
+Calling chebyfilt with bounds: (2.307593,23.475582)
+Eigenvalue of T
+    1 -0.298126
+    2 -0.144853
+    3 -0.144762
+    4 -0.144688
+    5 -0.144661
+    6 -0.144577
+    7 -0.144446
+    8 0.030755
+    9 0.030833
+   10 0.030900
+   11 0.030941
+   12 0.031008
+   13 0.031062
+   14 0.147823
+   15 0.147849
+   16 0.147904
+   17 0.173857
+   18 0.174085
+   19 0.174100
+   20 0.174152
+   21 0.174428
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000041998
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1859042208
+EKIN   =      12.8354016776
+EHT    =     -37.3576455055
+EPSEU  =       2.2467185891
+ENL    =       0.7751275760
+EXC    =      -9.6855065581
+
+!    47     -31.1859042208       0.0001242117       0.0000041998
+
+Residual: 1 0.000026
+Residual: 2 0.000039
+Residual: 3 0.000041
+Residual: 4 0.000035
+Residual: 5 0.000039
+Residual: 6 0.000039
+Residual: 7 0.000045
+Residual: 8 0.000037
+Residual: 9 0.000045
+Residual: 10 0.000041
+Residual: 11 0.000061
+Residual: 12 0.000052
+Residual: 13 0.000051
+Residual: 14 0.000156
+Residual: 15 0.000443
+Residual: 16 0.001765
+Residual: 17 0.001163
+Residual: 18 0.000635
+Residual: 19 0.001107
+Residual: 20 0.001133
+Residual: 21 0.000963
+
+=====SCF iteration: 48=====
+
+Calling chebyfilt with bounds: (2.307593,23.475648)
+Eigenvalue of T
+    1 -0.298120
+    2 -0.144833
+    3 -0.144751
+    4 -0.144684
+    5 -0.144652
+    6 -0.144576
+    7 -0.144451
+    8 0.030771
+    9 0.030846
+   10 0.030905
+   11 0.030944
+   12 0.031009
+   13 0.031058
+   14 0.147830
+   15 0.147852
+   16 0.147905
+   17 0.173888
+   18 0.174091
+   19 0.174107
+   20 0.174153
+   21 0.174398
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000024237
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1859607641
+EKIN   =      12.8355007392
+EHT    =     -37.3577343185
+EPSEU  =       2.2467277589
+ENL    =       0.7751017693
+EXC    =      -9.6855567130
+
+!    48     -31.1859607641       0.0000565432       0.0000024237
+
+Residual: 1 0.000024
+Residual: 2 0.000042
+Residual: 3 0.000034
+Residual: 4 0.000035
+Residual: 5 0.000043
+Residual: 6 0.000033
+Residual: 7 0.000050
+Residual: 8 0.000035
+Residual: 9 0.000045
+Residual: 10 0.000037
+Residual: 11 0.000056
+Residual: 12 0.000047
+Residual: 13 0.000039
+Residual: 14 0.000135
+Residual: 15 0.000383
+Residual: 16 0.001702
+Residual: 17 0.001075
+Residual: 18 0.000597
+Residual: 19 0.000996
+Residual: 20 0.001021
+Residual: 21 0.000866
+
+=====SCF iteration: 49=====
+
+Calling chebyfilt with bounds: (2.307593,23.475661)
+Eigenvalue of T
+    1 -0.298117
+    2 -0.144814
+    3 -0.144737
+    4 -0.144676
+    5 -0.144649
+    6 -0.144578
+    7 -0.144472
+    8 0.030790
+    9 0.030857
+   10 0.030911
+   11 0.030944
+   12 0.031003
+   13 0.031046
+   14 0.147834
+   15 0.147853
+   16 0.147904
+   17 0.173893
+   18 0.174097
+   19 0.174103
+   20 0.174151
+   21 0.174390
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000020149
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1864525507
+EKIN   =      12.8355858536
+EHT    =     -37.3581650269
+EPSEU  =       2.2468045871
+ENL    =       0.7750767965
+EXC    =      -9.6857547610
+
+!    49     -31.1864525507       0.0004917866       0.0000020149
+
+Residual: 1 0.000062
+Residual: 2 0.000097
+Residual: 3 0.000098
+Residual: 4 0.000084
+Residual: 5 0.000095
+Residual: 6 0.000095
+Residual: 7 0.000109
+Residual: 8 0.000083
+Residual: 9 0.000100
+Residual: 10 0.000094
+Residual: 11 0.000133
+Residual: 12 0.000117
+Residual: 13 0.000107
+Residual: 14 0.000160
+Residual: 15 0.000338
+Residual: 16 0.001605
+Residual: 17 0.000994
+Residual: 18 0.000740
+Residual: 19 0.000774
+Residual: 20 0.000885
+Residual: 21 0.000809
+
+=====SCF iteration: 50=====
+
+Calling chebyfilt with bounds: (2.307593,23.475810)
+Eigenvalue of T
+    1 -0.298105
+    2 -0.144772
+    3 -0.144712
+    4 -0.144664
+    5 -0.144632
+    6 -0.144578
+    7 -0.144484
+    8 0.030827
+    9 0.030886
+   10 0.030923
+   11 0.030951
+   12 0.031001
+   13 0.031037
+   14 0.147849
+   15 0.147861
+   16 0.147919
+   17 0.173974
+   18 0.174113
+   19 0.174126
+   20 0.174157
+   21 0.174324
+Anderson mixing with beta = 0.300000
+In AndersonRhoMix: d =       0.0000016864
+Evaluating Kohn-Sham energy terms:
+
+ETOT   =     -31.1861949276
+EKIN   =      12.8356045703
+EHT    =     -37.3579462545
+EPSEU  =       2.2467619875
+ENL    =       0.7750441624
+EXC    =      -9.6856593933
+
+!    50     -31.1861949276       0.0002576231       0.0000016864
+
+Residual: 1 0.000014
+Residual: 2 0.000023
+Residual: 3 0.000019
+Residual: 4 0.000021
+Residual: 5 0.000021
+Residual: 6 0.000020
+Residual: 7 0.000022
+Residual: 8 0.000025
+Residual: 9 0.000029
+Residual: 10 0.000025
+Residual: 11 0.000037
+Residual: 12 0.000031
+Residual: 13 0.000031
+Residual: 14 0.000083
+Residual: 15 0.000184
+Residual: 16 0.001591
+Residual: 17 0.000895
+Residual: 18 0.000457
+Residual: 19 0.000840
+Residual: 20 0.000820
+Residual: 21 0.000730
+Pass here in ChebySCFLoop
+
+Program ended normally at: 16 January 2012 12:16:31 AM
+Total time for SCF loop:                      107.81000 s
+Total elapsed time for main program:          107.86000 s

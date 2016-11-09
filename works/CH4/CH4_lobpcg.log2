@@ -1,0 +1,1227 @@
+Program started at: 26 December 2011 10:41:48 PM
+File to be read: CH4.inp
+EXIT: GkVectorsGen.cpp
+EXIT Setup.cpp
+
+------------------------------------------------
+           System Description:
+------------------------------------------------
+
+Number of species:         2
+Species name: C.fhi
+ZV(1)      =      4.0000000
+RGAUSS(1)  =      1.0000000
+L_MAX(1)   =     2
+L_LOC(1)   =     2
+Species name: H.cpi
+ZV(2)      =      1.0000000
+RGAUSS(2)  =      1.0000000
+L_MAX(2)   =     1
+L_LOC(2)   =     1
+
+NLMAX:                     4
+NAX:                       4
+
+Total number of atoms:     5
+Atomic coordinates (in bohr):
+C.fhi       0.0000000000       0.0000000000       0.0000000000
+H.cpi       0.0000000000       0.0000000000       2.0664000000
+H.cpi      -0.9741000000      -1.6872000000      -0.6888000000
+H.cpi      -0.9741000000       1.6872000000      -0.6888000000
+H.cpi       1.9482000000       0.0000000000      -0.6888000000
+
+Lattice vectors (in bohr)
+     10.0000000000       0.0000000000       0.0000000000
+      0.0000000000      10.0000000000       0.0000000000
+      0.0000000000       0.0000000000      10.0000000000
+
+Unit cell volume:    1000.0000000000
+
+Reciprocal lattice vectors (in 2*pi/ALAT =       0.6283185307)
+      1.0000000000       0.0000000000       0.0000000000
+      0.0000000000       1.0000000000       0.0000000000
+      0.0000000000       0.0000000000       1.0000000000
+
+Number of k-point: 1
+(  0.0000000000,  0.0000000000,  0.0000000000)   1.0000000000
+
+Number of electrons (NEL):              8
+Number of occupied states:              4
+Number of empty states  (NEMPTY):       5
+Number of states per k-point (NX):      9
+Total number of states (NSTATX):        9
+
+Cut off energy (ECUT):      20.0000000000 Ry
+Fourier grid: (      30,      30,      30)
+NGWX     =     1515
+NGX      =    12120
+NG       =    12053
+GCUT     =     202.6423672847
+GCUTW    =      50.6605918212
+TPIBA    =       0.6283185307
+TPIBA2   =       0.3947841760
+NGW(  1) =     1503
+
+EXIT: PhaseFactor.cpp
+sum(EI1) = (61.804193,-0.000000)
+sum(EI2) = (90.380946,-0.000000)
+sum(EI3) = (38.343391,-0.000000)
+sum(EIGR) = (1707.086560,0.000000)
+
+sum(SFAC)= (11677.511580,0.000000)
+
+is = 1
+is = 2
+EXIT FormFactor.cpp
+ESELF = 7.978846
+SUM(RHOPS) = -0.892936
+SUM(VPS) = -6.734550
+
+WNL = 
+is = 1, 1 0.025208
+WNL = 
+EXIT: NLFormFactor.cpp
+sum(WNL) = 0.025208
+sum(PKG) = 479.913060
+sum(PKG_A) = 479.913060
+EXIT: PrepareSCF
+Calculating starting density from atomic charges ...ENTER: FormFactorAtomic.cpp
+is = 1
+FormFactorAtomic: rho of atom 1 is 4.000000
+is = 2
+FormFactorAtomic: rho of atom 2 is 1.000000
+EXIT FormFactorAtomic.cpp
+...Done
+sum(c_fft) = (0.118424,0.000000)
+Inverse FFT of charge density to real space ......Done
+sum(rhoe2) = 215.999983
+Normalize charge density ...
+WARNING in NormalizeRho: difference between correct and actual
+number of electrons: -0.000337
+...Done
+NG = 12053
+ngi = 12053
+After Ewald: ESR = 0.301679
+Before EvalRhoPsi: sum(rhoe2) =     216.0000000000
+
+ETOT   =     -13.6788469098
+EKIN   =       0.0000000000
+EHT    =      -7.0654146978
+EPSEU  =      -3.8677061056
+ENL    =       0.0000000000
+EXC    =      -2.7457261063
+After EvalRhoPsi: sum(rhoe2) =   -4719.9449179614
+
+=====SCF iteration: 1=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     1
+iter =    14, nconv =     2
+iter =    15, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.7948405800       0.0000053987
+2      -0.4754255172       0.0000091935
+3      -0.4746447070       0.0000083593
+4      -0.4746005528       0.0000079398
+5      -0.0809000133       0.0000009151
+6       0.0207858528       0.0000183203
+7       0.0297018589       0.0000656707
+8       0.0884393776       0.0027583391
+9       0.1205225476       0.0067591613
+Anderson mixing with beta = 0.500000
+
+ETOT   =      -7.7685087305
+EKIN   =       6.7557920246
+EHT    =      -7.4461000602
+EPSEU  =      -4.6449595168
+ENL    =       0.8324495178
+EXC    =      -3.2656906959
+!     1      -7.7685087305       5.9103381793
+
+=====SCF iteration: 2=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     2
+iter =    13, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.4946812483       0.0000047967
+2      -0.2217374268       0.0000207144
+3      -0.2207304161       0.0000179559
+4      -0.2199048247       0.0000157303
+5      -0.0253346464       0.0000026745
+6       0.0967323305       0.0000475688
+7       0.1027747184       0.0000547142
+8       0.1766336511       0.0041490398
+9       0.1774325308       0.0039340104
+Anderson mixing with beta = 0.500000
+
+ETOT   =      -8.7854873593
+EKIN   =       5.0656831719
+EHT    =      -7.2324799601
+EPSEU  =      -4.1340944630
+ENL    =       0.5573576935
+EXC    =      -3.0419538016
+!     2      -8.7854873593       1.0169786288
+
+=====SCF iteration: 3=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6452315225       0.0000049961
+2      -0.3387600081       0.0000083158
+3      -0.3377376718       0.0000221695
+4      -0.3376690399       0.0000096098
+5      -0.0492671156       0.0000024858
+6       0.0700743277       0.0000330556
+7       0.0777415362       0.0000556988
+8       0.1515298352       0.0085986642
+9       0.1552941196       0.0076827118
+Anderson mixing with beta = 0.500000
+Pass here in Anderson mix
+In AndersonRhoMix: d =       0.0944583167
+
+ETOT   =      -7.6858891016
+EKIN   =       6.0950960963
+EHT    =      -7.2748981585
+EPSEU  =      -4.1917282006
+ENL    =       0.7533432636
+EXC    =      -3.0677021024
+!     3      -7.6858891016       1.0995982577
+
+=====SCF iteration: 4=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.6225819288       0.0000110564
+2      -0.3209338744       0.0000204144
+3      -0.3199840927       0.0000411624
+4      -0.3197406605       0.0000272739
+5      -0.0458932413       0.0000059987
+6       0.0740964202       0.0000489427
+7       0.0815017299       0.0000940644
+8       0.1550133875       0.0074568790
+9       0.1588838176       0.0075498587
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0008592788
+
+ETOT   =      -7.7859989504
+EKIN   =       5.9322326626
+EHT    =      -7.2511666116
+EPSEU  =      -4.1396782537
+ENL    =       0.7227971383
+EXC    =      -3.0501838860
+!     4      -7.7859989504       0.1001098488
+
+=====SCF iteration: 5=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+iter =    15, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6346921905       0.0000017597
+2      -0.3305970294       0.0000029467
+3      -0.3296579333       0.0000067289
+4      -0.3294520731       0.0000034976
+5      -0.0467619672       0.0000014094
+6       0.0726458024       0.0000448739
+7       0.0801765424       0.0000473491
+8       0.1539276783       0.0017146745
+9       0.1579490913       0.0087319263
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0241990833
+
+ETOT   =      -7.8097219330
+EKIN   =       6.0201564970
+EHT    =      -7.2893936462
+EPSEU  =      -4.2025622825
+ENL    =       0.7388843068
+EXC    =      -3.0768068081
+!     5      -7.8097219330       0.0237229826
+
+=====SCF iteration: 6=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6134498223       0.0000046740
+2      -0.3138416141       0.0000092089
+3      -0.3129414505       0.0000207590
+4      -0.3126042154       0.0000119625
+5      -0.0436402111       0.0000019489
+6       0.0763701955       0.0000318603
+7       0.0836645348       0.0000485350
+8       0.1572434180       0.0030354096
+9       0.1609317471       0.0016167053
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0157104980
+
+ETOT   =      -7.9419618982
+EKIN   =       5.8693676711
+EHT    =      -7.2749326032
+EPSEU  =      -4.1798066066
+ENL    =       0.7106880807
+EXC    =      -3.0672784401
+!     6      -7.9419618982       0.1322399652
+
+=====SCF iteration: 7=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     1
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6213677844       0.0000038108
+2      -0.3200052147       0.0000137179
+3      -0.3190821402       0.0000244281
+4      -0.3188100911       0.0000120048
+5      -0.0447455533       0.0000015596
+6       0.0750651975       0.0000277348
+7       0.0824516141       0.0000418663
+8       0.1561131681       0.0075801155
+9       0.1600140976       0.0112774805
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0002507014
+
+ETOT   =      -7.8563346778
+EKIN   =       5.9266572883
+EHT    =      -7.2697648229
+EPSEU  =      -4.1707664031
+ENL    =       0.7216084474
+EXC    =      -3.0640691875
+!     7      -7.8563346778       0.0856272204
+
+=====SCF iteration: 8=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6239608714       0.0000039832
+2      -0.3220226595       0.0000157310
+3      -0.3210958411       0.0000118892
+4      -0.3208402647       0.0000166853
+5      -0.0449815999       0.0000018892
+6       0.0747364358       0.0000313223
+7       0.0821518852       0.0000147635
+8       0.1558351110       0.0051234026
+9       0.1599416636       0.0134740884
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0004626713
+
+ETOT   =      -7.8566684725
+EKIN   =       5.9459959850
+EHT    =      -7.2768671180
+EPSEU  =      -4.1821306272
+ENL    =       0.7252908107
+EXC    =      -3.0689575230
+!     8      -7.8566684725       0.0003337947
+
+=====SCF iteration: 9=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+iter =    15, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6199984056       0.0000018408
+2      -0.3189067151       0.0000029359
+3      -0.3179889628       0.0000020378
+4      -0.3177055826       0.0000036377
+5      -0.0443737278       0.0000006853
+6       0.0754451258       0.0000256486
+7       0.0828159179       0.0000230365
+8       0.1564450281       0.0026561657
+9       0.1603802359       0.0064857731
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0009844304
+
+ETOT   =      -7.8683602819
+EKIN   =       5.9178125732
+EHT    =      -7.2702889599
+EPSEU  =      -4.1711205611
+ENL    =       0.7199967097
+EXC    =      -3.0647600438
+!     9      -7.8683602819       0.0116918094
+
+=====SCF iteration: 10=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6234249013       0.0000046797
+2      -0.3215784115       0.0000102883
+3      -0.3206533608       0.0000109244
+4      -0.3203948357       0.0000189793
+5      -0.0447642352       0.0000032031
+6       0.0749466465       0.0000396084
+7       0.0823563094       0.0000542069
+8       0.1560395661       0.0041993558
+9       0.1600395862       0.0091339473
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0002778043
+
+ETOT   =      -7.8452220326
+EKIN   =       5.9429847286
+EHT    =      -7.2722941801
+EPSEU  =      -4.1746107324
+ENL    =       0.7247778807
+EXC    =      -3.0660797293
+!    10      -7.8452220326       0.0231382493
+
+=====SCF iteration: 11=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6223745816       0.0000039110
+2      -0.3207554104       0.0000107597
+3      -0.3198317452       0.0000196430
+4      -0.3195669952       0.0000088633
+5      -0.0446403391       0.0000032989
+6       0.0751040924       0.0000531270
+7       0.0825021116       0.0000458459
+8       0.1561878263       0.0043249669
+9       0.1606123743       0.0133875842
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000049267
+
+ETOT   =      -7.8515658037
+EKIN   =       5.9353288915
+EHT    =      -7.2714295635
+EPSEU  =      -4.1732356872
+ENL    =       0.7233330053
+EXC    =      -3.0655624498
+!    11      -7.8515658037       0.0063437711
+
+=====SCF iteration: 12=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.6228129797       0.0000127827
+2      -0.3210951366       0.0000293708
+3      -0.3201703496       0.0000302658
+4      -0.3199089323       0.0000402569
+5      -0.0446842218       0.0000083153
+6       0.0750456761       0.0000940909
+7       0.0824488109       0.0000448239
+8       0.1561433842       0.0053018388
+9       0.1603085200       0.0124453633
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000732290
+
+ETOT   =      -7.8548540171
+EKIN   =       5.9386071111
+EHT    =      -7.2735650864
+EPSEU  =      -4.1768826369
+ENL    =       0.7239593353
+EXC    =      -3.0669727402
+!    12      -7.8548540171       0.0032882134
+
+=====SCF iteration: 13=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6216825224       0.0000041466
+2      -0.3202097213       0.0000103772
+3      -0.3192866401       0.0000163679
+4      -0.3190181472       0.0000130957
+5      -0.0445449543       0.0000032027
+6       0.0752196436       0.0000449443
+7       0.0826102010       0.0000344468
+8       0.1562679172       0.0042609054
+9       0.1601118255       0.0044855462
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000488043
+
+ETOT   =      -7.8618998468
+EKIN   =       5.9303857389
+EHT    =      -7.2727670907
+EPSEU  =      -4.1754856398
+ENL    =       0.7224080222
+EXC    =      -3.0664408774
+!    13      -7.8618998468       0.0070458297
+
+=====SCF iteration: 14=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221038871       0.0000055837
+2      -0.3205399401       0.0000147431
+3      -0.3196163832       0.0000155872
+4      -0.3193503479       0.0000146455
+5      -0.0445952027       0.0000034973
+6       0.0751560223       0.0000610299
+7       0.0825512413       0.0000197844
+8       0.1562460505       0.0047991298
+9       0.1600464089       0.0028927836
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000014649
+
+ETOT   =      -7.8566780270
+EKIN   =       5.9334483748
+EHT    =      -7.2722948879
+EPSEU  =      -4.1746831470
+ENL    =       0.7229860940
+EXC    =      -3.0661344607
+!    14      -7.8566780270       0.0052218198
+
+=====SCF iteration: 15=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6223511862       0.0000046887
+2      -0.3207332009       0.0000065164
+3      -0.3198095271       0.0000114818
+4      -0.3195446398       0.0000114270
+5      -0.0446237975       0.0000018413
+6       0.0751195656       0.0000308134
+7       0.0825175364       0.0000226800
+8       0.1562361262       0.0072143743
+9       0.1600431844       0.0049141131
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000049232
+
+ETOT   =      -7.8560393348
+EKIN   =       5.9352517756
+EHT    =      -7.2727392726
+EPSEU  =      -4.1754478346
+ENL    =       0.7233286053
+EXC    =      -3.0664326086
+!    15      -7.8560393348       0.0006386921
+
+=====SCF iteration: 16=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+iter =    15, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6221138169       0.0000015108
+2      -0.3205469679       0.0000032228
+3      -0.3196236513       0.0000039538
+4      -0.3193572307       0.0000057713
+5      -0.0445935815       0.0000004408
+6       0.0751569867       0.0000226675
+7       0.0825522936       0.0000174604
+8       0.1562053556       0.0035208806
+9       0.1600334412       0.0025933701
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000010312
+
+ETOT   =      -7.8572699612
+EKIN   =       5.9335330142
+EHT    =      -7.2724982792
+EPSEU  =      -4.1750340042
+ENL    =       0.7230050423
+EXC    =      -3.0662757343
+!    16      -7.8572699612       0.0012306264
+
+=====SCF iteration: 17=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6222398687       0.0000056661
+2      -0.3206455029       0.0000100146
+3      -0.3197220990       0.0000208863
+4      -0.3194563828       0.0000090707
+5      -0.0446079742       0.0000035437
+6       0.0751385227       0.0000268628
+7       0.0825351899       0.0001140825
+8       0.1563040620       0.0084260208
+9       0.1601357291       0.0082833100
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000005497
+
+ETOT   =      -7.8565946537
+EKIN   =       5.9344644507
+EHT    =      -7.2726259547
+EPSEU  =      -4.1752514963
+ENL    =       0.7231787611
+EXC    =      -3.0663604145
+!    17      -7.8565946537       0.0006753075
+
+=====SCF iteration: 18=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+iter =    15, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6221718629       0.0000014527
+2      -0.3205922214       0.0000040336
+3      -0.3196688555       0.0000040900
+4      -0.3194027631       0.0000035099
+5      -0.0445993277       0.0000010132
+6       0.0751492332       0.0000229564
+7       0.0825451143       0.0000733521
+8       0.1561934604       0.0025569781
+9       0.1602523505       0.0101430845
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000384
+
+ETOT   =      -7.8570244436
+EKIN   =       5.9339630053
+EHT    =      -7.2725774428
+EPSEU  =      -4.1751673954
+ENL    =       0.7230865396
+EXC    =      -3.0663291502
+!    18      -7.8570244436       0.0004297899
+
+=====SCF iteration: 19=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.6221970952       0.0000137485
+2      -0.3206119213       0.0000353935
+3      -0.3196885514       0.0000418385
+4      -0.3194226389       0.0000369118
+5      -0.0446021158       0.0000081427
+6       0.0751455912       0.0000408741
+7       0.0825417782       0.0001452991
+8       0.1563943907       0.0113783868
+9       0.1601020224       0.0073213679
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000353
+
+ETOT   =      -7.8567644676
+EKIN   =       5.9341655554
+EHT    =      -7.2725710993
+EPSEU  =      -4.1751566013
+ENL    =       0.7231222254
+EXC    =      -3.0663245477
+!    19      -7.8567644676       0.0002599760
+
+=====SCF iteration: 20=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     2
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6222006960       0.0000045744
+2      -0.3206147706       0.0000209937
+3      -0.3196913995       0.0000237348
+4      -0.3194254987       0.0000220367
+5      -0.0446026902       0.0000032453
+6       0.0751449233       0.0000589682
+7       0.0825411406       0.0000466495
+8       0.1562308034       0.0055597329
+9       0.1600641599       0.0056974345
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000449
+
+ETOT   =      -7.8569404918
+EKIN   =       5.9341845361
+EHT    =      -7.2726311138
+EPSEU  =      -4.1752577976
+ENL    =       0.7231262711
+EXC    =      -3.0663623876
+!    20      -7.8569404918       0.0001760242
+
+=====SCF iteration: 21=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+iter =    15, nconv =     5
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6221696735       0.0000014812
+2      -0.3205905735       0.0000048633
+3      -0.3196671243       0.0000041719
+4      -0.3194012299       0.0000040565
+5      -0.0445988756       0.0000014289
+6       0.0751496953       0.0000283409
+7       0.0825455060       0.0000237642
+8       0.1562024572       0.0030110873
+9       0.1600495336       0.0042376553
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000548
+
+ETOT   =      -7.8571260069
+EKIN   =       5.9339451606
+EHT    =      -7.2726014878
+EPSEU  =      -4.1752083313
+ENL    =       0.7230830571
+EXC    =      -3.0663444055
+!    21      -7.8571260069       0.0001855151
+
+=====SCF iteration: 22=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221845128       0.0000046332
+2      -0.3206020794       0.0000152203
+3      -0.3196786114       0.0000198238
+4      -0.3194128626       0.0000147758
+5      -0.0446005101       0.0000022802
+6       0.0751475514       0.0000506724
+7       0.0825436205       0.0000492412
+8       0.1561942967       0.0030676008
+9       0.1600728357       0.0056693477
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000004
+
+ETOT   =      -7.8569052974
+EKIN   =       5.9340639732
+EHT    =      -7.2725773108
+EPSEU  =      -4.1751669615
+ENL    =       0.7231037112
+EXC    =      -3.0663287095
+!    22      -7.8569052974       0.0002207095
+
+=====SCF iteration: 23=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 7 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221973048       0.0000054115
+2      -0.3206121010       0.0000092426
+3      -0.3196887672       0.0000156003
+4      -0.3194227903       0.0000088410
+5      -0.0446020902       0.0000024075
+6       0.0751455762       0.0000415762
+7       0.0825417539       0.0000253053
+8       0.1562036828       0.0039171100
+9       0.1601062891       0.0066765426
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000251
+
+ETOT   =      -7.8569088105
+EKIN   =       5.9341502698
+EHT    =      -7.2726096018
+EPSEU  =      -4.1752213679
+ENL    =       0.7231209178
+EXC    =      -3.0663490284
+!    23      -7.8569088105       0.0000035131
+
+=====SCF iteration: 24=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221805410       0.0000040758
+2      -0.3205990398       0.0000114428
+3      -0.3196757010       0.0000152185
+4      -0.3194095907       0.0000189780
+5      -0.0445999848       0.0000014253
+6       0.0751481794       0.0000296983
+7       0.0825441358       0.0000506965
+8       0.1561941506       0.0027826327
+9       0.1600846634       0.0044827393
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000045
+
+ETOT   =      -7.8570495838
+EKIN   =       5.9340382864
+EHT    =      -7.2726111662
+EPSEU  =      -4.1752242891
+ENL    =       0.7230981666
+EXC    =      -3.0663505814
+!    24      -7.8570495838       0.0001407733
+
+=====SCF iteration: 25=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     1
+iter =    14, nconv =     4
+iter =    15, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 15
+Final LOBPCG result
+1      -0.6221794587       0.0000013213
+2      -0.3205981461       0.0000023529
+3      -0.3196746954       0.0000058836
+4      -0.3194088549       0.0000032142
+5      -0.0445997784       0.0000021698
+6       0.0751483863       0.0000476111
+7       0.0825443836       0.0000600049
+8       0.1562051743       0.0035690445
+9       0.1600505956       0.0046555851
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000079
+
+ETOT   =      -7.8569873379
+EKIN   =       5.9340204071
+EHT    =      -7.2725869384
+EPSEU  =      -4.1751831082
+ENL    =       0.7230970324
+EXC    =      -3.0663347308
+!    25      -7.8569873379       0.0000622459
+
+=====SCF iteration: 26=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     1
+iter =    13, nconv =     2
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 13
+Final LOBPCG result
+1      -0.6221921825       0.0000121591
+2      -0.3206081093       0.0000224457
+3      -0.3196846888       0.0000323239
+4      -0.3194188132       0.0000426172
+5      -0.0446013815       0.0000036573
+6       0.0751463972       0.0000414336
+7       0.0825425447       0.0001155904
+8       0.1564241891       0.0162564877
+9       0.1602311580       0.0124284624
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000112
+
+ETOT   =      -7.8569095664
+EKIN   =       5.9341198874
+EHT    =      -7.2725990025
+EPSEU  =      -4.1752027907
+ENL    =       0.7231145217
+EXC    =      -3.0663421823
+!    26      -7.8569095664       0.0000777715
+
+=====SCF iteration: 27=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221860310       0.0000048090
+2      -0.3206033375       0.0000123126
+3      -0.3196799545       0.0000138421
+4      -0.3194139296       0.0000095689
+5      -0.0446005548       0.0000017226
+6       0.0751473981       0.0000217767
+7       0.0825433947       0.0000714916
+8       0.1562342230       0.0055212466
+9       0.1603239123       0.0118398865
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000002
+
+ETOT   =      -7.8569937338
+EKIN   =       5.9340724276
+EHT    =      -7.2726076757
+EPSEU  =      -4.1752168939
+ENL    =       0.7231059636
+EXC    =      -3.0663475554
+!    27      -7.8569937338       0.0000841674
+
+=====SCF iteration: 28=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221816276       0.0000050305
+2      -0.3205999058       0.0000069002
+3      -0.3196765160       0.0000215547
+4      -0.3194104960       0.0000149586
+5      -0.0445999809       0.0000043833
+6       0.0751481017       0.0000221642
+7       0.0825440284       0.0000500250
+8       0.1561908433       0.0023899951
+9       0.1601281432       0.0089484427
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000045
+
+ETOT   =      -7.8570055352
+EKIN   =       5.9340347778
+EHT    =      -7.2725976462
+EPSEU  =      -4.1752003572
+ENL    =       0.7230993055
+EXC    =      -3.0663416151
+!    28      -7.8570055352       0.0000118014
+
+=====SCF iteration: 29=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     0
+iter =    13, nconv =     2
+iter =    14, nconv =     5
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221865892       0.0000040549
+2      -0.3206037519       0.0000099024
+3      -0.3196804112       0.0000133859
+4      -0.3194143161       0.0000140816
+5      -0.0446006296       0.0000032022
+6       0.0751473235       0.0000401228
+7       0.0825433529       0.0001154169
+8       0.1562315354       0.0072853997
+9       0.1600906527       0.0072569858
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000003
+
+ETOT   =      -7.8569480801
+EKIN   =       5.9340741360
+EHT    =      -7.2725940380
+EPSEU  =      -4.1751950894
+ENL    =       0.7231067345
+EXC    =      -3.0663398231
+!    29      -7.8569480801       0.0000574551
+
+=====SCF iteration: 30=====
+Allocated dynamic memory in lobpcg_cpu:    4.3691940308 MB
+iter =     2, nconv =     0
+iter =     3, nconv =     0
+iter =     4, nconv =     0
+iter =     5, nconv =     0
+iter =     6, nconv =     0
+iter =     7, nconv =     0
+iter =     8, nconv =     0
+iter =     9, nconv =     0
+iter =    10, nconv =     0
+iter =    11, nconv =     0
+iter =    12, nconv =     1
+iter =    13, nconv =     2
+iter =    14, nconv =     4
+Convergence achieved for 6 eigenvalues in LOBPCG at iter = 14
+Final LOBPCG result
+1      -0.6221882243       0.0000031484
+2      -0.3206050043       0.0000136198
+3      -0.3196816053       0.0000162978
+4      -0.3194156109       0.0000119610
+5      -0.0446008096       0.0000011210
+6       0.0751470836       0.0000315459
+7       0.0825431194       0.0000649513
+8       0.1562188308       0.0059844283
+9       0.1601609428       0.0113394943
+Anderson mixing with beta = 0.500000
+In AndersonRhoMix: d =       0.0000000019
+
+ETOT   =      -7.8569584354
+EKIN   =       5.9340883491
+EHT    =      -7.2726024019
+EPSEU  =      -4.1752088323
+ENL    =       0.7231094170
+EXC    =      -3.0663449672
+!    30      -7.8569584354       0.0000103553
+Program ended normally at: 26 December 2011 10:42:57 PM
+Total time for SCF loop:                  66.0400000000 s
+Total elapsed time for main program:      66.1700000000 s
