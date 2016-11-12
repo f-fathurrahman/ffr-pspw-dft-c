@@ -1,5 +1,9 @@
 # ffr-pspw-dft-c
 
-This program is originally written for my master thesis.
-It is based on fhimd program.
+`ffr-pspw-dft-c` is a simple program to calculate electronic structure using density functional
+theory, plane wave basis set, and norm-conserving pseudopotentials.
+
+It is roughly based on [fhi98md](http://th.fhi-berlin.mpg.de/th/fhi98md/) program.
+
+It is originally written for my master thesis in Program Magister Sains Komputasi, Institut Teknologi Bandung.
 
